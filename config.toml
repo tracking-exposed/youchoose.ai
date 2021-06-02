@@ -11,7 +11,7 @@ ourvision = false
    subsite = "youchoose"
    openGraphSiteName = "Youchoose"
    description = "Youtube content creator would be finally able to control their recommendation and don't see their content exploited by the surveillance capitalism"
-   tagline = "Youtubers would control their recommendations, for context and to don't let their watchers exploited"
+   tagline = "Youtubers would finallt control their recommendations! For context and to don't let their watchers exploited :P"
 
 [markup]
   [markup.goldmark]
