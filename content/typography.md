@@ -5,6 +5,8 @@ date: 2020-10-01T15:01:21+01:00
 draft: false
 ---
 
+small update to check if the auto-publication works
+
 #### trex Hugo theme has a few shortcodes, here they are summarized:
 
 * bord-img.html
