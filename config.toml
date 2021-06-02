@@ -1,16 +1,17 @@
 baseURL = "/"
 languageCode = "utf-8"
-title = "YouTube Tracking Exposed"
+title = "Youchoose.ai"
 theme = "trex"
 enableRobotsTXT = true
 canonifyURLs = true
 ourvision = false
+
 [params]
-   subtitle = "YouTube"
-   subsite = "youtube"
-   openGraphSiteName = "YouTube Tracking Exposed"
-   description = "This is a collaborative project meant to let you take back control of your data. This approach do not follow corporate methods, but as an algorithm investigator let you passively records what Youtube algorithm pick for you, and let you play with the data."
-   tagline = "A data-activism project; We develop tech to dissect & expose Youtube influence."
+   subtitle = "Youchoose"
+   subsite = "youchoose"
+   openGraphSiteName = "Youchoose"
+   description = "Youtube content creator would be finally able to control their recommendation and don't see their content exploited by the surveillance capitalism"
+   tagline = "Youtuber finally would control their recommendation, for better context and to don't let their watchers exploiter by click bait"
 
 [markup]
   [markup.goldmark]
@@ -19,7 +20,7 @@ ourvision = false
 
 [permalinks]
   posts = "/:slug/"
-  data = "/:filename/" # Questo non funziona
+  data = "/:filename/" # this isn't working - to do check
 
 [menu]
  [[menu.main]]
