@@ -10,8 +10,8 @@ ourvision = false
    subtitle = "Youchoose"
    subsite = "youchoose"
    openGraphSiteName = "Youchoose"
-   description = "Youtube content creator would be finally able to control their recommendation and don't see their content exploited by the surveillance capitalism"
-   tagline = "Youtubers would finallt control their recommendations! For context and to don't let their watchers exploited :P"
+   description = "Giving back control of YouTube recommendations to internet users. Users can decide to see the content recommendations from their favorite content creators."
+   tagline = "We empower internet users to control their recommendations."
 
 [markup]
   [markup.goldmark]
@@ -77,7 +77,7 @@ ourvision = false
  [[menu.featured]]
     name = "CHIARO ― The Ranking Algorithm	"
     url = "/chiaro/start"
-    pre = "/images/related.svg"
+    pre = "/images/avatar.png"
     weight = -170
     post = "Coordinated collection of yt search results; to spot tendencies, bubbles, and biases. real time psedonymized open data feed."
 
