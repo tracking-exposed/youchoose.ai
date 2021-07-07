@@ -11,7 +11,7 @@ ourvision = false
    subsite = "youchoose"
    openGraphSiteName = "Youchoose"
    description = "Giving back control of YouTube recommendations to internet users. Users can decide to see the content recommendations from their favorite content creators."
-   tagline = "We empower internet users to control their recommendations."
+   tagline = "Let your favorite YouTubers recommend you what to watch next."
 
 [markup]
   [markup.goldmark]

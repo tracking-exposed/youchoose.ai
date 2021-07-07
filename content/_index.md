@@ -5,8 +5,16 @@ date: 2021-06-01T15:01:21+01:00
 draft: false
 ---
 
-# H1
+# Do you really get the best out of YouTube?
 
+YouTube's AI is powerful. But it is not always working for your best interest.
+
+It's only purpose is to keep you watching. And it might 
+
+Let your favorite YouTubers recommend you what to watch next.
+
+We empower internet users to control their recommendations.
+ 
 Humans are still smarter than AI.
 
 Trust YouTubers over YouTube.
@@ -32,9 +40,7 @@ YouChoose is a citizen-tech, democratically run  project, which aims to empower 
 
 _salamadonna why an underscore has the same meaning of an asterisk, in markdown_; but who am I to complain?
 
-## H2
-
-Yes, but in **bold**
+## The Founding Team
 
 <div class="card-deck">
   {{< sponsor
@@ -47,7 +53,7 @@ Yes, but in **bold**
 
   {{< sponsor
       title="Claudio Agosti"
-      text="Claudio Agosti is a self-taught white hat hacker, passionate about privacy and data liberation. He is leads the development of the extension."
+      text="Claudio Agosti is a self-taught developer and privacy analyst, passionate about data liberation. He leads and supervises all the tech stack."
       subtitle="Claudio"
       href="https://www.linkedin.com/in/vecna/"
       linked="Read More"
@@ -61,4 +67,20 @@ Yes, but in **bold**
       linked="The official announcement"
       picture="/images/primavera.jpeg" >}}
 
+</div>
+
+<br>
+<br>
+
+**This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.**
+
+<div class="container">
+<div class="row">
+<div class="col-sm">
+{{<simplepict href="/images/ledger-logo.png">}}
+</div>
+<div class="col-sm">
+{{<simplepict href="/images/eu-logo.jpeg">}}
+</div>
+</div>
 </div>
