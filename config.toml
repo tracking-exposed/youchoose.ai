@@ -24,21 +24,10 @@ ourvision = false
 
 [menu]
  [[menu.main]]
-    name = "YT users"
-    url = "/users/"
+    name = "Philosophy"
+    url = "/philosophy/"
     weight = 20
 
- [[menu.main]]
-    name = "YT content creators"
-    url = "/creators/"
-    weight = 10
-
-    
- [[menu.main]]
-    name = "YT community"
-    url = "/turnesol/"
-    weight = 0
-    
 
 
 # Homepage cards
