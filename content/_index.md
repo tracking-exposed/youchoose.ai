@@ -83,43 +83,33 @@ The only way we can investigate YouTube, and expose the behavior of its algorith
 <br>
 
 <div class="card-deck">
-  {{< sponsor
+  {{< clickable-card
       title="Marc Faddoul"
       text="Marc is an AI researcher and algorithmic designer. He leads the product strategy and gathers partners around the project."
-      subtitle="Marc"
       href="http://marcfaddoul.com/"
-      linked="Read More"
       picture="/images/marc.jpeg" >}}
 
-  {{< sponsor
+  {{< clickable-card
       title="Claudio Agosti"
       text="Claudio Agosti is a self-taught developer and privacy analyst, passionate about data liberation. He designs and supervises the tech stack."
-      subtitle="Claudio"
       href="https://www.linkedin.com/in/vecna/"
-      linked="Read More"
       picture="/images/claudio.jpeg" >}}
 
-  {{< sponsor
+  {{< clickable-card
       title="Primavera de Filippi"
       text="Primavera is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
-      subtitle="Primavera"
       href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
-      linked="Read More"
       picture="/images/primavera.jpeg" >}}
 
-  {{< sponsor
+  {{< clickable-card
       title="Salvatore Romano"
       text="Salvatore is social psychologist, working on algorithmic analysis and user research."
-      subtitle="Salvatore"
       href="https://github.com/SalvatoreRomano1/About_Me"
-      linked="Read More"
       picture="/images/salvo.jpeg" >}}
       
-  {{< sponsor
+  {{< clickable-card
       title="Giulia"
       text="Giulia is communication designer working on the product design and UX."
-      subtitle="Giulia"
-      linked="Read More"
       picture="/images/giulia.jpeg" >}}
       
 </div>
@@ -129,32 +119,25 @@ The only way we can investigate YouTube, and expose the behavior of its algorith
 <br>
 
 <div class="card-deck">
-  {{< sponsor
+  {{< clickable-card
       title="Niloufar Salehi"
       text="Niloufar is an Assistant Professor at the School of Information at UC, Berkeley. She carries research in participatory design and human-centered AI."
-      subtitle="Niloufar"
       href="http://www.niloufar.org/"
-      linked="Read More"
       picture="/images/niloufar.jpeg" >}}
 
-  {{< sponsor
+  {{< clickable-card
       title="Dyne.org"
       text="Dyne is a non-profit free software foundry with almost 20 years of expertise. Dyne is helping us through Ledger to implement cutting-edge privacy standards."
-      subtitle="Dyne"
       href="https://www.dyne.org"
-      linked="Read More"
       picture="/images/dyne.jpeg" >}}
 
-  {{< sponsor
+  {{< clickable-card
       title="Bluemorpho"
       text="Bluemorpho combines business, sectorial and technical expertise in deep tech. Bluemorpho advises us through Ledger to refine our market fit."
-      subtitle="Bluemorpho"
       href="https://www.blumorpho.com/"
-      linked="Read More"
       picture="/images/blumorpho.jpeg" >}}
       
 </div>
-
 
 
 <br>
