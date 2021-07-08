@@ -44,7 +44,7 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
 <br>
 <br>
 
-{{<colorblock text="The Team" color="primary">}}
+{{<colorblock text="Our Team" color="primary">}}
 <br>
 <br>
 
@@ -89,6 +89,39 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
       picture="/images/giulia.jpeg" >}}
       
 </div>
+
+{{<colorblock text="Our Advisors" color="primary">}}
+<br>
+<br>
+
+<div class="card-deck">
+  {{< sponsor
+      title="Niloufar Salehi"
+      text="Niloufar is an Assistant Professor at the School of Information at UC, Berkeley. She carries research in participatory design and human-centered AI."
+      subtitle="Niloufar"
+      href="http://www.niloufar.org/"
+      linked="Read More"
+      picture="/images/niloufar.jpeg" >}}
+
+  {{< sponsor
+      title="Dyne.org"
+      text="Dyne is a non-profit free software foundry with almost 20 years of expertise. Dyne is helping us through Ledger to implement cutting-edge privacy standards."
+      subtitle="Dyne"
+      href="https://www.dyne.org"
+      linked="Read More"
+      picture="/images/dyne.jpeg" >}}
+
+  {{< sponsor
+      title="Bluemorpho"
+      text="Bluemorpho combines business, sectorial and technical expertise in deep tech. Bluemorpho advises us through Ledger to refine our market fit."
+      subtitle="Bluemorpho"
+      href="https://www.blumorpho.com/"
+      linked="Read More"
+      picture="/images/blumorpho.jpeg" >}}
+      
+</div>
+
+
 
 <br>
 <br>
