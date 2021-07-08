@@ -11,7 +11,7 @@ ourvision = false
    subsite = "youchoose"
    openGraphSiteName = "Youchoose"
    description = "Giving back control of YouTube recommendations to internet users. Users can decide to see the content recommendations from their favorite content creators."
-   tagline = "Let your favorite YouTubers recommend you what to watch next."
+   tagline = "Get back control over your recommendations on YouTube."
 
 [markup]
   [markup.goldmark]
@@ -42,26 +42,48 @@ ourvision = false
 
 
 # Homepage cards
+# [[menu.featured]]
+#    name = "I'm a user"
+#    url = "/users/1"
+#    pre = "/images/user.png"
+#    post = "Find out how to get reccomendations selected by content creators"
+#    weight = -30
+#
+# [[menu.featured]]
+#    name= "I'm a content creator"
+#    url = "creators"
+#    pre = "/images/creators.png"
+#    post = "Find out how to directly recommend videos to your audience"
+#    weight = -20
+#
+# [[menu.featured]]
+#    name = "I'm part of a community"
+#    url = "/turnesol/"
+#    pre = "/images/community.jpeg"
+#    weight = -10
+#    post = "Find out how to be part or create a community to mutually evalute videos and create community reccomandations"
+
+
  [[menu.featured]]
-    name = "I'm a user"
+    name = "Get Recommendations from your Content Creators"
     url = "/users/1"
     pre = "/images/user.png"
-    post = "Find out how to get reccomendations selected by content creators"
+    post = "Get recommendation from the content creator you are watching"
     weight = -30
-    
+
  [[menu.featured]]
-    name= "I'm a content creator"
+    name= "Participate to a Community of Content Curators"
     url = "creators"
     pre = "/images/creators.png"
-    post = "Find out how to directly recommend videos to your audience"
+    post = "Participate to a network of content curators, and see the best content recommended by your community."
     weight = -20
-    
+
  [[menu.featured]]
-    name = "I'm part of a community"
-    url = "/turnesol/"
+    name = "Become a Data-Activist and Expose Shadow Banning! "
+    url = "http://tournesol.app"
     pre = "/images/community.jpeg"
     weight = -10
-    post = "Find out how to be part or create a community to mutually evalute videos and create community reccomandations"
+    post = "Participate to a collective observation of algorithmic recommendations, to shed light on the YouTube algorithm and its hidden censorship patterns."
 
 
 
