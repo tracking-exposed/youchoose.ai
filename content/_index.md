@@ -1,46 +1,52 @@
 ---
-title: Title where this appears?
-subtitle: this should never appear in index
+title: YouChoose your recommandations
+subtitle: 
 date: 2021-06-01T15:01:21+01:00
 draft: false
 ---
 
-# Do you really get the best out of YouTube?
 
-YouTube's AI is powerful. But it is not always working for your best interest.
+</br>
 
-It's only purpose is to keep you watching. And it might 
+{{<colorblock text=" Do you really get the best out of YouTube?" color="primary" text-align="center" >}}
+<br>
 
-Let your favorite YouTubers recommend you what to watch next.
-
-We empower internet users to control their recommendations.
- 
-Humans are still smarter than AI.
-
-Trust YouTubers over YouTube.
-
-Take back control.
-
-Content Creators are the (powerhouse - core - heart - bloodstream) of YouTube. They should be in charge. 
-
+<div class="row">
+   <div class="col-lg-4"> 
+   <pre class="primary-color" style="font-size:1.15rem"> YouTube's recommendations is powerful. But it is not always working for your best interest: it's only purpose is to keep you watching.
+But we think Humans are still smarter than AI so... why don't you let your favorite YouTubers recommend you what to watch next?
+We empower internet users to control their recommendations because we trust YouTubers over YouTube and we want to take back control on reccomandations.
 You love Your YouTubers? Put them in charge of recommendations on their own content.
+</pre> 
+   </div>
+   <div class="col-lg-8"> 
+     <iframe width=100% height=100% align="right" src="https://www.youtube-nocookie.com/embed/SmYuYEhT81c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe >
+   </div>
+</div>
 
-Your favourite YouTubers could be your stewart.
 
-Humans still know better than algorithms. 
-
-Trust your YouTubers to recommend you the next video. They still know better than YouTube's AI.
+<br/>
+<br>
 
 
-#### h4
 
-YouChoose is a citizen-tech, democratically run  project, which aims to empower YouTube content
 
-### H3
+{{<colorblock text="YouChoose tool" color="primary" text-align="center" >}}
 
-_salamadonna why an underscore has the same meaning of an asterisk, in markdown_; but who am I to complain?
+{{< youchoose-extension >}}
 
-## The Team
+<h6 style="text-align:center;" >If you are a content creator: read how you can choose the recommandations to show to your audience</h6>
+
+<!--YouChoose is a citizen-tech, democratically run project, which aims to empower YouTube content creators to recommend meaningfull videos to their audience. -->
+
+<br>
+<br>
+<br>
+<br>
+
+{{<colorblock text="The Team" color="primary">}}
+<br>
+<br>
 
 <div class="card-deck">
   {{< sponsor
@@ -86,8 +92,12 @@ _salamadonna why an underscore has the same meaning of an asterisk, in markdown_
 
 <br>
 <br>
+<br>
+<br>
 
-**This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.**
+{{<colorblock text="The Partners" color="primary">}}
+
+<h6 style="text-align:center;" >This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.</h6> 
 
 <div class="container">
 <div class="row">
@@ -99,3 +109,4 @@ _salamadonna why an underscore has the same meaning of an asterisk, in markdown_
 </div>
 </div>
 </div>
+

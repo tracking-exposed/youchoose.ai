@@ -24,62 +24,44 @@ ourvision = false
 
 [menu]
  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 0
+    name = "YT users"
+    url = "/users/"
+    weight = 20
+
  [[menu.main]]
-    name = "Stats"
-    url = "/impact/"
+    name = "YT content creators"
+    url = "/creators/"
     weight = 10
 
+    
  [[menu.main]]
-    name = "More"
-    url = "#"
-    weight = 100
- [[menu.main]]
-    parent = "More"
-    name = "API Documentation"
-    url = "/docs/"
-    weight = 130
- [[menu.main]]
-    name = "Contacts"
-    parent = "More"
-    url = "/about/"
-    weight = 140
- [[menu.main]]
-    name = "Automation"
-    parent = "More"
-    url = "/automation/"
-    weight = 150
- [[menu.main]]
-    name = "Privacy"
-    parent = "More"
-    url = "/privacy/"
-    weight = 160
- [[menu.main]]
-    parent = "More"
-    name = "Youtuber Labor union"
-    url = "/seeyou/"
-    weight = 170
+    name = "YT community"
+    url = "/turnesol/"
+    weight = 0
+    
 
+
+# Homepage cards
  [[menu.featured]]
-    name = "Tutorial ― Learn how to use our tool"
-    url = "/tutorial/1"
-    pre = "/images/popup-opt-in.png"
-    post = "Video and textual tutorial, on the basic usage, the evidence page, and everything a researcher need to start analyzing YT!"
-    weight = -190
+    name = "I'm a user"
+    url = "/users/1"
+    pre = "/images/user.png"
+    post = "Find out how to get reccomendations selected by content creators"
+    weight = -30
+    
  [[menu.featured]]
-    name= "No second box"
-    url = "/wetest/announcement-1"
-    pre = "/images/data.svg"
-    post = "A collective observation of the Youtube personalization algorithm; addressing COVID-19 and getting evidence on how recommendations works"
-    weight = -180
+    name= "I'm a content creator"
+    url = "creators"
+    pre = "/images/creators.png"
+    post = "Find out how to directly recommend videos to your audience"
+    weight = -20
+    
  [[menu.featured]]
-    name = "CHIARO ― The Ranking Algorithm	"
-    url = "/chiaro/start"
-    pre = "/images/avatar.png"
-    weight = -170
-    post = "Coordinated collection of yt search results; to spot tendencies, bubbles, and biases. real time psedonymized open data feed."
+    name = "I'm part of a community"
+    url = "/turnesol/"
+    pre = "/images/community.jpeg"
+    weight = -10
+    post = "Find out how to be part or create a community to mutually evalute videos and create community reccomandations"
 
 
 
