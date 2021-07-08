@@ -40,12 +40,12 @@ YouChoose is a citizen-tech, democratically run  project, which aims to empower 
 
 _salamadonna why an underscore has the same meaning of an asterisk, in markdown_; but who am I to complain?
 
-## The Founding Team
+## The Team
 
 <div class="card-deck">
   {{< sponsor
       title="Marc Faddoul"
-      text="Marc is an AI researcher, passionate about algorithmic fairness and transparency. He leads the product strategy and gathers partners around the project."
+      text="Marc is an AI researcher and algorithmic designer. He leads the product strategy and gathers partners around the project."
       subtitle="Marc"
       href="http://marcfaddoul.com/"
       linked="Read More"
@@ -53,7 +53,7 @@ _salamadonna why an underscore has the same meaning of an asterisk, in markdown_
 
   {{< sponsor
       title="Claudio Agosti"
-      text="Claudio Agosti is a self-taught developer and privacy analyst, passionate about data liberation. He leads and supervises all the tech stack."
+      text="Claudio Agosti is a self-taught developer and privacy analyst, passionate about data liberation. He designs and supervises the tech stack."
       subtitle="Claudio"
       href="https://www.linkedin.com/in/vecna/"
       linked="Read More"
@@ -61,12 +61,27 @@ _salamadonna why an underscore has the same meaning of an asterisk, in markdown_
 
   {{< sponsor
       title="Primavera de Filippi"
-      text="Primavera is a legal scholar and activist, leading expert on blockchain and peer production. She oversees the governance of the project, and its incentive mechanisms."
-      subtitle="Our goal is to stabilize the analysis, offer a product for researchers and skilled users, the privacy preserving access logic to the database."
+      text="Primavera is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
+      subtitle="Primavera"
       href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
-      linked="The official announcement"
+      linked="Read More"
       picture="/images/primavera.jpeg" >}}
 
+  {{< sponsor
+      title="Salvatore Romano"
+      text="Salvatore is social psychologist, working on algorithmic analysis and user research."
+      subtitle="Salvatore"
+      href="https://github.com/SalvatoreRomano1/About_Me"
+      linked="Read More"
+      picture="/images/salvo.jpeg" >}}
+      
+  {{< sponsor
+      title="Giulia"
+      text="Giulia is communication designer working on the product design and UX."
+      subtitle="Giulia"
+      linked="Read More"
+      picture="/images/giulia.jpeg" >}}
+      
 </div>
 
 <br>
