@@ -13,11 +13,16 @@ draft: false
 
 <div class="row">
    <div class="col-lg-4"> 
-   <pre class="primary-color" style="font-size:1.15rem"> YouTube's recommendations is powerful. But it is not always working for your best interest: it's only purpose is to keep you watching.
+   <pre class="primary" style="font-size:1.15rem"> 
+   
+YouTube's recommendations is powerful. But it is not always working for your best interest: it's only purpose is to keep you watching.
+   
 But we think Humans are still smarter than AI so... why don't you let your favorite YouTubers recommend you what to watch next?
+
 We empower internet users to control their recommendations because we trust YouTubers over YouTube and we want to take back control on reccomandations.
-You love Your YouTubers? Put them in charge of recommendations on their own content.
-</pre> 
+
+You love Your YouTubers? Put them in charge of recommendations on their own content!
+	</pre> 
    </div>
    <div class="col-lg-8"> 
      <iframe width=100% height=100% align="right" src="https://www.youtube-nocookie.com/embed/SmYuYEhT81c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe >
@@ -35,7 +40,7 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
 
 {{< youchoose-extension >}}
 
-<h6 style="text-align:center;" >If you are a content creator: read how you can choose the recommandations to show to your audience</h6>
+<h2 style="text-align:center;" >If you are a content creator: read how you can choose the recommandations for your audience <a href="to do"> here </a></h2>
 
 <!--YouChoose is a citizen-tech, democratically run project, which aims to empower YouTube content creators to recommend meaningfull videos to their audience. -->
 
@@ -109,5 +114,10 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
 </div>
 </div>
 </div>
+
+
+{{<colorblock text="The mock-up" color="primary">}}
+<br>
+<br>
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width=100% height=500px src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCCHrDXWJ167PV5AnjpmTRa%2FMaterial-Baseline-Design-Kit-Community%3Fnode-id%3D1%253A3214%26scaling%3Dscale-down-to-fit" allowfullscreen></iframe>I
