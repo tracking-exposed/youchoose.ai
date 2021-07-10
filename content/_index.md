@@ -5,15 +5,18 @@ date: 2021-06-01T15:01:21+01:00
 draft: false
 ---
 
-
 </br>
 
-{{<colorblock text=" Do you really get the best out of YouTube?" color="primary" text-align="center" >}}
+{{<colorblock
+    text="You can't get the best out of YouTube because simply is not meant for you!"
+    color="primary"
+    text-align="center" >}}
+
 <br>
 
 <div class="row">
    <div class="col-lg-4"> 
-   <pre class="primary" style="font-size:1.15rem"> 
+       <pre class="primary" style="font-size:1.15rem"> 
    
 YouTube's recommendations is powerful. But it is not always working for your best interest: it's only purpose is to keep you watching.
    
@@ -22,7 +25,8 @@ But we think Humans are still smarter than AI so... why don't you let your favor
 We empower internet users to control their recommendations because we trust YouTubers over YouTube and we want to take back control on reccomandations.
 
 You love Your YouTubers? Put them in charge of recommendations on their own content!
-	</pre> 
+
+       </pre> 
    </div>
    <div class="col-lg-8"> 
      <iframe width=100% height=100% align="right" src="https://www.youtube-nocookie.com/embed/SmYuYEhT81c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe >
@@ -35,12 +39,37 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
 
 
 
+<!--
 
 {{<colorblock text="YouChoose tool" color="primary" text-align="center" >}}
-
 {{< youchoose-extension >}}
 
-<h2 style="text-align:center;" >If you are a content creator: read how you can choose the recommandations for your audience <a href="to do"> here </a></h2>
+-->
+
+### Hi there! are you a content creator? Please consider to [fill up our 5 minutes survey](/survey), it talk about what we want to implement:
+
+<div class="card-deck">
+
+  {{<naked-card
+      text="Once we let content creator control the sidebar close to their videos, only with this feature, they would know how people engage with suggestions"
+      title="Anonymized engagement analytics" >}}
+  {{<naked-card 
+      text="By defintion you can't know which recommendation gets display close to your videos, because the mojority change by individual"
+      title="The recommendation mapping" >}}
+  {{<naked-card
+      text="The right to reach. How the YT algorithm pick a contend? has yours to other more legitimate, Has yours the right to appear? "
+      title="A Shodowban detector" >}}
+  {{<naked-card
+      text="Switch links from the description to recommendation, and other few easy changes"
+      title="Way to enhance the Youtube UX" >}}
+  {{<naked-card
+      text="Tournsol is a machine learning algorithm for recommendation, trainable by specific communities. First demo with Switzerland academic network!"
+      title="Integrate with Tournsol, the first third-party recommendation algorithm" >}}
+
+</div>
+
+
+---
 
 <!--YouChoose is a citizen-tech, democratically run project, which aims to empower YouTube content creators to recommend meaningfull videos to their audience. -->
 
@@ -59,7 +88,7 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
       text="Marc is an AI researcher and algorithmic designer. He leads the product strategy and gathers partners around the project."
       subtitle="Marc"
       href="http://marcfaddoul.com/"
-      linked="Read More"
+      linked=""
       picture="/images/marc.jpeg" >}}
 
   {{< sponsor
@@ -67,7 +96,7 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
       text="Claudio Agosti is a self-taught developer and privacy analyst, passionate about data liberation. He designs and supervises the tech stack."
       subtitle="Claudio"
       href="https://www.linkedin.com/in/vecna/"
-      linked="Read More"
+      linked=""
       picture="/images/claudio.jpeg" >}}
 
   {{< sponsor
@@ -100,9 +129,9 @@ You love Your YouTubers? Put them in charge of recommendations on their own cont
 <br>
 <br>
 
-{{<colorblock text="The Partners" color="primary">}}
+{{<colorblock text="Sponsored by" color="primary">}}
 
-<h6 style="text-align:center;" >This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.</h6> 
+_This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268._
 
 <div class="container">
 <div class="row">
