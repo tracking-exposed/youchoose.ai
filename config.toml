@@ -57,14 +57,12 @@ ourvision = false
     name = "Get Recommendations from your Content Creators"
     url = "/users/1"
     pre = "/images/user.png"
-    post = "Get recommendation from the content creator you are watching"
     weight = -30
 
  [[menu.featured]]
     name= "Participate to a Community of Content Curators"
     url = "creators"
     pre = "/images/creators.png"
-    post = "Participate to a network of content curators, and see the best content recommended by your community."
     weight = -20
 
  [[menu.featured]]
@@ -72,8 +70,7 @@ ourvision = false
     url = "http://tournesol.app"
     pre = "/images/community.jpeg"
     weight = -10
-    post = "Participate to a collective observation of algorithmic recommendations, to shed light on the YouTube algorithm and its hidden censorship patterns."
-
+    
 
 
  [[menu.footer]]
