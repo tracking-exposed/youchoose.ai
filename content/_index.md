@@ -10,37 +10,37 @@ extracss: "/css/youchoose.css"
 <div class="card-deck">
 <div class="card" style="border-color:blue; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Anonymized engagement analytics 🦸‍♀️</h5>
-    <p class="card-text">Once we let content creator control the sidebar close to their videos, only with this feature, they would know how people engage with suggestions</p>
+    <h5 class="card-title">Understand algorithmic discrimination 🧩️</h5>
+    <p class="card-text">See how content is processed differently by YouTube's AI.</p>
   </div>
 </div>
 <div class="card" style="border-color:#1fc11b; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">The recommendation mapping 🗺</h5>
-    <p class="card-text">By defintion you can't know which recommendation gets display close to your videos, because the mojority change by individual</p>
+    <h5 class="card-title">Choose different recommendation paradigms 🕹</h5>
+    <p class="card-text">Use the first tool integrating third-party recommendation engines to challenge YouTube's algorithmic monopoly.</p>
   </div>
 </div>
 <div class="card" style="border-color:#ffd913; border-radius:13px; border-width:2.5px">
   <div class="card-body">
-    <h5 class="card-title">A Shodowban detector 🕵️‍♀️</h5>
-    <p class="card-text">The right to reach. How the YT algorithm pick a contend? has yours to other more legitimate, Has yours the right to appear? </p>
+    <h5 class="card-title">Use a community-driven algorithm 🌻️</h5>
+    <p class="card-text">YouChoose can embed recommendations from <a href="https://tournesol.app" target=_blank>Tournesol</a>, a collective curation effort which you can join.</p>
   </div>
 </div>
 <div class="card" style="border-color:#ff9c55; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Way to enhance the Youtube UX 🌈</h5>
-    <p class="card-text">Switch links from the description to recommendation, and other few easy changes</p>
+    <h5 class="card-title">Join the first shadow banning tester! 👻</h5>
+    <p class="card-text">Expose YouTube's hidden censorship patterns, and help your content creators.</p>
   </div>
 </div>
 <div class="card" style="border-color:#ff5555; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Integrate with Tournsol, the first third-party recommendation algorithm 🌻</h5>
-    <p class="card-text">Tournsol is a machine learning algorithm for recommendation, trainable by specific communities. First demo with Switzerland academic network!</p>
+    <h5 class="card-title">Support privacy-enhancing, public-interest tech 💚</h5>
+    <p class="card-text">We are a non-profit, implementing cryptographic schemes to offer privacy preserving analytics and hold platforms accountable.</p>
   </div>
 </div>
 </div>
 
-<div><h1 class ="titlehp">>_ Are you a Youtuber? Fill up our 5 min</h1></div>
+<div><h1 class ="titlehp">>_ Partecipatory Design? Fill up the 4 minutes</h1></div>
 <div class="fba" style="padding-top:2rem;">
   <a class="fba" href="#"><span class="fba">SURVEY!</span></a>
 </div>
@@ -93,8 +93,8 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
 
   {{< clickable-card
       title="Claudio Agosti"
-      text="Claudio is a self-taught developer and privacy analyst, passionate about data liberation. He designs and supervises the tech stack."
-      href="https://www.linkedin.com/in/vecna/"
+      text="Claudio Agosti is a developer and a privacy analyst, directs Tracking Exposed, designs and supervises the tech stack."
+      href="https://sociale.network/@vecna"
       picture="/images/claudio.jpeg" >}}
 
   {{< clickable-card
