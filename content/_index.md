@@ -45,11 +45,12 @@ extracss: "/css/youchoose.css"
   <a class="fba" href="#"><span class="fba">SURVEY!</span></a>
 </div>
 <div><h1 class ="titlehp">>_ You can't get the best out of YouTube because simply is not meant for you</h1></div>
+<div class="row col-sm-7">
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">YouTube's recommendations are powerful.<br> 
 But it is not always working for your best interest: it's only purpose is to keep you watching.<br> 
 We think Humans are still smarter than AI so... why don't you let your favorite Content Creators recommend you what to watch next?<br>      
 We empower internet users to control their recommendations because we trust YouTubers over YouTube and we want to take back control.<br>
-Do u love your YouTubers? Put them in charge of recommendations of their own content!</pre> 
+Do u love your YouTubers? Put them in charge of recommendations of their own content!</pre></div>
 <!--
 <div class="row">
    <div class="col-lg-6"> 
@@ -140,7 +141,7 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
 
 <div><h1 class ="titlehp">>_ Sponsored by</h1></div>
 <div class="row">
-<div class="col-sm-5 small"><pre style="font-size:1.15rem; color:#e33180; font-weight:bold; padding-top:0px;">This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.</pre></div>
+<div class="col-sm-7 small"><pre style="font-size:1.15rem; color:#e33180; font-weight:bold; padding-top:0px;">This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.</pre></div>
 <div class="col-sm-3">
 <img src="/images/ledger-logo.png" class="img-fluid" alt="Responsive image">
 </div>
