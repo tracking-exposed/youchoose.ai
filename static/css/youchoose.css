@@ -1,9 +1,10 @@
 .titlehp {
   font-size:3rem; 
-  font-weight: 700 !important;
+  font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 2rem;
   padding-top: 4rem;
+  word-break: break-word;
 }
 
 .pre{
