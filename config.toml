@@ -55,19 +55,18 @@ ourvision = false
 
  [[menu.featured]]
     name = "Get Recommendations from your Content Creators"
-    url = "/users/1"
+#    url = "/users/1"
     pre = "/images/user.png"
     weight = -30
 
  [[menu.featured]]
     name= "Participate to a Community of Content Curators"
-    url = "creators"
+    url = "http://tournesol.app"
     pre = "/images/creators.png"
     weight = -20
 
  [[menu.featured]]
     name = "Become a Data-Activist and Expose Shadow Banning! "
-    url = "http://tournesol.app"
     pre = "/images/community.jpeg"
     weight = -10
     
