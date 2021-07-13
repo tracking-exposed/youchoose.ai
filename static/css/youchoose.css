@@ -17,22 +17,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-h3 {
-  line-height: 140%;
-  font-size: 25px;
-  font-family: $regular !important;
-  text-align: left;
-}
-@media only screen and ( min-width: 600px ) {
-  h3 { 
-    text-align: justify; 
-  }
-}
 
-h3 b, .bold, strong, .strong{
-  color: #e33180;
-  font-weight: 200 !important;
-}
 
 .fba a {
   display: block;

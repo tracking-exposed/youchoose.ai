@@ -12,15 +12,15 @@ extraCSS: "/css/youchoose.css"
 <div class="col-md-8">
 <h1 class="titlehp" style="color:#e33180;">>_ Recommendation algorithms are gatekeepers of online content</h1>
 
-<h3>
-Most content that is consumed online is recommended by an algorithm. In particular, on YouTube, <b>70%</b> of videos viewed are <b>selected by the platform's algorithms</b>. 
-</h3>
+### Most of the content consumed online is recommended by an algorithm. In particular, on YouTube, <b>70%</b> of videos viewed are <b>selected by the platform's algorithms</b>. 
+
 
 <h1 class="titlehp" style="color:#e33180;">>_ Recommendation algorithms don't have your best interest in mind</h1>
-<h3>
-Platforms design their algorithms to maximize their <b>financial interests: generate clicks and ad-revenue</b>. This leads the algorithm to amplify the most attention-catching, sensationalist content.
-While a lot of attention is focused on moderating the most harmful content, we tend to think less about the more constructive approach: <b>how can we promote better content?</b>
-</h3>
+
+### Platforms design their algorithms to maximize their <b>financial interests: generate clicks and ad-revenue</b>. This leads the algorithm to amplify the most attention-catching, sensationalist content.
+
+### While a lot of attention is focused on moderating the most harmful content, we tend to think less about the more constructive approach: <b>how can we promote better content?</b>
+
 
 <h1 class="titlehp" style="color:#e33180;">>_ We trust YouTubers over YouTube</h1>
 
