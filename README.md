@@ -12,6 +12,9 @@ cd youchoose.ai
 mkdir themes
 cd themes
 git clone git@github.com:tracking-exposed/hugo-theme-trex.git trex
+cd ..
+npm install
+npm run build
 ```
 
 ## Test/Use it:
