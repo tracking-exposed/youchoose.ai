@@ -8,7 +8,8 @@
     "url": "git+https://github.com/tracking-exposed/ritrex.git"
   },
   "scripts": {
-    "build": "rm -rf ./build && mkdir build && cross-env webpack"
+    "build": "rm -rf ./build && mkdir build && cross-env webpack",
+    "build:watch": "rm -rf ./build && mkdir build && cross-env webpack -w"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
