@@ -9,6 +9,9 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import Slider from '@material-ui/core/Slider';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -84,13 +87,10 @@ export default function Questi() {
   return (
     <div className={classes.root}>
     <FormControl component="fieldset">
-
-      <h2 className={classes.h2}>1. Per quale servizio lavori?</h2>  
+      <h4 className={classes.h2}>1.1 Are these suggestions usefull for you?</h4>  
       <TextField
         id="first"
         style={{ margin: 16 }}
-        label="Se lavori, o hai lavorato, per più di un'azienda, puoi indicarle tutte"
-        helperText="Questo ci è utile per capire quali sono le aziende più abusive, e valutare su quali concentrarci per prima"
         fullWidth
         margin="normal"
         InputLabelProps={{
@@ -98,120 +98,42 @@ export default function Questi() {
         }}
       />
 
-      <h2 className={classes.h2}>2. In che modo ti sei iscritto al servizio?</h2>
+
+      <h4 className={classes.h2}>1.2 How much do you understand how it works?</h4>
       <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
-        <FormControlLabel id="viaapp" value="app" control={<Radio />} label="Iscrizione via App" />
-        <FormControlLabel id="viameeting" value="incontro" control={<Radio />} label="Incontro personale con cooperativa e iscrizione presso il servizio" />
+        <FormControlLabel id="1.2_1" value="1" control={<Radio />} label="Not really" />
+        <FormControlLabel id="1.2_2" value="2" control={<Radio />} label="Somehow" />
+        <FormControlLabel id="1.2_7" value="6" control={<Radio />} label="A lot" />
       </RadioGroup>
 
       <TextField
         id="followup"
-        label="Questo ci è utile a capire se hai firmato qualcosa, o no."
+        label="If there is something specif you understand/don't understand, you can write it here."
         style={{ margin: 16 }}
-        helperText="Nel caso tu avessi firmato qualcosa di specifico, per piacere descrivi l'accordo"
         fullWidth
         margin="normal"
-        defaultValue="(puoi raccontare qualunque tipo di vincolo o obbligo che ti è stato dato)"
+        defaultValue="I understand the algorithm when...."
         InputLabelProps={{
           shrink: true,
         }}
       />
-
-      <h2 className={classes.h2}>
-        3. Puoi fornire degli esempi di decisioni automatiche che hanno avuto un effetto significativo sul tuo lavoro o sulla tua vita?
-      </h2>
-      <p>
-        Ad esempio: Valutazione media errata; Mancata assegnazione consegne; Sospensione account; Chiusura account.
-        <br />
-        Qualcosa che per la compagnia abbia il valore di una <b>sanzione</b>.
-      </p>
-      <TextField
-        id="third"
-        label="Descrivi il problema, e se ne hai conoscenza, anche quale comportamento è stato sanzionato"
-        style={{ margin: 16 }}
-        placeholder=""
-        helperText="Anche un trattamento sfavorevole comparato ad altri colleghi può essere un elemento di interresse"
-        fullWidth
-        margin="normal"
-        InputLabelProps={{
-          shrink: true,
-        }}
-      />
-
-      <h2 className={classes.h2}>
-        4. Ti avevano informato dell'esistenza della sanzione? La compagnia ti ha comunicato qualcosa?
-      </h2>
-      <TextField
-        id="fourth"
-        label=""
-        style={{ margin: 16 }}
-        placeholder=""
-        helperText="Ci interessa sapere se tu ed i tuoi colleghi erano adeguatamente informati prima che questo succedesse, e se la sanzione è inappellabile"
-        fullWidth
-        margin="normal"
-        InputLabelProps={{
-          shrink: true,
-        }}
-      />
-
-      <h2 className={classes.h2}>
-        5. Come potevi contestare la decisione?
-      </h2>
-      <TextField
-        id="fifth"
-        label="Ad esempio: tramite app, mandando una mail, chiamando il call-center, etc..."
-        style={{ margin: 16 }}
-        placeholder=""
-        fullWidth
-        margin="normal"
-        InputLabelProps={{
-          shrink: true,
-        }}
-      />
-
-      <h2 className={classes.h2}>
-        6. Hai provato anche a contestare la sanzione in altri modi?
-      </h2> 
-      <TextField
-        id="sixth"
-        style={{ margin: 16 }}
-        placeholder=""
-        helperText="Anche se ne hai parlato ad un giornale, ad un avvocato o a dei sindacati, ci interessa sapere come è andata"
-        fullWidth
-        margin="normal"
-        InputLabelProps={{
-          shrink: true,
-        }}
-      />
-
-      <h2 className={classes.h2}>
-        7. L’azienda ha risposto alla tua richiesta?
-      </h2> 
-      <TextField
-        id="seventh"
-        style={{ margin: 16 }}
-        placeholder=""
-        helperText="Sia in modo ufficiale che non."
-        fullWidth
-        margin="normal"
-        InputLabelProps={{
-          shrink: true,
-        }}
-      />
+        
     </FormControl>
 
-    <div className="row align-items-center justify-content-center">
-      <br />
-      <Button
-        variant="contained" color="primary" 
-        onClick={sendData}>
-        Fatto, Invia le risposte!
-      </Button>
-      <h4>
-        <br />
-        * Le informazioni saranno conservate per un tempo massimo di 6 mesi, non sono associate ad alcun dato personale, ed il loro scopo è di definire verso quali aziende concentrare i nostri sforzi.
-      </h4>
-    </div>
-    </div> 
-  );
-}
+
+
+	    <div className="row align-items-center justify-content-center">
+	      <br />
+	      <Button
+	        variant="contained" color="primary" 
+	        onClick={sendData}>
+	        Fatto, Invia le risposte!
+	      </Button>
+	      <h4>
+	        <br />
+	        * Le informazioni saranno conservate per un tempo massimo di 6 mesi, non sono associate ad alcun dato personale, ed il loro scopo è di definire verso quali aziende concentrare i nostri sforzi.
+	      </h4>
+	    </div>
+	    </div> 
+	  );
+	}
