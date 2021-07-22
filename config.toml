@@ -10,8 +10,8 @@ ourvision = false
    subtitle = "Youchoose"
    subsite = "youchoose"
    openGraphSiteName = "Youchoose"
-   description = "Giving back control of YouTube recommendations to internet users. Users can decide to see the content recommendations from their favorite content creators."
-   tagline = "Get back control over your recommendations on YouTube"
+   description = "Giving control back of YouTube recommendations to internet users. Users can decide to see the content recommendations from their favorite content creators."
+   tagline = "Get control back over your recommendations on YouTube"
 
 [markup]
   [markup.goldmark]
@@ -29,38 +29,14 @@ ourvision = false
     weight = 20
 
 
-
-# Homepage cards
-# [[menu.featured]]
-#    name = "I'm a user"
-#    url = "/users/1"
-#    pre = "/images/user.png"
-#    post = "Find out how to get reccomendations selected by content creators"
-#    weight = -30
-#
-# [[menu.featured]]
-#    name= "I'm a content creator"
-#    url = "creators"
-#    pre = "/images/creators.png"
-#    post = "Find out how to directly recommend videos to your audience"
-#    weight = -20
-#
-# [[menu.featured]]
-#    name = "I'm part of a community"
-#    url = "/turnesol/"
-#    pre = "/images/community.jpeg"
-#    weight = -10
-#    post = "Find out how to be part or create a community to mutually evalute videos and create community reccomandations"
-
-
  [[menu.featured]]
-    name = "Get Recommendations from your Content Creators"
+    name = "Get recommendations from content creators"
 #    url = "/users/1"
     pre = "/images/user.png"
     weight = -30
 
  [[menu.featured]]
-    name= "Participate to a Community of Content Curators"
+    name= "Share your recommendations with a community"
     url = "http://tournesol.app"
     pre = "/images/creators.png"
     weight = -20

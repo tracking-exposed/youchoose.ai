@@ -1,5 +1,5 @@
 ---
-title: YouChoose your recommandations
+title: YouChoose your recommendations
 subtitle: 
 date: 2021-06-01T15:01:21+01:00
 draft: false
@@ -10,8 +10,8 @@ extracss: "/css/youchoose.css"
 <div class="card-deck">
 <div class="card" style="border-color:blue; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Understand algorithmic discrimination 🧩️</h5>
-    <p class="card-text">See how content is processed differently by YouTube's AI.</p>
+    <h5 class="card-title">Analyse how the algorithms sees you 🧩️</h5>
+    <p class="card-text">See how content is processed differently by YouTube's AI, and understand algorithmic biases.</p>
   </div>
 </div>
 <div class="card" style="border-color:#1fc11b; border-radius:13px; border-width:2.5px;">
@@ -29,27 +29,31 @@ extracss: "/css/youchoose.css"
 <div class="card" style="border-color:#ff9c55; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
     <h5 class="card-title">Join the first shadow banning tester! 👻</h5>
-    <p class="card-text">Expose YouTube's hidden censorship patterns, and help your content creators.</p>
+    <p class="card-text">Expose YouTube's hidden censorship patterns and help your content creators by sharing anonymised data to generate privacy-preserving statistics.</p>
   </div>
 </div>
 <div class="card" style="border-color:#ff5555; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Support privacy-enhancing, public-interest tech 💚</h5>
-    <p class="card-text">We are a non-profit, implementing cryptographic schemes to offer privacy preserving analytics and hold platforms accountable.</p>
+    <h5 class="card-title">Support public-interest civic tech 💚</h5>
+    <p class="card-text">We are a non-profit, democratically governed, defending the interests of internet users against those of big-tech.</p>
   </div>
 </div>
 </div>
 
-<div><h1 class ="titlehp">>_ Partecipatory Design? Fill up the 4 minutes</h1></div>
+<div><h1 class ="titlehp">>_ Fill up the 4 minutes to help us build the ideal tool for you:</h1></div>
 <div class="fba" style="padding-top:2rem;">
   <a class="fba" href="#"><span class="fba">SURVEY!</span></a>
 </div>
-<div><h1 class ="titlehp">>_ You can't get the best out of YouTube because simply is not meant for you</h1></div>
-<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">YouTube's recommendations are powerful.<br> 
-But it is not always working for your best interest: it's only purpose is to keep you watching.<br> 
-We think Humans are still smarter than AI so... why don't you let your favorite Content Creators recommend you what to watch next?<br>      
-We empower internet users to control their recommendations because we trust YouTubers over YouTube and we want to take back control.<br>
-Do u love your YouTubers? Put them in charge of recommendations of their own content!</pre> 
+<div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
+<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
+Most of the content watched on YouTube is surfaced by an algorithm. 
+Indeed, there are so many videos out there, how are you going to find them otherwise?<br> 
+The recommendation algorithm is powerful, but it's not really working for you best interest.<br> 
+It's sole purpose is to keep you watching, to maximize ads revenue. 
+To do that, it promotes content that is engaging, but it does not really care about its quality. <br> 
+We empower content creators, who are the lifeblood of YouTube, to curate recommendations for you.
+Because they are still smarter than AI.
+</pre> 
 <!--
 <div class="row">
    <div class="col-lg-6"> 
