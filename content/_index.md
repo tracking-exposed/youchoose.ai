@@ -10,25 +10,25 @@ extracss: "/css/youchoose.css"
 <div class="card-deck">
 <div class="card" style="border-color:blue; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Analyse how the algorithms sees you 🧩️</h5>
+    <h5 class="card-title">Analyse how the algorithm sees you 🧩️</h5>
     <p class="card-text">See how content is processed differently by YouTube's AI, and understand algorithmic biases.</p>
   </div>
 </div>
 <div class="card" style="border-color:#1fc11b; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Choose different recommendation paradigms 🕹</h5>
+    <h5 class="card-title">Pick from different recommendation paradigms 🕹</h5>
     <p class="card-text">Use the first tool integrating third-party recommendation engines to challenge YouTube's algorithmic monopoly.</p>
   </div>
 </div>
 <div class="card" style="border-color:#ffd913; border-radius:13px; border-width:2.5px">
   <div class="card-body">
-    <h5 class="card-title">Use a community-driven algorithm 🌻️</h5>
+    <h5 class="card-title">Participate to a community-driven algorithm 🌻️</h5>
     <p class="card-text">YouChoose can embed recommendations from <a href="https://tournesol.app" target=_blank>Tournesol</a>, a collective curation effort which you can join.</p>
   </div>
 </div>
 <div class="card" style="border-color:#ff9c55; border-radius:13px; border-width:2.5px;">
   <div class="card-body">
-    <h5 class="card-title">Join the first shadow banning tester! 👻</h5>
+    <h5 class="card-title">Contribute to the first shadow-banning tester! 👻</h5>
     <p class="card-text">Expose YouTube's hidden censorship patterns and help your content creators by sharing anonymised data to generate privacy-preserving statistics.</p>
   </div>
 </div>
@@ -47,6 +47,7 @@ extracss: "/css/youchoose.css"
 <div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
 Most of the content watched on YouTube is surfaced by an algorithm. 
+Weather you click on a video on the homepage, on a search result, on the sidebar recommendation, or simply play the watch-next, there is an algorithm behind.
 Indeed, there are so many videos out there, how are you going to find them otherwise?<br> 
 The recommendation algorithm is powerful, but it's not really working for you best interest.<br> 
 It's sole purpose is to keep you watching, to maximize ads revenue. 
