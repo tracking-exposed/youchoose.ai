@@ -145,7 +145,7 @@ export default function Questi() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.2.2 What do you understand about the algorithm's logics?</h3>  
+    <h3 className={classes.h2}>1.2-B What do you understand about the algorithm's logics?</h3>  
       <TextField
         id="standard-secondary"
         style={{ margin: 10 }}
@@ -164,7 +164,45 @@ export default function Questi() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.3.2 which strategies you use to influence the algorithm?</h3>  
+    <h3 className={classes.h2}>1.3-B Which strategies you use to influence the algorithm?</h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.4 How much is the algorithm desciminating you as a youtuber? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.4-B If you have been penalized by the algorithm, tell use how and how you find it out.</h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.5 Do you know what shadow-banning is? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.5-B Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
       <TextField
         id="standard-secondary"
         style={{ margin: 10 }}
@@ -177,20 +215,187 @@ export default function Questi() {
     </div>
 
 
+<hr class="MuiDivider-root"></hr>
+<hr class="MuiDivider-root"></hr>
+
+This goes to the second page (/q2/)
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>2.1 How much do you think this software could be useful for you? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>2.1-B Tell us why. </h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>2.2 How much do you think this could be interesting for your audience?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>2.2-B Tell us why. </h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
 
 <hr class="MuiDivider-root"></hr>
 <hr class="MuiDivider-root"></hr>
 
-<tbody id="prova">
-<tr>
-      <h4 className={classes.h2}>1.2 How much do you understand how it works?</h4>
+This goes to the third page (/q3/)
+
+<div className={classes.root}>
+    <h3 className={classes.h2}>3.1 How much do you like the idea of having a personal dashboard?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>3.1 How much do you like the idea of having a personal dashboard?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>3.2 How much  do you like the idea of using the video description to declare which videos will be recommended to your audience?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>3.3 Do you have any thoughts about how the content creator interface could be developed to answer your needs? </h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Write them down here:"
+        variant="filled"
+      />
+    </div>
+
+
+
+ <hr class="MuiDivider-root"></hr>
+<hr class="MuiDivider-root"></hr>
+
+This goes to the third page (/q4/)
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.1 Do you know what shadow-ban is?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.2 How much are you scared to be shadow-banned?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.3 How much are you interested in a shadow-ban tester?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>4.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Could you please list their channel here plase?"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>4.5 What are the evidences that you / other youtubers provided about the cases? </h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.6 How much are you interested in a shadow-ban tester?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.7 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
+    How much do you think your audience will beinterested in help? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+<hr class="MuiDivider-root"></hr>
+<hr class="MuiDivider-root"></hr>
+
+This goes to the third page (/q5/)
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>6.1 If you have any suggestions or advice... </h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Write them down here:"
+        variant="filled"
+      />
+    </div>
+
+<div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>6.2 f you are interested in the project, leave here your email, we will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Write them down here:"
+        variant="filled"
+      />
+    </div>
+
+    <h3 className={classes.h2}>Tell us if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
       <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
-        <FormControlLabel id="1.2_1" value="1" control={<Radio />} label="Not really" />
-        <FormControlLabel id="1.2_2" value="2" control={<Radio />} label="Somehow" />
-        <FormControlLabel id="1.2_7" value="6" control={<Radio />} label="A lot" />
+        <FormControlLabel id="1.2_1" value="1" control={<Radio />} label="Yes, you can contact me for an interview" />
+        <FormControlLabel id="1.2_2" value="2" control={<Radio />} label="No thanks." />
       </RadioGroup>
-</tr>
-</tbody>
+
 
     </FormControl>
 
@@ -201,12 +406,12 @@ export default function Questi() {
 	      <Button
 	        variant="contained" color="primary" 
 	        onClick={sendData}>
-	        Fatto, Invia le risposte!
+	        Done! Send my answers!
 	      </Button>
 	      <h4>
 	        <br />
-	        * Thanks for your help.
-          If you have the time for a quick interview click here.
+	        Thanks for your help.
+          Free software are made by community, you are now part of ours!
 	      </h4>
 	    </div>
 	    </div> 
