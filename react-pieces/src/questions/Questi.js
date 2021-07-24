@@ -3,15 +3,16 @@ import _ from 'lodash';
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
-import { makeStyles } from '@material-ui/core/styles';
+import {withStyles, makeStyles} from '@material-ui/core/styles';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 
+import Tooltip from '@material-ui/core/Tooltip';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -80,6 +81,49 @@ function sendData(a, b) {
   });
 }
 
+const marks = [
+  {
+    value: 0,
+    label: 'Not at all',
+  },
+  {
+    value: 100,
+    label: 'Completly',
+  },
+];
+
+const PrettoSlider = withStyles({
+  root: {
+    color: '#e33180',
+    height: 8,
+  },
+  thumb: {
+    height: 24,
+    width: 24,
+    backgroundColor: '#fff',
+    border: '2px solid currentColor',
+    marginTop: -8,
+    marginLeft: -12,
+    '&:focus, &:hover, &$active': {
+      boxShadow: 'inherit',
+    },
+  },
+  active: {},
+  valueLabel: {
+    left: 'calc(-50% + 4px)',
+  },
+  track: {
+    height: 8,
+    borderRadius: 4,
+  },
+  rail: {
+    height: 8,
+    borderRadius: 4,
+  },
+})(Slider);
+
+
+
 export default function Questi() {
 
   const classes = useStyles();
@@ -87,37 +131,67 @@ export default function Questi() {
   return (
     <div className={classes.root}>
     <FormControl component="fieldset">
-      <h4 className={classes.h2}>1.1 Are these suggestions usefull for you?</h4>  
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.1 Are these algorithmicsuggestions useful for you as a users?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.2 How much do you understand how this algorithm works?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.2.2 What do you understand about the algorithm's logics?</h3>  
       <TextField
-        id="first"
-        style={{ margin: 16 }}
+        id="standard-secondary"
+        style={{ margin: 10 }}
         fullWidth
         margin="normal"
-        InputLabelProps={{
-          shrink: true,
-        }}
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
       />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.3 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.3.2 which strategies you use to influence the algorithm?</h3>  
+      <TextField
+        id="standard-secondary"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
 
 
+
+<hr class="MuiDivider-root"></hr>
+<hr class="MuiDivider-root"></hr>
+
+<tbody id="prova">
+<tr>
       <h4 className={classes.h2}>1.2 How much do you understand how it works?</h4>
       <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel id="1.2_1" value="1" control={<Radio />} label="Not really" />
         <FormControlLabel id="1.2_2" value="2" control={<Radio />} label="Somehow" />
         <FormControlLabel id="1.2_7" value="6" control={<Radio />} label="A lot" />
       </RadioGroup>
+</tr>
+</tbody>
 
-      <TextField
-        id="followup"
-        label="If there is something specif you understand/don't understand, you can write it here."
-        style={{ margin: 16 }}
-        fullWidth
-        margin="normal"
-        defaultValue="I understand the algorithm when...."
-        InputLabelProps={{
-          shrink: true,
-        }}
-      />
-        
     </FormControl>
 
 
@@ -131,7 +205,8 @@ export default function Questi() {
 	      </Button>
 	      <h4>
 	        <br />
-	        * Le informazioni saranno conservate per un tempo massimo di 6 mesi, non sono associate ad alcun dato personale, ed il loro scopo è di definire verso quali aziende concentrare i nostri sforzi.
+	        * Thanks for your help.
+          If you have the time for a quick interview click here.
 	      </h4>
 	    </div>
 	    </div> 
