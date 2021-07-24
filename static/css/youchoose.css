@@ -7,6 +7,10 @@
   word-break: break-word;
 }
 
+.pink {
+  color:#e33180;
+}
+
 .pre{
   padding: 0px !important; 
 }

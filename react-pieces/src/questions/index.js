@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import Questi from './Questi';
+// import Questi from './Questi';
+import QuestionPage1 from './QuestionPage1';
+import QuestionPage2 from './QuestionPage2';
+import QuestionPage3 from './QuestionPage3';
+import QuestionPage4 from './QuestionPage4';
+import QuestionPage5 from './QuestionPage5';
 
 const Zimplon = {
     fontFamily: 'Trex-Regular',
@@ -33,10 +38,15 @@ const theme = createMuiTheme({
 function main () {
     ReactDOM.render(
         <ThemeProvider theme={theme}>
-            <Questi />
+            <QuestionPage1 />
+            <QuestionPage2 />
+            <QuestionPage3 /> 
+            <QuestionPage4 /> 
+            <QuestionPage5 /> 
         </ThemeProvider>, document.getElementById('main')
     );
 }
+
 
 /* this is automatically called when 'js/generated/qust.js' */
 main();
