@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-// import Questi from './Questi';
+import Box from '@material-ui/core/Box';
+
 import QuestionPage1 from './QuestionPage1';
 import QuestionPage2 from './QuestionPage2';
 import QuestionPage3 from './QuestionPage3';
@@ -38,7 +39,9 @@ const theme = createMuiTheme({
 function main () {
     ReactDOM.render(
         <ThemeProvider theme={theme}>
-            <QuestionPage1 />
+            <Box component="div" m={1}>
+                <QuestionPage1 />
+            </Box>
             <QuestionPage2 />
             <QuestionPage3 /> 
             <QuestionPage4 /> 
