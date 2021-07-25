@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
+import Button from '@material-ui/core/Button';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
@@ -90,14 +91,14 @@ export default function FullWidthTabs() {
         aria-label="full width tabs example"
         /*className={classes.tabs}*/
       >
-          <Tab label="Page One" {...a11yProps(0)} />
-          <Tab label="Page Two" {...a11yProps(1)} />
-          <Tab label="Page Three" {...a11yProps(2)} />
-          <Tab label="Page Four" {...a11yProps(3)} />
-          <Tab label="Page Five" {...a11yProps(4)} />
+          <Tab id="firstTab" label="1, on recommendations" {...a11yProps(0)} />
+          <Tab id="secondTab" label="2, for youtubers" {...a11yProps(1)} />
+          <Tab id="thirdTab" label="3, to understand more" {...a11yProps(2)} />
+          <Tab id="fourthTab" label="4, on shadowban" {...a11yProps(3)} />
+          <Tab id="fifthTab" label="5, to finish" {...a11yProps(4)} />
       </Tabs>
-      </AppBar>
-     <SwipeableViews
+    </AppBar>
+    <SwipeableViews
         axis={ /* theme.direction === 'rtl' ? 'x-reverse' : 'x' */ 'x'}
         index={value}
         onChangeIndex={handleChangeIndex}

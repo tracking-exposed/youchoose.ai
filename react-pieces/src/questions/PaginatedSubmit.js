@@ -1,6 +1,11 @@
 import _ from 'lodash';
 
+const randomInit = {};
+
 export default function sendData() {
+
+  if(!randomInit.number)
+    randomInit.number = _.random(0, 0xffffffff);
 
   const textColl = _.map($("input[type='text']"), function(inputt, textOrder) {
     return {
@@ -38,7 +43,7 @@ export default function sendData() {
     },
     redirect: 'follow', // manual, *follow, error
     referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify({ textColl, slidersColl, reference }) // body data type must match "Content-Type" header
+    body: JSON.stringify({ textColl, slidersColl, reference, sessionId: randomInit.number }) // body data type must match "Content-Type" header
   }).then(function(responsed) {
     if(responsed.status !== 200) {
       console.error("error in post:", responsed)
