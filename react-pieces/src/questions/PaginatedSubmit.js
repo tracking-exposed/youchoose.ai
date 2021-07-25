@@ -6,14 +6,22 @@ const REDIRECT_PAGE_URL = "/thanks";
 
 function sendData(a, b) {
 
-  const text = _.compact(_.map($("input[type='text']"), function(inputt, textOrder) {
-    let value = inputt.value;
-    if(!value) return null;
+  const textColl = _.map($("input[type='text']"), function(inputt, textOrder) {
     return {
       textOrder,
-      value
+      id: inputt.id,
+      value: inputt.value,
     };
-  }));
+  });
+
+  const slidersColl = _.map($('[role="slider"]'), function(slider, sliderOrder) {
+    return {
+      value: slider.getAttribute('aria-valuenow'),
+      id: slider.id,
+      sliderOrder,
+    };
+  });
+
   /*
   const checked = _.first(_.compact(_.map($("input"), function(e) {
     if(!e.checked) return;
@@ -22,11 +30,10 @@ function sendData(a, b) {
   collection.push(checked);
   */
 
-  const collection = text;
-  collection.push({ from: window.location.hash });
-  console.log(collection);
+  const reference = { from: window.location.hash };
 
-  const url = window.location.href.match(/localhost/) ? 'http://localhost:12000/api/v1/recordAnswers' : '/api/v1/recordAnswers';
+  const url = window.location.href.match(/localhost/) ?
+    `${process.env.API_SERVER}/api/v1/recordAnswers`: '/api/v1/recordAnswers';
   return fetch(url, {
     method: 'POST', // *GET, POST, PUT, DELETE, etc.
     mode: 'cors', // no-cors, *cors, same-origin
@@ -37,7 +44,7 @@ function sendData(a, b) {
     },
     redirect: 'follow', // manual, *follow, error
     referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify(collection) // body data type must match "Content-Type" header
+    body: JSON.stringify({ textColl, slidersColl, reference }) // body data type must match "Content-Type" header
   }).then(function(responsed) {
     if(responsed.status !== 200) {
       console.error("error in post:", responsed)
