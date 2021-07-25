@@ -8,6 +8,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
+import sendData from './PaginatedSubmit';
 import QuestionPage1 from './QuestionPage1';
 import QuestionPage2 from './QuestionPage2';
 import QuestionPage3 from './QuestionPage3';
@@ -68,6 +69,7 @@ export default function FullWidthTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
+    sendData();
     setValue(newValue);
   };
   const handleChangeIndex = (index) => {

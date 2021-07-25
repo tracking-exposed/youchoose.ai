@@ -7,8 +7,6 @@ import {withStyles, makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import Slider from '@material-ui/core/Slider';
 
-import PaginatedSubmit from './PaginatedSubmit';
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -131,7 +129,6 @@ export default function QuestionPage4() {
     </div>
 
     </FormControl>
-    <PaginatedSubmit />
 	  </div> 
 	  )
 	}

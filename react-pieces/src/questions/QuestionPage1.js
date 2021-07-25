@@ -176,7 +176,6 @@ export default function QuestionPage1() {
     </div>
 
     </FormControl>
-    <PaginatedSubmit />
   </div> 
   );
 }

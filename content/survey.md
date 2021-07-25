@@ -13,9 +13,11 @@ type: fullscreen
   <script src="/js/generated/questions.js"></script>
   <!-- this load the mUI webapp -->
 
+<!--
   <div class="fba" style="padding-top:2rem;">
     <a class="fba" href="/q2/"><span class="fba"> NEXT!</span></a>
   </div>
+-->
 
 </div>
 </div>
