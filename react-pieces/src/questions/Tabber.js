@@ -79,6 +79,7 @@ export default function FullWidthTabs() {
   return (
     <div className={classes.root}>
     <AppBar position="absolute" color="default">
+      <small className="smallinfo">data is anonymously automatically sent when you swap page, do it also when you end ;)</small>
       <Tabs
       /*  orientation="vertical" */
         value={value}
