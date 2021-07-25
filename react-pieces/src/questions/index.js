@@ -2,13 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
 
-import QuestionPage1 from './QuestionPage1';
-import QuestionPage2 from './QuestionPage2';
-import QuestionPage3 from './QuestionPage3';
-import QuestionPage4 from './QuestionPage4';
-import QuestionPage5 from './QuestionPage5';
+import Tabber from './Tabber';
 
 const Zimplon = {
     fontFamily: 'Trex-Regular',
@@ -39,13 +34,7 @@ const theme = createMuiTheme({
 function main () {
     ReactDOM.render(
         <ThemeProvider theme={theme}>
-            <Box component="div" m={1}>
-                <QuestionPage1 />
-            </Box>
-            <QuestionPage2 />
-            <QuestionPage3 /> 
-            <QuestionPage4 /> 
-            <QuestionPage5 /> 
+            <Tabber />
         </ThemeProvider>, document.getElementById('main')
     );
 }
