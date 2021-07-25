@@ -20,8 +20,8 @@ function TabPanel(props) {
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
+      id={`vertical-tabpanel-${index}`}
+      aria-labelledby={`vertical-tab-${index}`}
       {...other}
     >
       {value === index && (
@@ -39,21 +39,27 @@ TabPanel.propTypes = {
   value: PropTypes.any.isRequired,
 };
 
+
 function a11yProps(index) {
   return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    id: `vertical-tab-${index}`,
+    'aria-controls': `vertical-tabpanel-${index}`,
   };
 }
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: primary,
+    display: 'flex',
+    height: 224,
+  },
+  tabs: {
+    borderRight: `1px solid ${theme.palette.divider}`,
   },
 }));
 
-export default function SimpleTabs() {
+export default function VerticalTabs() {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -63,15 +69,20 @@ export default function SimpleTabs() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-          <Tab label="Item Four" {...a11yProps(3)} />
-          <Tab label="Item Five" {...a11yProps(4)} />
-        </Tabs>
-      </AppBar>
+      <Tabs
+        orientation="vertical"
+        variant="scrollable"
+        value={value}
+        onChange={handleChange}
+        aria-label="Vertical tabs example"
+        className={classes.tabs}
+      >
+          <Tab label="Page One" {...a11yProps(0)} />
+          <Tab label="Page Two" {...a11yProps(1)} />
+          <Tab label="Page Three" {...a11yProps(2)} />
+          <Tab label="Page Four" {...a11yProps(3)} />
+          <Tab label="Page Five" {...a11yProps(4)} />
+      </Tabs>
       <TabPanel value={value} index={0}><QuestionPage1 /></TabPanel>
       <TabPanel value={value} index={1}><QuestionPage2 /></TabPanel>
       <TabPanel value={value} index={2}><QuestionPage3 /></TabPanel>
