@@ -34,7 +34,7 @@ console.log("— output goes directly in", PATHS.BUILD);
 
 /** EXTERNAL DEFINITIONS INJECTED INTO APP **/
 var DEV_SERVER = 'localhost';
-var ENV_DEP_SERVER = DEVELOPMENT ? ('http://' + DEV_SERVER + ':14000') : 'https://youchoose.ai';
+var ENV_DEP_SERVER = DEVELOPMENT ? ('http://' + DEV_SERVER + ':9000') : 'https://youchoose.ai';
 var ENV_DEP_WEB = DEVELOPMENT ? ('http://' + DEV_SERVER + ':1313') : 'https://youchoose.ai';
 
 const DEFINITIONS = {
@@ -42,6 +42,7 @@ const DEFINITIONS = {
         DEVELOPMENT: JSON.stringify(DEVELOPMENT),
         NODE_ENV: JSON.stringify(NODE_ENV),
         API_ROOT: JSON.stringify(ENV_DEP_SERVER + '/api/v' + LAST_VERSION),
+        API_SERVER: JSON.stringify(ENV_DEP_SERVER),
         WEB_ROOT: JSON.stringify(ENV_DEP_WEB),
         VERSION: JSON.stringify(packageJSON.version + (DEVELOPMENT ? '-dev' : '')),
         BUILD: JSON.stringify(`On the ${moment().format("DD of MMMM at HH:mm")}.`),
