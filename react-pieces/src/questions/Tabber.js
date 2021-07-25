@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactDOM from "react-dom";
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -54,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper ,
     display: 'flex',
-    height: 250,
+    height: '100%',
   /*lenght: '1000px',*/
   },
   tabs: {
@@ -65,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function FullWidthTabs() {
   const classes = useStyles();
-  const theme = useTheme();
+  // const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -96,15 +95,15 @@ export default function FullWidthTabs() {
       </Tabs>
       </AppBar>
      <SwipeableViews
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        axis={ /* theme.direction === 'rtl' ? 'x-reverse' : 'x' */ 'x'}
         index={value}
         onChangeIndex={handleChangeIndex}
       >
-       <TabPanel value={value} index={0} dir={theme.direction}><QuestionPage1 /></TabPanel>
-       <TabPanel value={value} index={1} dir={theme.direction}><QuestionPage2 /></TabPanel>
-       <TabPanel value={value} index={2} dir={theme.direction}><QuestionPage3 /></TabPanel>
-       <TabPanel value={value} index={3} dir={theme.direction}><QuestionPage4 /></TabPanel>
-       <TabPanel value={value} index={4} dir={theme.direction}><QuestionPage5 /></TabPanel>
+       <TabPanel value={value} index={0} dir={'ltr' /* theme.direction */}><QuestionPage1 /></TabPanel>
+       <TabPanel value={value} index={1} dir={'ltr' /* theme.direction */}><QuestionPage2 /></TabPanel>
+       <TabPanel value={value} index={2} dir={'ltr' /* theme.direction */}><QuestionPage3 /></TabPanel>
+       <TabPanel value={value} index={3} dir={'ltr' /* theme.direction */}><QuestionPage4 /></TabPanel>
+       <TabPanel value={value} index={4} dir={'ltr' /* theme.direction */}><QuestionPage5 /></TabPanel>
     </SwipeableViews>
     </div>
   );
