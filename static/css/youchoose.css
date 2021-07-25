@@ -7,6 +7,15 @@
   word-break: break-word;
 }
 
+.smallinfo {
+  font-style: italic;
+  text-align: center;
+}
+
+.pink {
+  color:#e33180;
+}
+
 .pre{
   padding: 0px !important; 
 }

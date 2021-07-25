@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import Questi from './Questi';
+
+import Tabber from './Tabber';
 
 const Zimplon = {
     fontFamily: 'Trex-Regular',
@@ -33,10 +34,11 @@ const theme = createMuiTheme({
 function main () {
     ReactDOM.render(
         <ThemeProvider theme={theme}>
-            <Questi />
+            <Tabber />
         </ThemeProvider>, document.getElementById('main')
     );
 }
+
 
 /* this is automatically called when 'js/generated/qust.js' */
 main();
