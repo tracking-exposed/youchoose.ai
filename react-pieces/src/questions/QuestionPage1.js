@@ -4,8 +4,8 @@ import TextField from '@material-ui/core/TextField';
 import {withStyles, makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import Slider from '@material-ui/core/Slider';
-
-import PaginatedSubmit from './PaginatedSubmit';
+import Button from '@material-ui/core/Button';
+import FinalButtons from './FinalButtons';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -178,6 +178,7 @@ export default function QuestionPage1() {
     </div>
 
     </FormControl>
+    <FinalButtons from={1} />
   </div> 
   );
 }

@@ -6,6 +6,7 @@ import TextField from '@material-ui/core/TextField';
 import {withStyles, makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import Slider from '@material-ui/core/Slider';
+import FinalButtons from './FinalButtons';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -135,6 +136,7 @@ export default function QuestionPage4() {
     </div>
 
     </FormControl>
+    <FinalButtons from={4}/>
 	  </div> 
 	  )
 	}
