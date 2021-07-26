@@ -32,6 +32,11 @@ export default function QuestionPage5() {
     <div className={classes.root}>
     <FormControl component="fieldset">
 
+    <h3 className="titlehp pink">
+     Last but not least: if you have any other suggestions you can write them here.
+     If you wants to stay updated leave us a contact.
+    </h3>
+
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>6.1 If you have any suggestions or advice... </h3>  
       <TextField
@@ -40,7 +45,7 @@ export default function QuestionPage5() {
         fullWidth
         margin="normal"
         color='secondary'
-        label="Write them down here:"
+        label="Write them here:"
         variant="filled"
       />
     </div>
@@ -53,7 +58,7 @@ export default function QuestionPage5() {
         fullWidth
         margin="normal"
         color='secondary'
-        label="Write them down here:"
+        label="Write it here:"
         variant="filled"
       />
     </div>

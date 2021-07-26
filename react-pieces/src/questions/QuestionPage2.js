@@ -70,9 +70,9 @@ export default function QuestionPage2() {
     <div className={classes.root}>
     <FormControl component="fieldset">
 
-    <h2 className="titlehp pink">
-      [2/4] We want to enable content creators like you, to suggest videos to their audience replacing the videos suggested by Youtube's algorithm when watching the contents you uploaded.
-    </h2>
+    <h3 className="titlehp pink">
+     We want to enable Youtubers in suggesting videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the contents they upload.
+    </h3>
 
     <div className="row entry">
       <h3 className="mb-2 "></h3>
@@ -91,7 +91,7 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.1 How much do you think this software could be useful for you? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="standard-secondary" />
       <div className={classes.margin} />
     </div>
 

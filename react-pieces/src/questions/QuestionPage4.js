@@ -71,6 +71,12 @@ export default function QuestionPage4() {
     <div className={classes.root}>
     <FormControl component="fieldset">
 
+    <h3 className="titlehp pink">
+    One of the mission of our project is to make the Youtube's algorithm more accountable.
+    That's why we decided to develop a <b> Shadow-ban tester </b>  
+    to better understand this kind of hidden punishment and to reveal it.
+    </h3>
+
     <div className={classes.root}>
     <h3 className={classes.h2}>4.1 Do you know what shadow-ban is?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
@@ -97,7 +103,7 @@ export default function QuestionPage4() {
         fullWidth
         margin="normal"
         color='secondary'
-        label="Could you please list their channel here plase?"
+        label="Could you list their channel here please?"
         variant="filled"
       />
     </div>

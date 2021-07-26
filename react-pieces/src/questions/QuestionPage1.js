@@ -75,7 +75,9 @@ export default function QuestionPage1() {
     <br />
     <br />
 
-    <h2 className="titlehp pink">[1/4] What do you think of the videos reccomended by Youtube's algorithm?</h2>
+    <h3 className="titlehp pink">
+      What do you think of the videos reccomended by Youtube's algorithm?
+    </h3>
 
     <div className="row entry">
       <h3 className="mb-2 "></h3>
