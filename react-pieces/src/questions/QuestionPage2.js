@@ -75,31 +75,19 @@ export default function QuestionPage2() {
      We want to enable Youtubers in suggesting videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the contents they upload.
     </h3>
 
-    <div className="row entry">
-      <h3 className="mb-2 "></h3>
-        <div className="col-sm-8">
-          <figure>
-            <img width="100%" src="/images/recommendedvideos.jpg" />
-          </figure>
-        </div>
-      <div className="col-sm-4 position-relative">
-        <p className="mt-4 mb-4">
-          Videos on the right side of the screen are the 'reccomended videos'.
-        </p>
-      </div>
-    </div>
+    <iframe  width="900" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCCHrDXWJ167PV5AnjpmTRa%2Ftabs%3Fnode-id%3D30%253A3619%26scaling%3Ddown-to-fit" allowfullscreen></iframe>
 
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.1 How much do you think this software could be useful for you? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="standard-secondary" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="2.1" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>2.1-B Tell us why. </h3>  
       <TextField
-        id="standard-secondary"
+        id="2.1-B"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -111,14 +99,14 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.2 How much do you think this could be interesting for your audience?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="2.2"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>2.2-B Tell us why. </h3>  
       <TextField
-        id="standard-secondary"
+        id="2.2-B"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"

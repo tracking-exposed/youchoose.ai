@@ -80,26 +80,26 @@ export default function QuestionPage4() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>4.1 Do you know what shadow-ban is?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="4.1"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>4.2 How much are you scared to be shadow-banned?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="4.2" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>4.3 How much are you interested in a shadow-ban tester?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="4.3" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>4.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
       <TextField
-        id="standard-secondary"
+        id="4.4"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"

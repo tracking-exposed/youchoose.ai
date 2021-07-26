@@ -97,20 +97,20 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.1 Are these algorithmic suggestions useful for you as a users?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="1.1" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.2 How much do you understand how this algorithm works?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="1.2" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.2-B What do you understand about the algorithm's logics?</h3>  
       <TextField
-        id="standard-secondary"
+        id="1.2-B"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -122,14 +122,14 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.3 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="1.3"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.3-B Which strategies you use to influence the algorithm?</h3>  
       <TextField
-        id="standard-secondary"
+        id="1.3-B"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -141,14 +141,14 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.4 How much is the algorithm desciminating you as a youtuber? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="1.4"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.4-B If you have been penalized by the algorithm, tell use how and how you find it out.</h3>  
       <TextField
-        id="standard-secondary"
+        id="1.4-B"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -160,14 +160,14 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.5 Do you know what shadow-banning is? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="1.5" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.5-B Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
       <TextField
-        id="standard-secondary"
+        id="1.5-B"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"

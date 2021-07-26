@@ -92,21 +92,21 @@ export default function QuestionPage3() {
 
 <div className={classes.root}>
     <h3 className={classes.h2}>3.1 How much do you like the idea of having a personal dashboard?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="3.1"/>
       <div className={classes.margin} />
     </div>
 
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.2 How much  do you like the idea of using the video description to declare which videos will be recommended to your audience?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="3.2"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>3.3 Do you have any thoughts about how the content creator interface could be developed to answer your needs? </h3>  
       <TextField
-        id="standard-secondary"
+        id="3.3"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
