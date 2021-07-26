@@ -97,7 +97,7 @@ const EXTRACT_CSS_PLUGIN = new ExtractTextPlugin(
 PLUGINS.push(EXTRACT_CSS_PLUGIN);
 
 if (PRODUCTION) {
-    /* PLUGINS.push(...PROD_PLUGINS); firefox is giving me too many problem */
+    PLUGINS.push(...PROD_PLUGINS);
 } else if (DEVELOPMENT) {
     console.log('Development, using as environment variables: ' +
         JSON.stringify(DEFINITIONS['process.env']));
@@ -159,14 +159,14 @@ const config = {
     entry: PATHS.APPS,
 
     output: {
-        path: PRODUCTION ? PATHS.DIST : PATHS.BUILD,
+        path: PATHS.BUILD,
         filename: '[name].js'
     },
 
     debug: !PRODUCTION,
 
     // devtool: PRODUCTION ? '#source-map' : '#inline-source-map',
-    devtool: PRODUCTION ? null : '#inline-source-map',
+    devtool: PRODUCTION ? '#source-map' : '#inline-source-map',
 
     target: 'web',
 
