@@ -77,7 +77,7 @@ Because they are still smarter than AI.
 YouChoose is a citizen-tech, democratically run project, which aims to empower YouTube content creators to recommend meaningfull videos to their audience. -->
 <div><h1 class ="titlehp">>_ mock-up</h1></div>
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width=100% height=800px src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCCHrDXWJ167PV5AnjpmTRa%2FMaterial-Baseline-Design-Kit-Community%3Fnode-id%3D1%253A3214%26scaling%3Dscale-down-to-fit" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width=100% height=800px src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxQGGh4oQVpXVHtBLgQCSZv%2FYouChoose_wireframes%3Fnode-id%3D1%253A3214%26scaling%3Dscale-down-to-fit" allowfullscreen></iframe>
 
 <div><h1 class ="titlehp">>_ COMING SOON</h1></div>
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;"> email: youchoose [at] tracking [dot] exposed </pre>
