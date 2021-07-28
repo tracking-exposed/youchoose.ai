@@ -1,16 +1,16 @@
 {
-  "name": "internal-react-pieces-ritrex",
-  "version": "0.0.10000",
+  "name": "internal-react-pieces-youchoose.ai",
+  "version": "1.0.0",
   "description": "nothing deserve to be written",
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tracking-exposed/ritrex.git"
+    "url": "git+https://github.com/tracking-exposed/youchoose.git"
   },
   "scripts": {
     "build": "cross-env webpack",
     "build:watch": "cross-env webpack -w",
-    "dist": "NODE_ENV=production crossenv webpack -p"
+    "dist": "NODE_ENV=production cross-env webpack -p"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
