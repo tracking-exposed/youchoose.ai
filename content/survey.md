@@ -1,7 +1,7 @@
 ---
-title: Page1 -- Survey "YouAnswer, YouChoose"
-subtitle: Help us undestanding how to deveope YouChoose.
-date: 2020-07-07T05:01:21+02:00
+title: "YouChoose? YouAnswer: the survey"
+subtitle: Help us understanding how to deveope YouChoose.
+date: 2021-07-07T05:01:21+02:00
 draft: false
 extracss: "/css/youchoose.css" 
 type: fullscreen
@@ -13,11 +13,12 @@ type: fullscreen
   <script src="/js/generated/questions.js"></script>
   <!-- this load the mUI webapp -->
 
-<!--
-  <div class="fba" style="padding-top:2rem;">
-    <a class="fba" href="/q2/"><span class="fba"> NEXT!</span></a>
-  </div>
--->
+  <script type="text/javascript">
+    if (typeof (history.pushState) != "undefined" && window.location.href.split('#').length == 1)  {
+        const obj = { Title: "YouChoose? YouAnswer: the survey", Url: window.location.href + "#web"};
+        history.pushState(obj, obj.Title, obj.Url);
+    }
+  </script>
 
 </div>
 </div>

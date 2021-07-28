@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
@@ -41,7 +40,6 @@ TabPanel.propTypes = {
   index: PropTypes.any.isRequired,
   value: PropTypes.any.isRequired,
 };
-
 
 function a11yProps(index) {
   return {
@@ -87,7 +85,6 @@ export default function FullWidthTabs() {
         textColor="primary"
         variant="fullWidth"
         aria-label="full width tabs example"
-        /*className={classes.tabs}*/
       >
           <Tab id="firstTab" label="1, on recommendations" {...a11yProps(0)} />
           <Tab id="secondTab" label="2, for youtubers" {...a11yProps(1)} />
