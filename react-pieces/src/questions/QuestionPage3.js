@@ -1,10 +1,20 @@
+import _ from 'lodash';
+
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
 import {withStyles, makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import Slider from '@material-ui/core/Slider';
-import FinalButtons from './FinalButtons';
+import Button from '@material-ui/core/Button';
+
+function clickOn(e) {
+  const tid = e.currentTarget.getAttribute('target-id');
+  e.preventDefault();
+  document.getElementById(tid).click();
+  document.getElementById(tid).scrollIntoView();
+}
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -71,53 +81,78 @@ export default function QuestionPage3() {
     <FormControl component="fieldset">
 
     <h3 className="titlehp pink">
-     To allow content-creators to select their own recommendations, there are two systems we could build. 
-     The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly. 
-     The second is to create a <b> dedicated dashboard, </b> where content creators can log in to select their recommendations.
+    One of the mission of our project is to make the Youtube's algorithm more accountable.
+    That's why we decided to develop a <b> Shadow-ban tester </b>  
+    to better understand this kind of hidden punishment and to reveal it.
     </h3>
 
-    <div className="row entry">
-      <h3 className="mb-2 "></h3>
-        <div className="col-sm-8">
-          <figure>
-            <img width="100%" src="/images/recommendedvideos.jpg" />
-          </figure>
-        </div>
-      <div className="col-sm-4 position-relative">
-        <p className="mt-4 mb-4">
-          Videos on the right side of the screen are the 'reccomended videos'.
-        </p>
-      </div>
-    </div>
-
-<div className={classes.root}>
-    <h3 className={classes.h2}>3.1 How much do you like the idea of having a personal dashboard?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="3.1"/>
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.1 Do you know what shadow-ban is?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="41"/>
       <div className={classes.margin} />
     </div>
 
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.2 How much are you scared to be shadow-banned?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="42" />
+      <div className={classes.margin} />
+    </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.2 How much  do you like the idea of using the video description to declare which videos will be recommended to your audience?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="3.2"/>
+    <h3 className={classes.h2}>4.3 How much are you interested in a shadow-ban tester?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="43" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.3 Do you have any thoughts about how the content creator interface could be developed to answer your needs? </h3>  
+    <h3 className={classes.h2}>4.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
       <TextField
-        id="3.3"
+        id="44"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
         color='secondary'
-        label="Write them down here:"
+        label="Could you list their channel here please?"
         variant="filled"
       />
     </div>
 
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>4.5-B What are the evidences that you / other youtubers provided about the cases? </h3>  
+      <TextField
+        id="45B"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.6 How much are you interested in a shadow-ban tester?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="46"/>
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>4.7 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
+    How much do you think your audience will beinterested in help? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="47"/>
+      <div className={classes.margin} />
+    </div>
+
+    <div>
+    <br />
+    <br />
+     <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-3">
+      Next
+     </Button>  
+     </div>
+
     </FormControl>
-    <FinalButtons from={3} />
+
 	  </div> 
-	  );
+	  )
 	}

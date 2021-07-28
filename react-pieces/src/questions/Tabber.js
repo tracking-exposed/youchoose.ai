@@ -7,6 +7,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { shadows } from '@material-ui/system';
 
 import sendData from './PaginatedSubmit';
 import QuestionPage1 from './QuestionPage1';
@@ -27,7 +28,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box p={5}>
+        <Box p={5} boxShadow={100} >
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -77,20 +78,22 @@ export default function FullWidthTabs() {
 
   return (
     <div className={classes.root}>
-    <AppBar position="absolute" color="default">
+    <AppBar position="absolute" color="transparent">
       <Tabs
         value={value}
         onChange={handleChange}
         indicatorColor="secondary"
         textColor="primary"
-        variant="fullWidth"
+        variant="standard"
         aria-label="full width tabs example"
+        centered
       >
-          <Tab id="firstTab" label="1, on recommendations" {...a11yProps(0)} />
-          <Tab id="secondTab" label="2, for youtubers" {...a11yProps(1)} />
-          <Tab id="thirdTab" label="3, to understand more" {...a11yProps(2)} />
-          <Tab id="fourthTab" label="4, on shadowban" {...a11yProps(3)} />
-          <Tab id="fifthTab" label="5, to finish" {...a11yProps(4)} />
+          <Tab id="firstTab" label="1" {...a11yProps(0)} />
+          <Tab id="secondTab" label="2" {...a11yProps(1)} />
+          <Tab id="thirdtab" label="3" {...a11yProps(2)} />
+          <Tab id="fourthTab" label="4" {...a11yProps(3)} />
+          <Tab id="fifthTab" label="5" {...a11yProps(4)} />
+      
       </Tabs>
     </AppBar>
     <SwipeableViews
@@ -103,6 +106,7 @@ export default function FullWidthTabs() {
        <TabPanel value={value} index={2} dir={'ltr' /* theme.direction */}><QuestionPage3 /></TabPanel>
        <TabPanel value={value} index={3} dir={'ltr' /* theme.direction */}><QuestionPage4 /></TabPanel>
        <TabPanel value={value} index={4} dir={'ltr' /* theme.direction */}><QuestionPage5 /></TabPanel>
+    
     </SwipeableViews>
     </div>
   );

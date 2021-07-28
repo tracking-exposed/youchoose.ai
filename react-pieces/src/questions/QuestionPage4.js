@@ -3,10 +3,21 @@ import _ from 'lodash';
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
-import {withStyles, makeStyles} from '@material-ui/core/styles';
+import { makeStyles} from '@material-ui/core/styles';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
-import Slider from '@material-ui/core/Slider';
-import FinalButtons from './FinalButtons';
+import Button from '@material-ui/core/Button';
+
+function clickOn(e) {
+  const tid = e.currentTarget.getAttribute('target-id');
+  e.preventDefault();
+  document.getElementById(tid).click();
+  document.getElementById(tid).scrollIntoView();
+}
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,47 +34,6 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const marks = [
-  {
-    value: 0,
-    label: 'Not at all',
-  },
-  {
-    value: 100,
-    label: 'Completly',
-  },
-];
-
-const PrettoSlider = withStyles({
-  root: {
-    color: '#e33180',
-    height: 8,
-  },
-  thumb: {
-    height: 24,
-    width: 24,
-    backgroundColor: '#fff',
-    border: '2px solid currentColor',
-    marginTop: -8,
-    marginLeft: -12,
-    '&:focus, &:hover, &$active': {
-      boxShadow: 'inherit',
-    },
-  },
-  active: {},
-  valueLabel: {
-    left: 'calc(-50% + 4px)',
-  },
-  track: {
-    height: 8,
-    borderRadius: 4,
-  },
-  rail: {
-    height: 8,
-    borderRadius: 4,
-  },
-})(Slider);
-
 export default function QuestionPage4() {
 
   const classes = useStyles();
@@ -73,70 +43,52 @@ export default function QuestionPage4() {
     <FormControl component="fieldset">
 
     <h3 className="titlehp pink">
-    One of the mission of our project is to make the Youtube's algorithm more accountable.
-    That's why we decided to develop a <b> Shadow-ban tester </b>  
-    to better understand this kind of hidden punishment and to reveal it.
+     Last but not least: if you have any other suggestions you can write them here.
+     If you wants to stay updated leave us a contact.
     </h3>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>4.1 Do you know what shadow-ban is?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="4.1"/>
-      <div className={classes.margin} />
-    </div>
-
-    <div className={classes.root}>
-    <h3 className={classes.h2}>4.2 How much are you scared to be shadow-banned?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="4.2" />
-      <div className={classes.margin} />
-    </div>
-
-    <div className={classes.root}>
-    <h3 className={classes.h2}>4.3 How much are you interested in a shadow-ban tester?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="4.3" />
-      <div className={classes.margin} />
-    </div>
-
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
+    <h3 className={classes.h2}>5.1 If you have any suggestions or advice... </h3>  
       <TextField
-        id="4.4"
+        id="51"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
         color='secondary'
-        label="Could you list their channel here please?"
+        label="Write them here:"
         variant="filled"
       />
     </div>
 
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.5 What are the evidences that you / other youtubers provided about the cases? </h3>  
+<div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>5.2 f you are interested in the project, leave here your email, we will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
       <TextField
-        id="standard-secondary"
+        id="52"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
         color='secondary'
-        label="Make some example here:"
+        label="Write it here:"
         variant="filled"
       />
     </div>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>4.6 How much are you interested in a shadow-ban tester?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
-      <div className={classes.margin} />
+    <h3 className={classes.h2}>5.3 Tell us if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
+      <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
+        <FormControlLabel id="53" value="1" control={<Radio />} label="Yes, you can contact me for an interview" />
+        <FormControlLabel id="53" value="2" control={<Radio />} label="No thanks." />
+      </RadioGroup>
+
+    <div>
+    <br />
+    <br />
+    <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-4">
+      Submit!
+    </Button>   
     </div>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>4.7 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
-    How much do you think your audience will beinterested in help? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} />
-      <div className={classes.margin} />
-    </div>
 
     </FormControl>
-    <FinalButtons from={4}/>
 	  </div> 
 	  )
 	}
