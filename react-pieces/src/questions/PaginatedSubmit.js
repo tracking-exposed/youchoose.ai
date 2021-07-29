@@ -17,7 +17,7 @@ export default function sendData() {
   const slidersColl = _.map($('[role="slider"]'), function(slider, sliderOrder) {
     return {
       value: slider.getAttribute('aria-valuenow'),
-      id: slider.id,
+      id: slider.parentElement.id,
       sliderOrder,
     };
   });
