@@ -87,27 +87,27 @@ export default function QuestionPage3() {
     </h3>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>4.1 Do you know what shadow-ban is?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="41"/>
+    <h3 className={classes.h2}>3.1 Do you know what shadow-ban is?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="31"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>4.2 How much are you scared to be shadow-banned?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="42" />
+    <h3 className={classes.h2}>3.2 How much are you scared to be shadow-banned?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="32" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>4.3 How much are you interested in a shadow-ban tester?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="43" />
+    <h3 className={classes.h2}>3.3 How much are you interested in a shadow-ban tester?</h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="33" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
+    <h3 className={classes.h2}>3.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
       <TextField
-        id="44"
+        id="34"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -118,9 +118,9 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.5-B What are the evidences that you / other youtubers provided about the cases? </h3>  
+    <h3 className={classes.h2}>3.5 What are the evidences that you / other youtubers provided about the cases? </h3>  
       <TextField
-        id="45B"
+        id="35"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -131,25 +131,19 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>4.6 How much are you interested in a shadow-ban tester?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="46"/>
-      <div className={classes.margin} />
-    </div>
-
-    <div className={classes.root}>
-    <h3 className={classes.h2}>4.7 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
+    <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
     How much do you think your audience will beinterested in help? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="47"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="36"/>
       <div className={classes.margin} />
     </div>
 
     <div>
-    <br />
-    <br />
-     <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-3">
-      Next
-     </Button>  
-     </div>
+      <br />
+      <br />
+      <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-3">
+        Next
+      </Button>  
+    </div>
 
     </FormControl>
 

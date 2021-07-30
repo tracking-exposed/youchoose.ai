@@ -4,7 +4,7 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
 import { makeStyles} from '@material-ui/core/styles';
-import Radio from '@material-ui/core/Radio';
+import Checkbox from '@material-ui/core/Checkbox';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
@@ -48,9 +48,9 @@ export default function QuestionPage4() {
     </h3>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>5.1 If you have any suggestions or advice... </h3>  
+    <h3 className={classes.h2}>4.1 If you have any suggestions or advice... </h3>  
       <TextField
-        id="51"
+        id="41"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -61,9 +61,9 @@ export default function QuestionPage4() {
     </div>
 
 <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>5.2 f you are interested in the project, leave here your email, we will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
+    <h3 className={classes.h2}>4.2 If you are interested in the project, leave here your email, we will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
       <TextField
-        id="52"
+        id="42"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -73,10 +73,9 @@ export default function QuestionPage4() {
       />
     </div>
 
-    <h3 className={classes.h2}>5.3 Tell us if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
+    <h3 className={classes.h2}>4.3 Tell us if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
       <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
-        <FormControlLabel id="53" value="1" control={<Radio />} label="Yes, you can contact me for an interview" />
-        <FormControlLabel id="53" value="2" control={<Radio />} label="No thanks." />
+        <FormControlLabel id="43" value="yes" control={<Checkbox />} label="Yes, you can contact me for an interview" />
       </RadioGroup>
 
     <div>
