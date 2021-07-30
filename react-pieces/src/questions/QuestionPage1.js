@@ -115,9 +115,9 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.2-B What do you understand about the algorithm's logics?</h3>  
+    <h3 className={classes.h2}>1.3 What do you understand about the algorithm's logics?</h3>  
       <TextField
-        id="12B"
+        id="13"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -128,34 +128,15 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.3 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="13"/>
-      <div className={classes.margin} />
-    </div>
-
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.3-B Which strategies you use to influence the algorithm?</h3>  
-      <TextField
-        id="13B"
-        style={{ margin: 10 }}
-        fullWidth
-        margin="normal"
-        color='secondary'
-        label="Make some example here:"
-        variant="filled"
-      />
-    </div>
-
-    <div className={classes.root}>
-    <h3 className={classes.h2}>1.4 How much is the algorithm desciminating you as a youtuber? </h3>  
+    <h3 className={classes.h2}>1.4 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="14"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.4-B If you have been penalized by the algorithm, tell use how and how you find it out.</h3>  
+    <h3 className={classes.h2}>1.5 Which strategies you use to influence the algorithm?</h3>  
       <TextField
-        id="14B"
+        id="15"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -166,15 +147,34 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.5 Do you know what shadow-banning is? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="15" />
+    <h3 className={classes.h2}>1.6 How much is the algorithm desciminating you as a youtuber? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="16"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.5-B Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
+    <h3 className={classes.h2}>1.7 If you have been penalized by the algorithm, tell use how and how you find it out.</h3>  
       <TextField
-        id="15B"
+        id="17"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.8 Do you know what shadow-banning is? </h3>  
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="18" />
+      <div className={classes.margin} />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.9 Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
+      <TextField
+        id="19"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -185,13 +185,12 @@ export default function QuestionPage1() {
     </div>
 
     <div>
-    <br />
-    <br />
-    <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-1">
-      Next
-    </Button>   
+      <br />
+      <br />
+      <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-1">
+        Next
+      </Button>   
     </div>
-
 
     </FormControl>
   </div>  
