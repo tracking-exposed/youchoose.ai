@@ -25,6 +25,7 @@ console.log('NODE_ENV [' + process.env.NODE_ENV + '] Prod:', PRODUCTION, 'Devel:
 const PATHS = {
     APPS: {
         questions: path.resolve(__dirname, 'src/questions/index.js'),
+        answers: path.resolve(__dirname, 'src/answers/index.js'),
     },
     BUILD: path.resolve(__dirname, '..', 'static', 'js', 'generated'),
     NODE_MODULES: path.resolve(__dirname, 'node_modules')
