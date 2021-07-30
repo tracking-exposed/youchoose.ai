@@ -1,17 +1,13 @@
-import moment from 'moment';
 import React from 'react';
 
 import { Card } from '@material-ui/core';
 import { Alert, AlertTitle } from '@material-ui/lab';
 import FormHelperText from '@material-ui/core/FormHelperText';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 
 import Contribute from './Contribute';
 
 const styles = {
-  width: '400px',
+  width: '1300px',
 };
 
 class Answers extends React.Component{
@@ -56,25 +52,12 @@ class Answers extends React.Component{
       );
     }
     
-    const items = []
-
-    for (const answer of this.state.data) {
-      // sevid.id it is a list temporarly ignored, maybe usable in advanced searches
-      console.log(answer);
-      items.push(<Contribute {...answer} />);
-      items.push(<Divider variant="inset" component="li" />);
-    }
-
     return (
       <div style={styles}>
-        <Card>
-          <FormHelperText>
-            Recent Answers received
-          </FormHelperText>
-          <List>
-            {items}
-          </List>
-        </Card>
+        <FormHelperText>
+          Recent Answers received
+        </FormHelperText>
+        <Contribute data={this.state.data} />
       </div>
     );
   }
