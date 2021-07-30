@@ -41,6 +41,7 @@ function buildCSVlinks(subject) {
 
 function main () {
     const key = window.location.hash ? window.location.hash.substr(1) : "";
+    const JSONurl = buildCSVlinks('retrieveAnswers/' + key);
     if(!key.length) {
         ReactDOM.render(
             <ThemeProvider theme={theme}>
@@ -57,7 +58,7 @@ function main () {
                     </a>
                     <hr />
                 </h4>
-                <Answers pkey={key}/>
+                <Answers pkey={key} url={JSONurl}/>
             </ThemeProvider>, document.getElementById('main')
         );
     }

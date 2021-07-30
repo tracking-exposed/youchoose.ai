@@ -14,22 +14,6 @@ const styles = {
   width: '400px',
 };
 
-const LOCALHOST_SERVER = 'http://localhost:10000';
-
-function getSearchPatterns(paging) {
-  if (paging) console.log("remember the paging is disabled");
-  if (window.location.origin.match(/localhost/))
-    return `${LOCALHOST_SERVER}/api/v2/search/keywords/`;
-  return `/api/v2/search/keywords/`;
-}
-
-function getSearchesResults(term, paging) {
-  if (paging) console.log("remember the paging is disabled");
-  if (window.location.origin.match(/localhost/))
-    return `${LOCALHOST_SERVER}/api/v2/searches/${term}/`;
-  return `/api/v2/searches/${term}/`;
-}
-
 class Answers extends React.Component{
 
   constructor (props) {
@@ -38,8 +22,7 @@ class Answers extends React.Component{
   }
 
   componentDidMount () {
-    const url = getSearchPatterns();
-    fetch(url, { mode: 'cors' })
+    fetch(this.props.url, { mode: 'cors' })
       .then(resp => resp.json())
       .then(data => this.setState({status: 'done', data }));
   }
@@ -65,24 +48,20 @@ class Answers extends React.Component{
       );
     }
 
-    const selist = _.get(this.state.data, 'selist');
-
-    if(!(this.state.data && selist && selist.length > 1 )) {
+    if(!(this.state.data && this.state.data.length)) {
       return (
         <div style={styles}>
-          <Card>
-            <h3>Altought connection with server worked, no data seems available, <a href="https://www.youtube.com/watch?v=bs2u4NLaxbI">wtf</a>.</h3>
-          </Card>
+          <h3>Altought connection with server worked, no data seems available, <a href="https://www.youtube.com/watch?v=bs2u4NLaxbI">wtf</a>.</h3>
         </div>
       );
     }
     
     const items = []
 
-    for (const sevid of selist ) {
+    for (const answer of this.state.data) {
       // sevid.id it is a list temporarly ignored, maybe usable in advanced searches
-      console.log(sevid);
-      items.push(<Contribute {...sevid} />);
+      console.log(answer);
+      items.push(<Contribute {...answer} />);
       items.push(<Divider variant="inset" component="li" />);
     }
 
@@ -90,7 +69,7 @@ class Answers extends React.Component{
       <div style={styles}>
         <Card>
           <FormHelperText>
-            Recent Searches returned
+            Recent Answers received
           </FormHelperText>
           <List>
             {items}

@@ -13,6 +13,7 @@ class Contribute extends React.Component{
 
   render () {
 
+    console.log(this.props);
     const term = this.props.term;
     const amount = this.props.amount;
     const totalVideos = this.props.totalVideos;
@@ -26,6 +27,7 @@ class Contribute extends React.Component{
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary={term} secondary={S} />
+        <pre>{JSON.stringify(this.props)}</pre>
       </ListItem>
     );
   }
