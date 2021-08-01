@@ -129,13 +129,13 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.4 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
+    <h3 className={classes.h2}>1.4 How much can you control the videos reccomended to you by the algorithm?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="14"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.5 Which strategies you use to influence the algorithm?</h3>  
+    <h3 className={classes.h2}>1.5 Which strategies you use to influence the algorithm? (e.g. liking channels, subscribing...)</h3>  
       <TextField
         id="15"
         style={{ margin: 10 }}
@@ -148,13 +148,13 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.6 How much is the algorithm desciminating you as a youtuber? </h3>  
+    <h3 className={classes.h2}>1.6 How much is the algorithm bringing you to videos you don't like? </h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="16"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.7 If you have been penalized by the algorithm, tell us how and how you find it out.</h3>  
+    <h3 className={classes.h2}>1.7 If you have been recommended strange/bad/harmful videos by the algorithm, tell us more about that.</h3>  
       <TextField
         id="17"
         style={{ margin: 10 }}

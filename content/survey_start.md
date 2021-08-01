@@ -16,7 +16,7 @@ type: fullscreen
    >_ Youchoose
   </h1>
   <h3 class ="titlehp" style ="padding-top:1rem;">
-   is a open and free tool to enable Youtubers to suggest videos to their audience.
+   is a open and free tool enabling Youtubers to suggest videos to their audience.
   </h3>
 </div>
 
@@ -35,11 +35,11 @@ type: fullscreen
 </div>
 
 <div class="fba" style="padding-top:2rem;">
-  <a class="fba" href="/surveycc"><span class="fba">Youtubers</span></a>
+  <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
 </div>
 
 <div class="fba" style="padding-top:2rem;">
-  <a class="fba" href="/surveyus"><span class="fba">Users</span></a>
+  <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
 </div>
 
 
