@@ -45,7 +45,7 @@ const marks = [
 const PrettoSlider = withStyles({
   root: {
     color: '#e33180',
-    height: 8,
+    height: 20,
   },
   thumb: {
     height: 24,
@@ -88,19 +88,19 @@ export default function QuestionPage3() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.1 Do you know what shadow-ban is?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="31"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="31"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.2 How much are you scared to be shadow-banned?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="32" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="32" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.3 How much are you interested in a shadow-ban tester?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="33" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="33" />
       <div className={classes.margin} />
     </div>
 
@@ -133,7 +133,7 @@ export default function QuestionPage3() {
     <div className={classes.root}>
     <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
     How much do you think your audience will beinterested in help? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="36"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="36"/>
       <div className={classes.margin} />
     </div>
 

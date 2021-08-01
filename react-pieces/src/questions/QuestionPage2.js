@@ -43,7 +43,7 @@ const marks = [
 const PrettoSlider = withStyles({
   root: {
     color: '#e33180',
-    height: 8,
+    height: 20,
   },
   thumb: {
     height: 24,
@@ -83,12 +83,23 @@ export default function QuestionPage2() {
      We want to enable Youtubers in suggesting videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the contents they upload.
     </h3>
 
-    <iframe  width="100%" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCCHrDXWJ167PV5AnjpmTRa%2Ftabs%3Fnode-id%3D30%253A3619%26scaling%3Ddown-to-fit" allowfullscreen></iframe>
-
+    <div className="row entry">
+      <h3 className="mb-2 "></h3>
+        <div className="col-sm-8">
+          <figure>
+            <img width="100%" src="/images/youchoose_recommendations.svg" />
+          </figure>
+        </div>
+      <div className="col-sm-4 position-relative">
+        <p className="mt-4 mb-4">
+        This is what your audience will see with Youchoose: on youru videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos you choose for them.
+        </p>
+      </div>
+    </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.1 How much do you think this software could be useful for you? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="21" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="21" />
       <div className={classes.margin} />
     </div>
 
@@ -107,7 +118,7 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.3 How much do you think this could be interesting for your audience?</h3>
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="23"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="23"/>
       <div className={classes.margin} />
     </div>
 
@@ -127,7 +138,7 @@ export default function QuestionPage2() {
 
     <h3 className="titlehp pink">
      To allow content-creators to select their own recommendations, there are two systems we could build. 
-     The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly. 
+     The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly.
      The second is to create a <b> dedicated dashboard, </b> where content creators can log in to select their recommendations.
     </h3>
 
@@ -138,18 +149,25 @@ export default function QuestionPage2() {
             <img width="100%" src="/images/youchoose_dashboard.png" />
           </figure>
         </div>
+      <div className="col-sm-4 position-relative">
+        <p className="mt-4 mb-4">
+          This is an example of the youtubers' dashboard. Here you can choose which videos to suggest to your audience.
+        </p>
+      </div>
     </div>
+
+
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.5 How much do you like the idea of having a personal dashboard?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="25"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="25"/>
       <div className={classes.margin} />
     </div>
 
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.6 How much  do you like the idea of using the video description to declare which videos will be recommended to your audience?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="26"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="26"/>
       <div className={classes.margin} />
     </div>
 
@@ -179,3 +197,5 @@ export default function QuestionPage2() {
 	</div> 
   );
 }
+
+/*  to add the IFRATE:   <iframe  width="100%" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCCHrDXWJ167PV5AnjpmTRa%2Ftabs%3Fnode-id%3D30%253A3619%26scaling%3Ddown-to-fit" allowfullscreen></iframe>  */

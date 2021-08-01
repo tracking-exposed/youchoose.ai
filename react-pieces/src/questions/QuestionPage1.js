@@ -43,7 +43,7 @@ const marks = [
 const PrettoSlider = withStyles({
   root: {
     color: '#e33180',
-    height: 8,
+    height: 20,
   },
   thumb: {
     height: 24,
@@ -83,7 +83,7 @@ export default function QuestionPage1() {
     <br />
 
     <h3 className="titlehp pink">
-      What do you think of the videos reccomended by Youtube's algorithm?
+      Your opinion about the videos reccomended by Youtube's algorithm?
     </h3>
 
     <div className="row entry">
@@ -95,7 +95,7 @@ export default function QuestionPage1() {
         </div>
       <div className="col-sm-4 position-relative">
         <p className="mt-4 mb-4">
-          Videos on the right side of the screen are the 'reccomended videos'.
+          The videos listed in the right part of the image are examples of algirithmic recommendations.
         </p>
       </div>
     </div>
@@ -104,13 +104,13 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.1 Are these algorithmic suggestions useful for you as a users?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="11" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="11" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.2 How much do you understand how this algorithm works?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="12" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="12" />
       <div className={classes.margin} />
     </div>
 
@@ -129,7 +129,7 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.4 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="14"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="14"/>
       <div className={classes.margin} />
     </div>
 
@@ -148,7 +148,7 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.6 How much is the algorithm desciminating you as a youtuber? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="16"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="16"/>
       <div className={classes.margin} />
     </div>
 
@@ -167,7 +167,7 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.8 Do you know what shadow-banning is? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={50} marks={marks} id="18" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="18" />
       <div className={classes.margin} />
     </div>
 
