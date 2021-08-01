@@ -42,7 +42,7 @@ extracss: "/css/youchoose.css"
 
 <div><h1 class ="titlehp">>_ Fill up the 4 minutes to help us build the ideal tool for you:</h1></div>
 <div class="fba" style="padding-top:2rem;">
-  <a class="fba" href="/survey"><span class="fba">SURVEY!</span></a>
+  <a class="fba" href="/surveystart"><span class="fba">SURVEY!</span></a>
 </div>
 <div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">

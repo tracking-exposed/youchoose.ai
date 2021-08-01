@@ -83,7 +83,7 @@ export default function QuestionPage1() {
     <br />
 
     <h3 className="titlehp pink">
-      Your opinion about the videos reccomended by Youtube's algorithm?
+      Your opinion about the videos reccomended by Youtube's algorithm.
     </h3>
 
     <div className="row entry">

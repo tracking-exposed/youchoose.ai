@@ -92,7 +92,7 @@ export default function QuestionPage2() {
         </div>
       <div className="col-sm-4 position-relative">
         <p className="mt-4 mb-4">
-        This is what your audience will see with Youchoose: on youru videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos you choose for them.
+        This is what your audience will see with Youchoose: on your videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos and external links you choose for them.
         </p>
       </div>
     </div>
@@ -137,8 +137,8 @@ export default function QuestionPage2() {
 
 
     <h3 className="titlehp pink">
-     To allow content-creators to select their own recommendations, there are two systems we could build. 
-     The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly.
+     To allow content-creators to select their own recommendations, there are two systems we could build. <br></br>
+     The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly.<br></br>
      The second is to create a <b> dedicated dashboard, </b> where content creators can log in to select their recommendations.
     </h3>
 
