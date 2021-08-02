@@ -84,56 +84,31 @@ export default function QuestionPage3() {
     <br></br>
     One of the mission of our project is to make the Youtube's algorithm more accountable.
     That's why we decided to develop a <b> Shadow-ban tester </b>  
-    to better understand this kind of hidden punishment and to reveal it.
+    to better understand this kind of hidden punishment and to reveal it. <br></br>
+    Shadow-ban is when a video is accessible on the platform, but no one gets those videos as recommendations and the number of visualizations drops drastically.
     </h3>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.1 Do you know what shadow-ban is?</h3>  
+    <h3 className={classes.h2}>3.1 How much are you aware of this type of censorship?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="31"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.2 How much are you scared to be shadow-banned?</h3>  
+    <h3 className={classes.h2}>3.2 How much do you want to help fighting this phenomena?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="32" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.3 How much are you interested in a shadow-ban tester?</h3>  
+    <h3 className={classes.h2}>3.3 How much are you interested in contribute to develop a shadow-ban tester?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="33" />
       <div className={classes.margin} />
     </div>
-
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
-      <TextField
-        id="34"
-        style={{ margin: 10 }}
-        fullWidth
-        margin="normal"
-        color='secondary'
-        label="Could you list their channel here please?"
-        variant="filled"
-      />
-    </div>
-
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.5 What are the evidences that you / other youtubers provided about the cases? </h3>  
-      <TextField
-        id="35"
-        style={{ margin: 10 }}
-        fullWidth
-        margin="normal"
-        color='secondary'
-        label="Make some example here:"
-        variant="filled"
-      />
-    </div>
-
+   
     <div className={classes.root}>
     <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
-    How much do you think your audience will beinterested in help? </h3>  
+    How much are you interested in help collecting evidedences with an automatized browser extension? </h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="36"/>
       <div className={classes.margin} />
     </div>

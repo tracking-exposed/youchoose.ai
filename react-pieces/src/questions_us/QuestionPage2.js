@@ -95,19 +95,19 @@ export default function QuestionPage2() {
         </div>
       <div className="col-sm-4 position-relative">
         <p className="mt-4 mb-4">
-        This is what your audience will see with Youchoose: on your videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos and external links you choose for them.
+        This is what users will see with Youchoose: when watchin videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos and the external links youtubers choose for you.
         </p>
       </div>
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.1 How much do you think this software could be useful for you? </h3>  
+    <h3 className={classes.h2}>2.1 What do you think of having videos recommendations made by Youtubers instead of having algorithm choosing for you?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="21" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.2 Tell us why. </h3>
+    <h3 className={classes.h2}>2.2What type of videos or external link would you like to get as suggestion made by youtubers? (e.g. wikipedia links, other videos from the same channel, scientific sources... ) </h3>
       <TextField
         id="22"
         style={{ margin: 10 }}
@@ -120,63 +120,27 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.3 How much do you think this could be interesting for your audience?</h3>
+    <h3 className={classes.h2}>2.3 Would you like to have youtubers' recommendations also on the homepage?</h3>
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="23"/>
       <div className={classes.margin} />
     </div>
 
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.4 Tell us why. </h3>  
-      <TextField
-        id="24"
-        style={{ margin: 10 }}
-        fullWidth
-        margin="normal"
-        color='secondary'
-        label="Make some example here:"
-        variant="filled"
-      />
-    </div>
-
-
-    <h3 className=" pink">
-    <br></br>
-     To allow content-creators to select their own recommendations, there are two systems we could build. <br></br>
-     The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly.<br></br>
-     The second is to create a <b> dedicated dashboard, </b> where content creators can log in to select their recommendations.
-    </h3>
-
-    <div className="row entry">
-      <h3 className="mb-2 "></h3>
-        <div className="col-sm-8">
-          <figure>
-            <img width="100%" src="/images/youchoose_dashboard.png" />
-          </figure>
-        </div>
-      <div className="col-sm-4 position-relative">
-        <p className="mt-4 mb-4">
-          This is an example of the youtubers' dashboard. Here you can choose which videos to suggest to your audience.
-        </p>
-      </div>
-    </div>
-
-
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.5 How much do you like the idea of having a personal dashboard?</h3>  
+    <h3 className={classes.h2}>2.4 Would you like to have also youtubers' recommendations on the homepage?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="25"/>
       <div className={classes.margin} />
     </div>
 
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.6 How much  do you like the idea of using the video description to declare which videos will be recommended to your audience?</h3>  
+    <h3 className={classes.h2}>2.5 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g. Reddit, Twitter or Facebook)?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="26"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.7 Do you have any thoughts about how the content creator interface could be developed to answer your needs? </h3>  
+    <h3 className={classes.h2}>2.7 Do you have any thoughts you want to share with us? </h3>  
       <TextField
         id="27"
         style={{ margin: 10 }}

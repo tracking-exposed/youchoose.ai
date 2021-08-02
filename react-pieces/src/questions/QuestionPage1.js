@@ -166,6 +166,21 @@ export default function QuestionPage1() {
       />
     </div>
 
+    <div>
+      <br />
+      <br />
+      <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-1">
+        Next
+      </Button>   
+    </div>
+
+    </FormControl>
+  </div>  
+  );
+}
+
+
+/* questions removed
     <div className={classes.root}>
     <h3 className={classes.h2}>1.8 Do you know what shadow-banning is? </h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="18" />
@@ -184,16 +199,4 @@ export default function QuestionPage1() {
         variant="filled"
       />
     </div>
-
-    <div>
-      <br />
-      <br />
-      <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-1">
-        Next
-      </Button>   
-    </div>
-
-    </FormControl>
-  </div>  
-  );
-}
+    */
