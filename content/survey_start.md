@@ -15,22 +15,31 @@ type: fullscreen
   <h1 class ="titlehp pink" style ="padding-top:1rem;">
    >_ Youchoose
   </h1>
-  <h3 class ="titlehp" style ="padding-top:1rem;">
-   is a open and free tool enabling Youtubers to suggest videos to their audience.
+  <h3 class ="titlehp " style ="padding-top:1rem;">
+   <b> is a open and free tool enabling Youtubers to suggest videos to their audience. </b>
   </h3>
 </div>
 
-</br>
-</br>
-</br>
+<div>
+ <h3>
+ Dear participant, <br>
+ We are happy you decided to take part in this project participating to the development of this technology since the very beginning. <br><br>
+ This survey will be divided in two part: <br> 
+ 1) we will ask your opinion about Youtube's algorithm <br>
+ 2) we will ask your opinion on Youchoose project's idea <br> <br>
+Giving us your contact is not mandatory. Your data will be anonimized and used aggregated. If you start the survey, you accept the threamtmeant of your answers.
+ </h3>
+</div>
+
+</br></br></br>
 
 <div>
- <h2>
-  To help us build the ideal tool for you, please fill up the 4 minutes SURVEY. 
- </h2>
  <h3>
-  <li> Choose "Youtubers" if you create contents on Youtube. </li> 
-  <li> Choose "Users" if you watch videos on Youtube. </li>
+  <b> To help us build the ideal tool for you, please fill up the 4 minutes SURVEY.</b> 
+ </h3>
+ <h3>
+ Choose "Youtubers" if you create contents on Youtube. <br>
+ Choose "Users" if you watch videos on Youtube. <br>
  </h3>
 </div>
 
