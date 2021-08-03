@@ -120,27 +120,20 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.3 Would you like to have youtubers' recommendations also on the homepage?</h3>
+    <h3 className={classes.h2}>2.3 Would you like to also have some recommendations from YouTubers on the homepage?</h3>
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="23"/>
       <div className={classes.margin} />
     </div>
 
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.4 Would you like to have also youtubers' recommendations on the homepage?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="25"/>
-      <div className={classes.margin} />
-    </div>
-
-
-    <div className={classes.root}>
-    <h3 className={classes.h2}>2.5 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g. Reddit, Twitter or Facebook)?</h3>  
+    <h3 className={classes.h2}>2.4 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g. Reddit, Twitter or Facebook)?</h3>
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="26"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.7 Do you have any thoughts you want to share with us? </h3>  
+    <h3 className={classes.h2}>2.5 Do you have any thoughts you want to share with us? </h3>
       <TextField
         id="27"
         style={{ margin: 10 }}

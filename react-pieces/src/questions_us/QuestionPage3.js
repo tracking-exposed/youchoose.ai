@@ -108,7 +108,7 @@ export default function QuestionPage3() {
    
     <div className={classes.root}>
     <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
-    How much are you interested in help collecting evidedences with an automatized browser extension? </h3>  
+    How much are you interested in help collecting evidence with an automatized browser extension? </h3>
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="36"/>
       <div className={classes.margin} />
     </div>

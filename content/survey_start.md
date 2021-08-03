@@ -16,7 +16,7 @@ type: fullscreen
    >_ Youchoose
   </h1>
   <h3 class ="titlehp " style ="padding-top:1rem;">
-   <b> is a open and free tool enabling Youtubers to suggest videos to their audience. </b>
+   <b> is a open and free tool enabling YouTubers to suggest videos to their audience. </b>
   </h3>
 </div>
 
@@ -26,8 +26,8 @@ type: fullscreen
  We are happy you decided to take part in this project participating to the development of this technology since the very beginning. <br><br>
  This survey will be divided in two part: <br> 
  1) we will ask your opinion about Youtube's algorithm <br>
- 2) we will ask your opinion on Youchoose project's idea <br> <br>
-Giving us your contact is not mandatory. Your data will be anonimized and used aggregated. If you start the survey, you accept the threamtmeant of your answers.
+ 2) we will ask your opinion on YouChoose project's idea <br> <br>
+Giving us your contact is not mandatory. Your data will be anonimized and used aggregated. If you start the survey, you accept the treatment of your answers.
  </h3>
 </div>
 
