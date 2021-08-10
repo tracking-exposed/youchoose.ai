@@ -62,7 +62,7 @@ export default function QuestionPage4() {
     </div>
 
 <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.2 If you are interested in the project, leave here your email, we will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
+    <h3 className={classes.h2}>4.2 If you are interested in the project, leave here your email. We will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
       <TextField
         id="42"
         style={{ margin: 10 }}
@@ -74,7 +74,7 @@ export default function QuestionPage4() {
       />
     </div>
 
-    <h3 className={classes.h2}>4.3 Tell us if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
+    <h3 className={classes.h2}>4.3 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
       <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel id="43" control={<Checkbox />} label="Yes, you can contact me for an interview" />
       </RadioGroup>

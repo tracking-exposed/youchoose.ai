@@ -171,7 +171,24 @@ export default function QuestionPage1() {
       />
     </div>
 
-    <h3 className={classes.h2}>1.8 Do you know what shadow-banning is?</h3>
+    <div>
+      <br />
+      <br />
+      <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-1">
+        Next
+      </Button>   
+    </div>
+
+    </FormControl>
+  </div>  
+  );
+}
+
+
+/* 
+moving this in the page 3
+
+<h3 className={classes.h2}>1.8 Do you know what shadow-banning is?</h3>
       <RadioGroup id="shadowban" aria-label="shadowban" name="shadowban1" >
         <FormControlLabel id="181" control={<Checkbox />} label="Yes" />
         <FormControlLabel id="182" control={<Checkbox />} label="No" />
@@ -192,15 +209,4 @@ export default function QuestionPage1() {
       />
     </div>
 
-    <div>
-      <br />
-      <br />
-      <Button variant='outlined' color='secondary' size="large" onClick={clickOn} target-id="full-width-tab-1">
-        Next
-      </Button>   
-    </div>
-
-    </FormControl>
-  </div>  
-  );
-}
+ */

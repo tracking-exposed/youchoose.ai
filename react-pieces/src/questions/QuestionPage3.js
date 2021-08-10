@@ -1,11 +1,14 @@
-import _ from 'lodash';
-
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
-
 import {withStyles, makeStyles} from '@material-ui/core/styles';
+import _ from 'lodash';
 import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+
+import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
+import Checkbox from '@material-ui/core/Checkbox';
+import RadioGroup from '@material-ui/core/RadioGroup';
+
 import Button from '@material-ui/core/Button';
 
 function clickOn(e) {
@@ -82,16 +85,17 @@ export default function QuestionPage3() {
 
     <h3 className="pink">
     <br></br>
-    One of the mission of our project is to make the Youtube's algorithm more accountable.
+    One of the missions of our project is to make Youtube's algorithm more accountable.
     That's why we decided to develop a <b> Shadow-ban tester </b>  
     to better understand this kind of hidden punishment and to reveal it.
     </h3>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>3.1 Do you know what shadow-ban is?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="31"/>
-      <div className={classes.margin} />
-    </div>
+    <h3 className={classes.h2}>3.1 Do you know what shadow-ban is? </h3>
+      <RadioGroup id="shadowban31" aria-label="shadowban" name="shadowbancc" >
+      <FormControlLabel id="311" control={<Checkbox />} label="Yes" />
+        <FormControlLabel id="312" control={<Checkbox />} label="No" />
+        <FormControlLabel id="313" control={<Checkbox />} label="I heard about it, but I do not really know what it is." />
+      </RadioGroup>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.2 How much are you scared to be shadow-banned?</h3>  
@@ -100,13 +104,13 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.3 How much are you interested in a shadow-ban tester?</h3>  
+    <h3 className={classes.h2}>3.3 How much are you interested in a tool that can measure the shadow-ban for a specific channel (shadow-ban tester)?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="33" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.4 Do you know any case of shadow-ban happened to you or other youtubers?</h3>  
+    <h3 className={classes.h2}>3.4 Do you know of any case of shadow-ban that happened to you or other Youtubers?</h3>  
       <TextField
         id="34"
         style={{ margin: 10 }}
@@ -119,7 +123,7 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.5 What are the evidences that you / other youtubers provided about the cases? </h3>  
+    <h3 className={classes.h2}>3.5 What is the evidence that you / other Youtubers provided about the cases? </h3>  
       <TextField
         id="35"
         style={{ margin: 10 }}
@@ -131,12 +135,27 @@ export default function QuestionPage3() {
       />
     </div>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate us what recommended videos they see and we will provide statistics about the shadow-ban).
-    How much do you think your audience will beinterested in help? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="36"/>
-      <div className={classes.margin} />
+
+    <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate to us what recommended videos they see, and we will provide statistics about the shadow-ban).
+   Do you think your audience will be interested in help? </h3>
+      <RadioGroup id="shadowban31" aria-label="shadowban" name="shadowbancc" >
+      <FormControlLabel id="361" control={<Checkbox />} label="Yes" />
+        <FormControlLabel id="362" control={<Checkbox />} label="No" />
+      </RadioGroup>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>3.7 Could you please tell us some potential concerns about this help request that your audience could have? </h3>  
+      <TextField
+        id="37"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
     </div>
+
 
     <div>
       <br />
