@@ -83,7 +83,7 @@ export default function QuestionPage2() {
 
     <h3 className=" pink">
    <br></br>
-     We want to enable Youtubers in suggesting videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the contents they upload.
+    We want to enable Youtubers to suggest videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the content they upload.
     </h3>
 
     <div className="row entry">
@@ -95,13 +95,13 @@ export default function QuestionPage2() {
         </div>
       <div className="col-sm-4 position-relative">
         <p className="mt-4 mb-4">
-        This is what your audience will see with Youchoose: on your videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos and external links you choose for them.
+        This is what your audience will see with Youchoose: on your videos, they will have a new column alternative to the algorithmic recommendations, with the videos and external links you choose for them.
         </p>
       </div>
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.1 How much do you think this software could be useful for you? </h3>  
+    <h3 className={classes.h2}>2.1 How much do you think this software could be helpful for you? </h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="21" />
       <div className={classes.margin} />
     </div>
@@ -141,7 +141,7 @@ export default function QuestionPage2() {
 
     <h3 className=" pink">
     <br></br>
-     To allow content-creators to select their own recommendations, there are two systems we could build. <br></br>
+    To allow content-creators to select their recommendations, we can build two systems. <br></br>
      The first options is to ask content creators to upload the <b> links for recommendations in the video description,</b> which the extension can scrape directly.<br></br>
      The second is to create a <b> dedicated dashboard, </b> where content creators can log in to select their recommendations.
     </h3>
@@ -170,7 +170,7 @@ export default function QuestionPage2() {
 
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.6 How much  do you like the idea of using the video description to declare which videos will be recommended to your audience?</h3>  
+    <h3 className={classes.h2}>2.6 How much do you like the idea of using the videos' description to declare which videos will be recommended to your audience?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="26"/>
       <div className={classes.margin} />
     </div>

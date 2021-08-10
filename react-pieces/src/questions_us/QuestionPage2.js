@@ -1,10 +1,16 @@
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
-
 import {withStyles, makeStyles} from '@material-ui/core/styles';
+import _ from 'lodash';
 import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+
+import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
+import Checkbox from '@material-ui/core/Checkbox';
+import RadioGroup from '@material-ui/core/RadioGroup';
+
 import Button from '@material-ui/core/Button';
+
 
 function clickOn(e) {
   const tid = e.currentTarget.getAttribute('target-id');
@@ -83,7 +89,7 @@ export default function QuestionPage2() {
 
     <h3 className=" pink">
    <br></br>
-     We want to enable Youtubers in suggesting videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the contents they upload.
+     We want to enable Youtubers to suggest videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the content they upload.
     </h3>
 
     <div className="row entry">
@@ -95,19 +101,19 @@ export default function QuestionPage2() {
         </div>
       <div className="col-sm-4 position-relative">
         <p className="mt-4 mb-4">
-        This is what users will see with Youchoose: when watchin videos, they will have a new colum alternative to the algorithmic reccomandations, with the videos and the external links youtubers choose for you.
+        This is what users will see with Youchoose: when watching videos, they will have a new column alternative to the algorithmic recommendations, with the videos and the external links Youtubers choose for you.
         </p>
       </div>
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.1 What do you think of having videos recommendations made by Youtubers instead of having algorithm choosing for you?</h3>  
+    <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made by Youtubers instead of having algorithm choosing for you?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="21" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.2What type of videos or external link would you like to get as suggestion made by youtubers? (e.g. wikipedia links, other videos from the same channel, scientific sources... ) </h3>
+    <h3 className={classes.h2}>2.2 What type of videos or external links would you like to get as a suggestion made by Youtubers? (e.g., Wikipedia links, other videos from the same channel, scientific sources.. )</h3>
       <TextField
         id="22"
         style={{ margin: 10 }}
@@ -119,15 +125,14 @@ export default function QuestionPage2() {
       />
     </div>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>2.3 Would you like to also have some recommendations from YouTubers on the homepage?</h3>
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="23"/>
-      <div className={classes.margin} />
-    </div>
+    <h3 className={classes.h2}>2.3 Would you also like to have some recommendations from YouTubers on the homepage?</h3>
+      <RadioGroup id="algodiscrimination" aria-label="discriminating" name="discriminating1" >
+        <FormControlLabel id="231" control={<Checkbox />} label="Yes." />
+        <FormControlLabel id="232" control={<Checkbox />} label="No." />
+      </RadioGroup>
 
-
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.4 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g. Reddit, Twitter or Facebook)?</h3>
+    <h3 className={classes.h2}>2.4 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g., Reddit, Twitter, or Facebook)?</h3>
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="26"/>
       <div className={classes.margin} />
     </div>
