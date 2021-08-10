@@ -1,10 +1,16 @@
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
-
 import {withStyles, makeStyles} from '@material-ui/core/styles';
+import _ from 'lodash';
 import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+
+import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
+import Checkbox from '@material-ui/core/Checkbox';
+import RadioGroup from '@material-ui/core/RadioGroup';
+
 import Button from '@material-ui/core/Button';
+
 
 function clickOn(e) {
   const tid = e.currentTarget.getAttribute('target-id');
@@ -71,7 +77,6 @@ const PrettoSlider = withStyles({
 })(Slider);
 
 
-
 export default function QuestionPage1() {
 
   const classes = useStyles();
@@ -84,7 +89,7 @@ export default function QuestionPage1() {
 
     <h3 className="pink">
     <br></br>
-      Your opinion about the videos reccomended by Youtube's algorithm.
+      Your opinion about the videos recommended by Youtube's algorithm.
     </h3>
 
     <div className="row entry">
@@ -96,7 +101,7 @@ export default function QuestionPage1() {
         </div>
       <div className="col-sm-4 position-relative">
         <p className="mt-4 mb-4">
-          The videos listed in the right part of the image are examples of algirithmic recommendations.
+         The videos listed in the right part of the image are examples of algorithmic recommendations.
         </p>
       </div>
     </div>
@@ -104,7 +109,7 @@ export default function QuestionPage1() {
     <FormControl component="fieldset">
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.1 Are these algorithmic suggestions useful for you as a users?</h3>  
+    <h3 className={classes.h2}>1.1 Are these algorithmic suggestions useful for you as a user?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="11" />
       <div className={classes.margin} />
     </div>
@@ -116,7 +121,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.3 What do you understand about the algorithm's logics?</h3>  
+    <h3 className={classes.h2}>1.3 What do you understand about the algorithm's logic?</h3>  
       <TextField
         id="13"
         style={{ margin: 10 }}
@@ -129,13 +134,13 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.4 How much can you control the videos reccomended to your audience by the algorithm?</h3>  
+    <h3 className={classes.h2}>1.4 How much can you control the videos recommended to your audience by the algorithm?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="14"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.5 Which strategies you use to influence the algorithm?</h3>  
+    <h3 className={classes.h2}>1.5 Which strategies do you use to influence the algorithm?</h3>  
       <TextField
         id="15"
         style={{ margin: 10 }}
@@ -147,14 +152,17 @@ export default function QuestionPage1() {
       />
     </div>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>1.6 How much is the algorithm desciminating you as a youtuber? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="16"/>
-      <div className={classes.margin} />
-    </div>
+
+    <h3 className={classes.h2}>1.6 Do you think the is algorithm discriminating against you as a Youtuber? </h3>
+      <RadioGroup id="algodiscrimination" aria-label="discriminating" name="discriminating1" >
+        <FormControlLabel id="161" control={<Checkbox />} label="Yes, the algorithm is discriminating against me." />
+        <FormControlLabel id="162" control={<Checkbox />} label="No, the algorithm is not discriminating against me." />
+        <FormControlLabel id="163" control={<Checkbox />} label="No, the algorithm is neutral, it is not discriminating against me or others." />
+      </RadioGroup>
+
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.7 If you have been penalized by the algorithm, tell us how and how you find it out.</h3>  
+    <h3 className={classes.h2}>1.7 If you have been penalized by the algorithm, please tell us how and how you find it out.</h3>  
       <TextField
         id="17"
         style={{ margin: 10 }}
@@ -180,23 +188,5 @@ export default function QuestionPage1() {
 }
 
 
-/* questions removed
-    <div className={classes.root}>
-    <h3 className={classes.h2}>1.8 Do you know what shadow-banning is? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="18" />
-      <div className={classes.margin} />
-    </div>
-
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.9 Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
-      <TextField
-        id="19"
-        style={{ margin: 10 }}
-        fullWidth
-        margin="normal"
-        color='secondary'
-        label="Make some example here:"
-        variant="filled"
-      />
-    </div>
-    */
+/* checkbox should be clickable one by one, not all together, let's implement this! 
+https://material-ui.com/components/checkboxes/#CheckboxesGroup.js */
