@@ -17,8 +17,6 @@ function clickOn(e) {
   document.getElementById(tid).scrollIntoView();
 }
 
-
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -75,7 +73,7 @@ export default function QuestionPage4() {
     </div>
 
     <h3 className={classes.h2}>4.3 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
-      <RadioGroup id="43" aria-label="iscrizione" name="iscrizione">
+      <RadioGroup id="optIn" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel value="YES" control={<Radio />} label="Yes, you can contact me for an interview" />
       </RadioGroup>
 
