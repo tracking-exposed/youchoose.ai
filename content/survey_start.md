@@ -31,7 +31,7 @@ type: fullscreen
 </br></br>
 <div>
  <h3>
-  <b> Click here the corresponding box below to start:</b> 
+  <b> Click on the box below to start the survey:</b> 
  </h3> 
  <h3>
  If you post videos on Youtube<br>
