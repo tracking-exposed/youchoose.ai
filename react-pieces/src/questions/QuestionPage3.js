@@ -8,6 +8,7 @@ import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
 import Checkbox from '@material-ui/core/Checkbox';
 import RadioGroup from '@material-ui/core/RadioGroup';
+import Radio from '@material-ui/core/Radio';
 
 import Button from '@material-ui/core/Button';
 
@@ -91,10 +92,10 @@ export default function QuestionPage3() {
     </h3>
 
     <h3 className={classes.h2}>3.1 Do you know what shadow-ban is? </h3>
-      <RadioGroup id="shadowban31" aria-label="shadowban" name="shadowbancc" >
-      <FormControlLabel id="311" control={<Checkbox />} label="Yes" />
-        <FormControlLabel id="312" control={<Checkbox />} label="No" />
-        <FormControlLabel id="313" control={<Checkbox />} label="I heard about it, but I do not really know what it is." />
+      <RadioGroup id="31" aria-label="shadowban">
+        <FormControlLabel value="a" control={<Radio />} label="Yes" />
+        <FormControlLabel value="b" control={<Radio />} label="No" />
+        <FormControlLabel value="c" control={<Radio />} label="I heard about it, but I do not really know what it is." />
       </RadioGroup>
 
     <div className={classes.root}>
@@ -138,9 +139,9 @@ export default function QuestionPage3() {
 
     <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate to us what recommended videos they see, and we will provide statistics about the shadow-ban).
    Do you think your audience will be interested in help? </h3>
-      <RadioGroup id="shadowban31" aria-label="shadowban" name="shadowbancc" >
-      <FormControlLabel id="361" control={<Checkbox />} label="Yes" />
-        <FormControlLabel id="362" control={<Checkbox />} label="No" />
+      <RadioGroup id="36" aria-label="datasharing">
+        <FormControlLabel value="a" control={<Radio />} label="Yes" />
+        <FormControlLabel value="b" control={<Radio />} label="No" />
       </RadioGroup>
 
     <div className={classes.root} noValidate autoComplete="off">

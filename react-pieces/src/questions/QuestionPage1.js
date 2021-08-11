@@ -6,8 +6,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
-import Checkbox from '@material-ui/core/Checkbox';
 import RadioGroup from '@material-ui/core/RadioGroup';
+import Radio from '@material-ui/core/Radio';
 
 import Button from '@material-ui/core/Button';
 
@@ -154,12 +154,11 @@ export default function QuestionPage1() {
 
 
     <h3 className={classes.h2}>1.6 Do you think the is algorithm discriminating against you as a Youtuber? </h3>
-      <RadioGroup id="algodiscrimination" aria-label="discriminating" name="discriminating1" >
-        <FormControlLabel id="161" control={<Checkbox />} label="Yes, the algorithm is discriminating against me." />
-        <FormControlLabel id="162" control={<Checkbox />} label="No, the algorithm is not discriminating against me." />
-        <FormControlLabel id="163" control={<Checkbox />} label="No, the algorithm is neutral, it is not discriminating against me or others." />
+      <RadioGroup id="16" aria-label="discriminating" name="discriminating1" >
+        <FormControlLabel value="a" control={<Radio />} label="Yes, the algorithm is discriminating against me." />
+        <FormControlLabel value="b" control={<Radio />} label="No, the algorithm is not discriminating against me." />
+        <FormControlLabel value="c" control={<Radio />} label="No, the algorithm is neutral, it is not discriminating against me or others." />
       </RadioGroup>
-
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.7 If you have been penalized by the algorithm, please tell us how and how you find it out.</h3>  

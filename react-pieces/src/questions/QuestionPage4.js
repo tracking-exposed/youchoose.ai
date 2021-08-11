@@ -4,11 +4,11 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
 import { makeStyles} from '@material-ui/core/styles';
-import Checkbox from '@material-ui/core/Checkbox';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Button from '@material-ui/core/Button';
+import Radio from '@material-ui/core/Radio'
 
 function clickOn(e) {
   const tid = e.currentTarget.getAttribute('target-id');
@@ -75,8 +75,8 @@ export default function QuestionPage4() {
     </div>
 
     <h3 className={classes.h2}>4.3 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
-      <RadioGroup id="second" aria-label="iscrizione" name="iscrizione">
-        <FormControlLabel id="43" control={<Checkbox />} label="Yes, you can contact me for an interview" />
+      <RadioGroup id="43" aria-label="iscrizione" name="iscrizione">
+        <FormControlLabel value="YES" control={<Radio />} label="Yes, you can contact me for an interview" />
       </RadioGroup>
 
     <div>
