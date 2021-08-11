@@ -22,35 +22,30 @@ type: fullscreen
 
 <div>
  <h3>
- Dear participant, <br>
-  We are happy you decided to take part in this project participating in the development of this technology from the very beginning.<br><br>
- This survey will be divided into two parts:<br> 
- 1) we will ask your opinion about Youtube's algorithm <br>
- 2) we will ask your opinion on the YouChoose project's idea <br> <br>
- Giving us your contact is not mandatory. Your data will be anonymized and used aggregated. If you start the survey, you accept the treatment of your answers.
+ Dear participant, <br><br>
+ Thank you for helping develop this project by filling this <b>4 minutes survey!</b><br><br>
+ We will first ask your opinion on YouTube's algorithm, and then how we could improve it with YouChoose.<br><br>
+ Your data will be anonymized and you don't have to give your contact info. When you start the survey, your answers will be recorded.
  </h3>
 </div>
-
-</br></br></br>
-
+</br></br>
 <div>
  <h3>
-  <b> To help us build the ideal tool for you, please fill up the 4 minutes SURVEY.</b> 
+  <b> Click here the corresponding box below to start:</b> 
+ </h3> 
+ <h3>
+ If you post videos on Youtube<br>
+    <div class="fba" style="padding-top:2rem;">
+      <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
+    </div>
+ If you only watch videos on Youtube<br>
+    <div class="fba" style="padding-top:2rem;">
+      <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
+    </div>
  </h3>
  <h3>
- Choose "Youtubers" if you create contents on Youtube. <br>
- Choose "Users" if you watch videos on Youtube. <br>
+  <b> THANK YOU!</b> 
  </h3>
 </div>
-
-<div class="fba" style="padding-top:2rem;">
-  <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
-</div>
-
-<div class="fba" style="padding-top:2rem;">
-  <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
-</div>
-
-
 </div>
 </div>
