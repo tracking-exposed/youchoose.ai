@@ -7,7 +7,7 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import Contribute from './Contribute';
 
 const styles = {
-  width: '1300px',
+  width: '100%',
 };
 
 class Answers extends React.Component{
@@ -28,7 +28,7 @@ class Answers extends React.Component{
     if(!this.state || this.state.status == 'fetching')
       return (<div>Loading the most recent answers...</div>)
 
-    console.log('X: props status', this.props, this.state);
+    console.log('Checking state', this.state);
 
     if(this.state.status !== 'done') {
       console.log("Incomplete info before render");
@@ -54,9 +54,9 @@ class Answers extends React.Component{
     
     return (
       <div style={styles}>
-        <FormHelperText>
-          Recent Answers received
-        </FormHelperText>
+        <p>
+          Answers received, from the most recent:
+        </p>
         <Contribute data={this.state.data} />
       </div>
     );

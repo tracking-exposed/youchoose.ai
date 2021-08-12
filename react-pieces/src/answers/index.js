@@ -54,9 +54,10 @@ function main () {
             <ThemeProvider theme={theme}>
                 <h4>
                     ― <a href={buildCSVlinks('retrieveAnswersCSV/' + key)} target="_blank">
-                        click here to get all the answers in CSV format.
+                        click here to get all the answers in CSV format
                     </a>
-                    <hr />
+                    ― <a href={buildCSVlinks('retrieveAnswers/' + key)} target="_blank">
+                        (or the JSON). </a>
                 </h4>
                 <Answers pkey={key} url={JSONurl}/>
             </ThemeProvider>, document.getElementById('main')
