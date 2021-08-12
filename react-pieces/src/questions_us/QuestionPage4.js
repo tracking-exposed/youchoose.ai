@@ -80,6 +80,7 @@ export default function QuestionPage4() {
     <h3 className={classes.h2}>4.3 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
       <RadioGroup id="optIn" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel value="YES" control={<Radio />} label="Yes, you can contact me for an interview" />
+        <FormControlLabel value="NO" control={<Radio />} label="No, thanks" />
       </RadioGroup>
 
     <div>
