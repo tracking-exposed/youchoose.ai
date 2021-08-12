@@ -5,8 +5,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
-import Checkbox from '@material-ui/core/Checkbox';
 import RadioGroup from '@material-ui/core/RadioGroup';
+import Radio from '@material-ui/core/Radio';
 
 import Button from '@material-ui/core/Button';
 
@@ -95,11 +95,12 @@ export default function QuestionPage3() {
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="31"/>
       <div className={classes.margin} />
     </div>
+    
     <h3 className={classes.h2}>3.1 Are you aware of this type of censorship? </h3>
-      <RadioGroup id="shadowban31" aria-label="shadowban" name="shadowbanus" >
-      <FormControlLabel id="311" control={<Checkbox />} label="Yes" />
-        <FormControlLabel id="312" control={<Checkbox />} label="No" />
-        <FormControlLabel id="313" control={<Checkbox />} label="I heard about it, but I do not really know what it is." />
+      <RadioGroup id="31" aria-label="shadowban" >
+      <FormControlLabel value="a" control={<Radio />} label="Yes" />
+        <FormControlLabel value="b" control={<Radio />} label="No" />
+        <FormControlLabel value="c" control={<Radio />} label="I heard about it, but I do not really know what it is." />
       </RadioGroup>
     
     <div className={classes.root} noValidate autoComplete="off">

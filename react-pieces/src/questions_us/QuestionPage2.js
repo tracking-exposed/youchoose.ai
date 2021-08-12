@@ -6,8 +6,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
-import Checkbox from '@material-ui/core/Checkbox';
 import RadioGroup from '@material-ui/core/RadioGroup';
+import Radio from '@material-ui/core/Radio';
 
 import Button from '@material-ui/core/Button';
 
@@ -126,9 +126,9 @@ export default function QuestionPage2() {
     </div>
 
     <h3 className={classes.h2}>2.3 Would you also like to have some recommendations from YouTubers on the homepage?</h3>
-      <RadioGroup id="algodiscrimination" aria-label="discriminating" name="discriminating1" >
-        <FormControlLabel id="231" control={<Checkbox />} label="Yes." />
-        <FormControlLabel id="232" control={<Checkbox />} label="No." />
+      <RadioGroup id="23" aria-label="cc recommendations"  >
+        <FormControlLabel value="a" control={<Radio />} label="Yes." />
+        <FormControlLabel value="b" control={<Radio />} label="No." />
       </RadioGroup>
 
     <div className={classes.root}>
