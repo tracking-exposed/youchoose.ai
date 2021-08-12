@@ -137,7 +137,7 @@ export default function QuestionPage3() {
     </div>
 
 
-    <h3 className={classes.h2}>3.6 We plan to use collaborative data collections (users will communicate to us what recommended videos they see, and we will provide statistics about the shadow-ban).
+    <h3 className={classes.h2}>3.6 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban.
    Do you think your audience will be interested in help? </h3>
       <RadioGroup id="36" aria-label="datasharing">
         <FormControlLabel value="a" control={<Radio />} label="Yes" />
