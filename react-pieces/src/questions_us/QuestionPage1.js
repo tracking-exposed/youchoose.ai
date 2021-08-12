@@ -109,7 +109,7 @@ export default function QuestionPage1() {
     <FormControl component="fieldset">
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.1 Are these algorithmic suggestions useful for you as a user?</h3>  
+    <h3 className={classes.h2}>1.1 How much are these algorithmic suggestions useful for you as a user?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="11" />
       <div className={classes.margin} />
     </div>

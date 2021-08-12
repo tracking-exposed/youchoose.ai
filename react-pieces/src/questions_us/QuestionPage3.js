@@ -84,7 +84,7 @@ export default function QuestionPage3() {
 
     <h3 className="pink">
     <br></br>
-    One of the missions of our project is to make Youtube's algorithm more accountable.
+    One of the missions of our project is to make Youtube's algorithm more accountable.  <br></br>
     That's why we decided to develop a <b> Shadow-ban tester </b>  
     to better understand this kind of hidden punishment and to reveal it. <br></br>
     Shadow-ban is when a video is accessible on the platform, but no one gets those videos as recommendations, and the number of visualizations drops drastically.
@@ -104,36 +104,44 @@ export default function QuestionPage3() {
       </RadioGroup>
     
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.2 Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
+    <h3 className={classes.h2}>3.2 Can you tell us if you know some channels that have been shadow-banned? </h3>  
       <TextField
         id="32"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
         color='secondary'
-        label="Make some example here:"
+        label=" List some name here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>3.3 Can you tell us how you/others find it out?</h3>  
+      <TextField
+        id="33"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make same example here:"
         variant="filled"
       />
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.3 How much do you want to help to fight this phenomenon?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="33" />
-      <div className={classes.margin} />
-    </div>
-
-    <div className={classes.root}>
-    <h3 className={classes.h2}>3.4 How much are you interested in contribute to develop a tool that can measure the shadow-ban for a specific channel (shadow-ban tester)?</h3>  
+    <h3 className={classes.h2}>3.4 How much do you want to help to fight this phenomenon?</h3>  
       <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="34" />
       <div className={classes.margin} />
     </div>
-   
-    <div className={classes.root}>
-    <h3 className={classes.h2}>3.5 We plan to use collaborative data collections (users will communicate to us what recommended videos they see, and we will provide statistics about the shadow-ban).
-    How much are you interested in help collecting evidence with an automated browser extension? </h3>
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="35"/>
-      <div className={classes.margin} />
-    </div>
+
+    <h3 className={classes.h2}>3.5 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban.
+    Are you interested in help collecting evidence by installing our browser extension?</h3>
+      <RadioGroup id="35" aria-label="shadowban" >
+      <FormControlLabel value="a" control={<Radio />} label="Yes." />
+        <FormControlLabel value="b" control={<Radio />} label="No," />
+        <FormControlLabel value="c" control={<Radio />} label="I would like to have more information before deciding." />
+      </RadioGroup>
 
     <div>
       <br />

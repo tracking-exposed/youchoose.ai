@@ -86,7 +86,7 @@ export default function QuestionPage3() {
 
     <h3 className="pink">
     <br></br>
-    One of the missions of our project is to make Youtube's algorithm more accountable.
+    One of the missions of our project is to make Youtube's algorithm more accountable. <br></br>
     That's why we decided to develop a <b> Shadow-ban tester </b>  
     to better understand this kind of hidden punishment and to reveal it.
     </h3>
