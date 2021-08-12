@@ -135,7 +135,7 @@ export default function QuestionPage3() {
       <div className={classes.margin} />
     </div>
 
-    <h3 className={classes.h2}>3.5 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban.
+    <h3 className={classes.h2}>3.5 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban. <br></br>
     Are you interested in help collecting evidence by installing our browser extension?</h3>
       <RadioGroup id="35" aria-label="shadowban" >
       <FormControlLabel value="a" control={<Radio />} label="Yes." />
