@@ -8,6 +8,7 @@ import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
+import Checkbox from '@material-ui/core/Checkbox';
 
 import Button from '@material-ui/core/Button';
 
@@ -112,18 +113,31 @@ export default function QuestionPage2() {
       <div className={classes.margin} />
     </div>
 
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.2 What type of videos or external links would you like to get as a suggestion made by Youtubers? (e.g., Wikipedia links, other videos from the same channel, scientific sources.. )</h3>
+    <h3 className={classes.h2}>2.2 What type of videos or external links would you like to get as a suggestion made by Youtubers? </h3>
+      <RadioGroup id="22" aria-label="suggestion type"  >
+        <FormControlLabel value="a" control={<Checkbox />} label="Youtube videos from other channels." />
+        <FormControlLabel value="b" control={<Checkbox />} label="Youtube videos from the same channels." />
+        <FormControlLabel value="c" control={<Checkbox />} label="Wikipedia pages." />
+        <FormControlLabel value="d" control={<Checkbox />} label="Divulgarive articles." />
+        <FormControlLabel value="e" control={<Checkbox />} label="Scientific articles." />
+        <FormControlLabel value="f" control={<Checkbox />} label="Tik Tok." />
+        <FormControlLabel value="g" control={<Checkbox />} label="Other social media links." />
+        <FormControlLabel value="h" control={<Checkbox />} label="Advertisment" />
+      
+      </RadioGroup>
+
+      <div className={classes.root} noValidate autoComplete="off">
       <TextField
-        id="22"
+        id="222"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
         color='secondary'
-        label="Make some example here:"
+        label="Write other types of links you would like to have here"
         variant="filled"
       />
     </div>
+
 
     <h3 className={classes.h2}>2.3 Would you also like to have some recommendations from YouTubers on the homepage?</h3>
       <RadioGroup id="23" aria-label="cc recommendations"  >
