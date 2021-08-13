@@ -1,16 +1,11 @@
 import _ from 'lodash';
-
 import React from 'react';
 import { makeStyles} from '@material-ui/core/styles';
-
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio'
 import TextField from '@material-ui/core/TextField';
-
-
-
 import Button from '@material-ui/core/Button';
 
 function clickOn(e) {
@@ -19,8 +14,6 @@ function clickOn(e) {
   document.getElementById(tid).click();
   document.getElementById(tid).scrollIntoView();
 }
-
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,7 +47,7 @@ export default function QuestionPage4() {
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>4.1 If you have any suggestions or advice... </h3>  
       <TextField
-        id="41"
+        id="81"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -64,10 +57,10 @@ export default function QuestionPage4() {
       />
     </div>
 
-<div className={classes.root} noValidate autoComplete="off">
+    <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>4.2 If you are interested in the project, leave here your email. We will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
       <TextField
-        id="42"
+        id="82"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -78,7 +71,7 @@ export default function QuestionPage4() {
     </div>
 
     <h3 className={classes.h2}>4.3 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
-      <RadioGroup id="optIn" aria-label="iscrizione" name="iscrizione">
+      <RadioGroup id="optIn" defaultValue="NO" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel value="YES" control={<Radio />} label="Yes, you can contact me for an interview." />
         <FormControlLabel value="NO" control={<Radio />} label="No, thanks." />
       </RadioGroup>
@@ -90,7 +83,6 @@ export default function QuestionPage4() {
       Submit!
     </Button>   
     </div>
-
 
     </FormControl>
 	  </div> 

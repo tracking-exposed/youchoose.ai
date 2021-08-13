@@ -92,12 +92,12 @@ export default function QuestionPage3() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}></h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="31"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="71"/>
       <div className={classes.margin} />
     </div>
     
     <h3 className={classes.h2}>3.1 Are you aware of this type of censorship? </h3>
-      <RadioGroup id="31" aria-label="shadowban" >
+      <RadioGroup id="72" aria-label="shadowban" >
       <FormControlLabel value="a" control={<Radio />} label="Yes" />
         <FormControlLabel value="b" control={<Radio />} label="No" />
         <FormControlLabel value="c" control={<Radio />} label="I heard about it, but I do not really know what it is." />
@@ -106,7 +106,7 @@ export default function QuestionPage3() {
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>3.2 Can you tell us if you know some channels that have been shadow-banned? </h3>  
       <TextField
-        id="32"
+        id="73"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -119,7 +119,7 @@ export default function QuestionPage3() {
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>3.3 Can you tell us how you/others find it out?</h3>  
       <TextField
-        id="33"
+        id="74"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -131,14 +131,14 @@ export default function QuestionPage3() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.4 How much do you want to help to fight this phenomenon?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="34" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="75" />
       <div className={classes.margin} />
     </div>
 
     <h3 className={classes.h2}>3.5 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban. <br></br>
     Are you interested in help collecting evidence by installing our browser extension?</h3>
-      <RadioGroup id="35" aria-label="shadowban" >
-      <FormControlLabel value="a" control={<Radio />} label="Yes." />
+      <RadioGroup id="76" aria-label="shadowban" >
+        <FormControlLabel value="a" control={<Radio />} label="Yes!" />
         <FormControlLabel value="b" control={<Radio />} label="No," />
         <FormControlLabel value="c" control={<Radio />} label="I would like to have more information before deciding." />
       </RadioGroup>

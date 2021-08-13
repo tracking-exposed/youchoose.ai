@@ -7,9 +7,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import { shadows } from '@material-ui/system';
 
-import sendData from './PaginatedSubmit';
+import sendData from '../questions/PaginatedSubmit';
 import QuestionPage1 from './QuestionPage1';
 import QuestionPage2 from './QuestionPage2';
 import QuestionPage3 from './QuestionPage3';
@@ -55,10 +54,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper ,
     display: 'flex',
     height: '100%',
-  /*lenght: '1000px',*/
   },
   tabs: {
-    borderRight: `100px solid`, /*1px solid ${theme.palette.divider}*/
+    borderRight: `100px solid`,
   },
 }));
 
@@ -69,7 +67,7 @@ export default function FullWidthTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
-    sendData();
+    sendData("watchers");
     setValue(newValue);
   };
   const handleChangeIndex = (index) => {

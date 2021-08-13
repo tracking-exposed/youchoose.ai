@@ -2,13 +2,14 @@ import _ from 'lodash';
 
 const randomInit = {};
 
-export default function sendData() {
+export default function sendData(qName) {
+  // qName is questionnaire name, as this code is invoked by any survey.
 
   if(!randomInit.number)
     randomInit.number = _.random(0, 0xffffffff);
 
   /* cut off unanswered questions */
-  const textColl = _.compact(_.map($("input[type='text']"), function(inputt, textOrder) {
+  const texts = _.compact(_.map($("input[type='text']"), function(inputt, textOrder) {
     if(!inputt.value || !inputt.value.length)
       return null;
     return {
@@ -16,7 +17,8 @@ export default function sendData() {
       value: inputt.value,
     };
   }));
-  const slidersColl = _.compact(_.map($('[role="slider"]'), function(slider, sliderOrder) {
+
+  const sliders = _.compact(_.map($('[role="slider"]'), function(slider, sliderOrder) {
     if(slider.getAttribute('aria-valuenow') == 50)
       return null;
     return {
@@ -35,6 +37,11 @@ export default function sendData() {
     };
   }));
 
+  const checked = document.querySelectorAll('input[type="checkbox"]:checked');
+  console.log(checked.length);
+  checkboxes = null;
+  debugger;
+
   const reference = { from: window.location.hash };
   const url = window.location.href.match(/localhost/) ?
     `${process.env.API_SERVER}/api/v1/recordAnswers`: '/api/v1/recordAnswers';
@@ -45,11 +52,19 @@ export default function sendData() {
     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
     credentials: 'same-origin', // include, *same-origin, omit
     headers: {
-        'Content-Type': 'application/json'       // 'Content-Type': 'application/x-www-form-urlencoded',
+        'Content-Type': 'application/json'
     },
     redirect: 'follow', // manual, *follow, error
     referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify({ textColl, radio, slidersColl, reference, sessionId: randomInit.number }) // body data type must match "Content-Type" header
+    body: JSON.stringify({
+      qName,
+      texts,
+      radio,
+      checkboxes,
+      sliders,
+      reference,
+      sessionId: randomInit.number
+    })
   }).then(function(responsed) {
     if(responsed.status !== 200) {
       console.error("error in post:", responsed)

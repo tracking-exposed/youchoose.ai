@@ -110,20 +110,20 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.1 How much are these algorithmic suggestions useful for you as a user?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="11" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="51" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.2 How much do you understand how this algorithm works?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="12" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="52" />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.3 What do you understand about the algorithm's logic?</h3>  
       <TextField
-        id="13"
+        id="53"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -135,14 +135,14 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.4 How much can you control the videos recommended to you by the algorithm?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="14"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="54"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.5 Which strategies do you use to influence the algorithm? (e.g., liking channels, subscribing..)</h3>  
       <TextField
-        id="15"
+        id="55"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -154,14 +154,14 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.6 How much is the algorithm bringing you to videos you do not like?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="16"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="56"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>1.7 If the algorithm has recommended you strange/bad/harmful videos, tell us more about that.</h3>  
       <TextField
-        id="17"
+        id="57"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"

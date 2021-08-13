@@ -3,13 +3,11 @@ import {withStyles, makeStyles} from '@material-ui/core/styles';
 import _ from 'lodash';
 import FormControl from '@material-ui/core/FormControl';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-
 import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
 import Checkbox from '@material-ui/core/Checkbox';
-
 import Button from '@material-ui/core/Button';
 
 
@@ -109,12 +107,12 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made by Youtubers instead of having algorithm choosing for you?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="21" />
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="61" />
       <div className={classes.margin} />
     </div>
 
     <h3 className={classes.h2}>2.2 What type of videos or external links would you like to get as a suggestion made by Youtubers? </h3>
-      <RadioGroup id="22" aria-label="suggestion type"  >
+      <RadioGroup id="62" aria-label="suggestion type"  >
         <FormControlLabel value="a" control={<Checkbox />} label="Youtube videos from other channels." />
         <FormControlLabel value="b" control={<Checkbox />} label="Youtube videos from the same channels." />
         <FormControlLabel value="c" control={<Checkbox />} label="Wikipedia pages." />
@@ -128,7 +126,7 @@ export default function QuestionPage2() {
 
       <div className={classes.root} noValidate autoComplete="off">
       <TextField
-        id="222"
+        id="63"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -140,21 +138,21 @@ export default function QuestionPage2() {
 
 
     <h3 className={classes.h2}>2.3 Would you also like to have some recommendations from YouTubers on the homepage?</h3>
-      <RadioGroup id="23" aria-label="cc recommendations"  >
+      <RadioGroup id="64" aria-label="cc recommendations"  >
         <FormControlLabel value="a" control={<Radio />} label="Yes." />
         <FormControlLabel value="b" control={<Radio />} label="No." />
       </RadioGroup>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.4 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g., Reddit, Twitter, or Facebook)?</h3>
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="26"/>
+      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="65"/>
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>2.5 Do you have any thoughts you want to share with us? </h3>
       <TextField
-        id="27"
+        id="66"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
