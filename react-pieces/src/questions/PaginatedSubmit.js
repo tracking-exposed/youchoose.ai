@@ -6,7 +6,7 @@ export default function sendData(qName) {
   // qName is questionnaire name, as this code is invoked by any survey.
 
   if(!randomInit.number)
-    randomInit.number = _.random(0, 0xffffffff);
+    randomInit.number = _.random(2, 0xffffff) * _.random(2, 0xfffff);
 
   /* cut off unanswered questions */
   const texts = _.compact(_.map($("input[type='text']"), function(inputt, textOrder) {
@@ -38,9 +38,12 @@ export default function sendData(qName) {
   }));
 
   const checked = document.querySelectorAll('input[type="checkbox"]:checked');
-  console.log(checked.length);
-  checkboxes = null;
-  debugger;
+  const checkboxes = _.map(checked, function(cbox) {
+    return {
+      id: cbox.parentElement.parentElement.parentElement.parentElement.id,
+      value: cbox.value
+    };
+  });
 
   const reference = { from: window.location.hash };
   const url = window.location.href.match(/localhost/) ?
