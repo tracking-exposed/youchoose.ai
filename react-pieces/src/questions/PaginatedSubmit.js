@@ -19,7 +19,7 @@ export default function sendData(qName) {
   }));
 
   const sliders = _.compact(_.map($('[role="slider"]'), function(slider, sliderOrder) {
-    if(slider.getAttribute('aria-valuenow') == 50)
+    if(slider.getAttribute('aria-valuenow') == 0)
       return null;
     return {
       value: slider.getAttribute('aria-valuenow'),
