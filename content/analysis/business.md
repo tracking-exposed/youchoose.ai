@@ -21,8 +21,7 @@ extraCSS: "/css/business-case-slide.css"
 The various search and recommendation engines select [more than 70%](https://www.journalism.org/wp-content/uploads/sites/8/2020/09/Many-Americans-Get-News-on-YouTube-Where-News-Organizations-and-Independent-Producers-Thrive-Side-by-Side.pdf) of the content viewed on the platform.
 
 Yet, these opaque systems have serious drawbacks:
-
-* They favor clickbaity and sensationalist content to drive up engagement
+* They favor clickbaity and sensationalist content
 * They are not accountable and hardly customizable
 * Their results are confined within YouTube.com
 - - -
@@ -53,7 +52,7 @@ There is a **growing frustration** on the monopolistic influence platforms have 
 **Users** have their attention monetized and pushed towards addictive consumption patterns.
 
 **Regulators** are demanding more AI transparency and market competition. 
-
+- - -
 We believe that **algorithmic platforms** like YouChoose will soon emerge, similar to how app stores offered alternatives to native applications.
 
 YouChoose is an early **attempt to end the era of algorithmic monopolies**.
@@ -69,7 +68,6 @@ A step toward a **more open and decentralized internet**, with more user agency.
 Rather than purely relying on AI, **YouChoose leverages human expertise** to identify the best related content. 
 
 Such specialized human expertise is found among:
-
 * Content creators (main feature)
 * Volunteer contributors (Tournesol.app)
 * Existing online communities (Reddit tab)
@@ -87,7 +85,6 @@ Such specialized human expertise is found among:
 
 ---
 **For content creators**:
-
 * Gain back control on the other videos your content promotes.
 * Gain a new direct connection to your audience, through recommendations.
 
@@ -118,7 +115,6 @@ We are accounting for these scenarios in our design and strategy.
 
 ---
 **Content Creators:**
-
 * Essential to our growth strategy so they promote YouChoose directly to their audience
 * Content creators are like our first customers, who pay us with free advertisement
 
