@@ -141,7 +141,7 @@ This has a highly lucrative potential: YouChoose will be a **gateway from YouTub
 
 This monetization scheme is both **politically aligned** with our internet decentralization mission and has **high lucrative potential**.
 
-ex: _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
+**Ex:** _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
 
 </section><section>
 
