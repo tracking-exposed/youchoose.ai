@@ -126,20 +126,20 @@ We are accounting for these scenarios in our design and strategy.
 
 Our target user segments: 
 
-* Most digitally literate users, aware of the power of the algorithm and eager to customize it
-* Users who speak languages where recommendations are less relevant and less moderated
-* Heavy YouTube users, who like to dig and browse content
-* Users frustrated by YouTube's discretionary power to curate content
+* Most **digitally literate users**, aware of the power of the algorithm and eager to customize it
+* Users who speak **non-english languages** where recommendations are less relevant and less moderated
+* **Heavy YouTube users**, who like to dig and browse content
+* **Users frustrated** by YouTube's discretionary power to curate content
 
 </section><section>
 
 ## Business Model
 
-One of the features of YouChoose is to enable recommendations outside of YouTube.com
+One of the features of YouChoose is to enable **recommendations outside of YouTube.com**
 
-This has a highly lucrative potential: YouChoose will be a gateway from YouTube to other platforms, opposite to the typical dynamic.
+This has a highly lucrative potential: YouChoose will be a **gateway from YouTube** to other platforms, opposite to the typical dynamic.
 
-This monetization scheme is both politically aligned with our internet decentralization mission and has high lucrative potential.
+This monetization scheme is both **politically aligned** with our internet decentralization mission and has **high lucrative potential**.
 
 ex: _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
 
