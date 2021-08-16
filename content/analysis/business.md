@@ -49,7 +49,7 @@ There is a **growing frustration** on the monopolistic influence platforms have 
 
 **Content creators** are at the mercy of an opaque AI which favors engagement over quality.
 
-**Users** have their attention monetized and pushed towards addictive consumption patterns.
+**YouTube users** have their attention monetized and pushed towards addictive consumption patterns.
 
 **Regulators** are demanding more AI transparency and market competition. 
 - - -
@@ -77,7 +77,7 @@ Such specialized human expertise is found among:
 
 ## Unique Value Proposition
 
-**For watchers (consumers/users)**:
+**For YouTube users**:
 
 * Recommendations that are aligned with your own interest, not someone else's profit.
 * Gaining back agency over your informational diet.
