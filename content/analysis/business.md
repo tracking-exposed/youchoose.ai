@@ -12,7 +12,7 @@ og_url: "https://youchoose.tracking.exposed/analysis/business"
 extraCSS: "/css/business-case-slide.css"
 ---
 
-<section>
+<section >
 
 ## Problem
 
@@ -21,10 +21,10 @@ extraCSS: "/css/business-case-slide.css"
 The various search and recommendation engines select [more than 70%](https://www.journalism.org/wp-content/uploads/sites/8/2020/09/Many-Americans-Get-News-on-YouTube-Where-News-Organizations-and-Independent-Producers-Thrive-Side-by-Side.pdf) of the content viewed on the platform.
 
 Yet, these opaque systems have serious drawbacks:
-
 * They favor clickbaity and sensationalist content
 * They are not accountable and hardly customizable
 * Their results are confined within YouTube.com
+<br><br>
 
 ### ➡️ An AI with misaligned interest decides most of what people watch.
 
@@ -48,16 +48,16 @@ YouChoose helps you design recommendations optimized for you, not for YouTube.
 
 There is a **growing frustration** on the monopolistic influence platforms have in shaping information flows.
 
-**Content creators** are at the mercy of an opaque AI which favors engagement over quality.
+* **Content creators** are at the mercy of an opaque AI which favors engagement over quality.
 
-**Watchers (Consumers/Users)** have their attention monetized and pushed towards addictive consumption patterns.
+* **Watchers (Consumers/Users)** have their attention monetized and pushed towards addictive consumption patterns.
 
-**Regulators** are demanding more AI transparency and market competition. 
+* **Regulators** are demanding more AI transparency and market competition. 
+<br>
+<br>
 
-We believe that **algorithmic platforms** like YouChoose will soon emerge, similar to how app stores offered alternatives to native applications.
-
-YouChoose is an early **attempt to end the era of algorithmic monopolies**.
-
+We believe that **algorithmic platforms** like YouChoose will soon emerge, similar to how app stores offered alternatives to native applications. <br>
+YouChoose is an early **attempt to end the era of algorithmic monopolies**. <br>
 A step toward a **more open and decentralized agency**.
 
 </section><section>
@@ -65,11 +65,10 @@ A step toward a **more open and decentralized agency**.
 ## Our approach
 
 YouChoose is an alternative recommendation system for YouTube.
-
+<br>
 Rather than purely relying on AI, **YouChoose leverages human expertise** to identify the best related content. 
-
+<br>
 Such specialized human expertise is found among:
-
 * Content creators (main feature)
 * Volunteer contributors (Tournesol.app)
 * Existing online communities (Reddit tab)
@@ -84,9 +83,9 @@ Such specialized human expertise is found among:
 * Recommendations that are aligned with your own interest, not someone else's profit.
 * Gaining back control on your informational diet.
 * Be intentional about what you choose to watch.
+<br><br>
 
 **For content creators**:
-
 * Gain back control on the other videos your content promotes.
 * Gain a new direct connection to your audience, through recommendations.
 
@@ -111,13 +110,11 @@ We are accounting for these scenarios in our design and strategy.
 ## Value Chain Positioning
 
 **YouTube:**
-
 * Adversarial Interoperability: we plug ourselves onto YouTube, without their approval
 * Context of antitrust scrutiny: we bet on the favourable legal and public opinion context to limit YouTube's aggressiveness 
-
+<br><br>
 
 **Content Creators:**
-
 * Essential to our growth strategy so they promote YouChoose directly to their audience
 * Content creators are like our first customers, who pay us with free advertisement
 
