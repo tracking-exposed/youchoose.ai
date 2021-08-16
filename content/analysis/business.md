@@ -25,7 +25,7 @@ Yet, these opaque systems have serious drawbacks:
 * They are not accountable and hardly customizable
 * Their results are confined within YouTube.com
 - - -
-### ➡️ An AI with misaligned interest decides most of what people watch.
+### ➜ An AI with misaligned interest decides most of what people watch.
 
 </section><section>
 
@@ -39,7 +39,7 @@ YouChoose allows you to choose your recommendation model on YouTube.com, includi
 * From other websites and social media feeds
 * From alternative recommendation engines like Tournesol.app
 - - -
-### ➡️ YouChoose helps you design recommendations that are optimized for you, not for YouTube.
+### ➜️ YouChoose helps you design recommendations that are optimized for you, not for YouTube.
 
 </section><section>
 
@@ -171,6 +171,13 @@ Communication Designer | *University of Milano*
 
   $(document).ready(function() {
       let visibleFooter = false;
+      /* if the mouse goes out, for four second leave the bar */
+      $(document).mouseleave(function() {
+        $('header').fadeIn(300);
+        window.setTimeout(function() {
+          $('header').fadeOut(300);
+        }, 4000);
+      });
       $("#final-slide").on('mousemove', function() {
         visibileFooter = !visibleFooter && restoreHeaderFooter(800);
       });
