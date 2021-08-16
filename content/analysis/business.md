@@ -39,8 +39,9 @@ YouChoose allows you to choose your recommendation model on YouTube.com, includi
 * From your content creators
 * From other websites and social media feeds
 * From alternative recommendation engines like Tournesol.app
+<br><br>
 
-YouChoose helps you design recommendations optimized for you, not for YouTube.
+### ➡️ YouChoose helps you design recommendations optimized for you, not for YouTube.
 
 </section><section>
 
@@ -94,15 +95,15 @@ Such specialized human expertise is found among:
 ## Competition
 
 There is an existing market for extensions that improve the experience on YouTube.com. 
-
+<br>
 Most implement a targeted UX improvement, such as [ad-blockers](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk), [UI modifications](https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn) or [additional player controlers](https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif). 
-
+<br>
 The only other actor with a similar intention of replacing YouTube recommendations is our partner Tournesol.app 
 
 **Our real competitor is YouTube itself.** They added some [customizability features](https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid) to their algorithm over the past year. 
-
+<br>
 They might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions.
-
+<br>
 We are accounting for these scenarios in our design and strategy. 
 
 </section><section>
