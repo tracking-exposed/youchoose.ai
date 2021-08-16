@@ -140,7 +140,7 @@ One of the features of YouChoose is to enable **recommendations outside of YouTu
 
 This has a highly lucrative potential: YouChoose will be a **gateway from YouTube** to other platforms, opposite to the typical dynamic.
 
-ex: _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
+**Ex:** _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
 
 This monetization scheme is both **politically aligned** with our internet decentralization mission and has **high lucrative potential**.
 
