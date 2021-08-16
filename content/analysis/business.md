@@ -22,25 +22,25 @@ The various search and recommendation engines select [more than 70%](https://www
 
 Yet, these opaque systems have serious drawbacks:
 
-* They favor clickbaity and sensationalist content
+* They favor clickbaity and sensationalist content to drive up engagement
 * They are not accountable and hardly customizable
 * Their results are confined within YouTube.com
-
+- - -
 ### ➡️ An AI with misaligned interest decides most of what people watch.
 
 </section><section>
 
 ## YouChoose
 
-**Gain back control over your recommendations on YouTube.**
+**Gain back control over your recommendations** on YouTube.
 
 YouChoose allows you to choose your recommendation model on YouTube.com, including:
 
 * From your content creators
 * From other websites and social media feeds
 * From alternative recommendation engines like Tournesol.app
-
-YouChoose helps you design recommendations optimized for you, not for YouTube.
+- - -
+### ➡️ YouChoose helps you design recommendations that are optimized for you, not for YouTube.
 
 </section><section>
 
@@ -50,7 +50,7 @@ There is a **growing frustration** on the monopolistic influence platforms have 
 
 **Content creators** are at the mercy of an opaque AI which favors engagement over quality.
 
-**Watchers (Consumers/Users)** have their attention monetized and pushed towards addictive consumption patterns.
+**Users** have their attention monetized and pushed towards addictive consumption patterns.
 
 **Regulators** are demanding more AI transparency and market competition. 
 
@@ -58,13 +58,13 @@ We believe that **algorithmic platforms** like YouChoose will soon emerge, simil
 
 YouChoose is an early **attempt to end the era of algorithmic monopolies**.
 
-A step toward a **more open and decentralized agency**.
+A step toward a **more open and decentralized internet**, with more user agency.
 
 </section><section>
 
 ## Our approach
 
-YouChoose is an alternative recommendation system for YouTube.
+**YouChoose is an alternative recommendation system** for YouTube.
 
 Rather than purely relying on AI, **YouChoose leverages human expertise** to identify the best related content. 
 
@@ -82,9 +82,10 @@ Such specialized human expertise is found among:
 **For watchers (consumers/users)**:
 
 * Recommendations that are aligned with your own interest, not someone else's profit.
-* Gaining back control on your informational diet.
-* Be intentional about what you choose to watch.
+* Gaining back agency over your informational diet.
+* Super light habit change: Simple extension which overrides recommendations directly on YouTube.com.
 
+---
 **For content creators**:
 
 * Gain back control on the other videos your content promotes.
@@ -98,7 +99,7 @@ There is an existing market for extensions that improve the experience on YouTub
 
 Most implement a targeted UX improvement, such as [ad-blockers](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk), [UI modifications](https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn) or [additional player controlers](https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif). 
 
-The only other actor with a similar intention of replacing YouTube recommendations is our partner Tournesol.app 
+The only other actor with a similar intention of replacing YouTube recommendations is our partner [Tournesol.app](https://tournesol.app/) 
 
 **Our real competitor is YouTube itself.** They added some [customizability features](https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid) to their algorithm over the past year. 
 
@@ -112,10 +113,10 @@ We are accounting for these scenarios in our design and strategy.
 
 **YouTube:**
 
-* Adversarial Interoperability: we plug ourselves onto YouTube, without their approval
-* Context of antitrust scrutiny: we bet on the favourable legal and public opinion context to limit YouTube's aggressiveness 
+* [Adversarial Interoperability](https://www.eff.org/deeplinks/2019/10/adversarial-interoperability): we plug ourselves onto YouTube, without their approval
+* [Context of antitrust scrutiny](https://www.cnbc.com/2020/12/18/google-antitrust-cases-in-us-and-europe-overview.html): we bet on the favourable legal and public opinion context to limit YouTube's aggressiveness 
 
-
+---
 **Content Creators:**
 
 * Essential to our growth strategy so they promote YouChoose directly to their audience
@@ -125,7 +126,7 @@ We are accounting for these scenarios in our design and strategy.
 
 ## Market Perspectives
 
-2.3 billions of YouTube users worldwide
+[2.3 billions](https://www.oberlo.com/blog/youtube-statistics?utm_source=pocket_mylist) of YouTube users worldwide
 
 Our target user segments: 
 
@@ -142,9 +143,9 @@ One of the features of YouChoose is to enable recommendations outside of YouTube
 
 This has a highly lucrative potential: YouChoose will be a gateway from YouTube to other platforms, opposite to the typical dynamic.
 
-ex: _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
-
 This monetization scheme is both politically aligned with our internet decentralization mission and has high lucrative potential.
+
+ex: _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
 
 </section><section>
 
