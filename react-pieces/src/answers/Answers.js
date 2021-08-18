@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Card } from '@material-ui/core';
 import { Alert, AlertTitle } from '@material-ui/lab';
-import FormHelperText from '@material-ui/core/FormHelperText';
+//import FormHelperText from '@material-ui/core/FormHelperText';
 
 import Contribute from './Contribute';
 
