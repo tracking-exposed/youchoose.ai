@@ -149,7 +149,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.3 How often do you understand how this algorithm works?</h3>  
+    <h3 className={classes.h2}>1.3 How often do you <b>understand</b> how this algorithm works?</h3>  
       <PrettoSlider
         valueLabelDisplay="auto"
         aria-label="pretto slider"
@@ -163,7 +163,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.4 What do you understand about the algorithm's logic?</h3>  
+    <h3 className={classes.h2}>1.4 What do you understand about the algorithm's <b>logic</b>?</h3>  
       <TextField
         id="14"
         style={{ margin: 10 }}
@@ -176,7 +176,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.5 How much can you control the videos recommended to your audience by the algorithm?</h3>  
+    <h3 className={classes.h2}>1.5 How much can you <b>control</b> the videos recommended to your audience by the algorithm?</h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -190,7 +190,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.6 Which strategies do you use to influence the algorithm and reach your audience?</h3>  
+    <h3 className={classes.h2}>1.6 Which strategies do you use to <b>influence</b> the algorithm and reach your audience?</h3>  
       <TextField
         id="16"
         style={{ margin: 10 }}
@@ -203,7 +203,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.7 Do you think the algorithm is fairly promoting your videos?</h3>  
+    <h3 className={classes.h2}>1.7 Do you think the algorithm is <b>fairly</b> promoting your videos?</h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -217,7 +217,7 @@ export default function QuestionPage1() {
     </div>
  
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.8 When do you think the algorithm favors your content, and when do you think it demotes or censors it?</h3>  
+    <h3 className={classes.h2}>1.8 When do you think the algorithm <b>favors</b> your content, and when do you think it <b>demotes</b> or censors it?</h3>  
       <TextField
         id="18"
         style={{ margin: 10 }}

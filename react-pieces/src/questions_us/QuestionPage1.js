@@ -122,7 +122,7 @@ export default function QuestionPage1() {
     <FormControl component="fieldset">
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.1 How often do you watch recommended content?</h3>  
+    <h3 className={classes.h2}>1.1 How <b>often</b> do you watch recommended content?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -137,7 +137,7 @@ export default function QuestionPage1() {
 
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.2 How much are these algorithmic suggestions useful for you?</h3>  
+    <h3 className={classes.h2}>1.2 How much are these algorithmic suggestions <b>useful</b> for you?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -151,7 +151,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.3 How much do you understand how this algorithm works?</h3>  
+    <h3 className={classes.h2}>1.3 How much do you <b>understand</b> how this algorithm works?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -165,7 +165,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.4 What do you understand about the algorithm's logic?</h3>  
+    <h3 className={classes.h2}>1.4 What do you understand about the algorithm's <b>logic</b>?</h3>  
       <TextField
         id="54"
         style={{ margin: 10 }}
@@ -178,7 +178,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.5 How much can you control the videos recommended to you by the algorithm?</h3>  
+    <h3 className={classes.h2}>1.5 How much can you <b>control</b> the videos recommended to you by the algorithm?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -192,7 +192,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.6 Which strategies do you use to influence the algorithm? (e.g., liking channels, subscribing..)</h3>  
+    <h3 className={classes.h2}>1.6 Which <b>strategies</b> do you use to influence the algorithm? (e.g., liking channels, subscribing..)</h3>  
       <TextField
         id="56"
         style={{ margin: 10 }}
@@ -205,7 +205,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.7 How much is the algorithm bringing you to videos you do not like?</h3>  
+    <h3 className={classes.h2}>1.7 How much is the algorithm bringing you to videos you <b>do not like</b>?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
