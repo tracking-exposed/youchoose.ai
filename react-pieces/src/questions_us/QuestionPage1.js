@@ -2,12 +2,12 @@ import React from 'react';
 import {withStyles, makeStyles} from '@material-ui/core/styles';
 import _ from 'lodash';
 import FormControl from '@material-ui/core/FormControl';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
+//import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
-import Checkbox from '@material-ui/core/Checkbox';
-import RadioGroup from '@material-ui/core/RadioGroup';
+//import Checkbox from '@material-ui/core/Checkbox';
+//import RadioGroup from '@material-ui/core/RadioGroup';
 
 import Button from '@material-ui/core/Button';
 
@@ -219,9 +219,22 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.8 If the algorithm has recommended you strange/bad/harmful videos, tell us more about that.</h3>  
+    <h3 className={classes.h2}>1.8 What kind of recommendations would you like to see LESS of?</h3>  
       <TextField
         id="58"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Make some example here:"
+        variant="filled"
+      />
+    </div>
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.9 What kind of recommendations would you like to see MORE of?</h3>  
+      <TextField
+        id="59"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"

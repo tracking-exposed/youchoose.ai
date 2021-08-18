@@ -178,7 +178,7 @@ export default function QuestionPage2() {
       <div className={classes.margin} />
     </div>
 
-    <h3 className={classes.h2}>2.2 What type of videos or external links would you like to get as a suggestion made by Youtubers? </h3>
+    <h3 className={classes.h2}>2.2 What kind of recommendations would you like to receive from Youtubers?</h3>
       <RadioGroup id="62" aria-label="suggestion type"  >
         <FormControlLabel value="a" control={<Checkbox />} label="Youtube videos from other channels." />
         <FormControlLabel value="b" control={<Checkbox />} label="Youtube videos from the same channels." />

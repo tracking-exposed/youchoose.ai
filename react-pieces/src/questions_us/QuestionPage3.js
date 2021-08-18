@@ -103,22 +103,9 @@ export default function QuestionPage3() {
     Shadow-ban is when a video is accessible on the platform, but no one gets those videos as recommendations, and the number of visualizations drops drastically.
     </h3>
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}></h3>  
-      <PrettoSlider
-       valueLabelDisplay="auto"
-       aria-label="pretto slider"
-       defaultValue={0}
-       marks={marks}
-       id="71"
-       min={1}
-       max={5}
-      />
-      <div className={classes.margin} />
-    </div>
     
     <h3 className={classes.h2}>3.1 Are you aware of this type of censorship? </h3>
-      <RadioGroup id="72" aria-label="shadowban" >
+      <RadioGroup id="71" aria-label="shadowban" >
       <FormControlLabel value="a" control={<Radio />} label="Yes" />
         <FormControlLabel value="b" control={<Radio />} label="No" />
         <FormControlLabel value="c" control={<Radio />} label="I heard about it, but I do not really know what it is." />
@@ -127,7 +114,7 @@ export default function QuestionPage3() {
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>3.2 Do you know any shadow banned channel?</h3>  
       <TextField
-        id="73"
+        id="72"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -140,7 +127,7 @@ export default function QuestionPage3() {
     <div className={classes.root} noValidate autoComplete="off">
     <h3 className={classes.h2}>3.3 Can you tell us how you/others find it out?</h3>  
       <TextField
-        id="74"
+        id="73"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -156,8 +143,8 @@ export default function QuestionPage3() {
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
-       id="75"
+       marks={marks3}
+       id="74"
        min={1}
        max={5}
       />
@@ -165,7 +152,7 @@ export default function QuestionPage3() {
     </div>
 
     <h3 className={classes.h2}>3.5 Would you be willing to donate anonimysed recommendation data to help us and your favorite youtubers expose shadow banning? (the process will be automated by a browser extension)</h3>
-      <RadioGroup id="76" aria-label="shadowban" >
+      <RadioGroup id="75" aria-label="shadowban" >
         <FormControlLabel value="a" control={<Radio />} label="Yes!" />
         <FormControlLabel value="b" control={<Radio />} label="No," />
         <FormControlLabel value="c" control={<Radio />} label="I would like to have more information before deciding." />
