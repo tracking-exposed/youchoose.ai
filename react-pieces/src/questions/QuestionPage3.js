@@ -38,15 +38,23 @@ const useStyles = makeStyles((theme) => ({
 const marks = [
   {
     value: 1,
-    label: 'Not at all',
+    label: 'Never',
+  },
+  {
+    value: 2,
+    label: 'Rarely',
+  },
+  {
+    value: 3,
+    label: 'Sometimes',
   },
   {
     value: 4,
-    label: '4.Neither yes or no',
+    label: 'Often',
   },
   {
-    value: 7,
-    label: 'Completly',
+    value: 5,
+    label: 'Always',
   },
 ];
 
@@ -111,7 +119,7 @@ export default function QuestionPage3() {
        marks={marks}
        id="32"
        min={1}
-       max={7}
+       max={5}
       />
       <div className={classes.margin} />
     </div>
@@ -125,7 +133,7 @@ export default function QuestionPage3() {
        marks={marks}
        id="33"
        min={1}
-       max={7}
+       max={5}
       />
       <div className={classes.margin} />
     </div>
