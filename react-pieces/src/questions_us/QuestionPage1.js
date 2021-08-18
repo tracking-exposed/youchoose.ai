@@ -219,7 +219,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.8 What kind of recommendations would you like to see LESS of?</h3>  
+    <h3 className={classes.h2}>1.8 What kind of recommendations would you like to see <b>less</b> of?</h3>  
       <TextField
         id="58"
         style={{ margin: 10 }}
@@ -232,7 +232,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.9 What kind of recommendations would you like to see MORE of?</h3>  
+    <h3 className={classes.h2}>1.9 What kind of recommendations would you like to see <b>more</b> of?</h3>  
       <TextField
         id="59"
         style={{ margin: 10 }}

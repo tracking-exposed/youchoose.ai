@@ -35,46 +35,24 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const marks = [
-  {
-    value: 1,
-    label: 'Never',
-  },
-  {
-    value: 2,
-    label: 'Rarely',
-  },
-  {
-    value: 3,
-    label: 'Sometimes',
-  },
-  {
-    value: 4,
-    label: 'Often',
-  },
-  {
-    value: 5,
-    label: 'Always',
-  },
-];
 
 const marks3 = [
   {
     value: 1,
     label: 'Not at all',
   },
-  {
+  /*{
     value: 2,
     label: 'Only a little',
-  },
+  },*/
   {
     value: 3,
     label: 'To some extent',
   },
-  {
+  /*{
     value: 4,
     label: 'Rather much',
-  },
+  },*/
   {
     value: 5,
     label: 'Very much',

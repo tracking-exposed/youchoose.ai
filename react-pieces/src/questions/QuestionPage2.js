@@ -57,18 +57,18 @@ const marks2 = [
     value: 1,
     label: 'Much worse',
   },
-  {
+  /*{
     value: 2,
     label: 'Somewhat worse',
-  },
+  }, */
   {
     value: 3,
     label: 'About the same',
   },
-  {
+  /*{
     value: 4,
     label: 'Somewhat better',
-  },
+  },*/
   {
     value: 5,
     label: 'Much better',

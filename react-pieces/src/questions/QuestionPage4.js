@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
 const marksyears = [
   {
     value: 1,
-    label: 'less than 1 year',
+    label: '< 1 year',
   },
   {
     value: 2,
@@ -46,7 +46,7 @@ const marksyears = [
   },
   {
     value: 3,
-    label: 'more than 3 years',
+    label: '> 3 years',
   },
 ];
 
@@ -55,18 +55,18 @@ const marks3 = [
     value: 1,
     label: 'Not at all',
   },
-  {
+  /*{
     value: 2,
     label: 'Only a little',
-  },
+  },*/
   {
     value: 3,
     label: 'To some extent',
   },
-  {
+  /*{
     value: 4,
     label: 'Rather much',
-  },
+  },*/
   {
     value: 5,
     label: 'Very much',

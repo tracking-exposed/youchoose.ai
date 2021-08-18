@@ -33,29 +33,6 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const marks = [
-  {
-    value: 1,
-    label: 'Never',
-  },
-  {
-    value: 2,
-    label: 'Rarely',
-  },
-  {
-    value: 3,
-    label: 'Sometimes',
-  },
-  {
-    value: 4,
-    label: 'Often',
-  },
-  {
-    value: 5,
-    label: 'Always',
-  },
-];
-
 
 const PrettoSlider = withStyles({
   root: {
