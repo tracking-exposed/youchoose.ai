@@ -58,6 +58,29 @@ const marks = [
   },
 ];
 
+const marks3 = [
+  {
+    value: 1,
+    label: 'Not at all',
+  },
+  {
+    value: 2,
+    label: 'Only a little',
+  },
+  {
+    value: 3,
+    label: 'To some extent',
+  },
+  {
+    value: 4,
+    label: 'Rather much',
+  },
+  {
+    value: 5,
+    label: 'Very much',
+  },
+];
+
 const PrettoSlider = withStyles({
   root: {
     color: '#e33180',
@@ -100,7 +123,7 @@ export default function QuestionPage3() {
     <br></br>
     One of the missions of our project is to make Youtube's algorithm more accountable. <br></br>
     That's why we decided to develop a <b> Shadow-ban tester </b>  
-    to better understand this kind of hidden punishment and to reveal it.
+    to better understand this kind of opaque censorship and to reveal it.
     </h3>
 
     <h3 className={classes.h2}>3.1 Do you know what shadow-ban is? </h3>
@@ -116,7 +139,7 @@ export default function QuestionPage3() {
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks3}
        id="32"
        min={1}
        max={5}
@@ -125,12 +148,12 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.3 How much are you interested in a tool that can measure the shadow-ban for a specific channel (shadow-ban tester)?</h3>  
+    <h3 className={classes.h2}>3.3 How much are you interested in a tool that can detect when a channel is being shadow banned (shadow-ban tester)?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks3}
        id="33"
        min={1}
        max={5}
@@ -166,21 +189,21 @@ export default function QuestionPage3() {
 
 
     <h3 className={classes.h2}>3.6 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban. <br></br>
-   Do you think your audience will be interested in help? </h3>
+   Would you like to ask your audience for help? </h3>
       <RadioGroup id="36" aria-label="datasharing">
         <FormControlLabel value="a" control={<Radio />} label="Yes" />
         <FormControlLabel value="b" control={<Radio />} label="No" />
       </RadioGroup>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.7 Could you please tell us some potential concerns about this help request that your audience could have? </h3>  
+    <h3 className={classes.h2}></h3>  
       <TextField
         id="37"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
         color='secondary'
-        label="Make some example here:"
+        label="What are your main concern about this request?"
         variant="filled"
       />
     </div>

@@ -52,6 +52,29 @@ const marks = [
   },
 ];
 
+const marks2 = [
+  {
+    value: 1,
+    label: 'Much worse',
+  },
+  {
+    value: 2,
+    label: 'Somewhat worse',
+  },
+  {
+    value: 3,
+    label: 'About the same',
+  },
+  {
+    value: 4,
+    label: 'Somewhat better',
+  },
+  {
+    value: 5,
+    label: 'Much better',
+  },
+];
+
 const PrettoSlider = withStyles({
   root: {
     color: '#e33180',
@@ -113,12 +136,12 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.1 How much do you think this software could be helpful for you? </h3>  
+    <h3 className={classes.h2}>2.1 How much do you think this software could be helpful for you compared with standard Youtube suggestions? </h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks2}
        id="21"
        min={1}
        max={5}
@@ -139,12 +162,12 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.2 How much do you think this could be interesting for your audience?</h3>
+    <h3 className={classes.h2}>2.2 How much do you think this could be interesting for your audience compared with standard Youtube suggestions?</h3>
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks2}
        id="22"
        min={1}
        max={5}
@@ -189,12 +212,12 @@ export default function QuestionPage2() {
 
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.3 How much do you like the idea of having a personal dashboard?</h3>  
+    <h3 className={classes.h2}>2.3 How much do you like the idea of having a personal dashboard compared with the idea of using the videos' description to declare which videos will be recommended to your audience?</h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks2}
        id="23"
        min={1}
        max={5}
@@ -203,16 +226,11 @@ export default function QuestionPage2() {
     </div>
 
 
-    <div className={classes.root}>
-    <h3 className={classes.h2}>2.4 How much do you like the idea of using the videos' description to declare which videos will be recommended to your audience?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="24"/>
-      <div className={classes.margin} />
-    </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.5 Do you have any thoughts about how the content creator interface could be developed to answer your needs? </h3>  
+    <h3 className={classes.h2}>2.4 Do you have any thoughts about how the content creator interface could be developed to answer your needs? </h3>  
       <TextField
-        id="25"
+        id="24"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"

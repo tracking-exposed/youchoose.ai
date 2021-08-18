@@ -176,7 +176,7 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.5 Which strategies do you use to influence the algorithm?</h3>  
+    <h3 className={classes.h2}>1.5 Which strategies do you use to influence the algorithm and reach your audience?</h3>  
       <TextField
         id="15"
         style={{ margin: 10 }}
@@ -197,7 +197,7 @@ export default function QuestionPage1() {
       </RadioGroup>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.7 If you have been penalized by the algorithm, please tell us how and how you find it out.</h3>  
+    <h3 className={classes.h2}>1.7 When do you think the algorithm favors your content, and when do you think it demotes or censors it?</h3>  
       <TextField
         id="17"
         style={{ margin: 10 }}

@@ -122,7 +122,7 @@ export default function QuestionPage1() {
     <FormControl component="fieldset">
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.1 How much are these algorithmic suggestions useful for you as a user?</h3>  
+    <h3 className={classes.h2}>1.1 How often do you watch recommended content?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -135,8 +135,9 @@ export default function QuestionPage1() {
       <div className={classes.margin} />
     </div>
 
+
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.2 How much do you understand how this algorithm works?</h3>  
+    <h3 className={classes.h2}>1.2 How much are these algorithmic suggestions useful for you?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -149,10 +150,24 @@ export default function QuestionPage1() {
       <div className={classes.margin} />
     </div>
 
+    <div className={classes.root}>
+    <h3 className={classes.h2}>1.3 How much do you understand how this algorithm works?</h3>  
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="53"
+       min={1}
+       max={5}
+      />
+      <div className={classes.margin} />
+    </div>
+
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.3 What do you understand about the algorithm's logic?</h3>  
+    <h3 className={classes.h2}>1.4 What do you understand about the algorithm's logic?</h3>  
       <TextField
-        id="53"
+        id="54"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -163,13 +178,13 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.4 How much can you control the videos recommended to you by the algorithm?</h3>  
+    <h3 className={classes.h2}>1.5 How much can you control the videos recommended to you by the algorithm?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
        marks={marks}
-       id="54"
+       id="55"
        min={1}
        max={5}
       />
@@ -177,9 +192,9 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.5 Which strategies do you use to influence the algorithm? (e.g., liking channels, subscribing..)</h3>  
+    <h3 className={classes.h2}>1.6 Which strategies do you use to influence the algorithm? (e.g., liking channels, subscribing..)</h3>  
       <TextField
-        id="55"
+        id="56"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -190,13 +205,13 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>1.6 How much is the algorithm bringing you to videos you do not like?</h3>  
+    <h3 className={classes.h2}>1.7 How much is the algorithm bringing you to videos you do not like?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
        marks={marks}
-       id="56"
+       id="57"
        min={1}
        max={5}
       />
@@ -204,9 +219,9 @@ export default function QuestionPage1() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.7 If the algorithm has recommended you strange/bad/harmful videos, tell us more about that.</h3>  
+    <h3 className={classes.h2}>1.8 If the algorithm has recommended you strange/bad/harmful videos, tell us more about that.</h3>  
       <TextField
-        id="57"
+        id="58"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -230,28 +245,3 @@ export default function QuestionPage1() {
 }
 
 
-/* 
-moving this in the page 3
-
-<h3 className={classes.h2}>1.8 Do you know what shadow-banning is?</h3>
-      <RadioGroup id="shadowban" aria-label="shadowban" name="shadowban1" >
-        <FormControlLabel id="181" control={<Checkbox />} label="Yes" />
-        <FormControlLabel id="182" control={<Checkbox />} label="No" />
-        <FormControlLabel id="183" control={<Checkbox />} label="I heard about it, but I do not really know what it is." />
-      </RadioGroup>
-
-
-    <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>1.9 Can you tell us if you know some channels that have been shadow-banned and how you/them find it out? </h3>  
-      <TextField
-        id="19"
-        style={{ margin: 10 }}
-        fullWidth
-        margin="normal"
-        color='secondary'
-        label="Make some example here:"
-        variant="filled"
-      />
-    </div>
-
- */

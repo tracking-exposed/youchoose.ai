@@ -57,6 +57,52 @@ const marks = [
   },
 ];
 
+const marks2 = [
+  {
+    value: 1,
+    label: 'Much worse',
+  },
+  {
+    value: 2,
+    label: 'Somewhat worse',
+  },
+  {
+    value: 3,
+    label: 'About the same',
+  },
+  {
+    value: 4,
+    label: 'Somewhat better',
+  },
+  {
+    value: 5,
+    label: 'Much better',
+  },
+];
+
+const marks3 = [
+  {
+    value: 1,
+    label: 'Not at all',
+  },
+  {
+    value: 2,
+    label: 'Only a little',
+  },
+  {
+    value: 3,
+    label: 'To some extent',
+  },
+  {
+    value: 4,
+    label: 'Rather much',
+  },
+  {
+    value: 5,
+    label: 'Very much',
+  },
+];
+
 
 const PrettoSlider = withStyles({
   root: {
@@ -119,12 +165,12 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made by Youtubers instead of having algorithm choosing for you?</h3>  
+    <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made by Youtubers compared with the recommendations made by the Youtube algorithm?</h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks2}
        id="61"
        min={1}
        max={5}
@@ -137,11 +183,8 @@ export default function QuestionPage2() {
         <FormControlLabel value="a" control={<Checkbox />} label="Youtube videos from other channels." />
         <FormControlLabel value="b" control={<Checkbox />} label="Youtube videos from the same channels." />
         <FormControlLabel value="c" control={<Checkbox />} label="Wikipedia pages." />
-        <FormControlLabel value="d" control={<Checkbox />} label="Divulgarive articles." />
-        <FormControlLabel value="e" control={<Checkbox />} label="Scientific articles." />
-        <FormControlLabel value="f" control={<Checkbox />} label="Tik Tok." />
-        <FormControlLabel value="g" control={<Checkbox />} label="Other social media links." />
-        <FormControlLabel value="h" control={<Checkbox />} label="Advertisment" />
+        <FormControlLabel value="d" control={<Checkbox />} label="Articles." />
+        <FormControlLabel value="e" control={<Checkbox />} label="Links to other social media posts (ex TikTok video, Reddit thread...)" />
       
       </RadioGroup>
 
@@ -158,19 +201,19 @@ export default function QuestionPage2() {
     </div>
 
 
-    <h3 className={classes.h2}>2.3 Would you also like to have some recommendations from YouTubers on the homepage?</h3>
+    <h3 className={classes.h2}>2.3  Do you like to better control your recommendations on the YouTube homepage?</h3>
       <RadioGroup id="64" aria-label="cc recommendations"  >
         <FormControlLabel value="a" control={<Radio />} label="Yes." />
         <FormControlLabel value="b" control={<Radio />} label="No." />
       </RadioGroup>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.4 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g., Reddit, Twitter, or Facebook)?</h3>
+    <h3 className={classes.h2}>2.4 How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g., Reddit, Twitter, or Facebook)?</h3>
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks}
+       marks={marks3}
        id="65"
        min={1}
        max={5}

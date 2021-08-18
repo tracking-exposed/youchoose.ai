@@ -125,7 +125,7 @@ export default function QuestionPage3() {
       </RadioGroup>
     
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.2 Can you tell us if you know some channels that have been shadow-banned? </h3>  
+    <h3 className={classes.h2}>3.2 Do you know any shadow banned channel?</h3>  
       <TextField
         id="73"
         style={{ margin: 10 }}
@@ -164,8 +164,7 @@ export default function QuestionPage3() {
       <div className={classes.margin} />
     </div>
 
-    <h3 className={classes.h2}>3.5 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban. <br></br>
-    Are you interested in help collecting evidence by installing our browser extension?</h3>
+    <h3 className={classes.h2}>3.5 Would you be willing to donate anonimysed recommendation data to help us and your favorite youtubers expose shadow banning? (the process will be automated by a browser extension)</h3>
       <RadioGroup id="76" aria-label="shadowban" >
         <FormControlLabel value="a" control={<Radio />} label="Yes!" />
         <FormControlLabel value="b" control={<Radio />} label="No," />
