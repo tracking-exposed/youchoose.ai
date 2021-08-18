@@ -36,14 +36,19 @@ const useStyles = makeStyles((theme) => ({
 
 const marks = [
   {
-    value: 0,
+    value: 1,
     label: 'Not at all',
   },
   {
-    value: 100,
+    value: 4,
+    label: '4.Neither yes or no',
+  },
+  {
+    value: 7,
     label: 'Completly',
   },
 ];
+
 
 const PrettoSlider = withStyles({
   root: {
@@ -110,13 +115,29 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.1 How much are these algorithmic suggestions useful for you as a user?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="51" />
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="51"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.2 How much do you understand how this algorithm works?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="52" />
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="52"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
@@ -135,7 +156,15 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.4 How much can you control the videos recommended to you by the algorithm?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="54"/>
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="54"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
@@ -154,7 +183,15 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.6 How much is the algorithm bringing you to videos you do not like?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="56"/>
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="56"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 

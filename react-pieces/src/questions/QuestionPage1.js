@@ -37,12 +37,16 @@ const useStyles = makeStyles((theme) => ({
 
 const marks = [
   {
-    value: 0,
-    label: 'Not at all',
+    value: 1,
+    label: '1.Not at all',
   },
   {
-    value: 100,
-    label: 'Completly',
+    value: 4,
+    label: '4.Neither yes or no',
+  },
+  {
+    value: 7,
+    label: '7.Completly',
   },
 ];
 
@@ -116,6 +120,8 @@ export default function QuestionPage1() {
         defaultValue={null}
         marks={marks}
         id="11"
+        min={1}
+        max={7}
       />
       <div className={classes.margin} />
     </div>
@@ -128,6 +134,8 @@ export default function QuestionPage1() {
         defaultValue={-1}
         marks={marks}
         id="12"
+        min={1}
+        max={7}
       />
       <div className={classes.margin} />
     </div>
@@ -147,7 +155,15 @@ export default function QuestionPage1() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.4 How much can you control the videos recommended to your audience by the algorithm?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="14"/>
+      <PrettoSlider 
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="14"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 

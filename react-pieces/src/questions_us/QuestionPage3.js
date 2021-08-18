@@ -35,14 +35,19 @@ const useStyles = makeStyles((theme) => ({
 
 const marks = [
   {
-    value: 0,
+    value: 1,
     label: 'Not at all',
   },
   {
-    value: 100,
+    value: 4,
+    label: '4.Neither yes or no',
+  },
+  {
+    value: 7,
     label: 'Completly',
   },
 ];
+
 
 const PrettoSlider = withStyles({
   root: {
@@ -92,7 +97,15 @@ export default function QuestionPage3() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}></h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="71"/>
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="71"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
     
@@ -131,7 +144,15 @@ export default function QuestionPage3() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.4 How much do you want to help to fight this phenomenon?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="75" />
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="75"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 

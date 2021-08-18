@@ -31,11 +31,15 @@ const useStyles = makeStyles((theme) => ({
 
 const marks = [
   {
-    value: 0,
+    value: 1,
     label: 'Not at all',
   },
   {
-    value: 100,
+    value: 4,
+    label: '4.Neither yes or no',
+  },
+  {
+    value: 7,
     label: 'Completly',
   },
 ];
@@ -102,7 +106,15 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.1 How much do you think this software could be helpful for you? </h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="21" />
+      <PrettoSlider 
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="21"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
@@ -120,7 +132,15 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.2 How much do you think this could be interesting for your audience?</h3>
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="22"/>
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="22"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
@@ -162,7 +182,15 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.3 How much do you like the idea of having a personal dashboard?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="23"/>
+      <PrettoSlider 
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="23"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 

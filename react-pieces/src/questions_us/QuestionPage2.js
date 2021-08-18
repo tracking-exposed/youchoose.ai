@@ -36,14 +36,19 @@ const useStyles = makeStyles((theme) => ({
 
 const marks = [
   {
-    value: 0,
+    value: 1,
     label: 'Not at all',
   },
   {
-    value: 100,
+    value: 4,
+    label: '4.Neither yes or no',
+  },
+  {
+    value: 7,
     label: 'Completly',
   },
 ];
+
 
 const PrettoSlider = withStyles({
   root: {
@@ -107,7 +112,15 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made by Youtubers instead of having algorithm choosing for you?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="61" />
+      <PrettoSlider 
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="61"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
@@ -145,7 +158,15 @@ export default function QuestionPage2() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>2.4 Imagine that some of the videos you see on Reddit will appear as recommendations on Youtube. How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g., Reddit, Twitter, or Facebook)?</h3>
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="65"/>
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="65"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 

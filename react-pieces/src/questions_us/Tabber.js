@@ -89,8 +89,8 @@ export default function FullWidthTabs() {
           <Tab id="firstTabs" label="1" {...a11yProps(0)} />
           <Tab id="secondTabs" label="2" {...a11yProps(1)} />
           <Tab id="thirdtabs" label="3" {...a11yProps(2)} />
-          <Tab id="fourthTabs" label="4" {...a11yProps(3)} />
-          <Tab id="fifthTabs" label="5" {...a11yProps(4)} />
+          <Tab id="fourthTabs" label="Contact" {...a11yProps(3)} />
+          <Tab id="fifthTabs" label="Done!" {...a11yProps(4)} />
       
       </Tabs>
     </AppBar>

@@ -37,11 +37,15 @@ const useStyles = makeStyles((theme) => ({
 
 const marks = [
   {
-    value: 0,
+    value: 1,
     label: 'Not at all',
   },
   {
-    value: 100,
+    value: 4,
+    label: '4.Neither yes or no',
+  },
+  {
+    value: 7,
     label: 'Completly',
   },
 ];
@@ -100,13 +104,29 @@ export default function QuestionPage3() {
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.2 How much are you scared to be shadow-banned?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="32" />
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="32"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
     <div className={classes.root}>
     <h3 className={classes.h2}>3.3 How much are you interested in a tool that can measure the shadow-ban for a specific channel (shadow-ban tester)?</h3>  
-      <PrettoSlider valueLabelDisplay="auto" aria-label="pretto slider" defaultValue={0} marks={marks} id="33" />
+      <PrettoSlider
+       valueLabelDisplay="auto"
+       aria-label="pretto slider"
+       defaultValue={0}
+       marks={marks}
+       id="33"
+       min={1}
+       max={7}
+      />
       <div className={classes.margin} />
     </div>
 
