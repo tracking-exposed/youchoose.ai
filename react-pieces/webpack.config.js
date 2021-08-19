@@ -27,8 +27,6 @@ const PATHS = {
         questions: path.resolve(__dirname, 'src/questions/index.js'),
         questions_us: path.resolve(__dirname, 'src/questions_us/index.js'),
         answers: path.resolve(__dirname, 'src/answers/index.js'),
-        answers_us: path.resolve(__dirname, 'src/answers_us/index.js'),
-
     },
     BUILD: path.resolve(__dirname, '..', 'static', 'js', 'generated'),
     NODE_MODULES: path.resolve(__dirname, 'node_modules')

@@ -26,21 +26,17 @@ class Contribute extends React.Component{
         <Table stickyHeader aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell align="right">ref</TableCell>
-              <TableCell align="right">optIn</TableCell>
-              <TableCell align="right">lastUpdate</TableCell>
-              <TableCell align="right">version</TableCell>
-              <TableCell align="right">11</TableCell>
+              {keys.map((key) => (
+                <TableCell align="right">{key}</TableCell>
+              ))}
             </TableRow>
           </TableHead>
           <TableBody>
             {rows.map((row) => (
               <TableRow key={row.sessionId}>
-                <TableCell align="right">{row.reference}</TableCell>
-                <TableCell align="right">{row['optIn']}</TableCell>
-                <TableCell align="right" alt={row['lastUpdate']}>{row['timeago']}</TableCell>
-                <TableCell align="right">{row['version']}</TableCell>
-                <TableCell align="right">{row['11']}</TableCell>
+                {keys.map((key) => (
+                  <TableCell align="right">{row[key]}</TableCell>
+                ))}
               </TableRow>
             ))}
           </TableBody>

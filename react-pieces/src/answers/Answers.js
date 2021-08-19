@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Card } from '@material-ui/core';
 import { Alert, AlertTitle } from '@material-ui/lab';
-//import FormHelperText from '@material-ui/core/FormHelperText';
 
 import Contribute from './Contribute';
 
@@ -56,9 +55,11 @@ class Answers extends React.Component{
     const watchers = _.filter(this.state.data, { qName: 'watchers'});
     return (
       <div style={styles}>
-        <p> Answers received # CONTENT CREATORS: </p>
+        <p> Answers from <b>CONTENT CREATORS</b></p>
         <Contribute data={youtubers} kind="youtubers" />
-        <p> Answers received # USERS: </p>
+        < br />
+        < br />
+        <p> Answers from <b>USERS</b></p>
         <Contribute data={watchers} kind="watchers" />
       </div>
     );

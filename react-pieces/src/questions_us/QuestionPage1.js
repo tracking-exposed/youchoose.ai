@@ -1,12 +1,12 @@
-// ID DA CAMBIARE È SOLO L'ULTIMA DOMANDA 
-
-
 import _ from 'lodash';
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Radio from '@material-ui/core/Radio';
 
 import PrettoSlider from '../questions/PrettoSlider';
 
@@ -210,11 +210,9 @@ export default function QuestionPage1() {
       />
     </div>
 
-   /* per fortuna non abbiamo usato il 6.0 e forse possiamo usarlo per questa domanda*/
-    
-    <h3 className={classes.h2}>XX There are <b>different types</b> of algorithmic recommendations on YouTube, not only the one described in the image at the top of this page.
+    <h3 className={classes.h2}>5.A There are <b>different types</b> of algorithmic recommendations on YouTube, not only the one described in the image at the top of this page.
      Which ones are more important / useful for you?</h3>
-      <RadioGroup id="XX" defaultValue="NO" aria-label="algos">
+      <RadioGroup id="5A" defaultValue="NO" aria-label="algos">
         <FormControlLabel value="a" control={<Radio />} label="Homepage recommendations." />
         <FormControlLabel value="b" control={<Radio />} label="Sidebar recommendations, next to the video player." />
         <FormControlLabel value="c" control={<Radio />} label="Autoplay." />
