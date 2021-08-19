@@ -1,15 +1,14 @@
-import React from 'react';
-import {withStyles, makeStyles} from '@material-ui/core/styles';
 import _ from 'lodash';
+import React from 'react';
+import {makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-
 import TextField from '@material-ui/core/TextField';
-import Slider from '@material-ui/core/Slider';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
-
 import Button from '@material-ui/core/Button';
+
+import PrettoSlider from './PrettoSlider';
 
 function clickOn(e) {
   const tid = e.currentTarget.getAttribute('target-id');
@@ -34,28 +33,6 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const marks = [
-  {
-    value: 1,
-    label: 'Never',
-  },
-  {
-    value: 2,
-    label: 'Rarely',
-  },
-  {
-    value: 3,
-    label: 'Sometimes',
-  },
-  {
-    value: 4,
-    label: 'Often',
-  },
-  {
-    value: 5,
-    label: 'Always',
-  },
-];
 
 const marks3 = [
   {
@@ -64,7 +41,7 @@ const marks3 = [
   },
   {
     value: 2,
-    label: 'Only a little',
+    //label: 'Only a little',
   },
   {
     value: 3,
@@ -72,43 +49,13 @@ const marks3 = [
   },
   {
     value: 4,
-    label: 'Rather much',
+    //label: 'Rather much',
   },
   {
     value: 5,
     label: 'Very much',
   },
 ];
-
-const PrettoSlider = withStyles({
-  root: {
-    color: '#e33180',
-    height: 20,
-  },
-  thumb: {
-    height: 24,
-    width: 24,
-    backgroundColor: '#fff',
-    border: '2px solid currentColor',
-    marginTop: -8,
-    marginLeft: -12,
-    '&:focus, &:hover, &$active': {
-      boxShadow: 'inherit',
-    },
-  },
-  active: {},
-  valueLabel: {
-    left: 'calc(-50% + 4px)',
-  },
-  track: {
-    height: 8,
-    borderRadius: 4,
-  },
-  rail: {
-    height: 8,
-    borderRadius: 4,
-  },
-})(Slider);
 
 export default function QuestionPage3() {
 
@@ -125,7 +72,7 @@ export default function QuestionPage3() {
     to better understand this kind of opaque censorship and to reveal it.
     </h3>
 
-    <h3 className={classes.h2}>3.1 Do you know what shadow-ban is? </h3>
+    <h3 className={classes.h2}>3.1 Do you know what <b>shadow-ban</b> is? </h3>
       <RadioGroup id="31" aria-label="shadowban">
         <FormControlLabel value="a" control={<Radio />} label="Yes" />
         <FormControlLabel value="b" control={<Radio />} label="No" />
@@ -133,7 +80,7 @@ export default function QuestionPage3() {
       </RadioGroup>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.2 How much are you scared to be shadow-banned?</h3>  
+    <h3 className={classes.h2}>3.2 How much are you <b>scared</b> to be shadow-banned?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -147,7 +94,7 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.3 How much are you interested in a tool that can detect when a channel is being shadow banned (shadow-ban tester)?</h3>  
+    <h3 className={classes.h2}>3.3 How much are you <b>interested</b> in a tool that can detect when a channel is being shadow banned (shadow-ban tester)?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -161,7 +108,7 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.4 Do you know of any case of shadow-ban that happened to you or other Youtubers?</h3>  
+    <h3 className={classes.h2}>3.4 Do you know of any <b>case</b> of shadow-ban that happened to you or other Youtubers?</h3>  
       <TextField
         id="34"
         style={{ margin: 10 }}
@@ -174,7 +121,7 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.5 What is the evidence that you / other Youtubers provided about the cases? </h3>  
+    <h3 className={classes.h2}>3.5 What is the <b>evidence</b> that you / other Youtubers provided about the cases? </h3>  
       <TextField
         id="35"
         style={{ margin: 10 }}
@@ -188,7 +135,7 @@ export default function QuestionPage3() {
 
 
     <h3 className={classes.h2}>3.6 We plan to use collaborative data collections to spot shadow-ban: users will automatically communicate their recommended videos with us, and we will provide statistics about the shadow-ban. <br></br>
-   Would you like to ask your audience for help? </h3>
+   Would you like to <b>ask your audience</b> for help? </h3>
       <RadioGroup id="36" aria-label="datasharing">
         <FormControlLabel value="a" control={<Radio />} label="Yes" />
         <FormControlLabel value="b" control={<Radio />} label="No" />

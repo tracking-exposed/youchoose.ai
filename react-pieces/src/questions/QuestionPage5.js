@@ -3,7 +3,6 @@ import _ from 'lodash';
 import React from 'react';
 
 import { makeStyles} from '@material-ui/core/styles';
-import FormControl from '@material-ui/core/FormControl';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,15 +25,10 @@ export default function QuestionPage5() {
 
   return (
     <div className={classes.root}>
-    <FormControl component="fieldset">
-
-    <h2 className="titlehp pink">
-     Your answer has been submitted.
-     Thanks for your help!
-    </h2>
-
-    
-    </FormControl>
+      <h2 className="titlehp pink">
+        Your answer has been submitted.
+        Thanks for your help!
+      </h2>
 	  </div> 
 	  )
 	}

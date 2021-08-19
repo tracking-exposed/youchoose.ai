@@ -1,14 +1,11 @@
 import _ from 'lodash';
-
 import React from 'react';
-import { makeStyles} from '@material-ui/core/styles';
-
+import {makeStyles} from '@material-ui/core/styles';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio'
 import TextField from '@material-ui/core/TextField';
-
 import Button from '@material-ui/core/Button';
 
 import PrettoSlider from './PrettoSlider';
@@ -38,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 const marksyears = [
   {
     value: 1,
-    label: 'less than 1 year',
+    label: '< 1 year',
   },
   {
     value: 2,
@@ -46,7 +43,7 @@ const marksyears = [
   },
   {
     value: 3,
-    label: 'more than 3 years',
+    label: '> 3 years',
   },
 ];
 
@@ -57,7 +54,7 @@ const marks3 = [
   },
   {
     value: 2,
-    label: 'Only a little',
+    //label: 'Only a little',
   },
   {
     value: 3,
@@ -65,14 +62,13 @@ const marks3 = [
   },
   {
     value: 4,
-    label: 'Rather much',
+    //label: 'Rather much',
   },
   {
     value: 5,
     label: 'Very much',
   },
 ];
-
 
 export default function QuestionPage4() {
 
@@ -89,7 +85,7 @@ export default function QuestionPage4() {
     </h3>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>4.1 How long have you been a Youtuber?</h3>  
+    <h3 className={classes.h2}>4.1 How <b>long</b> have you been a Youtuber?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -103,7 +99,7 @@ export default function QuestionPage4() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.2 What's your channel about? </h3>  
+    <h3 className={classes.h2}>4.2 What's your <b>channel</b> about? </h3>  
       <TextField
         id="42"
         style={{ margin: 10 }}
@@ -128,14 +124,14 @@ export default function QuestionPage4() {
       />
     </div>
 
-    <h3 className={classes.h2}>4.4 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
+    <h3 className={classes.h2}>4.4 Let us know if you are available for an online <b>interview</b> (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
       <RadioGroup id="optIn" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel value="YES" control={<Radio />} label="Yes, you can contact me for an interview." />
         <FormControlLabel value="NO" control={<Radio />} label="No, thanks." />
       </RadioGroup>
 
       <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.5 If you could change one thing about website/product what would it be and why? </h3>  
+    <h3 className={classes.h2}>4.5 If you could <b>change</b> one thing about website/product what would it be and why? </h3>  
       <TextField
         id="45"
         style={{ margin: 10 }}
@@ -148,7 +144,7 @@ export default function QuestionPage4() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>4.6 How likely is it that you could recommend our product/website to a friend or colleague?</h3>  
+    <h3 className={classes.h2}>4.6 How likely is it that you could <b>recommend</b> our product/website to a friend or colleague?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"

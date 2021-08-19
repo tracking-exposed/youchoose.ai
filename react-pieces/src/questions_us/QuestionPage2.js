@@ -34,29 +34,6 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const marks = [
-  {
-    value: 1,
-    label: 'Never',
-  },
-  {
-    value: 2,
-    label: 'Rarely',
-  },
-  {
-    value: 3,
-    label: 'Sometimes',
-  },
-  {
-    value: 4,
-    label: 'Often',
-  },
-  {
-    value: 5,
-    label: 'Always',
-  },
-];
-
 const marks2 = [
   {
     value: 1,
@@ -64,7 +41,7 @@ const marks2 = [
   },
   {
     value: 2,
-    label: 'Somewhat worse',
+    //label: 'Somewhat worse',
   },
   {
     value: 3,
@@ -72,7 +49,7 @@ const marks2 = [
   },
   {
     value: 4,
-    label: 'Somewhat better',
+    //label: 'Somewhat better',
   },
   {
     value: 5,
@@ -85,18 +62,18 @@ const marks3 = [
     value: 1,
     label: 'Not at all',
   },
-  {
+  /*{
     value: 2,
     label: 'Only a little',
-  },
+  },*/
   {
     value: 3,
     label: 'To some extent',
   },
-  {
+  /*{
     value: 4,
     label: 'Rather much',
-  },
+  },*/
   {
     value: 5,
     label: 'Very much',
@@ -165,7 +142,7 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made by Youtubers compared with the recommendations made by the Youtube algorithm?</h3>  
+    <h3 className={classes.h2}>2.1 How much do you like the idea of having videos recommendations made <b>by Youtubers</b> compared with the recommendations made by the <b>Youtube</b> algorithm?</h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -178,7 +155,7 @@ export default function QuestionPage2() {
       <div className={classes.margin} />
     </div>
 
-    <h3 className={classes.h2}>2.2 What kind of recommendations would you like to receive from Youtubers?</h3>
+    <h3 className={classes.h2}>2.2 What kind of recommendations would you like to <b>receive</b> from Youtubers?</h3>
       <RadioGroup id="62" aria-label="suggestion type"  >
         <FormControlLabel value="a" control={<Checkbox />} label="Youtube videos from other channels." />
         <FormControlLabel value="b" control={<Checkbox />} label="Youtube videos from the same channels." />
@@ -201,14 +178,14 @@ export default function QuestionPage2() {
     </div>
 
 
-    <h3 className={classes.h2}>2.3  Do you like to better control your recommendations on the YouTube homepage?</h3>
+    <h3 className={classes.h2}>2.3  Do you like to better control your recommendations on the YouTube <b>homepage</b>?</h3>
       <RadioGroup id="64" aria-label="cc recommendations"  >
         <FormControlLabel value="a" control={<Radio />} label="Yes." />
         <FormControlLabel value="b" control={<Radio />} label="No." />
       </RadioGroup>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.4 How much do you like the idea of having, in the recommended section, some videos coming from your activity on other social media (e.g., Reddit, Twitter, or Facebook)?</h3>
+    <h3 className={classes.h2}>2.4 How much do you like the idea of having, in the recommended section, some videos coming from your activity on other <b>social media</b> (e.g., Reddit, Twitter, or Facebook)?</h3>
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -222,7 +199,7 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.5 Do you have any thoughts you want to share with us? </h3>
+    <h3 className={classes.h2}>2.5 Do you have any <b>thoughts</b> you want to share with us? </h3>
       <TextField
         id="66"
         style={{ margin: 10 }}

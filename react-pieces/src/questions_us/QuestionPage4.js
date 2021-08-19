@@ -45,7 +45,7 @@ export default function QuestionPage4() {
     </h3>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.1 If you have any suggestions or advice... </h3>  
+    <h3 className={classes.h2}>4.1 If you have any <b>suggestions</b> or advice... </h3>  
       <TextField
         id="81"
         style={{ margin: 10 }}
@@ -58,7 +58,7 @@ export default function QuestionPage4() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>4.2 If you are interested in the project, leave here your email. We will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
+    <h3 className={classes.h2}>4.2 If you are interested in the project, leave here your <b>email</b>. We will send you <b> just one email</b>  updating you on the day we will lunch the tool. </h3>  
       <TextField
         id="82"
         style={{ margin: 10 }}
@@ -70,7 +70,7 @@ export default function QuestionPage4() {
       />
     </div>
 
-    <h3 className={classes.h2}>4.3 Let us know if you are available for an online interview (30 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
+    <h3 className={classes.h2}>4.3 Let us know if you are available for an online <b>interview</b> (15 minutes max). We will use this time to tell you more about the tool, to think together about the possible future of this software and the community that will grow around it.</h3>
       <RadioGroup id="optIn" defaultValue="NO" aria-label="iscrizione" name="iscrizione">
         <FormControlLabel value="YES" control={<Radio />} label="Yes, you can contact me for an interview." />
         <FormControlLabel value="NO" control={<Radio />} label="No, thanks." />

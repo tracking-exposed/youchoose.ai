@@ -1,7 +1,7 @@
 import {withStyles } from '@material-ui/core/styles';
 import Slider from '@material-ui/core/Slider';
 
-export default PrettoSlider = withStyles({
+export default withStyles({
   root: {
     color: '#e33180',
     height: 20,
