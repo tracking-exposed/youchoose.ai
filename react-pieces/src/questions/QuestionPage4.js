@@ -8,11 +8,10 @@ import FormControl from '@material-ui/core/FormControl';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio'
 import TextField from '@material-ui/core/TextField';
-import Slider from '@material-ui/core/Slider';
-
 
 import Button from '@material-ui/core/Button';
 
+import PrettoSlider from './PrettoSlider';
 
 function clickOn(e) {
   const tid = e.currentTarget.getAttribute('target-id');

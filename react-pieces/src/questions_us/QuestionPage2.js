@@ -146,7 +146,7 @@ export default function QuestionPage2() {
  
 
     <h3 className=" pink">
-   <br></br>
+    <br></br>
      We want to enable Youtubers to suggest videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the content they upload.
     </h3>
 

@@ -143,7 +143,7 @@ export default function QuestionPage3() {
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
-       marks={marks3}
+       marks={marks}
        id="74"
        min={1}
        max={5}
