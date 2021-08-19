@@ -208,10 +208,3 @@ export default function QuestionPage1() {
   </div>  
   );
 }
-
-/*     <h3 className={classes.h2}>1.7 Do you think the is algorithm discriminating against you as a Youtuber? </h3>
-      <RadioGroup id="17" aria-label="discriminating" name="discriminating1" >
-        <FormControlLabel value="a" control={<Radio />} label="Yes, the algorithm is discriminating against me." />
-        <FormControlLabel value="b" control={<Radio />} label="No, the algorithm is not discriminating against me." />
-        <FormControlLabel value="c" control={<Radio />} label="No, the algorithm is neutral, it is not discriminating against me or others." />
-      </RadioGroup> */

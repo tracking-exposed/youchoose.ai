@@ -52,13 +52,13 @@ class Answers extends React.Component{
       );
     }
     
-    const creators = _.filter(this.state.data, { source: 'creators'});
-    const watchers = _.filter(this.state.data, { source: 'watchers'});
+    const youtubers = _.filter(this.state.data, { qName: 'youtubers'});
+    const watchers = _.filter(this.state.data, { qName: 'watchers'});
     return (
       <div style={styles}>
         <p> Answers received # CONTENT CREATORS: </p>
-        <Contribute data={creators} kind="creators" />
-        <p> Answers received # WATCHERS: </p>
+        <Contribute data={youtubers} kind="youtubers" />
+        <p> Answers received # USERS: </p>
         <Contribute data={watchers} kind="watchers" />
       </div>
     );

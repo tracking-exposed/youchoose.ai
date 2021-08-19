@@ -71,7 +71,7 @@ export default function QuestionPage3() {
     </h3>
 
     
-    <h3 className={classes.h2}>3.1 Are you <b>aware</b> of this type of censorship? </h3>
+    <h3 className={classes.h2}>7.1 Are you <b>aware</b> of this type of censorship? </h3>
       <RadioGroup id="71" aria-label="shadowban" >
       <FormControlLabel value="a" control={<Radio />} label="Yes" />
         <FormControlLabel value="b" control={<Radio />} label="No" />
@@ -79,7 +79,7 @@ export default function QuestionPage3() {
       </RadioGroup>
     
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.2 Do you know any shadow banned <b>channel</b>?</h3>  
+    <h3 className={classes.h2}>7.2 Do you know any shadow banned <b>channel</b>?</h3>  
       <TextField
         id="72"
         style={{ margin: 10 }}
@@ -92,7 +92,7 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>3.3 Can you tell us how you/others <b>find</b> it out?</h3>  
+    <h3 className={classes.h2}>7.3 Can you tell us how you/others <b>find</b> it out?</h3>  
       <TextField
         id="73"
         style={{ margin: 10 }}
@@ -105,7 +105,7 @@ export default function QuestionPage3() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>3.4 How much do you want to help to <b>fight</b> this phenomenon?</h3>  
+    <h3 className={classes.h2}>7.4 How much do you want to help to <b>fight</b> this phenomenon?</h3>  
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
@@ -118,7 +118,7 @@ export default function QuestionPage3() {
       <div className={classes.margin} />
     </div>
 
-    <h3 className={classes.h2}>3.5 Would you be willing to <b>donate</b> anonimysed recommendation data to help us and your favorite youtubers expose shadow banning? (the process will be automated by a browser extension)</h3>
+    <h3 className={classes.h2}>7.5 Would you be willing to <b>donate</b> anonimysed recommendation data to help us and your favorite youtubers expose shadow banning? (the process will be automated by a browser extension)</h3>
       <RadioGroup id="75" aria-label="shadowban" >
         <FormControlLabel value="a" control={<Radio />} label="Yes!" />
         <FormControlLabel value="b" control={<Radio />} label="No," />

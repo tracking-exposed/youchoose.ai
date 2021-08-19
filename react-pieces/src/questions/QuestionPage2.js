@@ -92,10 +92,8 @@ export default function QuestionPage2() {
   <div className={classes.root}>
   <FormControl component="fieldset">
 
- 
-
     <h3 className=" pink">
-   <br></br>
+    <br></br>
     We want to enable Youtubers to suggest videos to their audience, replacing the ones suggested by Youtube's algorithm when watching the content they upload.
     </h3>
 
@@ -129,7 +127,7 @@ export default function QuestionPage2() {
 
     <div className={classes.root} noValidate autoComplete="off">
       <TextField
-        id="212"
+        id="22"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -140,13 +138,13 @@ export default function QuestionPage2() {
     </div>
 
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.2 How much do you think this could be <b>interesting</b> for your audience compared with standard Youtube suggestions?</h3>
+    <h3 className={classes.h2}>2.3 How much do you think this could be <b>interesting</b> for your audience compared with standard Youtube suggestions?</h3>
       <PrettoSlider
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
        marks={marks2}
-       id="22"
+       id="23"
        min={1}
        max={5}
       />
@@ -155,7 +153,7 @@ export default function QuestionPage2() {
 
     <div className={classes.root} noValidate autoComplete="off">
       <TextField
-        id="222"
+        id="24"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
@@ -187,16 +185,14 @@ export default function QuestionPage2() {
       </div>
     </div>
 
-
-
     <div className={classes.root}>
-    <h3 className={classes.h2}>2.3 How much do you like the idea of having a personal <b>dashboard</b> compared with the idea of using the videos' <b>description</b> to declare which videos will be recommended to your audience?</h3>  
+    <h3 className={classes.h2}>2.5 How much do you like the idea of having a personal <b>dashboard</b> compared with the idea of using the videos' <b>description</b> to declare which videos will be recommended to your audience?</h3>  
       <PrettoSlider 
        valueLabelDisplay="auto"
        aria-label="pretto slider"
        defaultValue={0}
        marks={marks2}
-       id="23"
+       id="25"
        min={1}
        max={5}
       />
@@ -206,9 +202,9 @@ export default function QuestionPage2() {
 
 
     <div className={classes.root} noValidate autoComplete="off">
-    <h3 className={classes.h2}>2.4 Do you have any <b>thoughts</b> about how the content creator interface could be developed to answer your needs? </h3>  
+    <h3 className={classes.h2}>2.6 Do you have any <b>thoughts</b> about how the content creator interface could be developed to answer your needs? </h3>  
       <TextField
-        id="24"
+        id="26"
         style={{ margin: 10 }}
         fullWidth
         margin="normal"
