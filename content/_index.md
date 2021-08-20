@@ -41,10 +41,36 @@ extracss: "/css/youchoose.css"
 </div>
 </div>
 
-<div><h1 class ="titlehp">>_ Fill up the 4 minutes to help us build the ideal tool for you:</h1></div>
+<div><h1 class ="titlehp">>_ Fill up the 4 minutes <b class="pink">Survey</b> to help us build the ideal tool for you:</h1></div>
+<div>
+ <h3>
+ We will first ask your opinion on YouTube's algorithm, and then how we could improve it with YouChoose.<br><br>
+ Your data will be anonymized and you don't have to give your contact info. When you start the survey, your answers will be recorded.
+ </h3>
+</div>
+</br></br>
+<div>
+ <h3>
+  <b> Click on the box below to start the survey:</b> 
+ </h3> 
+</div> 
+ <h3>
+ If you post videos on Youtube<br>
+    <div class="fba" style="padding-top:2rem;">
+      <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
+    </div>
+ If you only watch videos on Youtube<br>
+    <div class="fba" style="padding-top:2rem;">
+      <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
+    </div>
+ </h3>
+
+<!--
 <div class="fba" style="padding-top:2rem;">
   <a class="fba" href="/survey_start"><span class="fba">SURVEY!</span></a>
 </div>
+-->
+
 <div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
 Most of the content watched on YouTube is surfaced by an algorithm. 
