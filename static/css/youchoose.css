@@ -16,8 +16,10 @@
   color:#e33180;
 }
 
-.pre {
-  padding: 0px !important; 
+.prerosa {
+  font-size: 1.15rem;
+  color:#e33180;
+  font-weight:bold;
 }
 
 .fancybutton {
@@ -26,7 +28,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .fba a {
   display: block;

@@ -41,12 +41,52 @@ extracss: "/css/youchoose.css"
 </div>
 </div>
 
-<div><h1 class ="titlehp">>_ Fill up the 4 minutes to help us build the ideal tool for you:</h1></div>
-<div class="fba" style="padding-top:2rem;">
-  <a class="fba" href="/survey_start"><span class="fba">SURVEY!</span></a>
+<div>
+  <h1 class ="titlehp">
+    >_ The 4 minutes survey to help us build the ideal tool for you:
+  </h1>
 </div>
-<div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
-<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
+
+<div class="fba row">
+
+  <div class="col-5">
+    <pre class="prerosa">
+      <ul>
+        <li>Is shadow banning an opaque sanction and you're concernece about it?</li>
+        <li>Do you want more control on your channel reach and related content?</li>
+      </ul>
+    </pre>
+    <a class="fba" href="/survey_cc">
+      <span class="fba">
+        Creators
+      </span>
+    </a>
+  </div>
+
+  <div class="col-2"></div>
+
+  <div class="col-5">
+    <pre class="prerosa">
+      <ul class="homelist">
+        <li>The content you want is hard to find?</li>
+        <li>Do you wants to resist against algorithm super powers?</li>
+      </ul>
+    </pre>
+    <a class="fba" href="/survey_us">
+      <span class="fba">
+        Consumers
+      </span>
+    </a>
+  </div>
+</div>
+
+<div>
+  <h1 class ="titlehp">
+    >_ An internet that is right for you
+  </h1>
+</div>
+
+<pre class="prerosa">
 Most of the content watched on YouTube is surfaced by an algorithm. 
 Weather you click on a video on the homepage, on a search result, on the sidebar recommendation, or simply play the watch-next, there is an algorithm behind.
 Indeed, there are so many videos out there, how are you going to find them otherwise?<br> 
