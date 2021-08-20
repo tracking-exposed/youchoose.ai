@@ -44,23 +44,30 @@ extracss: "/css/youchoose.css"
 <div><h1 class ="titlehp">>_ Fill up the 4 minutes <b class="pink">Survey</b> to help us build the ideal tool for you:</h1></div>
 <div>
  <h3>
- We will first ask your opinion on YouTube's algorithm, and then how we could improve it with YouChoose.<br><br>
- Your data will be anonymized and you don't have to give your contact info. When you start the survey, your answers will be recorded.
+ We will first ask your opinion on YouTube's algorithm, and then how we could improve it with YouChoose.
+ <br>
+ Your data will be anonymized and you don't have to give your contact info.
+ <br>
+ When you start the survey, your answers will be recorded.
  </h3>
 </div>
 
+<!--
 <div>
  <h3 style="text-align:center;padding-top:1em;padding-bottom:1em;">
   <b> Click on the box below to start the survey:</b> 
  </h3> 
 </div> 
+-->
+<br />
+
 <div class="fba row">
  <div class="col-5">
   <h3>
-   If you <b>post videos</b> on Youtube <br>
     <div class="fba" style="padding-top:2rem;">
       <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
     </div>
+   If you <b>post videos</b> on Youtube <br>
 </div>
 
 
@@ -68,10 +75,10 @@ extracss: "/css/youchoose.css"
 
  <div class="col-5">
    <h3>
-   If you <b>watch videos</b> on Youtube <br>
     <div class="fba" style="padding-top:2rem;">
       <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
     </div>
+   If you <b>watch videos</b> on Youtube <br>
  </h3>
 </div>
 </div>
