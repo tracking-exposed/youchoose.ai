@@ -48,22 +48,33 @@ extracss: "/css/youchoose.css"
  Your data will be anonymized and you don't have to give your contact info. When you start the survey, your answers will be recorded.
  </h3>
 </div>
-</br></br>
+
 <div>
- <h3>
+ <h3 style="text-align:center;padding-top:1em;padding-bottom:1em;">
   <b> Click on the box below to start the survey:</b> 
  </h3> 
 </div> 
- <h3>
- If you post videos on Youtube<br>
+<div class="fba row">
+ <div class="col-5">
+  <h3>
+   If you <b>post videos</b> on Youtube <br>
     <div class="fba" style="padding-top:2rem;">
       <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
     </div>
- If you only watch videos on Youtube<br>
+</div>
+
+
+ <div class="col-2"></div>
+
+ <div class="col-5">
+   <h3>
+   If you <b>watch videos</b> on Youtube <br>
     <div class="fba" style="padding-top:2rem;">
       <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
     </div>
  </h3>
+</div>
+</div>
 
 <!--
 <div class="fba" style="padding-top:2rem;">
