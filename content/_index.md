@@ -68,10 +68,11 @@ extracss: "/css/youchoose.css"
       <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
     </div>
    If you <b>post videos</b> on Youtube <br>
+  </h3>
 </div>
 
 
- <div class="col-2"></div>
+ <div class="col-sm-2"></div>
 
  <div class="col-5">
    <h3>
@@ -79,7 +80,7 @@ extracss: "/css/youchoose.css"
       <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
     </div>
    If you <b>watch videos</b> on Youtube <br>
- </h3>
+   </h3>
 </div>
 </div>
 
