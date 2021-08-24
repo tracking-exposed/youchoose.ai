@@ -46,7 +46,9 @@ class Answers extends React.Component{
     if(!(this.state.data && this.state.data.length)) {
       return (
         <div style={styles}>
-          <h3>Altought connection with server worked, no data seems available, <a href="https://www.youtube.com/watch?v=bs2u4NLaxbI">wtf</a>.</h3>
+          <h4>
+            Connection worked, no data available
+          </h4>
         </div>
       );
     }

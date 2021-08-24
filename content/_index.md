@@ -79,9 +79,9 @@ extracss: "/css/youchoose.css"
     <div class="fba" style="padding-top:2rem;">
       <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
     </div>
-   If you <b>watch videos</b> on Youtube <br>
+   If you <b>watch videos</b> from Youtube <br>
    </h3>
-</div>
+ </div>
 </div>
 
 <!--
