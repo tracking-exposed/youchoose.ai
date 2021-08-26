@@ -87,6 +87,7 @@ Such specialized human expertise is found among:
 **For content creators**:
 * Gain back control on the other videos your content promotes.
 * Gain a new direct connection to your audience, through recommendations.
+* Get analytics on the recommendations and ads which YouTube puts on your content
 
 </section><section>
 
