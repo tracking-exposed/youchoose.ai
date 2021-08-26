@@ -41,10 +41,55 @@ extracss: "/css/youchoose.css"
 </div>
 </div>
 
-<div><h1 class ="titlehp">>_ Fill up the 4 minutes to help us build the ideal tool for you:</h1></div>
+<div><h1 class ="titlehp">>_ Fill up the 4 minutes <b class="pink">Survey</b> to help us build the ideal tool for you:</h1></div>
+<div>
+ <h3>
+ We will first ask your opinion on YouTube's algorithm, and then how we could improve it with YouChoose.
+ <br>
+ Your data will be anonymized and you don't have to give your contact info.
+ <br>
+ When you start the survey, your answers will be recorded.
+ </h3>
+</div>
+
+<!--
+<div>
+ <h3 style="text-align:center;padding-top:1em;padding-bottom:1em;">
+  <b> Click on the box below to start the survey:</b> 
+ </h3> 
+</div> 
+-->
+<br />
+
+<div class="fba row">
+ <div class="col-5">
+  <h3>
+    <div class="fba" style="padding-top:2rem;">
+      <a class="fba" href="/survey_cc"><span class="fba">Youtubers</span></a>
+    </div>
+   If you <b>post videos</b> on Youtube <br>
+  </h3>
+</div>
+
+
+ <div class="col-sm-2"></div>
+
+ <div class="col-5">
+   <h3>
+    <div class="fba" style="padding-top:2rem;">
+      <a class="fba" href="/survey_us"><span class="fba">Users</span></a>
+    </div>
+   If you <b>watch videos</b> from Youtube <br>
+   </h3>
+ </div>
+</div>
+
+<!--
 <div class="fba" style="padding-top:2rem;">
   <a class="fba" href="/survey_start"><span class="fba">SURVEY!</span></a>
 </div>
+-->
+
 <div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
 Most of the content watched on YouTube is surfaced by an algorithm. 

@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Card } from '@material-ui/core';
 import { Alert, AlertTitle } from '@material-ui/lab';
-//import FormHelperText from '@material-ui/core/FormHelperText';
 
 import Contribute from './Contribute';
 
@@ -47,7 +46,9 @@ class Answers extends React.Component{
     if(!(this.state.data && this.state.data.length)) {
       return (
         <div style={styles}>
-          <h3>Altought connection with server worked, no data seems available, <a href="https://www.youtube.com/watch?v=bs2u4NLaxbI">wtf</a>.</h3>
+          <h4>
+            Connection worked, no data available
+          </h4>
         </div>
       );
     }
@@ -56,9 +57,11 @@ class Answers extends React.Component{
     const watchers = _.filter(this.state.data, { qName: 'watchers'});
     return (
       <div style={styles}>
-        <p> Answers received # CONTENT CREATORS: </p>
+        <p> Answers from <b>CONTENT CREATORS</b></p>
         <Contribute data={youtubers} kind="youtubers" />
-        <p> Answers received # USERS: </p>
+        < br />
+        < br />
+        <p> Answers from <b>USERS</b></p>
         <Contribute data={watchers} kind="watchers" />
       </div>
     );

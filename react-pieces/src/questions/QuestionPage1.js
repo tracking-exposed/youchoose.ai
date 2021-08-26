@@ -1,11 +1,12 @@
 import React from 'react';
-import {withStyles, makeStyles} from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
 import _ from 'lodash';
 import FormControl from '@material-ui/core/FormControl';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import TextField from '@material-ui/core/TextField';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
+import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
 
 import PrettoSlider from './PrettoSlider';
@@ -86,6 +87,20 @@ export default function QuestionPage1() {
     </div>
   
     <FormControl component="fieldset">
+
+    <div className={classes.root} noValidate autoComplete="off">
+    <h3 className={classes.h2}>1.0 How do you feel about YouTube recommendations?</h3>  
+      <TextField
+        id="10"
+        style={{ margin: 10 }}
+        fullWidth
+        margin="normal"
+        color='secondary'
+        label="Tell us your feelings here:"
+        variant="filled"
+      />
+    </div>
+
 
     <div className={classes.root}>
     <h3 className={classes.h2}>1.1 Are these algorithmic suggestions useful for you as a <b>user?</b></h3>  
@@ -195,6 +210,16 @@ export default function QuestionPage1() {
         variant="filled"
       />
     </div>
+
+    <h3 className={classes.h2}>1.9 There are <b>different types</b> of algorithmic recommendations on YouTube, not only the one described in the image at the top of this page.
+     Which ones are more important / useful for you?</h3>
+      <RadioGroup id="19" defaultValue="NO" aria-label="algos">
+        <FormControlLabel value="a" control={<Checkbox />} label="Homepage recommendations." />
+        <FormControlLabel value="b" control={<Checkbox />} label="Sidebar recommendations, next to the video player." />
+        <FormControlLabel value="c" control={<Checkbox />} label="Autoplay." />
+        <FormControlLabel value="d" control={<Checkbox />} label="Search bar results." />
+      </RadioGroup>
+
 
     <div>
       <br />

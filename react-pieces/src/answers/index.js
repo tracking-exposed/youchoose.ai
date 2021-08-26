@@ -53,11 +53,14 @@ function main () {
         ReactDOM.render(
             <ThemeProvider theme={theme}>
                 <h4>
-                    ― <a href={buildCSVlinks('retrieveAnswersCSV/' + key)} target="_blank">
-                        click here to get all the answers in CSV format
+                    <a href={buildCSVlinks('retrieveAnswersCSV/youtubers/' + key)} target="_blank">
+                        [Youtubers] answers in CSV format
+                    </a>
+                    ― <a href={buildCSVlinks('retrieveAnswersCSV/watchers/' + key)} target="_blank">
+                        [Users] answers in CSV format
                     </a>
                     ― <a href={buildCSVlinks('retrieveAnswers/' + key)} target="_blank">
-                        (or the JSON). </a>
+                        mixed JSON </a>
                 </h4>
                 <Answers pkey={key} url={JSONurl}/>
             </ThemeProvider>, document.getElementById('main')

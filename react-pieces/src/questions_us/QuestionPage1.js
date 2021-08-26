@@ -4,6 +4,11 @@ import {makeStyles} from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Radio from '@material-ui/core/Radio';
+import Checkbox from '@material-ui/core/Checkbox';
+
 
 import PrettoSlider from '../questions/PrettoSlider';
 
@@ -206,6 +211,15 @@ export default function QuestionPage1() {
         variant="filled"
       />
     </div>
+
+    <h3 className={classes.h2}>5.A There are <b>different types</b> of algorithmic recommendations on YouTube, not only the one described in the image at the top of this page.
+     Which ones are more important / useful for you?</h3>
+      <RadioGroup id="5A" defaultValue="NO" aria-label="algos">
+        <FormControlLabel value="a" control={<Checkbox />} label="Homepage recommendations." />
+        <FormControlLabel value="b" control={<Checkbox />} label="Sidebar recommendations, next to the video player." />
+        <FormControlLabel value="c" control={<Checkbox />} label="Autoplay." />
+        <FormControlLabel value="d" control={<Checkbox />} label="Search bar results." />
+      </RadioGroup>
 
     <div>
       <br />
