@@ -14,6 +14,7 @@ extracss: "/css/youchoose.css"
   <div type="submit" class="fba" style="padding-top:2rem;">
     <a class="fba"><span class="fba">Add me!</span></a>
   </div>
+  <pre style="font-size:1.15rem; color:#e33180">And you can <b><a href="https://twitter.com/youchooseai" target="_blank">follow us</a></b> on Twitter <a href="https://twitter.com/youchooseai" target="_blank"> 🐣 </a> </pre>
 </form>
 </div>
 

@@ -39,16 +39,16 @@ ourvision = false
 
 
  [[menu.featured]]
-    name = "A browser extension to enhance your experience directly on YouTube"
+    name = "A browser extension to enhance content discovery on YouTube.com"
     pre = "/images/community.jpeg"
     weight = 1
  [[menu.featured]]
-    name = "Recommendations provided by the content creators"
+    name = "Recommendations provided by content creators"
 #    url = "/users/1"
     pre = "/images/user.png"
     weight = 2
  [[menu.featured]]
-    name= "Recommendation pointing to all the webside, not just YouTube"
+    name= "Recommendations pointing to any website, not just YouTube"
 #    name= "Recommend content from all around the web"
     pre = "/images/creators.png"
     weight = 3
