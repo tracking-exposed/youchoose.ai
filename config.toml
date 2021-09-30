@@ -32,6 +32,10 @@ ourvision = false
     name = "About"
     url = "/about/"
     weight = 20
+ [[menu.main]]
+    name = "🐣"
+    url = "https://nitter.net/search?f=tweets&q=trackingexposed"
+    weight = 30
 
 
  [[menu.featured]]
