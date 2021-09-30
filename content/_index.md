@@ -6,21 +6,18 @@ draft: false
 extracss: "/css/youchoose.css"
 ---
 
-<div><h1 class ="titlehp">>_ RELEASE COMING SOON</h1></div>
-<h3>Leave you email to get one update the release day
+<div><h1 class ="titlehp">>_ Stay in touch</h1></div>
+<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">Leave you email to get one update on the release day</pre>
+<div class="email-box">
 <form action="/api/v1/registerEmail" method="POST">
-  <label>Your email</label>
-  <input type="email" name="email" />
-  <button type="submit">
-    Subscribe
-  </button>
+  <input type="email" name="email" class="email-box__input" />
+  <div type="submit" class="fba" style="padding-top:2rem;">
+    <a class="fba"><span class="fba">Add me!</span></a>
+  </div>
 </form>
+</div>
 
-</h3>
-
-<pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>
-
-
+<!--<pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>-->
 
 <div><h1 class ="titlehp" style ="padding-top:1rem;">>_ Features</h1></div>
 
