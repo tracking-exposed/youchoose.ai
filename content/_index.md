@@ -7,7 +7,7 @@ extracss: "/css/youchoose.css"
 ---
 
 <div><h1 class ="titlehp">>_ Stay in touch</h1></div>
-<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">Leave you email to get one update on the release day</pre>
+<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">Type in your email and we'll send you one update about the release 📬</pre>
 <div class="email-box">
 <form action="/api/v1/registerEmail" method="POST">
   <input type="email" name="email" class="email-box__input" />
