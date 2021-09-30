@@ -20,14 +20,6 @@
   padding: 0px !important; 
 }
 
-.fancybutton {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
 .fba a {
   display: block;
   width: 260px;
@@ -68,3 +60,19 @@
 .fba a:hover:after{
   width: 100%;
 }
+
+.email-box {
+	margin-left: 1rem;
+  padding-bottom: 4rem;
+}
+	
+.email-box__input {
+		width: 50%;
+    border: 4px solid #333;
+    border-radius: 0px;
+		font-size: 1.4rem;
+		padding: 1rem;
+}
+	
+
+	
