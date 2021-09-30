@@ -6,15 +6,21 @@ draft: false
 extracss: "/css/youchoose.css"
 ---
 
-<div><h1 class ="titlehp">>_ Stay in touch</h1></div>
-<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">Type in your email and we'll send you one update about the release 📬</pre>
+<div>
+  <h1 class ="titlehp">>_ Stay in touch</h1>
+</div>
+<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
+  Type in your email and we'll send you one update about the release 📬
+</pre>
 <div class="email-box">
-<form action="/api/v1/registerEmail" method="POST">
-  <input type="email" name="email" class="email-box__input" />
-  <div type="submit" class="fba" style="padding-top:2rem;">
-    <a class="fba"><span class="fba">Add me!</span></a>
-  </div>
-</form>
+  <form>
+    <input id="email--address" type="email" name="email" class="email-box__input" />
+    <div class="fba" style="padding-top: 2rem;">
+      <a href="" id="special--click--management">
+        <span id="mail--button" class="fba">Add me!</span>
+      </a>
+    </div>
+  </form>
 </div>
 
 <!--<pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>-->
@@ -135,9 +141,35 @@ Because they are still smarter than AI.
 
 YouChoose is a citizen-tech, democratically run project, which aims to empower YouTube content creators to recommend meaningfull videos to their audience. -->
 <div><h1 class ="titlehp">>_ mock-up</h1></div>
-
+<!--
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width=100% height=800px src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxQGGh4oQVpXVHtBLgQCSZv%2FYouChoose_wireframes%3Fnode-id%3D1%253A3214%26scaling%3Dscale-down-to-fit" allowfullscreen></iframe>
+-->
 
+<script type="text/javascript">
 
+  $("#special--click--management").click(function(evnt) {
+    evnt.preventDefault();
+    $("#mail--button").text("...");
 
+    fetch("http://localhost:9000/api/v1/registerEmail", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        'email': $('#email--address').val(),
+        'reason': 'update--on--YCAI--release',
+      })
+    })
+    .then(function(result) {
+      console.log(result.status);
+      if(result.status === 403)
+        $("#mail--button").text("💥");
+      else if(result.status === 200)
+        $("#mail--button").text("👍");
+      else
+        $("#mail--button").text("👌");
+    });
+  });
 
+</script>
