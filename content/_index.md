@@ -7,7 +7,16 @@ extracss: "/css/youchoose.css"
 ---
 
 <div><h1 class ="titlehp">>_ RELEASE COMING SOON</h1></div>
-<h3>Leave you email to get one update the release day</h3>
+<h3>Leave you email to get one update the release day
+<form action="/api/v1/registerEmail" method="POST">
+  <label>Your email</label>
+  <input type="email" name="email" />
+  <button type="submit">
+    Subscribe
+  </button>
+</form>
+
+</h3>
 
 <pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>
 
