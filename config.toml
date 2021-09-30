@@ -27,30 +27,29 @@ ourvision = false
  [[menu.main]]
     name = "Philosophy"
     url = "/philosophy/"
-    weight = 20
+    weight = 10
  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 30
-    
+    weight = 20
+
+
+ [[menu.featured]]
+    name = "A browser extension to enhance your experience directly on YouTube"
+    pre = "/images/community.jpeg"
+    weight = 1
  [[menu.featured]]
     name = "Recommendations provided by the content creators"
 #    url = "/users/1"
     pre = "/images/user.png"
-    weight = -30
-
+    weight = 2
  [[menu.featured]]
-    name= "Recommendation from all around the web, not just YouTube"
+    name= "Recommendation pointing to all the webside, not just YouTube"
 #    name= "Recommend content from all around the web"
-    url = "http://tournesol.app"
     pre = "/images/creators.png"
-    weight = -20
+    weight = 3
 
- [[menu.featured]]
-    name = "A browser extension to enhance your experience directly on YouTube.com"
-    pre = "/images/community.jpeg"
-    weight = -10
-    
+
 
 
  [[menu.footer]]
