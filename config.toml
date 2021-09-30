@@ -11,7 +11,8 @@ ourvision = false
    subsite = "youchoose"
    openGraphSiteName = "Youchoose"
    description = "Giving control back of YouTube recommendations to internet users. Users can decide to see the content recommendations from their favorite content creators."
-   tagline = "Gain back control over your recommendations on YouTube"
+   tagline = "YouChoose your recommendation system"
+  # tagline = "Gain back control over your recommendations on YouTube"
 
 [markup]
   [markup.goldmark]
@@ -28,21 +29,21 @@ ourvision = false
     url = "/philosophy/"
     weight = 20
 
-
  [[menu.featured]]
-    name = "Get recommendations from content creators"
+    name = "Recommendations provided by the content creators"
 #    url = "/users/1"
     pre = "/images/user.png"
     weight = -30
 
  [[menu.featured]]
-    name= "Share your recommendations with a community"
+    name= "Recommendation from all around the web, not just YouTube"
+#    name= "Recommend content from all around the web"
     url = "http://tournesol.app"
     pre = "/images/creators.png"
     weight = -20
 
  [[menu.featured]]
-    name = "Become a Data-Activist and Expose Shadow Banning! "
+    name = "A browser extension to enhance your experience directly on YouTube.com"
     pre = "/images/community.jpeg"
     weight = -10
     
