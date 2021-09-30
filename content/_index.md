@@ -6,6 +6,13 @@ draft: false
 extracss: "/css/youchoose.css"
 ---
 
+<div><h1 class ="titlehp">>_ RELEASE COMING SOON</h1></div>
+<h3>Leave you email to get one update the release day</h3>
+
+<pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>
+
+
+
 <div><h1 class ="titlehp" style ="padding-top:1rem;">>_ Features</h1></div>
 
 <div class="card-deck">
@@ -125,7 +132,6 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width=100% height=800px src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxQGGh4oQVpXVHtBLgQCSZv%2FYouChoose_wireframes%3Fnode-id%3D1%253A3214%26scaling%3Dscale-down-to-fit" allowfullscreen></iframe>
 
-<div><h1 class ="titlehp">>_ COMING SOON</h1></div>
-<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;"> email: youchoose [at] tracking [dot] exposed </pre>
+
 
 
