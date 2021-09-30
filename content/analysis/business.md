@@ -70,7 +70,7 @@ Rather than purely relying on AI, **YouChoose leverages human expertise** to ide
 Such specialized human expertise is found among:
 * Content creators (main feature)
 * Volunteer contributors (Tournesol.app)
-* Existing online communities (Reddit tab)
+* Existing online communities (feeding recommendations from Reddit / RSS feeds)
 * Users' personal feeds on other platforms (Facebook)
  
 </section><section>
@@ -80,7 +80,8 @@ Such specialized human expertise is found among:
 **For YouTube users**:
 
 * Recommendations that are aligned with your own interest, not someone else's profit.
-* Gaining back agency over your informational diet.
+* Seing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms.
+* Gaining back agency over your informational diet and choosing who you trust to recommend you content
 * Super light habit change: Simple extension which overrides recommendations directly on YouTube.com.
 
 ---
@@ -88,8 +89,22 @@ Such specialized human expertise is found among:
 * Gain back control on the other videos your content promotes.
 * Gain a new direct connection to your audience, through recommendations.
 * Get analytics on the recommendations and ads which YouTube puts on your content
+* Find out if some of your videos are being shadow banned
 
 </section><section>
+
+## Fostering quality contributions from the community
+
+In a second stage, it seems natural to also enable the community to curate recommendations.
+
+For a given video, a user could suggest another a video or an external link that is relevant.
+
+There needs to be incentive mechanisms to reward quality contributions, as curation is time-consuming. On the other hand, their needs to be safeguards to prevent spamming. 
+One approach is to use a blockchain based coin. 
+
+In order to make a content recommendation, users would need to stake some tokens. 
+When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been upvoted. 
+
 
 ## Competition
 
