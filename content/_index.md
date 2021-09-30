@@ -9,9 +9,11 @@ extracss: "/css/youchoose.css"
 <div>
   <h1 class ="titlehp">>_ Stay in touch</h1>
 </div>
+
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
   Type in your email and we'll send you one update about the release 📬
 </pre>
+
 <div class="email-box">
   <form>
     <input id="email--address" type="email" name="email" class="email-box__input" />
@@ -21,6 +23,8 @@ extracss: "/css/youchoose.css"
       </a>
     </div>
   </form>
+  <pre style="padding-top:0.5rem; font-size:1.15rem; color:#e33180">And you can <b><a href="https://twitter.com/youchooseai" target="_blank">follow us</a></b> on Twitter <a href="https://twitter.com/youchooseai" target="_blank"> 🐣 </a>
+  </pre>
 </div>
 
 <!--<pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>-->
@@ -167,8 +171,10 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
         $("#mail--button").text("💥");
       else if(result.status === 200)
         $("#mail--button").text("👍");
+      else if(result.status === 201)
+        $("#mail--button").text("🙋");
       else
-        $("#mail--button").text("👌");
+        $("#mail--button").text("<error>");
     });
   });
 
