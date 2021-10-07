@@ -6,12 +6,8 @@ draft: false
 extracss: "/css/youchoose.css"
 ---
 
-<div>
-  <h1 class ="titlehp">>_ Stay in touch</h1>
-</div>
-<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
-  Type in your email and we'll send you one update about the release 📬
-</pre>
+<div><h1 class ="titlehp">>_ Stay in touch</h1></div>
+<pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">Type in your email and we'll send you updates about the release 📬</pre>
 <div class="email-box">
   <form>
     <input id="email--address" type="email" name="email" class="email-box__input" />
@@ -21,6 +17,8 @@ extracss: "/css/youchoose.css"
       </a>
     </div>
   </form>
+  <pre style="padding-top:0.5rem; font-size:1.15rem; color:#e33180">And you can <b><a href="https://twitter.com/youchooseai" target="_blank">follow us</a></b> on Twitter <a href="https://twitter.com/youchooseai" target="_blank"> 🐣 </a>
+  </pre>
 </div>
 
 <!--<pre class="pink" style="font-size:1.15rem; font-weight:bold;"> email us: youchoose [at] tracking [dot] exposed </pre>-->
@@ -141,9 +139,9 @@ Because they are still smarter than AI.
 
 YouChoose is a citizen-tech, democratically run project, which aims to empower YouTube content creators to recommend meaningfull videos to their audience. -->
 <div><h1 class ="titlehp">>_ mock-up</h1></div>
-<!--
+
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width=100% height=800px src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxQGGh4oQVpXVHtBLgQCSZv%2FYouChoose_wireframes%3Fnode-id%3D1%253A3214%26scaling%3Dscale-down-to-fit" allowfullscreen></iframe>
--->
+
 
 <script type="text/javascript">
 
@@ -151,7 +149,7 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
     evnt.preventDefault();
     $("#mail--button").text("...");
 
-    fetch("http://localhost:9000/api/v1/registerEmail", {
+    fetch("/api/v3/registerEmail", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -167,8 +165,10 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
         $("#mail--button").text("💥");
       else if(result.status === 200)
         $("#mail--button").text("👍");
+      else if(result.status === 201)
+        $("#mail--button").text("🙋");
       else
-        $("#mail--button").text("👌");
+        $("#mail--button").text("<error>");
     });
   });
 
