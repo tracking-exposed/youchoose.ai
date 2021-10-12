@@ -112,7 +112,7 @@ extracss: "/css/youchoose.css"
 <div><h1 class ="titlehp">>_ An internet that is right for you</h1></div>
 <pre style="font-size:1.15rem; color:#e33180; font-weight:bold;">
 Most of the content watched on YouTube is surfaced by an algorithm. 
-Weather you click on a video on the homepage, on a search result, on the sidebar recommendation, or simply play the watch-next, there is an algorithm behind.
+Whether you click on a video on the homepage, on a search result, on the sidebar recommendation, or simply play the watch-next, there is an algorithm behind.
 Indeed, there are so many videos out there, how are you going to find them otherwise?<br> 
 The recommendation algorithm is powerful, but it's not really working for you best interest.<br> 
 It's sole purpose is to keep you watching, to maximize ads revenue. 
