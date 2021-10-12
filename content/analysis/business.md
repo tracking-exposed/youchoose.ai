@@ -14,36 +14,71 @@ extraCSS: "/css/business-case-slide.css"
 
 <section>
 
-## Problem
+## Context and  Motivation
 
-**Algorithms are the gatekeepers** of YouTube.
+**The recommendation algorithm is the gatekeeper of YouTube.**
 
-The various search and recommendation engines select [more than 70%](https://www.journalism.org/wp-content/uploads/sites/8/2020/09/Many-Americans-Get-News-on-YouTube-Where-News-Organizations-and-Independent-Producers-Thrive-Side-by-Side.pdf) of the content viewed on the platform.
-
-Yet, these opaque systems have serious drawbacks:
-* They favor clickbaity and sensationalist content
-* They are not accountable and hardly customizable
-* Their results are confined within YouTube.com
-- - -
-### ➜ An AI with misaligned interest decides most of what people watch.
+Though, it is designed to maximize profits. Not to work for your best interest.
 
 </section><section>
 
-## YouChoose
+## YouChoose: the concept
 
-**Gain back control over your recommendations** on YouTube.
+**Gain back control over YouTube recommendations**
 
-YouChoose allows you to choose your recommendation model on YouTube.com, including:
+YouChoose is a recommendation module optimized for you, not for YouTube:
 
-* From your content creators
-* From other websites and social media feeds
-* From alternative recommendation engines like Tournesol.app
+### ➜️ Users can choose the recommendation model that is best for them
+
+### ➜️ Content Creator can choose the recommendations displayed on their own content.
+---
+It only requires a browser extension. Stay on YouTube.com, and watch content that is right for you.
+
 - - -
-### ➜️ YouChoose helps you design recommendations that are optimized for you, not for YouTube.
 
 </section><section>
 
-## Motivation
+## Problems solved for Content Creators
+
+On YouTube, content creators are at the mercy of an **opaque AI, which creates a growing frustration.**
+
+* Content Creators have no way to control the recommendations promoted on their channel. 
+### ➜ YouChoose is a new way for Content Creators to connect with their audience, and to build referencing networks among them
+---
+* Often, the AI links their videos to content they don't associate with. But they have no way to know.
+### ➜ YouChoose enables Content Creators to analyse what ads and recommendations are shown on their content
+
+</section><section>
+
+
+## Problems solved for users
+
+Users have their **attention monetized** by the YouTube algorithm.
+
+* Users are often promoted clickbaity, or attention-catching content tailored to their 
+### ➜ Users can stay focus, and get the best recommendations relevant to the topic they are exploring.
+---
+* Users end-up locked into the YouTube ecosystem
+### ➜ YouChoose features content from all around the web, not just YouTube.com
+
+
+</section><section>
+
+
+## Problems solved for researchers and regulators
+
+**Regulators** are demanding more AI transparency and market competition. 
+
+* There are no ways to obtain data to scrutinize the algorithm and inform upcoming legislation
+### ➜ YouChoose lets users donate anonymised data about the algorithm's behavior, enabling independent research and oversight
+---
+* Current algorithmic monopolies prevent competition, as with native apps before the emergence of app-stores
+### ➜ YouChoose is the first algorithmic platform, enabling third party to offer alternative recommendation systems
+
+</section><section>
+
+
+## Problem (summary slide, duplicate with content above)
 
 There is a **growing frustration** on the monopolistic influence platforms have in shaping information flows.
 
@@ -79,9 +114,10 @@ Such specialized human expertise is found among:
 
 **For YouTube users**:
 
-* Recommendations that are aligned with your own interest, not someone else's profit.
-* Seing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms.
-* Gaining back agency over your informational diet and choosing who you trust to recommend you content
+* Recommendations that are aligned with your own interest, not someone else's profit. Choose who to trust.
+* See the best related recommendations, stripped out of irrelevant, customized click-bait. 
+* Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. Liberate data for the public interest.
+* Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms.
 * Super light habit change: Simple extension which overrides recommendations directly on YouTube.com.
 
 ---
@@ -93,7 +129,7 @@ Such specialized human expertise is found among:
 
 </section><section>
 
-## Fostering quality contributions from the community
+## Future Developments: Fostering quality contributions from the community
 
 In a second stage, it seems natural to also enable the community to curate recommendations.
 
@@ -104,6 +140,9 @@ One approach is to use a blockchain based coin.
 
 In order to make a content recommendation, users would need to stake some tokens. 
 When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been upvoted. 
+
+## Future Developments: Becoming the first Algorithmic Platform
+
 
 
 ## Competition
@@ -179,6 +218,10 @@ Social Psychologist | *University of Padova*
 
 **Giulia Corona - Communication and UI**<br>
 Communication Designer | *University of Milano*
+
+**Andrea Ascari - Full-stack developer**<br>
+Communication Designer | *University of Milano*
+
 
 </section>
 
