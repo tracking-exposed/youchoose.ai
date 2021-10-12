@@ -141,8 +141,12 @@ One approach is to use a blockchain based coin.
 In order to make a content recommendation, users would need to stake some tokens. 
 When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been upvoted. 
 
+</section><section>
+
+
 ## Future Developments: Becoming the first Algorithmic Platform
 
+</section><section>
 
 
 ## Competition
@@ -153,7 +157,7 @@ Most implement a targeted UX improvement, such as [ad-blockers](https://chrome.g
 
 The only other actor with a similar intention of replacing YouTube recommendations is our partner [Tournesol.app](https://tournesol.app/) 
 
-**Our real competitor is YouTube itself.** They added some [customizability features](https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid) to their algorithm over the past year. 
+**Our real competitor is YouTube itself.** They added some [customizability features](https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid) to their algorithm over the past year. Twitter is
 
 They might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions.
 
@@ -196,9 +200,29 @@ This has a highly lucrative potential: YouChoose will be a **gateway from YouTub
 
 This monetization scheme is both **politically aligned** with our internet decentralization mission and has **high lucrative potential**.
 
+</section><section>
+
+## Customer Profile
+
+Type 1: Media with strong presence on YouTube, trying to drive their audience on their own website to capture .
+
+
+- Get 100% ad revenues instead of 55% on YouTube, and get full control on advertising model
+- Capture the audience
+- Direct the user to non-video content, such as articles, or a subscription page
+
+The benefits over traditional advertising are: 
+- the sponsored content can be made more organic 
+- directed to a qualified audience, who is actively exploring the channel.
+
+### Examples:
+- Competitor Platforms: Netflix, TikTok, Reels, Dailymotion, Vimeo...
+- Media Outlets: Arte.tv, BBC, RedBull TV...
+
 **Ex:** _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
 
 </section><section>
+
 
 ## Who we are
 
