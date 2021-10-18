@@ -26,11 +26,25 @@ extraCSS: "/css/slides.css"
 
 </section><section >
 
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
-  <h1 class="secondary fadeIn bold">Context and  Motivation:</h1> <br><br>
-  <h4><b>The recommendation algorithm is the gatekeeper of YouTube. </b> </h4>
-  <h4 class="">Though, it is designed to maximize profits. <br> Not to work for your best interest.</h4>
+  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap">
+    <h1 class="secondary fadeIn bold">
+     Context and  Motivation:
+    </h1>
+    <div class="grid vertical-align">
+      <div class="column">
+        <h2 class="slideInRight secondary aligncenter">The recommendation algorithm</h2>
+        <h4 class="fadeIn slow aligncenter">is the gatekeeper of YouTube. <br>
+          Though, it is designed to maximize profits, <br> 
+          not to work for your best interest.
+        </h4>
+      <br>
+      </div> 
+      <div class="column slow">
+        <img style="width:50%; padding-bottom: 1rem;" class="zoomIn aligncenter" src="/images/slides/recommender_icon3.svg">
+      </div>
+    </div>
+  </div>
 
 </section><section>
 
@@ -40,37 +54,66 @@ extraCSS: "/css/slides.css"
     <!--  <p>Gain back control over YouTube recommendations</p> -->
     <br><br>
     <h4><b>Recommendation module optimized for you,</b> not for YouTube: </h4>
-    <br></br>     <br></br>
-    <ul class="flexblock steps">
-      <li> 
-        <h4 class="aligncenter fadeIn primary"><b>Users</b> can choose the recommendation model that is best for them</b></h4> 
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn primary"><b>Content Creator</b> can choose the recommendations displayed on their own content.</b></h4> 
-      </li>
-    <br></br>
-    <h4 class="aligncenter primary" style="padding-top: 5rem;" >It only requires a <b>browser extension</b>. <br> Stay on YouTube.com, and watch content that is right for you.</h4>
+    <br></br> 
+          <ul class="flexblock steps">
+        <li>
+          <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+          <h2 class="aligncenter secondary bold">Users</h2>
+          <h3 class="aligncenter">can choose the recommendation model that is best for them</h3>
+        </li>
+        <li>
+          <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+          <h2 class="aligncenter secondary bold">Content Creators</h2>
+          <h3 class="aligncenter">can choose the recommendations displayed on their own content</h3>
+        </li>
     </ul>
+  </div>
+
+</section><section>
+
+  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap aligncenter">
+    <h1 class="slideInLeft secondary"><b>
+     It only requires a browser extension <br>
+    </b></h1>
+    <h4>Stay on YouTube.com, and watch content that is right for you.</h4>
+    <div class="grid vertical-align">
+      <div class="column">
+        <figure >
+          <img style="width:20%; padding-top: 5rem;"  src="/images/slides/firefox.png" ></img>
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="zoomIn slow">
+          <img style="width:50%; padding-top: 5rem;"  src="/images/slides/extension_icon.png" ></img>
+        </figure>
+      </div>
+      <div class="column">
+        <figure >
+          <img style="width:20%; padding-top: 5rem; padding-right: 0.1rem;"  src="/images/slides/chrome.png" ></img>
+        </figure>
+      </div>
+    </div>
   </div>
 
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Problems solved for Content Creators</b></h1> 
+    <h1 class="secondary fadeIn"><b> Problems solved for Content Creators</b> </h1> 
     <br><br>
-    <h4>On YouTube, content creators are at the mercy of an <b>opaque AI,</b> <br> which creates a growing frustration.</h4>
-    <br></br>    <br></br>
+    <h4 class="aligncenter fadeIn"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b> which creates a growing frustration. </h4>
+    <br></br><br></br>
     <ul class="flexblock steps">
       <li> 
-        <h4 class="aligncenter fadeIn">Content Creators have no way to control the recommendations promoted on their channel.</h4>
-    <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter fadeIn"><b>YouChoose is a new way for Content Creators to connect with their audience, and to build referencing networks among them</b></h4>
+        <h3 class="aligncenter fadeIn">Content Creators have no way to control the recommendations promoted on their channel.</h3>
+        <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
+        <h3 class="aligncenter fadeIn"><b>YouChoose is a new way for Content Creators to connect with their audience, and to build referencing networks among them</b></h3>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Often, the AI links their videos to content they don't associate with. But they have no way to know.</h4>
-    <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-       <h4 class="aligncenter fadeIn"><b>YouChoose enables Content Creators to analyse what ads and recommendations are shown on their content</b></h4>
+      <h3 class="aligncenter fadeIn">Often, the AI links their videos to content they don't associate with. But they have no way to know.</h3>
+      <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
+      <h3 class="aligncenter fadeIn"><b>YouChoose enables Content Creators to analyse what ads and recommendations are shown on their content</b></h3>
       </li>
     </ul>
   </div>
@@ -82,17 +125,17 @@ extraCSS: "/css/slides.css"
     <h1 class="secondary fadeIn"><b>Problems solved for users</b></h1> 
     <br><br>
     <h4>Users have their <b>attention monetized</b> by the YouTube algorithm.</h4>
-    <br></br>    <br></br>
+    <br></br> 
     <ul class="flexblock steps">
       <li> 
-        <h4 class="aligncenter fadeIn">Users are often promoted clickbaity, or attention-catching content tailored to their</h4>
-    <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter fadeIn"><b>Users can stay focus, and get the best recommendations relevant to the topic they are exploring</b></h4>
+        <h3 class="aligncenter fadeIn">Users are often promoted clickbaity, or attention-catching content tailored to their</h3>
+          <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
+        <h3 class="aligncenter fadeIn"><b>Users can stay focus, and get the best recommendations relevant to the topic they are exploring</b></h3>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Users end-up locked into the YouTube ecosystem, no way to escape</h4>
-    <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-       <h4 class="aligncenter fadeIn"><b>YouChoose features content from all around the web, not just YouTube.com</b></h4>
+       <h3 class="aligncenter fadeIn">Users end-up locked into the YouTube ecosystem, no way to escape</h3>
+        <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
+       <h3 class="aligncenter fadeIn"><b>YouChoose features content from all around the web, not just YouTube.com</b></h3>
       </li>
     </ul>
   </div>
@@ -103,18 +146,18 @@ extraCSS: "/css/slides.css"
   <div class="wrap aligncenter">
     <h1 class="secondary fadeIn"><b>Problems solved for researchers and regulators</b></h1> 
     <br><br>
-    <h4><b>Regulators</b> are demanding more AI transparency and market competition.</h4>
-    <br></br>   <br></br>
+    <h5><b>Regulators</b> are demanding more AI transparency and market competition.</h5>
+    <br></br>  
     <ul class="flexblock steps">
       <li> 
-        <h4 class="aligncenter fadeIn">There are no ways to obtain data to scrutinize the algorithm and inform upcoming legislation</h4>
+        <h5 class="aligncenter fadeIn">There are no ways to obtain data to scrutinize the algorithm and inform upcoming legislation</h5>
     <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter fadeIn"><b>YouChoose lets users donate anonymised data about the algorithm's behavior, enabling independent research and oversight</b></h4>
+        <h5 class="aligncenter secondary fadeIn"><b>YouChoose lets users donate anonymised data about the algorithm's behavior, enabling independent research and oversight</b></h5>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Current algorithmic monopolies prevent competition, as with native apps before the emergence of app-stores</h4>
+       <h5 class="aligncenter fadeIn">Current algorithmic monopolies prevent competition, as with native apps before the emergence of app-stores</h5>
     <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-       <h4 class="aligncenter fadeIn"><b>YouChoose is the first algorithmic platform, enabling third party to offer alternative recommendation systems</b></h4>
+       <h5 class="aligncenter secondary fadeIn"><b>YouChoose is the first algorithmic platform, enabling third party to offer alternative recommendation systems</b></h5>
       </li>
     </ul>
   </div>
@@ -147,72 +190,73 @@ A step toward a **more open and decentralized internet**, with more user agency.
     <h4>To identify the best related content, rather than purely relying on AI,</br> <b>YouChoose leverages human expertise:</b> </h4>
     <br></br> <br></br>   
     <ul class="flexblock steps">
-      <li> 
-        <h4 class="aligncenter fadeIn">Content creators </br></br>  (main feature)</h4>
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn">Volunteer contributors </br></br> (Tournesol.app)</h4>
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn">Existing online communities </br>(<!--feeding recommendations from--> Reddit / RSS feeds)</h4>
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn">Users' personal feeds on other platforms (Facebook)</h4>
-      </li>
-    </ul>
-  </div>
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap size-70 aligncenter">
-    <h1 class="secondary fadeIn"><b>Unique Value Proposition for YouTube users </b></h1>
-    <br><br>
-  <!--  <h4> <b>YouChoose leverages human expertise</b> to identify the best related content, </br>Rather than purely relying on AI</h4> -->
-    <br></br>   
-    <ul class="flexblock features ">
-      <li> 
-        <h4 class="aligncenter fadeIn">Recommendations that are aligned with your own interest, not someone else's profit. Choose who to trust</h4>
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn">See the best related recommendations, stripped out of irrelevant, customized click-bait</h4>
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. </h4>
-      </li>
-      <!-- <li>   
-        <h4 class="aligncenter fadeIn">Liberate data for the public interest </h4> 
-      </li>-->
-      <li> 
-       <h4 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h4>
-      </li>
-      <li> 
-       <h4 class="aligncenter fadeIn">Super light habit change: Simple extension which overrides recommendations directly on YouTube.com</h4>
-      </li>
-    </ul>
+        <li>
+          <h2 class="aligncenter secondary bold">01. Content creators </h2>
+          <h3 class="aligncenter">(main feature)</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">02. Volunteer contributors</h2>
+          <h3 class="aligncenter">(Tournesol.app)</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">03. Existing online communities </h2>
+          <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">04. Personal feeds elsewhere </h2>
+          <h3 class="aligncenter">(Facebook)</h3>
+        </li>
+      </ul>
   </div>
 
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
+    <h1 class="secondary fadeIn"><b>Unique Value Proposition for YouTube users </b></h1>
+  <!--  <h4> <b>YouChoose leverages human expertise</b> to identify the best related content, </br>Rather than purely relying on AI</h4> -->   
+    <ul class="flexblock features">
+      <li> 
+        <h3 class="aligncenter fadeIn">Recommendations that are aligned with your own interest, not someone else's profit. Choose who to trust</h3>
+      </li>
+      <li> 
+       <h3 class="aligncenter fadeIn">See the best related recommendations, stripped out of irrelevant, customized click-bait</h3>
+      </li>
+      <li> 
+       <h3 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. </h3>
+      </li>
+      <!-- <li>   
+        <h3 class="aligncenter fadeIn">Liberate data for the public interest </h3> 
+      </li>-->
+      <li> 
+       <h3 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h3>
+      </li>
+      <li> 
+       <h3 class="aligncenter fadeIn">Super light habit change: Simple extension which overrides recommendations directly on YouTube.com</h3>
+      </li>
+    </ul>
+  </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap">
     <h1 class="secondary fadeIn"><b>Unique Value Proposition for content creators </b></h1>
-    <br><br>
-    <ul class="flexblock features ">
+    <ul class="flexblock features">
       <li> 
-       <h4 class="aligncenter fadeIn">Gain back control on the other videos your content promotes</h4>
+       <h3 class="aligncenter fadeIn">Gain back control on the other videos your content promotes</h3>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Gain a new direct connection to your audience, through recommendations</h4>
+       <h3 class="aligncenter fadeIn">Gain a new direct connection to your audience, through recommendations</h3>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. Liberate data for the public interest</h4>
+       <h3 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. Liberate data for the public interest</h3>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h4>
+       <h3 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h3>
       </li>
       <li> 
-       <h4 class="aligncenter fadeIn">Find out if some of your videos are being shadow banned</h4>
+       <h3 class="aligncenter fadeIn">Find out if some of your videos are being shadow banned</h3>
       </li>
     </ul>
   </div>
@@ -221,25 +265,21 @@ A step toward a **more open and decentralized internet**, with more user agency.
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Fostering quality contributions from the community</h1>
-  <br><br>
-    <h4>In a second stage, it seems natural to also <b>enable the community to curate recommendations.</b> </br>
-For a given video, a user could suggest another a video or an external link that is relevant.</h4>
-  <br>
+    <h1 class="secondary fadeIn bold">Future Developments:
+    <h2 class="secondary"> Fostering quality contributions from the community</h3>
+    <h6 class="aligncenter">In a second stage, it seems natural to also <b>enable the community to curate recommendations.</b> </br>For a given video, a user could suggest another a video or an external link that is relevant.</h3>
   <div class="grid">
     <div class="column">
-      <h4>There needs to be incentive mechanisms to reward quality contributions, as curation is time-consuming. </br> On the other hand, their needs to be safeguards to prevent spamming. </br></h4>
-     </div>
-     <div class="column">
-    <img class="svg aligncenter" style="width:25%; "  src="/images/slides/blockchain.svg" ></img>
-      <h4><b>One approach is to use a blockchain based coin.</b></h4>
-    <img class="svg aligncenter" style="width:25%; "  src="/images/slides/arrowsx.svg" ></img>
+      <h5>There needs to be incentive mechanisms to reward quality contributions, as curation is time-consuming. </br> On the other hand, their needs to be safeguards to prevent spamming. </br></h5>
     </div>
-     <div class="column">
-      <h4>In order to make a content recommendation, users would need to stake some tokens.</br>
-      When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been uploaded. </h4>
+    <div class="column">
+      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/arrowsx.svg" ></img>
+      <h5><b>One approach is to use a blockchain based coin.</b></h5>
+      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/blockchain.svg" ></img>
     </div>
-  </div>
+    <div class="column">
+      <h5>In order to make a content recommendation, users would need to stake some tokens.</br> When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been uploaded. </h5>
+    </div>
   </div>
 
 </section><section>
@@ -255,118 +295,184 @@ For a given video, a user could suggest another a video or an external link that
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
   <h1 class="aligncenter fadeIn bold">Competition</h1>
- <!--  <h4>There is an existing market for extensions that improve the experience on YouTube.com. </h4> -->
- </div>
     <ul class="flexblock features">
       <li> 
-        <h4 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as <a style= target="_blank" href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
-        <a style= target="_blank" href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
-        <a style= target="_blank" href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
-        </h4>
+        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as 
+          <a  href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
+          <a href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
+          <a  href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
+        </h3>
       </li>
       <li> 
-        <h4 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner 
-        <a style= target="_blank" href="https://tournesol.app/" target=_blank>Tournesol.app</a>
+        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner 
+          <a href="https://tournesol.app/" target=_blank>Tournesol.app</a> </h3>
       </li>
       <li> 
-        <h4 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
-        <a style= target="_blank" href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid" target=_blank>customizability features</a>
-        to their algorithm over the past year.</h4>
+        <h3 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
+          <a href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid"   target=_blank>customizability features</a> to their algorithm over the past year.</h3>
       </li>
       <li> 
-        <h4 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions </br>
-        <!-- We are accounting for these scenarios in our design and strategy. --></h4>
+        <h3 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions. We are accounting for these scenarios in our design and strategy.</br></h3>
       </li>
     </ul>
-
-
-
+ </div>
 
 </section><section>
 
-## Value Chain Positioning
-
-**YouTube:** 
-
-* [Adversarial Interoperability](https://www.eff.org/deeplinks/2019/10/adversarial-interoperability): we plug ourselves onto YouTube, without their approval
-* [Context of antitrust scrutiny](https://www.cnbc.com/2020/12/18/google-antitrust-cases-in-us-and-europe-overview.html): we bet on the favourable legal and public opinion context to limit YouTube's aggressiveness 
-
----
-**Content Creators:**
-* Essential to our growth strategy so they promote YouChoose directly to their audience
-* Content creators are like our first customers, who pay us with free advertisement
-
-</section><section>
-
-## Market Perspectives
-
-[2.3 billions](https://www.oberlo.com/blog/youtube-statistics?utm_source=pocket_mylist) of YouTube users worldwide
-
-Our target user segments: 
-
-* Most **digitally literate users**, aware of the power of the algorithm and eager to customize it
-* Users who speak **non-english languages** where recommendations are less relevant and less moderated
-* **Heavy YouTube users**, who like to dig and browse content
-* **Users frustrated** by YouTube's discretionary power to curate content
-
-</section><section>
-
-## Business Model
-
-One of the features of YouChoose is to enable **recommendations outside of YouTube.com**
-
-This has a highly lucrative potential: YouChoose will be a **gateway from YouTube** to other platforms, opposite to the typical dynamic.
-
-This monetization scheme is both **politically aligned** with our internet decentralization mission and has **high lucrative potential**.
+<span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap aligncenter">
+   <h1 class="aligncenter fadeIn bold">Value Chain Positioning</h1>
+   <h4 class="aligncenter bold"> YouTube: </h4> 
+    <ul class="flexblock features">
+      <li> 
+        <h3 class="aligncenter fadeIn"><a href="https://www.eff.org/deeplinks/2019/10/adversarial-interoperability" target=_blank>Adversarial Interoperability</a>: we plug ourselves onto YouTube, without their approval </h3>
+      </li>
+      <li> 
+        <h3 class="aligncenter fadeIn"> 
+          <a href="https://www.cnbc.com/2020/12/18/google-antitrust-cases-in-us-and-europe-overview.html" target=_blank>Context of antitrust scrutiny</a>: we bet on the favourable legal and public opinion context to limit YouTube's aggressiveness </h3>
+      </li>
+    </ul>
+   <h4 class="aligncenter fadeIn bold ">Content Creators: </h4>
+    <ul class="flexblock features">
+      <li> 
+        <h3 class="aligncenter fadeIn">Essential to our growth strategy so they promote YouChoose directly to their audience
+        </h3>
+      </li>
+      <li> 
+        <h3 class="aligncenter fadeIn"> Content creators are like our first customers, who pay us with free advertisement 
+        </h3>
+      </li>
+    </ul>
+ </div>
 
 </section><section>
 
-## Customer Profile
-
-Type 1: Media with strong presence on YouTube, trying to drive their audience on their own website to capture .
-
-
-- Get 100% ad revenues instead of 55% on YouTube, and get full control on advertising model
-- Capture the audience
-- Direct the user to non-video content, such as articles, or a subscription page
-
-The benefits over traditional advertising are: 
-- the sponsored content can be made more organic 
-- directed to a qualified audience, who is actively exploring the channel.
-
-### Examples:
-- Competitor Platforms: Netflix, TikTok, Reels, Dailymotion, Vimeo...
-- Media Outlets: Arte.tv, BBC, RedBull TV...
-
-**Ex:** _offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content_.
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+    <div class="wrap aligncenter">
+      <h1 class="fadeIn bold">Market Perspectives</h1>
+      <h4 class="fadeIn"> <a href="https://www.oberlo.com/blog/youtube-statistics?utm_source=pocket_mylist" target=_blank>2.3 billions</a>  of YouTube users worldwide <h4>
+      <br><br>
+      <ul class="flexblock steps">
+        <li>
+          <h2 class="aligncenter secondary bold">01. Digitally literate users </h2>
+          <h3 class="aligncenter">aware of the algorithm's power  and eager to customize it</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">02. Non-english users</h2>
+          <h3 class="aligncenter">Recommendations are less relevant and less moderated</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">03. Heavy YouTube users</h2>
+          <h3 class="aligncenter"> who like to dig and browse content whit their Content Creators</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">04. Users frustrated</h2>
+          <h3 class="aligncenter">by YouTube's discretionary power to curate content</h3>
+        </li>
+      </ul>
+    </div>
 
 </section><section>
 
+<span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap aligncenter">
+    <h1 class="fadeIn bold">Business Model</h1>
+      <br>
+      <h5 class="fadeIn"> One of the features of YouChoose is to enable <b class="secondary">recommendations outside of YouTube.com</b><h5>
+      <br>
+      <h5 class="fadeIn"> This has a highly lucrative potential: YouChoose will be a <b class="secondary">gateway from YouTube</b> to other platforms, opposite to the typical dynamic.<h5>
+      <br>
+     <h5 class="fadeIn"> This monetization scheme is both <bclass="secondary">politically aligned</b> with our internet decentralization mission and has <b class="secondary">high lucrative potential</b>.<h5>
+  </div>
 
+</section><section>
+
+<span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap">
+    <h1 class="secondary fadeIn bold">
+     Customer Profile
+    </h1>
+    <h5 class="aligncenter">
+      Media with strong presence on YouTube, trying to drive their audience on their own website to capture <br>
+    </h3>
+    <div class="grid vertical-align">
+      <div class="column">
+        <h5 class="aligncenter"> Overal advatages: </h5>
+          <al>
+            <li> Get 100% ad revenues instead of 55% on YouTube, and get full control on advertising model</li>
+            <li>Capture the audience</li>
+            <li>Direct the user to non-video content, such as articles, or a subscription page </li>
+          </al>
+        <h5 stile="top"class="aligncenter"> The benefits over traditional advertising are: </h5>
+          <al>
+            <li> the sponsored content can be made more organic </li>
+            <li>directed to a qualified audience, who is actively exploring the channel</li>
+          </al>
+      <br>
+      </div> 
+      <div class="column ">
+        <img style="width:50%; padding-bottom: 1rem;" class="zoomIn aligncenter slow" src="/images/slides/custumer.svg">
+        <h5> <b>Competitor Platforms:</b> Netflix, TikTok, Reels, Dailymotion, Vimeo... <br> <b>Media Outlets:</b> Arte.tv, BBC, RedBull TV...
+         Ex:_offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content.
+        </h5>
+      </div>
+    </div>
+  </div>
+
+</section><section>
+
+<div>
+  <h1 class ="bold">The Team</h1>
+</div>
+<div class="card-columns">
+
+  {{< clickable-card
+      text="Marc Faddoul is an AI researcher and algorithmic designer. He leads the product strategy and gathers partners around the project."
+      href="http://marcfaddoul.com/"
+      picture="/images/marc.jpeg" >}}
+
+  {{< clickable-card
+      text="Giulia Corona is a communication designer and data analyst, working on the UX design and developing methodologies."
+      picture="/images/giulia.jpeg" >}}
+
+  {{< clickable-card
+      text="Claudio Agosti is a developer and a privacy analyst, directs Tracking Exposed, designs and supervises the tech stack."
+      href="https://sociale.network/@vecna"
+      picture="/images/claudio.jpeg" >}}
+
+  {{< clickable-card
+      text="Salvatore Romano is social psychologist, working on algorithmic analysis and user research."
+      href="https://github.com/SalvatoreRomano1/About_Me"
+      picture="/images/salvo.jpeg" >}}
+
+  {{< clickable-card
+      text="Primavera de Filippi is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
+      href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
+      picture="/images/primavera.jpeg" >}}
+
+  {{< clickable-card
+    text="Andrea Ascari is a full stack developer and activist. He develop YouChoose's tech ecosystem with Claudio."
+    href="http://marcfaddoul.com/"
+    picture="/images/andrea.jpg" >}}
+
+</div>
+</section>
+<!--
 ## Who we are
-
 YouChoose is a **not-for-profit project**, ran by a **transdisciplinary team** of experienced technologists:
-
 **Marc Faddoul - Strategy and Outreach** <br>
 Data Scientist and AI researcher | *UC Berkeley, ex-Facebook AI*
-
 **Claudio Agosti - CTO** <br>
 Privacy expert and open-source developer | *Founder of Tracking.Exposed*
-
 **Primavera - Legal & Community Development** <br>
 Legal Scholar and blockchain expert | *Harvard Berkman Center, CNRS*
-
 **Salvatore Romano - UX Research** <br>
 Social Psychologist | *University of Padova*
-
 **Giulia Corona - Communication and UI**<br>
 Communication Designer | *University of Milano*
-
 **Andrea Ascari - Full-stack developer**<br>
 Communication Designer | *University of Milano*
-
-
-</section>
+-->
 
 <script>
   removeHeaderFooter(1500)
