@@ -21,7 +21,7 @@ extraCSS: "/css/slides.css"
    <figure class="zoomIn slow">
     <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
    </figure >
-  <h2 class="aligncenter fadeIn slow">A tool that enables Content Creators <br> to suggest videos to their audience</h2>
+  <h2 class="aligncenter fadeIn slow">YouChoose the recommendation model</h2>
  </div>
 
 </section><section >
@@ -62,6 +62,11 @@ extraCSS: "/css/slides.css"
           <h3 class="aligncenter">can choose the recommendation model that is best for them</h3>
         </li>
         <li>
+          <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
+          <h2 class="aligncenter secondary bold">Users</h2>
+          <h3 class="aligncenter">can choose the recommendation model that is best for them</h3>
+        </li>
+        <li>
           <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
           <h2 class="aligncenter secondary bold">Content Creators</h2>
           <h3 class="aligncenter">can choose the recommendations displayed on their own content</h3>
@@ -81,7 +86,7 @@ extraCSS: "/css/slides.css"
       <div class="column">
         <figure >
           <img style="width:20%; padding-top: 5rem;"  src="/images/slides/firefox.png" ></img>
-        </figure>
+        </figure>YouChoose the recommendation model 
       </div>
       <div class="column">
         <figure class="zoomIn slow">
@@ -202,10 +207,10 @@ A step toward a **more open and decentralized internet**, with more user agency.
           <h2 class="aligncenter secondary bold">03. Existing online communities </h2>
           <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
         </li>
-        <li>
-          <h2 class="aligncenter secondary bold">04. Personal feeds elsewhere </h2>
+<!--        <li>
+    <h2 class="aligncenter secondary bold">04. Personal feeds elsewhere </h2> 
           <h3 class="aligncenter">(Facebook)</h3>
-        </li>
+        </li> -->
       </ul>
   </div>
 
@@ -357,17 +362,17 @@ A step toward a **more open and decentralized internet**, with more user agency.
           <h2 class="aligncenter secondary bold">01. Digitally literate users </h2>
           <h3 class="aligncenter">aware of the algorithm's power  and eager to customize it</h3>
         </li>
-        <li>
-          <h2 class="aligncenter secondary bold">02. Non-english users</h2>
-          <h3 class="aligncenter">Recommendations are less relevant and less moderated</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">03. Heavy YouTube users</h2>
+         <li>
+          <h2 class="aligncenter secondary bold">02. Heavy YouTube users</h2>
           <h3 class="aligncenter"> who like to dig and browse content whit their Content Creators</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">04. Users frustrated</h2>
+          <h2 class="aligncenter secondary bold">03. Users frustrated</h2>
           <h3 class="aligncenter">by YouTube's discretionary power to curate content</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">04. Non-english users</h2>
+          <h3 class="aligncenter">Recommendations are less relevant and less moderated</h3>
         </li>
       </ul>
     </div>

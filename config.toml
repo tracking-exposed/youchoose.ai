@@ -34,7 +34,7 @@ ourvision = false
     weight = 20
  [[menu.main]]
     name = "🐣"
-    url = "https://nitter.net/search?f=tweets&q=trackingexposed"
+    url = "https://twitter.com/YouChooseAI"
     weight = 30
 
 
