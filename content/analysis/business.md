@@ -222,22 +222,19 @@ A step toward a **more open and decentralized internet**, with more user agency.
   <!--  <h4> <b>YouChoose leverages human expertise</b> to identify the best related content, </br>Rather than purely relying on AI</h4> -->   
     <ul class="flexblock features">
       <li> 
-        <h3 class="aligncenter fadeIn">Recommendations that are aligned with your own interest, not someone else's profit. Choose who to trust</h3>
+        <h3 class="aligncenter fadeIn"><b>Recommendations designed for users - not for profit.</b><br>See content from all around the web, not just YouTube. Strip out the irrevelant, clickbait and sensationalist recommendations.</h3>
       </li>
       <li> 
-       <h3 class="aligncenter fadeIn">See the best related recommendations, stripped out of irrelevant, customized click-bait</h3>
-      </li>
-      <li> 
-       <h3 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. </h3>
+       <h3 class="aligncenter fadeIn"><b>Make a political statement.</b><br>Demand more agency over your internet experience, and the end of algorithmic monopolies. </h3>
       </li>
       <!-- <li>   
         <h3 class="aligncenter fadeIn">Liberate data for the public interest </h3> 
-      </li>-->
       <li> 
        <h3 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h3>
       </li>
+      </li>-->
       <li> 
-       <h3 class="aligncenter fadeIn">Super light habit change: Simple extension which overrides recommendations directly on YouTube.com</h3>
+       <h3 class="aligncenter fadeIn"><b>Super light habit change.</b><br>A simple extension which overrides recommendations directly on YouTube.com<br>You can still see the recommendations from YouTube's AI, but now, you have a choice.</h3>
       </li>
     </ul>
   </div>
