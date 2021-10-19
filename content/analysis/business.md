@@ -241,19 +241,19 @@ A step toward a **more open and decentralized internet**, with more user agency.
     <h1 class="secondary fadeIn"><b>Unique Value Proposition for content creators </b></h1>
     <ul class="flexblock features">
       <li> 
-       <h3 class="aligncenter fadeIn">Gain back control on the other videos your content promotes</h3>
+       <h3 class="aligncenter fadeIn"><b>Your content, your choice.</b><br>Gain back control on the other videos your content promotes.</h3>
       </li>
       <li> 
-       <h3 class="aligncenter fadeIn">Gain a new direct connection to your audience, through recommendations</h3>
+       <h3 class="aligncenter fadeIn"><b>A new bound with your audience.</b><br>Guide your users to what you believe is most relevant, all over the web.</h3>
       </li>
-      <li> 
+      <!-- <li>   
        <h3 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. Liberate data for the public interest</h3>
       </li>
       <li> 
        <h3 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h3>
-      </li>
+      </li>-->
       <li> 
-       <h3 class="aligncenter fadeIn">Find out if some of your videos are being shadow banned</h3>
+       <h3 class="aligncenter fadeIn"><b>Gain unique insights about the algorithm.</b><br>Compare how your content is treated by YouTube. See the ads and recommendations associated with your videos.</h3>
       </li>
     </ul>
   </div>
