@@ -262,20 +262,19 @@ A step toward a **more open and decentralized internet**, with more user agency.
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn bold">Future Developments:
-    <h2 class="secondary"> Fostering quality contributions from the community</h3>
-    <h6 class="aligncenter">In a second stage, it seems natural to also <b>enable the community to curate recommendations.</b> </br>For a given video, a user could suggest another a video or an external link that is relevant.</h3>
+    <h1 class="secondary">Future Developments:
+    <h2 class="secondary fadeIn bold"> Enable community curated recommendations</h3>
   <div class="grid">
     <div class="column">
-      <h5>There needs to be incentive mechanisms to reward quality contributions, as curation is time-consuming. </br> On the other hand, their needs to be safeguards to prevent spamming. </br></h5>
+      <h5>In order to enable every user to suggest recommendations, there needs to be incentive mechanisms to reward quality contributions, and safeguards to prevent spamming.</h5>
     </div>
     <div class="column">
       <img class="svg aligncenter" style="width:25%; "  src="/images/slides/arrowsx.svg" ></img>
-      <h5><b>One approach is to use a blockchain based coin.</b></h5>
+      <h5><b>One approach is to use a cryptocurrency.</b></h5>
       <img class="svg aligncenter" style="width:25%; "  src="/images/slides/blockchain.svg" ></img>
     </div>
     <div class="column">
-      <h5>In order to make a content recommendation, users would need to stake some tokens.</br> When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been uploaded. </h5>
+      <h5>Contributions require staking. When the contribution is mostly downvoted, the stake is lost, and redistributed to contributors whose recommendations have been upvoted. </h5>
     </div>
   </div>
 
