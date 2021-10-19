@@ -51,28 +51,26 @@ extraCSS: "/css/slides.css"
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary fadeIn bold">The concept:</h1> 
-    <!--  <p>Gain back control over YouTube recommendations</p> -->
     <br><br>
     <h4><b>Recommendation module optimized for you,</b> not for YouTube: </h4>
     <br></br> 
-          <ul class="flexblock steps">
-        <li>
-          <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
-          <h2 class="aligncenter secondary bold">Users</h2>
-          <h3 class="aligncenter">can choose the recommendation model that is best for them</h3>
-        </li>
-        <li>
-          <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
-          <h2 class="aligncenter secondary bold">Users</h2>
-          <h3 class="aligncenter">can choose the recommendation model that is best for them</h3>
-        </li>
-        <li>
-          <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
-          <h2 class="aligncenter secondary bold">Content Creators</h2>
-          <h3 class="aligncenter">can choose the recommendations displayed on their own content</h3>
-        </li>
-    </ul>
+  <div class="grid vertical-align">
+    <div class="column">
+      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <h2 class="aligncenter secondary bold">Users</h2>
+      <h3>can choose the recommendation model that is best for them</h3>
+    </div>
+    <div class="column size-1">
+      <h3 class="aligncenter bold">Mutual benefit</h3>
+      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
+    </div>
+    <div class="column">
+      <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+      <h2 class="aligncenter secondary bold">Content Creators</h2>
+      <h3 class="aligncenter">can choose the recommendations displayed on their own content</h3>
+    </div>
   </div>
+</div>
 
 </section><section>
 
