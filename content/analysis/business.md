@@ -386,42 +386,47 @@ extraCSS: "/css/slides.css"
   <div class="wrap aligncenter">
     <h1 class="fadeIn bold">Business Model</h1>
       <br>
-      <h5 class="fadeIn"> One of the features of YouChoose is to enable <b class="secondary">recommendations outside of YouTube.com</b><h5>
+  <div class="aligncenter column size-60">
+    <h5 class="fadeIn"> One of the features of YouChoose is to enable <b class="secondary">recommendations outside of YouTube.com</b><h5>
       <br>
-      <h5 class="fadeIn"> This has a highly lucrative potential: YouChoose will be a <b class="secondary">gateway from YouTube</b> to other platforms, opposite to the typical dynamic.<h5>
+    <h5 class="fadeIn"> This has a highly lucrative potential: YouChoose will be a <b class="secondary">gateway from YouTube</b> to other platforms, opposite to the typical dynamic.<h5>
       <br>
-     <h5 class="fadeIn"> This monetization scheme is both <bclass="secondary">politically aligned</b> with our internet decentralization mission and has <b class="secondary">high lucrative potential</b>.<h5>
+    <h5 class="fadeIn"> This monetization scheme is both <bclass="secondary">politically aligned</b> with our internet decentralization mission and has <b class="secondary">high lucrative potential</b>.<h5>
+  </div>
   </div>
 
 </section><section>
 
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap">
-    <h1 class="secondary fadeIn bold">
-     Customer Profile
-    </h1>
-    <h5 class="aligncenter">
-      Media with strong presence on YouTube, trying to drive their audience on their own website to capture <br>
-    </h3>
+    <h1 class="secondary fadeIn bold">Customer Profile</h1>
+    <h5 class="aligncenter">Media with strong presence on YouTube, trying to drive their audience on their own website to capture <br></h5>
     <div class="grid vertical-align">
       <div class="column">
-        <h5 class="aligncenter"> Overal advatages: </h5>
-          <al>
-            <li> Get 100% ad revenues instead of 55% on YouTube, and get full control on advertising model</li>
-            <li>Capture the audience</li>
-            <li>Direct the user to non-video content, such as articles, or a subscription page </li>
-          </al>
-        <h5 class="aligncenter"> The benefits over traditional advertising are: </h5>
-          <al>
-            <li> the sponsored content can be made more organic </li>
-            <li>directed to a qualified audience, who is actively exploring the channel</li>
-          </al>
-      <br>
+        <div class="grid orizontal-align">
+          <div class="column">
+            <h5 class="aligncenter secondary"> Overal advatages: </h5>
+              <al>
+                <li> Get 100% ad revenues instead of 55% on YouTube, and get full control on advertising model</li>
+                <li>Capture the audience</li>
+                <li>Direct the user to non-video content, such as articles, or a subscription page </li>
+              </al>
+          </div> 
+        </div> 
+        <div class="grid orizontal-align">
+          <div class="column">
+            <h5 class="aligncenter secondary"> The benefits over traditional advertising are: </h5>
+              <al>
+                <li> the sponsored content can be made more organic </li>
+                <li>directed to a qualified audience, who is actively exploring the channel</li>
+              </al>
+          </div> 
+        </div> 
       </div> 
       <div class="column ">
-        <img style="width:50%; padding-bottom: 1rem;" class="zoomIn aligncenter slow" src="/images/slides/custumer.svg">
-        <h5> <b>Competitor Platforms:</b> Netflix, TikTok, Reels, Dailymotion, Vimeo... <br> <b>Media Outlets:</b> Arte.tv, BBC, RedBull TV...
-         Ex:_offer National Geographics to pay for sponsored recommendations toward their website on related YouTube content.
+        <img style="width:30%; padding-bottom: 1rem;" class="zoomIn aligncenter slow" src="/images/slides/custumer.svg">
+        <h5> <!-- <b>Competitor Platforms:</b> Netflix, TikTok, Reels, Dailymotion, Vimeo... <br> --> <b>Media Outlets:</b> Arte.tv, BBC, RedBull TV... <br>
+         <b>Ex:</b> offer National Geographics to pay for sponsored recommendations to content creators.
         </h5>
       </div>
     </div>
