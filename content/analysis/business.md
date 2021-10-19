@@ -84,7 +84,7 @@ extraCSS: "/css/slides.css"
       <div class="column">
         <figure >
           <img style="width:20%; padding-top: 5rem;"  src="/images/slides/firefox.png" ></img>
-        </figure>YouChoose the recommendation model 
+        </figure>
       </div>
       <div class="column">
         <figure class="zoomIn slow">
@@ -147,15 +147,15 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Problems solved for researchers and regulators</b></h1> 
+    <h1 class="secondary fadeIn"><b>Problems solved for regulators</b></h1> 
     <br><br>
-    <h5><b>Regulators</b> are demanding more AI transparency and market competition.</h5>
+    <h4>Regulators are demanding more <b>AI transparency</b> and market competition.</h4>
     <br></br>  
     <ul class="flexblock steps">
       <li> 
         <h5 class="aligncenter fadeIn">There are no ways to obtain data to scrutinize the algorithm and inform upcoming legislation</h5>
     <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h5 class="aligncenter secondary fadeIn"><b>YouChoose lets users donate anonymised data about the algorithm's behavior, enabling independent research and oversight</b></h5>
+        <h5 class="aligncenter secondary fadeIn"><b>YouChoose lets users donate anonymised data about the algorithm's behavior, giving to the Content Creators the evidence about it</b></h5>
       </li>
       <li> 
        <h5 class="aligncenter fadeIn">Current algorithmic monopolies prevent competition, as with native apps before the emergence of app-stores</h5>
@@ -167,22 +167,27 @@ extraCSS: "/css/slides.css"
 
 </section><section>
 
-
-## Problem (summary slide, duplicate with content above)
-
-There is a **growing frustration** on the monopolistic influence platforms have in shaping information flows.
-
-**Content creators** are at the mercy of an opaque AI which favors engagement over quality.
-
-**YouTube users** have their attention monetized and pushed towards addictive consumption patterns.
-
-**Regulators** are demanding more AI transparency and market competition. 
-- - -
-We believe that **algorithmic platforms** like YouChoose will soon emerge, similar to how app stores offered alternatives to native applications.
-
-YouChoose is an early **attempt to end the era of algorithmic monopolies**.
-
-A step toward a **more open and decentralized internet**, with more user agency.
+<span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap aligncenter">
+    <h1 class="fadeIn bold">Problem summary</h1>
+    <div class="grid vertical-align">
+      <div class="column">
+          <h5 class="fadeIn" style="padding-top: 3rem;"><b class="secondary">YouTube users</b> have their attention monetized and pushed towards addictive consumption patterns.<h5>
+        <br>
+          <h5 class="fadeIn"><b class="secondary">Content creators</b> are at the mercy of an opaque AI which favors engagement over quality.<h5>
+        <br>
+          <h5 class="fadeIn"><b class="secondary">Regulators</b> are demanding more AI transparency and market competition.<h5>
+        <br>
+      </div>
+      <div class="column">
+          <h5 class="fadeIn">We believe that <b class="secondary">algorithmic platforms</b> will soon emerge, similar to how app stores offered alternatives to native applications.<h5>
+        <br>
+          <h5 class="fadeIn"> YouChoose is an early  <b class="secondary">attempt to end the era of algorithmic monopolies.</b><h5>
+        <br>
+         <h5 class="fadeIn"> A step toward a <b class="secondary">more open and decentralized internet</b> , with more user agency.<h5>
+      </div>
+    </div>
+  </div>
 
 </section><section>
 
@@ -195,20 +200,24 @@ A step toward a **more open and decentralized internet**, with more user agency.
     <ul class="flexblock steps">
         <li>
           <h2 class="aligncenter secondary bold">01. Content creators </h2>
+            <img class="" style="width:25%;"  src="/images/slides/done.svg" ><img>
           <h3 class="aligncenter">(main feature)</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">02. Volunteer contributors</h2>
+          <h2 class="aligncenter secondary bold">02. Third party algorithms</h2>
+            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
           <h3 class="aligncenter">(Tournesol.app)</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">03. Existing online communities </h2>
+          <h2 class="aligncenter secondary bold">03. Community curation </h2> 
+            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>        
+          <h3 class="aligncenter">(BlockChain)</h3>
+        </li> 
+        <li>
+          <h2 class="aligncenter secondary bold">04. Existing online communities </h2>
+            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>        
           <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
         </li>
-<!--        <li>
-    <h2 class="aligncenter secondary bold">04. Personal feeds elsewhere </h2> 
-          <h3 class="aligncenter">(Facebook)</h3>
-        </li> -->
       </ul>
   </div>
 
@@ -402,7 +411,7 @@ A step toward a **more open and decentralized internet**, with more user agency.
             <li>Capture the audience</li>
             <li>Direct the user to non-video content, such as articles, or a subscription page </li>
           </al>
-        <h5 stile="top"class="aligncenter"> The benefits over traditional advertising are: </h5>
+        <h5 class="aligncenter"> The benefits over traditional advertising are: </h5>
           <al>
             <li> the sponsored content can be made more organic </li>
             <li>directed to a qualified audience, who is actively exploring the channel</li>
