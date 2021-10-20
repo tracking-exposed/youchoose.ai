@@ -395,6 +395,26 @@ extraCSS: "/css/slides.css"
   </div>
   </div>
 
+
+</section><section>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap  aligncenter">
+    <h2 class="secondary fadeIn bold"> Customer Profiles</h2>
+  <div class="grid">
+    <div class="column">
+      <h4>YouTube Competitors:</h4>        
+      <h5>Competitor platforms can buy sponsored recommendations to pouch traffic from YouTube onto their own platform, on a qualified audience watching which is relevant video content. <br> <br> <b>ex:</b> Netflix, TikTok, Reels, Dailymotion, Vimeo... </h5>
+    </div>
+    <div class="column">
+      <img style="width:40%; padding-bottom: 1rem;" class="zoomIn aligncenter slow" src="/images/slides/custumer.svg">
+    </div>
+    <div class="column">
+      <h4>Media Outlets:</h4>
+      <h5>Media outlets with a strong presence on YouTube could drive their viewers to their own website and retain the whole advertising profits. <br> <br> <b>ex:</b> Arte.tv, BBC, RedBull TV...  </h5>
+    </div>
+  </div>
+  </div>
+
 </section><section>
 
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -413,7 +433,6 @@ extraCSS: "/css/slides.css"
               </al>
           </div> 
         </div> 
-        <div class="grid orizontal-align">
           <div class="column">
             <h5 class="aligncenter secondary"> The benefits over traditional advertising are: </h5>
               <al>
