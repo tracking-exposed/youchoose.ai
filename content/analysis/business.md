@@ -102,6 +102,26 @@ extraCSS: "/css/slides.css"
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <figure class="zoomIn slow">
+    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/figma1.jpg"></img>
+  </figure>
+  <h2 class="aligncenter fadeIn slow">YouChoose the recommendation model</h2>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <figure class="zoomIn slow">
+    <img class="svg" style="width:40%; padding-bottom: 5rem;"  src="/images/youchoose_dashboard.png"></img>
+  </figure>
+  <h2 class="aligncenter fadeIn slow">Youtubers will choose what to recommend</h2>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary fadeIn"><b> Problems solved for Content Creators</b> </h1> 
     <br><br>
