@@ -314,8 +314,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Becoming the first Algorithmic Platform</h1>
+    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Becoming the first Marketplace for Algorithms</h1>
   <br><br>
+    <h4>Platforms currently have a monopoly on the algorithms that run on their systems.</h4>
+    <h4>Similar to how app-stores broke the monopoly of native apps on smartphones, YouChoose is an early attempt to become the first algorithmic marketplace for third-party recommender systems.</h4>
  </div>
 
 </section><section>
