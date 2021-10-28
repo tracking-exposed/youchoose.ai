@@ -474,7 +474,31 @@ extraCSS: "/css/slides.css"
     picture="/images/andrea.jpg" >}}
 
 </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <figure class="zoomIn ">
+    <img class="svg" style="width:80%; padding-bottom: 5rem;"  src="/images/slides/timeline.png"></img>
+  </figure>
+  <h2 class="aligncenter fadeIn slow">Timeline for next few months</h2>
+ </div>
+
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <figure class="zoomIn ">
+    <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/budget.png"></img>
+  </figure>
+  <h4 class="aligncenter fadeIn slow">We have about 6 month of cash to keep maintaining and growing the project at cruise speed.</h4>
+  <h4 class="aligncenter fadeIn slow">We have other grants in our radar to allow new major developements.</h4>
+ </div>
+
 </section>
+
 <!--
 ## Who we are
 YouChoose is a **not-for-profit project**, ran by a **transdisciplinary team** of experienced technologists:
