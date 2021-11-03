@@ -18,10 +18,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-   <figure class="zoomIn slow">
+   <figure class="zoomIn">
     <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
    </figure >
-  <h2 class="aligncenter fadeIn slow">YouChoose the recommendation model</h2>
+  <h2 class="aligncenter fadeIn slow">Recommendations optimized for you, not for YouTube</h2>
  </div>
 
 </section><section >
@@ -29,17 +29,11 @@ extraCSS: "/css/slides.css"
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap">
     <h1 class="secondary fadeIn bold">
-     The recommendation algorithm is the gatekeeper of YouTube. 
+     The algorithm is the gatekeeper of YouTube. 
     </h1>
     <div class="grid vertical-align">
       <div class="column">
-        <h4>
-          Though, it is designed to maximize profits, not to work for your best interest.
-        </h4>
-      <br>
-      </div> 
-      <div class="column slow">
-        <img style="width:50%; padding-bottom: 1rem;" class="zoomIn aligncenter" src="/images/slides/recommender_icon3.svg">
+        <img style="width:30%; padding-bottom: 1r" class="zoomIn aligncenter" src="/images/slides/recommender_icon3.svg">
       </div>
     </div>
   </div>
@@ -48,36 +42,31 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn bold">The concept:</h1> 
+    <h1 class="secondary fadeIn bold">YouChoose.ai</h1> 
     <br><br>
-    <h4><b>Recommendation module optimized for you,</b> not for YouTube: </h4>
+    <h4><b>Gain back control over YouTube recommendations</h4>
     <br></br> 
   <div class="grid vertical-align">
     <div class="column">
-      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
-      <h2 class="aligncenter secondary bold">Users</h2>
-      <h3>can choose the recommendation model that is best for them</h3>
-    </div>
-    <div class="column size-1">
-      <h3 class="aligncenter bold">Mutual benefit</h3>
-      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
+      <img class="zoomIn aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+      <h2 class="aligncenter secondary bold">Content Creators</h2>
+      <h3 class="aligncenter">choose recommendations on their own videos</h3>
     </div>
     <div class="column">
-      <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
-      <h2 class="aligncenter secondary bold">Content Creators</h2>
-      <h3 class="aligncenter">can choose the recommendations displayed on their own content</h3>
+      <img class="zoomIn aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <h2 class="aligncenter secondary bold">Users</h2>
+      <h3 class="aligncenter">choose their recommendation model</h3>
     </div>
   </div>
 </div>
+
 
 </section><section>
 
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="slideInLeft secondary"><b>
-     It only requires a browser extension <br>
-    </b></h1>
-    <h4>Stay on YouTube.com, and watch content that is right for you.</h4>
+    <h1 class="slideInLeft secondary"><b>How it works <br></b></h1>
+    <h4>Simply download a browser extension, and stay on YouTube.com</h4>
     <div class="grid vertical-align">
       <div class="column">
         <figure >
@@ -97,14 +86,39 @@ extraCSS: "/css/slides.css"
     </div>
   </div>
 
+<!--
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
+  <h2 class="aligncenter fadeIn slow">Users can activate the extension in the pop-up</h2>
+  <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:40%; padding-bottom: 5rem;"  src="/images/youchoose_dashboard.png"></img>
+    <img class="svg" style="width:65%"  src="/images/figma/popup.png"></img>
   </figure>
-  <h2 class="aligncenter fadeIn slow">YouTubers choose the recommendations on their own videos</h2>
+ </div>
+-->
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h2 class="aligncenter fadeIn slow">Recommendations from content creators appear in the sidebar</h2>
+  <br>
+  <figure class="zoomIn">
+    <img class="svg" style="width:65%"  src="/images/figma/user-UI-CC.png"></img>
+  </figure>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h2 class="aligncenter fadeIn slow">Users can still see the recommendations from YouTube</h2>
+  <br>
+  <figure class="zoomIn">
+    <img class="svg" style="width:65%"  src="/images/figma/user-UI-YT.png"></img>
+  </figure>
  </div>
 
 
@@ -112,10 +126,82 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Users can choose between different recommendation models:</h2>
+  <h2 class="aligncenter fadeIn slow">Content creators have a dedicated studio</h2>
+  <br>
+  <figure class="zoomIn">
+    <img class="svg" style="width:65%"  src="/images/figma/popup.png"></img>
+  </figure>
+ </div>
+
+<!--
+</section><section>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h2 class="aligncenter fadeIn slow">They are walked through a channel authentication process</h2>
+  <br>
+  <figure class="zoomIn">
+    <img class="svg" style="width:65%"  src="/images/figma/authentication.png"></img>
+  </figure>
+ </div>
+-->
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h2 class="aligncenter fadeIn slow">Where they can edit their recommendations</h2>
+  <br>
+  <figure class="zoomIn">
+    <img class="svg" style="width:65%"  src="/images/figma/reco-lab.png"></img>
+  </figure>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h2 class="aligncenter fadeIn slow">Get unique personal analytics about YouTube's AI</h2>
+  <br>
+  <figure class="zoomIn">
+    <img class="svg" style="width:65%"  src="/images/figma/analytics.png"></img>
+  </figure>
+ </div>
+
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap aligncenter">
+  <div class="grid vertical-align">
+    <div class="column">
+      <img class="zoomIn aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+      <h2 class="aligncenter secondary bold">Content Creators</h2>
+    </div>
+    <div class="column size-1">
+      <h3 class="aligncenter bold">Mutual benefit</h3>
+      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
+    </div>
+    <div class="column">
+      <img class="zoomIn aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <h2 class="aligncenter secondary bold">Users</h2>
+    </div>
+    <br></br> 
+  </div>
+    <h4>Key Strategy:</h4>
+    <br><br>
+    <h4><b>Rely on content creators to promote YouChoose</h4>
+</div>
+
+
+</section><section>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+ <h2 class="aligncenter secondary bold">The vision:</h2>
+ <br>
+  <h2 class="aligncenter">A platform to end algorithmic monopolies</h2>
     <ul class="flexblock steps">
         <li>
-          <h2 class="aligncenter secondary bold">1. Content creators recommendations </h2>
+          <h2 class="aligncenter secondary bold">1. Content Creators </h2>
             <img class="" style="width:25%;"  src="/images/slides/done.svg" ><img>
           <h3 class="aligncenter">(main feature)</h3>
         </li>
@@ -136,112 +222,15 @@ extraCSS: "/css/slides.css"
         </li> 
       </ul>
   <br><br>
-  <figure class="zoomIn">
-    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/figma1.jpg"></img>
-  </figure>
  </div>
-
-
 </section><section>
 
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>The benefits of YouChoose</b></h1>
-  <!--  <h4> <b>YouChoose leverages human expertise</b> to identify the best related content, </br>Rather than purely relying on AI</h4> -->   
-    <ul class="flexblock features">
-      <li> 
-        <h3 class="aligncenter fadeIn"><b>Recommendations designed for users - not for profit.</b><br>See content from all around the web, not just YouTube. Strip out the irrevelant, clickbait and sensationalist recommendations.</h3>
-      </li>
-      <li> 
-       <h3 class="aligncenter fadeIn"><b>Make a political statement.</b><br>Demand more agency over your internet experience, and the end of algorithmic monopolies. </h3>
-      </li>
-      <!-- <li>   
-        <h3 class="aligncenter fadeIn">Liberate data for the public interest </h3> 
-      <li> 
-       <h3 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h3>
-      </li>
-      </li>-->
-      <li> 
-       <h3 class="aligncenter fadeIn"><b>Super light habit change.</b><br>A simple extension which overrides recommendations directly on YouTube.com<br>You can still see the recommendations from YouTube's AI, but now, you have a choice.</h3>
-      </li>
-    </ul>
-  </div>
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap">
-    <h1 class="secondary fadeIn"><b>Unique Value Proposition for content creators </b></h1>
-    <ul class="flexblock features">
-      <li> 
-       <h3 class="aligncenter fadeIn"><b>Your content, your choice.</b><br>Gain back control on the other videos your content promotes.</h3>
-      </li>
-      <li> 
-       <h3 class="aligncenter fadeIn"><b>A new bound with your audience.</b><br>Guide your users to what you believe is most relevant, all over the web.</h3>
-      </li>
-      <!-- <li>   
-       <h3 class="aligncenter fadeIn">Make a political statement, demanding more agency over your internet experience, and the end of algorithmic monopolies. Liberate data for the public interest</h3>
-      </li>
-      <li> 
-       <h3 class="aligncenter fadeIn">Seeing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms</h3>
-      </li>-->
-      <li> 
-       <h3 class="aligncenter fadeIn"><b>Gain unique insights about the algorithm.</b><br>Compare how your content is treated by YouTube. See the ads and recommendations associated with your videos.</h3>
-      </li>
-    </ul>
-  </div>
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap  aligncenter">
-    <h1 class="secondary">Future Developments:
-    <h2 class="secondary fadeIn bold"> Enable community curated recommendations</h3>
-  <div class="grid">
-    <div class="column">
-      <h5>In order to enable every user to suggest recommendations, there needs to be incentive mechanisms to reward quality contributions, and safeguards to prevent spamming.</h5>
-    </div>
-    <div class="column">
-      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/arrowsx.svg" ></img>
-      <h5><b>One approach is to use a cryptocurrency.</b></h5>
-      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/blockchain.svg" ></img>
-    </div>
-    <div class="column">
-      <h5>Contributions require staking. When the contribution is mostly downvoted, the stake is lost, and redistributed to contributors whose recommendations have been upvoted. </h5>
-    </div>
-  </div>
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Becoming the first Marketplace for Algorithms</h1>
-  <br><br>
-    <h4>Platforms currently have a monopoly on the algorithms that run on their systems.</h4>
-    <h4>Similar to how app-stores broke the monopoly of native apps on smartphones, YouChoose is an early attempt to become the first algorithmic marketplace for third-party recommender systems.</h4>
- </div>
-
-
-</section><section>
-
-<span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
-    <h1 class="fadeIn bold">Business Model</h1>
-      <br>
-  <div class="aligncenter column size-60">
-    <h5 class="fadeIn"> One of the features of YouChoose is to enable <b class="secondary">recommendations outside of YouTube.com</b><h5>
-      <br>
-    <h5 class="fadeIn"> This has a highly lucrative potential: YouChoose will be a <b class="secondary">gateway from YouTube</b> to other platforms, opposite to the typical dynamic.<h5>
-      <br>
-    <h5 class="fadeIn"> This monetization scheme is both <bclass="secondary">politically aligned</b> with our internet decentralization mission and has <b class="secondary">high lucrative potential</b>.<h5>
-  </div>
-  </div>
-
-</section><section>
 
 <div>
-  <h1 class ="bold">The Team</h1>
+ <h2 class="aligncenter secondary bold">We are a non-profit</h2>
+ <h4 class="aligncenter">We build free-software to empower users and defend digital sovereignty</h4>
 </div>
+<br><br>
 <div class="card-columns">
 
   {{< clickable-card
@@ -264,16 +253,22 @@ extraCSS: "/css/slides.css"
       picture="/images/salvo.jpeg" >}}
 
   {{< clickable-card
-      text="Primavera de Filippi is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
-      href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
-      picture="/images/primavera.jpeg" >}}
-
-  {{< clickable-card
     text="Andrea Ascari is a full stack developer and activist. He develop YouChoose's tech ecosystem with Claudio."
     href="http://marcfaddoul.com/"
     picture="/images/andrea.jpg" >}}
 
+  {{< clickable-card
+    text="Francois Marie de Jouvancel is a developer and product manager. He just joined the team and brings precious expertise!"
+    href="https://fmdj.fr/"
+    picture="/images/fmdj.jpeg" >}}
+
+  {{< clickable-card
+      text="Primavera de Filippi is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
+      href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
+      picture="/images/primavera.jpeg" >}}
+
 </div>
+
 </section>
 <!--
 ## Who we are
