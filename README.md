@@ -1,8 +1,6 @@
-## Initial welcome note
+## Basic info 
 
-DESCRIPTION 
-
-This repository work with HUGO, the static web page generator made in go.
+This repository work with HUGO, the static web page generator made in go, get it from [gohugo.io/](https://gohugo.io/); this repo is automatically published at the address [Youchoose.ai](https://youchoose.ai).
 
 ## Download/Clone/Install:
 
@@ -13,8 +11,6 @@ mkdir themes
 cd themes
 git clone git@github.com:tracking-exposed/hugo-theme-trex.git trex
 cd ..
-npm install
-npm run build
 ```
 
 ## Test/Use it:
