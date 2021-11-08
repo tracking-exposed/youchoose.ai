@@ -65,8 +65,8 @@ extraCSS: "/css/slides.css"
 
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="slideInLeft secondary"><b>How it works <br></b></h1>
-    <h4>Simply download a browser extension, and stay on YouTube.com</h4>
+    <h1 class="slideInLeft secondary"><b>We know it's hard to leave YouTube<br></b></h1>
+    <h4>So we decided to make it better, with a simple browser extension.</h4>
     <div class="grid vertical-align">
       <div class="column">
         <figure >
@@ -103,25 +103,26 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Recommendations from content creators appear in the sidebar</h2>
+  <h2 class="aligncenter fadeIn slow">You still can use YouTube as you are used to</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:50%"  src="/images/figma/user-UI-CC.png"></img>
+    <img class="svg" style="width:80%"  src="/images/figma/user-UI-YT.png"></img>
   </figure>
  </div>
+
 
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Users can still see the recommendations from YouTube</h2>
+  <h2 class="aligncenter fadeIn slow">Recommendations from content creators appear in the sidebar</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:50%"  src="/images/figma/user-UI-YT.png"></img>
+    <img class="svg" style="width:80%"  src="/images/figma/user-UI-CC-highlight.png"></img>
   </figure>
  </div>
 
-
+<!--
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -133,7 +134,6 @@ extraCSS: "/css/slides.css"
   </figure>
  </div>
 
-<!--
 </section><section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
@@ -149,10 +149,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Where they can edit their recommendations</h2>
+  <h2 class="aligncenter fadeIn slow">Content Creators have a studio to edit their recommendations</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:60%"  src="/images/figma/reco-lab.png"></img>
+    <img class="svg" style="width:80%"  src="/images/figma/reco-lab.png"></img>
   </figure>
  </div>
 
@@ -163,7 +163,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter fadeIn slow">Get unique personal analytics about YouTube's AI</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:55%"  src="/images/figma/analytics.png"></img>
+    <img class="svg" style="width:80%"  src="/images/figma/analytics.png"></img>
   </figure>
  </div>
 
@@ -213,12 +213,12 @@ extraCSS: "/css/slides.css"
         <li>
           <h2 class="aligncenter secondary bold">3. Third party algorithms</h2>
             <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
-          <h3 class="aligncenter">(Tournesol.app)</h3>
+          <h3 class="aligncenter">(Tournesol.app, etc - 6 months)</h3>
         </li>
         <li>
           <h2 class="aligncenter secondary bold">4. Community curation </h2> 
             <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>        
-          <h3 class="aligncenter">(BlockChain)</h3>
+          <h3 class="aligncenter">(BlockChain - 1/2 years)</h3>
         </li> 
       </ul>
   <br><br>
@@ -239,13 +239,13 @@ extraCSS: "/css/slides.css"
       picture="/images/marc.jpeg" >}}
 
   {{< clickable-card
-      text="Giulia Corona is a communication designer and data analyst, working on the UX design and developing methodologies."
-      picture="/images/giulia.jpeg" >}}
-
-  {{< clickable-card
       text="Claudio Agosti is a developer and a privacy analyst, directs Tracking Exposed, designs and supervises the tech stack."
       href="https://sociale.network/@vecna"
       picture="/images/claudio.jpeg" >}}
+
+  {{< clickable-card
+      text="Giulia Corona is a communication designer and data analyst, working on the UX design and developing methodologies."
+      picture="/images/giulia.jpeg" >}}
 
   {{< clickable-card
       text="Salvatore Romano is social psychologist, working on algorithmic analysis and user research."
