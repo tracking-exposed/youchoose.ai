@@ -409,11 +409,15 @@ extraCSS: "/css/slides.css"
     <h1 class="fadeIn bold">Business Model</h1>
       <br>
   <div class="aligncenter column size-60">
-    <h5 class="fadeIn"> One of the features of YouChoose is to enable <b class="secondary">recommendations outside of YouTube.com</b><h5>
-      <br>
-    <h5 class="fadeIn"> This has a highly lucrative potential: YouChoose will be a <b class="secondary">gateway from YouTube</b> to other platforms, opposite to the typical dynamic.<h5>
-      <br>
-    <h5 class="fadeIn"> This monetization scheme is both <bclass="secondary">politically aligned</b> with our internet decentralization mission and has <b class="secondary">high lucrative potential</b>.<h5>
+    <h5>In its initial phase, YouChoose leverages its non-profit profile to sustain its development.
+    It relies on:<br>
+    - Public grants<br>
+    - Private Foundations<br>
+    - User donations
+    </h5>
+    <br>
+    <h5 class="fadeIn">This model covers our cost forecasts for the next year.</h5><br><br>
+    <h5 class="fadeIn">When the need comes and the market traction is sufficient, the model can <b class="secondary">shift to sponsored recommendations.</b></h5>
   </div>
   </div>
 
@@ -421,18 +425,33 @@ extraCSS: "/css/slides.css"
 </section><section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
-    <h2 class="secondary fadeIn bold"> Customer Profiles</h2>
+    <h2 class="secondary fadeIn bold">Sponsored Recommendations Model</h2>
+
   <div class="grid">
     <div class="column">
-      <h4>YouTube Competitors:</h4>        
-      <h5>Competitor platforms can buy sponsored recommendations to pouch traffic from YouTube onto their own platform, on a qualified audience watching which is relevant video content. <br> <br> <b>ex:</b> Netflix, TikTok, Reels, Dailymotion, Vimeo... </h5>
+      <h4><b class="secondary">Selling Points</b></h4>
+      <br>
+      <h5><b>-Funnel traffic from YouTube,<br></b>
+          and keep users onto the client's website.<br><br>
+          <b>-Highly qualified audience,<br></b>
+          already interested in client's content<br><br>
+          <b>-<em>Native</em> ad format,<br></b>
+          alike a standard YouTube recommendation<br></h5>
+      <br>
+      <h5> <b>→</b> Increased willingness to pay VS standard ads</h5>
     </div>
+    <!--
     <div class="column">
       <img style="width:40%; padding-bottom: 1rem;" class="zoomIn aligncenter slow" src="/images/slides/custumer.svg">
     </div>
+    -->
     <div class="column">
-      <h4>Media Outlets:</h4>
-      <h5>Media outlets with a strong presence on YouTube could drive their viewers to their own website and retain the whole advertising profits. <br> <br> <b>ex:</b> Arte.tv, BBC, RedBull TV...  </h5>
+      <h4><b class="secondary">Customer Profiles</b></h4>
+          <h5><b>YouTube Competitors</b> and video platforms</h5>
+           <br><em>Netflix, TikTok, Reels, Dailymotion, Vimeo, Imago...</em></h5>
+          <img style="width:15%" class="zoomIn aligncenter" src="/images/slides/custumer.svg">
+          <h5><b>Media Outlets</b> with strong YouTube presence</h5>
+           <br><em>Arte.tv, BBC, RedBull TV...</em></h5>
     </div>
   </div>
   </div>
@@ -440,23 +459,95 @@ extraCSS: "/css/slides.css"
 </section><section>
 
 <div>
-  <h1 class ="bold">The Team</h1>
+  <h1 class ="bold">The Founders</h1>
 </div>
+  <div class="grid">
+      <div class="column">
+          <h2 class="aligncenter secondary bold">CEO</h2>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/marc.jpeg">
+          <h5><b>Marc Faddoul</b> is a transdisiplinary AI research.
+          He worked on algorithmic design in academia (UC Berkeley), big tech (Facebook AI) and start-up environments (Bloom, Jalgos).
+          His research has been featured in various media, including <em>the New York Times</em>, <em>le Monde</em>, and a <em>O'Reilly</em> book.
+          Marc holds an engineering degree and MS in data science from Télécom Paris, and a MS in Information Management from UC Berkeley.</h5>
+      </div>
+      <div class="column">
+          <h2 class="aligncenter secondary bold">CTO</h2>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/claudio.jpeg">
+          <h5><b>Claudio Agosti</b> is a senior technologist and self-taught developer.
+          He has 20 years of experience developing free-software, including as a leading contributor to GlobalLeaks.
+          He has been a pioneer of privacy activism, and is regularly invited to speak at major internet conferences.
+          He is the founder of Tracking.Exposed, a free-software infrastructure to investigate major recommendation systems.</h5>
+      </div>
+  </div>
+</section><section>
+
+<div>
+  <h1 class ="bold">The Core Team</h1>
+</div>
+  <div class="grid">
+      <div class="column">
+          <h4 class="aligncenter secondary bold">Lead Dev</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/andrea.jpg">
+          <h5><b>Andrea Ascari</b> is an experienced full-stack developer, leading the extension developement.</h5>
+      </div>
+      <div class="column">
+          <h4 class="aligncenter secondary bold">Product Manager</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/fmdj.jpeg">
+          <h5><b>François-Marie de Jouvancel</b> is an experienced developer and product manager. He holds master degrees from Polytechnique and HEC.</h5>
+      </div>
+      <div class="column">
+          <h4 class="aligncenter secondary bold">Designer</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/giulia.jpeg">
+          <h5><b>Giulia Corona</b> is a communication designer and data analyst. She holds a Master from the university of Milan.</h5>
+      </div>
+      <div class="column">
+          <h4 class="aligncenter secondary bold">User Research</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/salvo.jpeg">
+          <h5><b>Salvatore Romano</b></b> holds a master degree in social psychology from the university of Padova.</h5>
+      </div>
+      </div>
+  </div>
+  <h5><b>Part-time contributors:</b></h5>
+  <h5><b class="secondary">YouTuber Outreach</b><b> - Silvia </b> introduces the project to a community of YouTubers</h5>
+  <h5><b class="secondary">Legal</b><b> - Alessandro Polidoro</b> provides legal advice and drafts the privacy policies.</h5>
+</section><section>
+
+
+<div>
+  <h1 class ="bold">Our Advisors</h1>
+</div>
+  <div class="grid">
+      <div class="column">
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/primavera.jpeg">
+          <h5><b>Primavera de Filippi</b> is a technologist and legal scholar, researcher at the CNRS and Harvard Berkman Center. She oversees the governance and peer community.</h5>
+      </div>
+      <div class="column">
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/niloufar.jpeg">
+          <h5><b>Niloufar Salehi</b>is an Assistant Professor at the School of Information at UC, Berkeley. She carries research in participatory design and human-centered AI.</h5>
+      </div>
+      <div class="column">
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/dyne.jpeg">
+          <h5><b>Dyne </b>is a non-profit free software foundry with almost 20 years of expertise. Dyne is helping us through Ledger to implement cutting-edge privacy standards.</h5>
+      </div>
+      <div class="column">
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/blumorpho.jpeg">
+          <h5><b>Bluemorpho</b> combines business, sectorial and technical expertise in deep tech. Bluemorpho advises us through Ledger to refine our market fit</h5>
+      </div>
+      </div>
+  </div>
+</section><section>
+
+
+<div>
+  <h1 class ="bold">The Team:</h1>
+</div>
+
 <div class="card-columns">
 
   {{< clickable-card
-      text="Marc Faddoul is an AI researcher and algorithmic designer. He leads the product strategy and gathers partners around the project."
-      href="http://marcfaddoul.com/"
-      picture="/images/marc.jpeg" >}}
-
-  {{< clickable-card
-      text="Giulia Corona is a communication designer and data analyst, working on the UX design and developing methodologies."
+      text="Design - Giulia Corona is a communication designer and data analyst."
       picture="/images/giulia.jpeg" >}}
 
-  {{< clickable-card
-      text="Claudio Agosti is a developer and a privacy analyst, directs Tracking Exposed, designs and supervises the tech stack."
-      href="https://sociale.network/@vecna"
-      picture="/images/claudio.jpeg" >}}
 
   {{< clickable-card
       text="Salvatore Romano is social psychologist, working on algorithmic analysis and user research."
@@ -467,6 +558,11 @@ extraCSS: "/css/slides.css"
       text="Primavera de Filippi is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
       href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
       picture="/images/primavera.jpeg" >}}
+
+  {{< clickable-card
+    text="Francois Marie de Jouvancel is a developer and product manager. He just joined the team and brings precious expertise!"
+    href="https://fmdj.fr/"
+    picture="/images/fmdj.jpeg" >}}
 
   {{< clickable-card
     text="Andrea Ascari is a full stack developer and activist. He develop YouChoose's tech ecosystem with Claudio."
