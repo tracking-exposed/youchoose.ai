@@ -3,8 +3,8 @@ title: "YouChoose.AI business case"
 subtitle: "business, competitors and opportunity analysis for youchoose"
 draft: false
 type: "webslides"
-og_title: "YouChoose.AI business case"
-og_description: "business, competitors and opportunity analysis for youchoose"
+og_title: "YouChoose.AI project pitch"
+og_description: "The idea and some immages on how it works"
 og_type: "website"
 og_image: "http://youchoose.tracking.exposed/images/compare.jpg" 
 og_url: "https://youchoose.tracking.exposed/analysis/pitch"
@@ -106,7 +106,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter fadeIn slow">Recommendations from content creators appear in the sidebar</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:65%"  src="/images/figma/user-UI-CC.png"></img>
+    <img class="svg" style="width:50%"  src="/images/figma/user-UI-CC.png"></img>
   </figure>
  </div>
 
@@ -117,7 +117,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter fadeIn slow">Users can still see the recommendations from YouTube</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:65%"  src="/images/figma/user-UI-YT.png"></img>
+    <img class="svg" style="width:50%"  src="/images/figma/user-UI-YT.png"></img>
   </figure>
  </div>
 
@@ -129,7 +129,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter fadeIn slow">Content creators have a dedicated studio</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:65%"  src="/images/figma/popup.png"></img>
+    <img class="svg" style="width:50%"  src="/images/figma/popup.png"></img>
   </figure>
  </div>
 
@@ -152,7 +152,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter fadeIn slow">Where they can edit their recommendations</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:65%"  src="/images/figma/reco-lab.png"></img>
+    <img class="svg" style="width:60%"  src="/images/figma/reco-lab.png"></img>
   </figure>
  </div>
 
@@ -163,7 +163,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter fadeIn slow">Get unique personal analytics about YouTube's AI</h2>
   <br>
   <figure class="zoomIn">
-    <img class="svg" style="width:65%"  src="/images/figma/analytics.png"></img>
+    <img class="svg" style="width:55%"  src="/images/figma/analytics.png"></img>
   </figure>
  </div>
 
