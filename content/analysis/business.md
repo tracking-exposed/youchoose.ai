@@ -18,10 +18,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-   <figure class="zoomIn slow">
+   <figure class="">
     <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
    </figure >
-  <h2 class="aligncenter fadeIn slow">YouChoose the recommendation model</h2>
+  <h2 class="aligncenter ">Gain Back Control over YouTube Recommendations</h2>
  </div>
 
 </section><section >
@@ -29,57 +29,50 @@ extraCSS: "/css/slides.css"
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap">
     <h1 class="secondary fadeIn bold">
-     Context and  Motivation:
+     The algorithm is the gatekeeper of YouTube.
     </h1>
     <div class="grid vertical-align">
       <div class="column">
-        <h2 class="slideInRight secondary aligncenter">The recommendation algorithm</h2>
-        <h4 class="fadeIn slow aligncenter">is the gatekeeper of YouTube. <br>
-          Though, it is designed to maximize profits, <br> 
-          not to work for your best interest.
+        <h4 class=" aligncenter"><br>
+          The recommendation algorithm selects most of the content which is watched on the platform.<br> 
         </h4>
       <br>
       </div> 
-      <div class="column slow">
-        <img style="width:50%; padding-bottom: 1rem;" class="zoomIn aligncenter" src="/images/slides/recommender_icon3.svg">
+      <div class="column">
+        <img style="width:50%; padding-bottom: 1rem;" class=" aligncenter" src="/images/slides/recommender_icon3.svg">
       </div>
     </div>
+    <h4>Though, it is designed to maximize the interests of the company, not those of its users.</h4>
   </div>
 
 </section><section>
-
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn bold">The concept:</h1> 
-    <br><br>
-    <h4><b>Recommendation module optimized for you,</b> not for YouTube: </h4>
-    <br></br> 
+    <h1 class="secondary fadeIn bold">The Concept</h1> 
+    <br>
   <div class="grid vertical-align">
-    <div class="column">
-      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
-      <h2 class="aligncenter secondary bold">Users</h2>
-      <h3>can choose the recommendation model that is best for them</h3>
-    </div>
-    <div class="column size-1">
-      <h3 class="aligncenter bold">Mutual benefit</h3>
-      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
-    </div>
     <div class="column">
       <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
       <h2 class="aligncenter secondary bold">Content Creators</h2>
-      <h3 class="aligncenter">can choose the recommendations displayed on their own content</h3>
+      <h3 class="aligncenter">choose recommendations on their own videos</h3>
+    </div>
+    <div class="column">
+      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <h2 class="aligncenter secondary bold">Users</h2>
+      <h3 class="aligncenter">choose among different recommendation models</h3>
     </div>
   </div>
+  <br><br>
+  <h4><b>YouChoose gives you back control over recommendations, so they fit <em>your</em> best interest</b></h4>
 </div>
 
 </section><section>
 
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="slideInLeft secondary"><b>
-     It only requires a browser extension <br>
+    <h1 class="secondary"><b>
+     It only takes a browser extension <br>
     </b></h1>
-    <h4>Stay on YouTube.com, and watch content that is right for you.</h4>
     <div class="grid vertical-align">
       <div class="column">
         <figure >
@@ -87,7 +80,7 @@ extraCSS: "/css/slides.css"
         </figure>
       </div>
       <div class="column">
-        <figure class="zoomIn slow">
+        <figure class="">
           <img style="width:50%; padding-top: 5rem;"  src="/images/slides/extension_icon.png" ></img>
         </figure>
       </div>
@@ -97,27 +90,59 @@ extraCSS: "/css/slides.css"
         </figure>
       </div>
     </div>
+    <h4>Because of its colossal network effect, it is extremely hard to entice users to move from YouTube to another service.<br><br>
+        <b>YouChoose is a light habit change</b>, enhancing the user experience directly on YouTube.com</h4>
   </div>
 
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <figure class="zoomIn slow">
-    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/figma1.jpg"></img>
+ <h4 class="secondary bold">YouChoose overview</h4><br>
+  <figure class="">
+    <img class="svg" style="width:55%"  src="/images/figma/user-UI-YT.png"></img>
   </figure>
-  <h2 class="aligncenter fadeIn slow">YouChoose the recommendation model</h2>
+  <br>
+  <h4>The familiar YouTube UI remains, and the pink YouChoose navbar now provides users with additional recommendation options in the different tabs.</h4>
  </div>
 
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <figure class="zoomIn slow">
-    <img class="svg" style="width:40%; padding-bottom: 5rem;"  src="/images/youchoose_dashboard.png"></img>
+ <h4 class="secondary bold">YouChoose overview</h4><br>
+  <figure class="">
+    <img class="svg" style="width:55%"  src="/images/figma/user-UI-CC.png"></img>
   </figure>
-  <h2 class="aligncenter fadeIn slow">YouTubers choose the recommendations on their own videos</h2>
+  <br>
+  <h4 class="aligncenter ">The most important is the content creator tab, which displays the recommendations provided by the YouTuber themselves.
+  Who else could provide more relevant related content?</h4>
  </div>
+
+
+</section><section>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+ <h4 class="secondary bold">YouChoose overview</h4><br>
+  <figure class="">
+    <img class="svg" style="width:65%; padding-bottom: 5rem;"  src="/images/figma/reco-lab.png"></img>
+  </figure>
+  <h4 class="aligncenter ">To select and order these recommendations on their own videos, YouTubers can log in the YouChoose Studio.</h4>
+ </div>
+
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+ <h4 class="secondary bold">YouChoose overview</h4><br>
+  <figure class="">
+    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/figma/analytics.png"></img>
+  </figure>
+  <h4 class="aligncenter ">The studio also gives content creators access to unique analytics on how YouTube's algorithm processes their content, 
+  which are otherwise inaccessible.</h4>
+ </div>
+
 
 </section><section>
 
@@ -606,7 +631,7 @@ extraCSS: "/css/slides.css"
   <figure class="zoomIn ">
     <img class="svg" style="width:80%; padding-bottom: 5rem;"  src="/images/slides/timeline.png"></img>
   </figure>
-  <h2 class="aligncenter fadeIn slow">Timeline for next few months</h2>
+  <h2 class="aligncenter ">Timeline for next few months</h2>
  </div>
 
 
@@ -617,8 +642,8 @@ extraCSS: "/css/slides.css"
   <figure class="zoomIn ">
     <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/budget.png"></img>
   </figure>
-  <h4 class="aligncenter fadeIn slow">We have about 6 month of cash to keep maintaining and growing the project at cruise speed.</h4>
-  <h4 class="aligncenter fadeIn slow">We have other grants in our radar to allow new major developements.</h4>
+  <h4 class="aligncenter ">We have about 6 month of cash to keep maintaining and growing the project at cruise speed.</h4>
+  <h4 class="aligncenter ">We have other grants in our radar to allow new major developements.</h4>
  </div>
 
 </section>
