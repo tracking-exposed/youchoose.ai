@@ -106,7 +106,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter  ">You still can use YouTube as you are used to</h2>
   <br>
   <figure class="">
-    <img class="svg" style="width:50%"  src="/images/figma/user-UI-YT.png"></img>
+    <img class="svg" style="width:50%"  src="/images/figma/user-UI-YT-highlight.png"></img>
   </figure>
  </div>
 
@@ -268,6 +268,16 @@ extraCSS: "/css/slides.css"
       picture="/images/primavera.jpeg" >}}
 
 </div>
+
+</section><section >
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+   <figure class="">
+    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
+   </figure >
+  <h2 class="aligncenter">Visit us at  <a  href="https://youchoose.ai" target=_blank>www.youchoose.ai</a></h2>
+ </div>
 
 </section>
 <!--
