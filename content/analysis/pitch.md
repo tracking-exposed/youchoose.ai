@@ -1,6 +1,6 @@
 ---
-title: "YouChoose.AI business case"
-subtitle: "business, competitors and opportunity analysis for youchoose"
+title: "YouChoose.AI Pitch"
+subtitle: "Project Pitch"
 draft: false
 type: "webslides"
 og_title: "YouChoose.AI project pitch"
@@ -18,22 +18,22 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-   <figure class="zoomIn">
+   <figure class="">
     <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
    </figure >
-  <h2 class="aligncenter fadeIn slow">Recommendations optimized for you, not for YouTube</h2>
+  <h2 class="aligncenter  ">Recommendations optimized for you, not for YouTube</h2>
  </div>
 
 </section><section >
 
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap">
-    <h1 class="secondary fadeIn bold">
+    <h1 class="secondary  bold">
      The algorithm is the gatekeeper of YouTube. 
     </h1>
     <div class="grid vertical-align">
       <div class="column">
-        <img style="width:30%; padding-bottom: 1r" class="zoomIn aligncenter" src="/images/slides/recommender_icon3.svg">
+        <img style="width:30%; padding-bottom: 1r" class=" aligncenter" src="/images/slides/recommender_icon3.svg">
       </div>
     </div>
   </div>
@@ -42,18 +42,18 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn bold">YouChoose.ai</h1> 
+    <h1 class="secondary  bold">YouChoose.ai</h1> 
     <br><br>
     <h4><b>Gain back control over YouTube recommendations</h4>
     <br></br> 
   <div class="grid vertical-align">
     <div class="column">
-      <img class="zoomIn aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+      <img class=" aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
       <h2 class="aligncenter secondary bold">Content Creators</h2>
       <h3 class="aligncenter">choose recommendations on their own videos</h3>
     </div>
     <div class="column">
-      <img class="zoomIn aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <img class=" aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
       <h2 class="aligncenter secondary bold">Users</h2>
       <h3 class="aligncenter">choose their recommendation model</h3>
     </div>
@@ -65,7 +65,7 @@ extraCSS: "/css/slides.css"
 
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="slideInLeft secondary"><b>We know it's hard to leave YouTube<br></b></h1>
+    <h1 class="secondary"><b>We know it's hard to leave YouTube<br></b></h1>
     <h4>So we decided to make it better, with a simple browser extension.</h4>
     <div class="grid vertical-align">
       <div class="column">
@@ -74,7 +74,7 @@ extraCSS: "/css/slides.css"
         </figure>
       </div>
       <div class="column">
-        <figure class="zoomIn">
+        <figure class="">
           <img style="width:50%; padding-top: 5rem;"  src="/images/slides/extension_icon.png" ></img>
         </figure>
       </div>
@@ -91,9 +91,9 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Users can activate the extension in the pop-up</h2>
+  <h2 class="aligncenter  ">Users can activate the extension in the pop-up</h2>
   <br>
-  <figure class="zoomIn">
+  <figure class="">
     <img class="svg" style="width:65%"  src="/images/figma/popup.png"></img>
   </figure>
  </div>
@@ -103,10 +103,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">You still can use YouTube as you are used to</h2>
+  <h2 class="aligncenter  ">You still can use YouTube as you are used to</h2>
   <br>
-  <figure class="zoomIn">
-    <img class="svg" style="width:80%"  src="/images/figma/user-UI-YT.png"></img>
+  <figure class="">
+    <img class="svg" style="width:50%"  src="/images/figma/user-UI-YT.png"></img>
   </figure>
  </div>
 
@@ -115,10 +115,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Recommendations from content creators appear in the sidebar</h2>
+  <h2 class="aligncenter  ">Recommendations from content creators appear in the sidebar</h2>
   <br>
-  <figure class="zoomIn">
-    <img class="svg" style="width:80%"  src="/images/figma/user-UI-CC-highlight.png"></img>
+  <figure class="">
+    <img class="svg" style="width:50%"  src="/images/figma/user-UI-CC-highlight.png"></img>
   </figure>
  </div>
 
@@ -127,9 +127,9 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Content creators have a dedicated studio</h2>
+  <h2 class="aligncenter  ">Content creators have a dedicated studio</h2>
   <br>
-  <figure class="zoomIn">
+  <figure class="">
     <img class="svg" style="width:50%"  src="/images/figma/popup.png"></img>
   </figure>
  </div>
@@ -137,9 +137,9 @@ extraCSS: "/css/slides.css"
 </section><section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">They are walked through a channel authentication process</h2>
+  <h2 class="aligncenter  ">They are walked through a channel authentication process</h2>
   <br>
-  <figure class="zoomIn">
+  <figure class="">
     <img class="svg" style="width:65%"  src="/images/figma/authentication.png"></img>
   </figure>
  </div>
@@ -149,10 +149,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Content Creators have a studio to edit their recommendations</h2>
+  <h2 class="aligncenter  ">Content Creators have a studio to edit their recommendations</h2>
   <br>
-  <figure class="zoomIn">
-    <img class="svg" style="width:80%"  src="/images/figma/reco-lab.png"></img>
+  <figure class="">
+    <img class="svg" style="width:50%"  src="/images/figma/reco-lab.png"></img>
   </figure>
  </div>
 
@@ -160,10 +160,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="aligncenter fadeIn slow">Get unique personal analytics about YouTube's AI</h2>
+  <h2 class="aligncenter  ">Get unique personal analytics about YouTube's AI</h2>
   <br>
-  <figure class="zoomIn">
-    <img class="svg" style="width:80%"  src="/images/figma/analytics.png"></img>
+  <figure class="">
+    <img class="svg" style="width:50%"  src="/images/figma/analytics.png"></img>
   </figure>
  </div>
 
@@ -174,15 +174,15 @@ extraCSS: "/css/slides.css"
   <div class="wrap aligncenter">
   <div class="grid vertical-align">
     <div class="column">
-      <img class="zoomIn aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+      <img class=" aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
       <h2 class="aligncenter secondary bold">Content Creators</h2>
     </div>
     <div class="column size-1">
       <h3 class="aligncenter bold">Mutual benefit</h3>
-      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
+      <img class=" aligncenter " style="width:30%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
     </div>
     <div class="column">
-      <img class="zoomIn aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <img class=" aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
       <h2 class="aligncenter secondary bold">Users</h2>
     </div>
     <br></br> 
@@ -287,6 +287,7 @@ Communication Designer | *University of Milano*
 Communication Designer | *University of Milano*
 -->
 
+
 <script>
   removeHeaderFooter(1500)
 
@@ -304,4 +305,4 @@ Communication Designer | *University of Milano*
       });
     }
   );
-</script> -->
+</script> 

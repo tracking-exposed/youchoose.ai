@@ -141,6 +141,13 @@ extraCSS: "/css/slides.css"
     </ul>
   </div>
 
+<!-- 
+</section><section>
+  
+  CC don't like the AI
+
+-->
+
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -162,6 +169,13 @@ extraCSS: "/css/slides.css"
       </li>
     </ul>
   </div>
+
+<!-- 
+</section><section>
+  
+  US don't like the AI
+
+-->
 
 </section><section>
 
@@ -294,6 +308,16 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
+    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Becoming the first Marketplace for Algorithms</h1>
+  <br><br>
+    <h4>Platforms currently have a monopoly on the algorithms that run on their systems.</h4>
+    <h4>Similar to how app-stores broke the monopoly of native apps on smartphones, YouChoose is an early attempt to become the first algorithmic marketplace for third-party recommender systems.</h4>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap  aligncenter">
     <h1 class="secondary">Future Developments:
     <h2 class="secondary fadeIn bold"> Enable community curated recommendations</h3>
   <div class="grid">
@@ -310,16 +334,20 @@ extraCSS: "/css/slides.css"
     </div>
   </div>
 
+
+<!--
 </section><section>
 
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Becoming the first Marketplace for Algorithms</h1>
-  <br><br>
-    <h4>Platforms currently have a monopoly on the algorithms that run on their systems.</h4>
-    <h4>Similar to how app-stores broke the monopoly of native apps on smartphones, YouChoose is an early attempt to become the first algorithmic marketplace for third-party recommender systems.</h4>
- </div>
+  We sould add a slide about Tuornesol because we mentioned them earlyer 
+  maybe also 1 about the reddit feeds?
 
+  We can also list some other feature we will implement:
+  - homepage recommendations
+  - shadowban tester
+  - links from videos' description
+  - default recommendations for all the CC videos
+  - ...
+-->
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
