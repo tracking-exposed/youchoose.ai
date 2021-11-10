@@ -98,6 +98,7 @@ extraCSS: "/css/slides.css"
   <br>
   <h4>The familiar YouTube UI remains, and the <b class="secondary"> Deep Cherise</b> YouChoose navbar now provides users with additional recommendation options in the different tabs.</h4>
  </div>
+</section>
 
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -110,6 +111,7 @@ extraCSS: "/css/slides.css"
   <h4 class="aligncenter ">The most important is the <b class="secondary">content creator tab</b>, which displays the recommendations provided by the YouTuber themselves.
   Who else could provide more relevant related content?</h4>
  </div>
+</section>
 
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -120,6 +122,7 @@ extraCSS: "/css/slides.css"
   </figure>
   <h4 class="aligncenter ">To select and order these recommendations on their own videos, YouTubers can log in the YouChoose Studio.</h4>
  </div>
+</section>
 
 
 <section>
@@ -132,9 +135,8 @@ extraCSS: "/css/slides.css"
   <h4 class="aligncenter ">The studio also gives content creators access to unique analytics on how YouTube's algorithm processes their content,
   which are otherwise inaccessible.</h4>
  </div>
+</section>
 
-
-<section>
     <!--
   CC don't like the AI.
 
@@ -147,7 +149,7 @@ extraCSS: "/css/slides.css"
   'from an online survey of 380 participants'
 
 -->
-
+<section>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
     <br><br>
