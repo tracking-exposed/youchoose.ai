@@ -82,9 +82,9 @@ extraCSS: "/css/slides.css"
       </div>
     </div>
     <h4 style="padding-top: 10rem;">
-      Because of its colossal network effect, it is extremely hard to entice users to move from YouTube to another service.<br><br>
-      <b>YouChoose is a light habit change</b>, enhancing the user experience directly on YouTube.com
-    </h4>
+      Because of its colossal network effect,<br> it is extremely hard to entice users to move from YouTube to another service.<br><br>
+      </h4><h2 class="grey"><b>YouChoose is a light habit change</b>, <br>enhancing the user experience directly on YouTube.com
+    </h2>
   </div>
 </section>
 
@@ -164,7 +164,7 @@ extraCSS: "/css/slides.css"
       <li> 
         <h4 class="aligncenter">Content Creators have no way to control <br>the recommendations promoted on their channel</h4>
         <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter secondary"><b>YouChoose is a new way for Content Creators <br> to connect with their audience,<br> and to build referencing networks among them.</b></h4>
+        <h4 class="aligncenter secondary"><b>YouChoose is a new way for Content Creators <br> to connect with their audience,<br> and to build referencing networks among them</b></h4>
       </li>
       <li> 
       <h4 class="aligncenter">Often, the AI links their videos to content <br> they don't associate with. They have no way to know</h4>
@@ -228,7 +228,6 @@ extraCSS: "/css/slides.css"
   </div>
 </section> 
 
-<!--TODO-->
 <section>
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter"> <!--TODO-->
