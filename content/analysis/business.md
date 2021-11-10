@@ -137,18 +137,32 @@ extraCSS: "/css/slides.css"
  </div>
 </section>
 
-    <!--
+<section>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+    <div class="grid vertical-align">
+      <div class=column>
+        <figure class="">
+          <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/survey.svg"></img>
+        </figure>
+      </div>
+      <div class="column">
+        <h1 class="secondary aligncenter"><b>Survey and Inverviews</b></h1>
+        <h4 class="aligncenter"><b>Surveys</b></h4>
+        <div class="column">
+          <al>
+            <li>60 Content Creators participated</li>
+            <li>380 Users participated</li>
+          </al>
+          <h4 class="aligncenter" style="padding-top: 15px" ><b>Interviews</b></h4>
+          <al>
+            <li>12 Content Creators avaible</li>
+            <li>72 Users avaible</li>
+          </al>
+          <p>Theese Content Creators / Users avaible for the interview will be our "early adopters"</p>
+        </div>
+</section>
 
-  US don't like the AI
-
-  TODO same here, will rework wording after survey input. We can reformat it also if not adapted.
-
-  Most relevant survey insights here seem:
-  - lack of control
-  - bad recommendations, clickbait
-  - They would enjoy recommendations different that YT videos
-
--->
 <section>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b> Problems solved for Users</b> </h1>
@@ -170,17 +184,18 @@ extraCSS: "/css/slides.css"
 </section>
 
     <!--
-  CC don't like the AI.
 
-  Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
+  US don't like the AI
 
-  TODO The text here is not great, will rework it after we add the survey input
+  TODO same here, will rework wording after survey input. We can reformat it also if not adapted.
 
-  NOTE: we could add a brief slide which gives a brief overview of the survey (online, #participants...)
-  altertively, we put a * next to every mention to the survey, and write in small at the bottom of the slide:
-  'from an online survey of 380 participants'
-
+  Most relevant survey insights here seem:
+  - lack of control
+  - bad recommendations, clickbait
+  - They would enjoy recommendations different that YT videos
 -->
+
+
 <section>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
@@ -201,7 +216,17 @@ extraCSS: "/css/slides.css"
   </div>
 </section>
 
+    <!--
+  CC don't like the AI.
 
+  Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
+
+  TODO The text here is not great, will rework it after we add the survey input
+
+  NOTE: we could add a brief slide which gives a brief overview of the survey (online, #participants...)
+  altertively, we put a * next to every mention to the survey, and write in small at the bottom of the slide:
+  'from an online survey of 380 participants'
+-->
 <section>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b> Problems solved for Regulators</b> </h1>
