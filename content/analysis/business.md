@@ -609,8 +609,22 @@ extraCSS: "/css/slides.css"
           <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/blumorpho.jpeg">
           <h5><b>Bluemorpho</b> combines business, sectorial and technical expertise in deep tech. Bluemorpho advises us through Ledger to refine our market fit</h5>
       </div>
+  </div>
+    <br><br><br><br>
+    <h3 class="aligncenter"><b class="secondary">This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268</b><h5>
+  <div class="grid">
+      <div class="column">
+      </div>
+      <div class="column">
+            <img src="/images/ledger-logo.png"  style="width:40%; padding-bottom: 1rem;" class="aligncenter">
+      </div>
+      <div class="column">
+            <img src="/images/eu-logo.jpeg"  style="width:30%; padding-bottom: 1rem;" class="aligncenter">
+      </div>
+      <div class="column">
       </div>
   </div>
+</div>
 
 
 <script>
