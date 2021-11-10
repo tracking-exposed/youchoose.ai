@@ -22,9 +22,9 @@ extraCSS: "/css/slides.css"
    </figure >
   <h2 class="aligncenter subtitle">Gain Back Control over YouTube Recommendations</h2>
  </div>
-</section>
 
-<section >
+</section><section>
+
   <span class="background"></span>
   <div class="wrap">
     <h1 class="bold">
@@ -35,9 +35,9 @@ extraCSS: "/css/slides.css"
           The recommendation algorithm selects most of the content which is watched on the platform.<br>
           Though, it is designed to maximize the <b>interests of the company</b>, not those of its users.</h4>
   </div>
-</section>
 
-<section>
+</section><section>
+
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b>The Concept</b></h1>
@@ -57,9 +57,9 @@ extraCSS: "/css/slides.css"
   <br><br>
   <h2 class="grey" style="padding-top: 2rem;"><b>YouChoose gives you back control over recommendations, so they fit <em>your</em> best interest</b></h2>
 </div>
-</section>
 
-<section>
+</section><section>
+
   <div class="wrap aligncenter">
     <h1 class="secondary"><b>
      It only takes a browser extension 
@@ -85,9 +85,9 @@ extraCSS: "/css/slides.css"
       Because of its colossal network effect,<br> it is extremely hard to entice users to move from YouTube to another service.<br><br></h4>
       <h2 class="grey"><b>YouChoose is a light habit change</b>, <br>enhancing the user experience directly on YouTube.com </h2>
   </div>
-</section>
 
-<section>
+</section><section>
+
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h1 class="secondary bold">YouChoose overview</h1><br>
@@ -97,9 +97,10 @@ extraCSS: "/css/slides.css"
   <br>
   <h4>The familiar YouTube UI remains, and the <b class="secondary"> Deep Cherise</b> YouChoose navbar now provides users with additional recommendation options in the different tabs.</h4>
  </div>
-</section>
 
-<section>
+</section><section>
+
+
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h1 class="secondary bold">YouChoose overview</h1><br>
@@ -110,9 +111,9 @@ extraCSS: "/css/slides.css"
   <h4 class="aligncenter ">The most important is the <b class="secondary">content creator tab</b>, which displays the recommendations provided by the YouTuber themselves.
   Who else could provide more relevant related content?</h4>
  </div>
-</section>
 
-<section>
+</section><section>
+
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h1 class="secondary bold">YouChoose overview</h1><br>
@@ -121,10 +122,9 @@ extraCSS: "/css/slides.css"
   </figure>
   <h4 class="aligncenter ">To select and order these recommendations on their own videos, YouTubers can log in the YouChoose Studio.</h4>
  </div>
-</section>
 
+</section><section>
 
-<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h1 class="secondary bold">YouChoose overview</h1><br>
@@ -134,8 +134,85 @@ extraCSS: "/css/slides.css"
   <h4 class="aligncenter ">The studio also gives content creators access to unique analytics on how YouTube's algorithm processes their content,
   which are otherwise inaccessible.</h4>
  </div>
-</section>
 
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h1 class="aligncenter fadeIn bold">TODO: Competition</h1>
+    <ul class="flexblock features">
+      <li>
+        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as
+          <a  href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
+          <a href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
+          <a  href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner
+          <a href="https://tournesol.app/" target=_blank>Tournesol.app</a> </h3>
+      </li>
+      <li>
+        <h3 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
+          <a href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid"   target=_blank>customizability features</a> to their algorithm over the past year.</h3>
+      </li>
+      <li>
+        <h3 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions. We are accounting for these scenarios in our design and strategy.</br></h3>
+      </li>
+    </ul>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap aligncenter">
+    <h1 class="secondary fadeIn"><b>Unique Value Propositions</b></h1>
+    <div class="grid">
+        <div class="column">
+            <h2>For users</h2>
+            <ul class="flexblock features">
+                  <li>
+                    <h3 class="aligncenter">Choose from different recommendation models one which is best for your own taste and interest.</h3>
+                  </li>
+                  <li>
+                   <h3 class="">Super light habit change, with a simple browser extension.</h3>
+                  </li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>For Content Creators</h2>
+            <ul class="flexblock features">
+              <li>
+               <h3>Your content, your choice. Gain back control on what you promote.</h3>
+              </li>
+              <li>
+               <h3>Gain unique insights about how the YouTube algorithm treats your content.</h3>
+              </li>
+              <li>
+               <h3>A new way to bound and create synergies with other creators, and opportunities for smaller ones.</h3>
+              </li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>For Everyone</h2>
+            <ul class="flexblock features">
+                  <li>
+                    <h3>Reclaim algorithmic agency</h3>
+                  </li>
+                  <li>
+                    <h3>Liberate data for the public interest, and hold platforms accountable</h3>
+                  </li>
+                  <li>
+                    <h3>Recommendations pointing all over the web, breaking sealed ecosytems.</h3>
+                  </li>
+                  <li>
+                    <h3>An open-source tool, built by a non-profit which promotes and defend digital rights.</h3>
+                  </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</section>
 
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -286,87 +363,6 @@ extraCSS: "/css/slides.css"
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
- <div class="wrap aligncenter">
-  <h1 class="aligncenter fadeIn bold">TODO: Competition</h1>
-    <ul class="flexblock features">
-      <li>
-        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as
-          <a  href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
-          <a href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
-          <a  href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
-        </h3>
-      </li>
-      <li>
-        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner
-          <a href="https://tournesol.app/" target=_blank>Tournesol.app</a> </h3>
-      </li>
-      <li>
-        <h3 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
-          <a href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid"   target=_blank>customizability features</a> to their algorithm over the past year.</h3>
-      </li>
-      <li>
-        <h3 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions. We are accounting for these scenarios in our design and strategy.</br></h3>
-      </li>
-    </ul>
- </div>
-
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Unique Value Propositions</b></h1>
-    <div class="grid">
-        <div class="column">
-            <h2>For users</h2>
-            <ul class="flexblock features">
-                  <li>
-                    <h3 class="aligncenter">Choose from different recommendation models one which is best for your own taste and interest.</h3>
-                  </li>
-                  <li>
-                   <h3 class="">Super light habit change, with a simple browser extension.</h3>
-                  </li>
-            </ul>
-        </div>
-        <div class="column">
-            <h2>For Content Creators</h2>
-            <ul class="flexblock features">
-              <li>
-               <h3>Your content, your choice. Gain back control on what you promote.</h3>
-              </li>
-              <li>
-               <h3>Gain unique insights about how the YouTube algorithm treats your content.</h3>
-              </li>
-              <li>
-               <h3>A new way to bound and create synergies with other creators, and opportunities for smaller ones.</h3>
-              </li>
-            </ul>
-        </div>
-        <div class="column">
-            <h2>For Everyone</h2>
-            <ul class="flexblock features">
-                  <li>
-                    <h3>Reclaim algorithmic agency</h3>
-                  </li>
-                  <li>
-                    <h3>Liberate data for the public interest, and hold platforms accountable</h3>
-                  </li>
-                  <li>
-                    <h3>Recommendations pointing all over the web, breaking sealed ecosytems.</h3>
-                  </li>
-                  <li>
-                    <h3>An open-source tool, built by a non-profit which promotes and defend digital rights.</h3>
-                  </li>
-            </ul>
-        </div>
-    </div>
-  </div>
-
-
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary fadeIn"><b>Value Chain Positioning</b></h1>
     <div class="grid">
@@ -405,19 +401,6 @@ extraCSS: "/css/slides.css"
   </div>
 
 
-<!--
-</section><section>
-
-  We sould add a slide about Tuornesol because we mentioned them earlyer 
-  maybe also 1 about the reddit feeds?
-
-  We can also list some other feature we will implement:
-  - homepage recommendations
-  - shadowban tester
-  - links from videos' description
-  - default recommendations for all the CC videos
-  - ...
--->
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -459,9 +442,8 @@ extraCSS: "/css/slides.css"
 
 </section><section>
 
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
-  <h2 class="secondary bold">Roadmap</h2>
+  <h1 class="secondary bold">Roadmap</h1>
   <br>
   <figure class="zoomIn ">
     <img class="svg" style="width:90%; padding-bottom: 5rem;"  src="/images/slides/roadmap.png"></img>
@@ -472,7 +454,7 @@ extraCSS: "/css/slides.css"
 
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
     <div class="wrap aligncenter">
-        <h2 class="secondary fadeIn bold">Finances and Business Model</h2>
+        <h1 class="secondary fadeIn bold">Finances and Business Model</h1>
   <div class="grid">
       <div class="column">
       <figure class="zoomIn ">
@@ -480,18 +462,18 @@ extraCSS: "/css/slides.css"
       </figure>
     </div>
     <div class="column">
-        <h4>YouChoose is developed and maintained by a <b class="secondary">non-profit sustained by grants and donations.</b></h4>
+        <h4 style="padding-top: 250px">YouChoose is developed and maintained by a <b class="secondary">non-profit sustained by grants and donations.</b></h4>
         <br><br><br>
         <h3>We already secured enough funding to maintain and develop YouChoose for the year ahead.
             After it gets traction, new opportunities should enable us to scale up.</h3><br><br>
       <br><br><br>
     <h4 class="fadeIn">Additionally, a more self-sustained business model could be developed with
-        <b class="secondary">sponsored recommendations  →</b></h4>
+        <b class="secondary">sponsored recommendations</b></h4>
   </div>
-  </div>
+</div>
 
+</section><section>
 
-</section><section>≤
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
       <h2 class="secondary fadeIn bold">Sponsored Recommendations</h2>
@@ -548,6 +530,7 @@ extraCSS: "/css/slides.css"
           He is the founder of Tracking.Exposed, a free-software infrastructure to investigate major recommendation systems.</h5>
       </div>
   </div>
+  
 </section><section>
 
 <div>
