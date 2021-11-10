@@ -228,10 +228,10 @@ extraCSS: "/css/slides.css"
   </div>
 </section> 
 
-
+<!--TODO-->
 <section>
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
+  <div class="wrap aligncenter"> <!--TODO-->
     <h1 class="fadeIn bold">Problem summary</h1>
     <div class="grid vertical-align">
       <div class="column">
