@@ -459,6 +459,17 @@ extraCSS: "/css/slides.css"
 
 </section><section>
 
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h2 class="secondary bold">Roadmap</h2>
+  <br>
+  <figure class="zoomIn ">
+    <img class="svg" style="width:90%; padding-bottom: 5rem;"  src="/images/slides/roadmap.png"></img>
+  </figure>
+ </div>
+
+</section><section>
+
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
     <div class="wrap aligncenter">
         <h2 class="secondary fadeIn bold">Finances and Business Model</h2>
