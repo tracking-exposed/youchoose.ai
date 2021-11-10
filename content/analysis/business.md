@@ -136,6 +136,7 @@ extraCSS: "/css/slides.css"
  </div>
 </section>
 
+
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
@@ -159,35 +160,6 @@ extraCSS: "/css/slides.css"
             <li>72 Users avaible</li>
           </h4></al>
           <h4 class="grey" style="padding-top: 30px">These Content Creators / Users available for the interview will be our <b>early adopters</br></h4>
-        </div>
-</section>
-
-<section>
-  <div class="wrap aligncenter">
-    <h1 class="secondary"><b> Problems solved for Users</b> </h1>
-    <br><br>
-    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> Users have their <b>attention monetized</b> by the YouTube algorithm. </h4>
-    <ul class="flexblock steps">
-      <li> 
-        <h4 class="aligncenter">Users are often promoted clickbaity,<br> or attention-catching content tailored to their</h4>
-          <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter"><b> Users report us they want LESS ... </b></h4>
-          <h4 class="aligncenter">
-         "Sensationnal content, which make me learn less things" <br>
-         "Video that will distract me without providing me with any knowledge from them"<br>
-      </li>
-      <li> 
-      <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
-        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-      <h4 class="aligncenter"><b>Users report us they want MORE ...</b></h4>
-        <h4 class="aligncenter">
-         51% "Articles links (news, scientific..)"<br>
-         31% "Social media post"<br>
-         9% "Videos from the same author"<br>
-         <!--A lot of them asked for books during the inteviews<br>-->
-        </h4>
-      </li>
-    </ul>
   </div>
 </section>
 
@@ -215,26 +187,27 @@ extraCSS: "/css/slides.css"
 
 <section>
   <div class="wrap aligncenter">
-    <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
+    <h1 class="secondary"><b> Problems solved for Users</b> </h1>
     <br><br>
-    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b><br> which creates a growing frustration. </h4>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> Users have their <b>attention monetized</b> by the YouTube algorithm. </h4>
     <ul class="flexblock steps">
-      <li>
-        <h4 class="aligncenter">Content Creators have no control or agency<br>over recommendations</h4>
+      <li> 
+        <h4 class="aligncenter">Users are often promoted clickbaity,<br> or attention-catching content tailored to their</h4>
           <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter"><b> Users report us ...</b></h4>
+        <h4 class="aligncenter"><b> Users report us they want LESS ... </b></h4>
           <h4 class="aligncenter">
-            75% "To have rarely or never control on the algorithm" <br>
-            "78% "To have rarely or never thier contents promoted fairly by the algorithm" <br>
-          </h4>
+         "Sensationnal content, which make me learn less things" <br>
+         "Video that will distract me without providing me with any knowledge from them"<br>
       </li>
-      <li>
-      <h4 class="aligncenter">Dont understand how it works because they have no data to investigate it</h4>
-      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter"><b> Users report us ...</b></h4>
+      <li> 
+        <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
+          <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter"><b>Users report us they want MORE ...</b></h4>
           <h4 class="aligncenter">
-            51% "To understand rarely or never how the algorithms works" <br>
-          </h4>
+         51% "Articles links (news, scientific..)"<br>
+         31% "Social media post"<br>
+         9% "Videos from the same author"<br>
+        </h4>
       </li>
     </ul>
   </div>
@@ -259,6 +232,34 @@ extraCSS: "/css/slides.css"
     </ul>
   </div>
 </section>
+
+<section>
+  <div class="wrap aligncenter">
+    <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
+    <br><br>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b><br> which creates a growing frustration. </h4>
+    <ul class="flexblock steps">
+      <li>
+        <h4 class="aligncenter">Content Creators have no control or agency<br>over recommendations</h4>
+          <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter"><b> Contet Creators report us ...</b></h4>
+          <h4 class="aligncenter">
+            75% "To have rarely or never control on the algorithm" <br>
+            "78% "To have rarely or never thier contents promoted fairly by the algorithm" <br>
+          </h4>
+      </li>
+      <li>
+      <h4 class="aligncenter">Dont understand how it works because they have no data to investigate it</h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter"><b> Contet Creators report us ...</b></h4>
+          <h4 class="aligncenter">
+            51% "To understand rarely or never how the algorithms works" <br>
+          </h4>
+      </li>
+    </ul>
+  </div>
+</section>
+
 
 <section>
   <div class="wrap aligncenter">
