@@ -6,7 +6,7 @@ type: "webslides"
 og_title: "YouChoose.AI project pitch"
 og_description: "The idea and some immages on how it works"
 og_type: "website"
-og_image: "http://youchoose.tracking.exposed/images/compare.jpg" 
+og_image: "http://youchoose.tracking.exposed/images/compare.jpg"
 og_url: "https://youchoose.tracking.exposed/analysis/pitch"
 
 # extraCSS: "/css/business-case-slide.css"
@@ -29,7 +29,7 @@ extraCSS: "/css/slides.css"
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap">
     <h1 class="secondary  bold">
-     The algorithm is the gatekeeper of YouTube. 
+     The algorithm is the gatekeeper of YouTube.
     </h1>
     <div class="grid vertical-align">
       <div class="column">
@@ -42,10 +42,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary  bold">YouChoose.ai</h1> 
+    <h1 class="secondary  bold">YouChoose.ai</h1>
     <br><br>
     <h4><b>Gain back control over YouTube recommendations</h4>
-    <br></br> 
+    <br></br>
   <div class="grid vertical-align">
     <div class="column">
       <img class=" aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
@@ -185,7 +185,7 @@ extraCSS: "/css/slides.css"
       <img class=" aligncenter" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
       <h2 class="aligncenter secondary bold">Users</h2>
     </div>
-    <br></br> 
+    <br></br>
   </div>
     <h4>Key Strategy:</h4>
     <br><br>
@@ -216,10 +216,10 @@ extraCSS: "/css/slides.css"
           <h3 class="aligncenter">(Tournesol.app, etc - 6 months)</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">4. Community curation </h2> 
-            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>        
+          <h2 class="aligncenter secondary bold">4. Community curation </h2>
+            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>
           <h3 class="aligncenter">(BlockChain - 1/2 years)</h3>
-        </li> 
+        </li>
       </ul>
   <br><br>
  </div>

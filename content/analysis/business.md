@@ -6,7 +6,7 @@ type: "webslides"
 og_title: "YouChoose.AI business case"
 og_description: "business, competitors and opportunity analysis for youchoose"
 og_type: "website"
-og_image: "http://youchoose.tracking.exposed/images/compare.jpg" 
+og_image: "http://youchoose.tracking.exposed/images/compare.jpg"
 og_url: "https://youchoose.tracking.exposed/analysis/business"
 
 # extraCSS: "/css/business-case-slide.css"
@@ -34,10 +34,10 @@ extraCSS: "/css/slides.css"
     <div class="grid vertical-align">
       <div class="column">
         <h4 class=" aligncenter"><br>
-          The recommendation algorithm selects most of the content which is watched on the platform.<br> 
+          The recommendation algorithm selects most of the content which is watched on the platform.<br>
         </h4>
       <br>
-      </div> 
+      </div>
       <div class="column">
         <img style="width:50%; padding-bottom: 1rem;" class=" aligncenter" src="/images/slides/recommender_icon3.svg">
       </div>
@@ -48,7 +48,7 @@ extraCSS: "/css/slides.css"
 </section><section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn bold">The Concept</h1> 
+    <h1 class="secondary fadeIn bold">The Concept</h1>
     <br>
   <div class="grid vertical-align">
     <div class="column">
@@ -139,20 +139,20 @@ extraCSS: "/css/slides.css"
   <figure class="">
     <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/figma/analytics.png"></img>
   </figure>
-  <h4 class="aligncenter ">The studio also gives content creators access to unique analytics on how YouTube's algorithm processes their content, 
+  <h4 class="aligncenter ">The studio also gives content creators access to unique analytics on how YouTube's algorithm processes their content,
   which are otherwise inaccessible.</h4>
  </div>
 
 
 </section><section>
 
-<!-- 
+<!--
 </section><section>
-  
+
   US don't like the AI
 
   TODO same here, will rework wording after survey input. We can reformat it also if not adapted.
-  
+
   Most relevant survey insights here seem:
   - lack of control
   - bad recommendations, clickbait
@@ -161,17 +161,17 @@ extraCSS: "/css/slides.css"
 -->
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Problems solved for users</b></h1> 
+    <h1 class="secondary fadeIn"><b>Problems solved for users</b></h1>
     <br><br>
     <h4>Users have their <b>attention monetized</b> by the YouTube algorithm.</h4>
-    <br></br> 
+    <br></br>
     <ul class="flexblock steps">
-      <li> 
+      <li>
         <h3 class="aligncenter fadeIn">Users are often promoted clickbaity, or attention-catching content tailored to their</h3>
           <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
         <h3 class="aligncenter fadeIn"><b>Users can stay focus, and get the best recommendations relevant to the topic they are exploring</b></h3>
       </li>
-      <li> 
+      <li>
        <h3 class="aligncenter fadeIn">Users end-up locked into the YouTube ecosystem, no way to escape</h3>
         <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
        <h3 class="aligncenter fadeIn"><b>YouChoose features content from all around the web, not just YouTube.com</b></h3>
@@ -181,9 +181,9 @@ extraCSS: "/css/slides.css"
 
 </section><section>
 
-<!--   
+<!--
   CC don't like the AI.
-  
+
   Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
 
   TODO The text here is not great, will rework it after we add the survey input
@@ -195,17 +195,17 @@ extraCSS: "/css/slides.css"
 -->
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b> Problems solved for Content Creators</b> </h1> 
+    <h1 class="secondary fadeIn"><b> Problems solved for Content Creators</b> </h1>
     <br><br>
     <h4 class="aligncenter fadeIn"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b> which creates a growing frustration. </h4>
     <br></br><br></br>
     <ul class="flexblock steps">
-      <li> 
+      <li>
         <h3 class="aligncenter fadeIn">Content Creators have no way to control the recommendations promoted on their channel.</h3>
         <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
         <h3 class="aligncenter fadeIn"><b>YouChoose is a new way for Content Creators to connect with their audience, and to build referencing networks among them</b></h3>
       </li>
-      <li> 
+      <li>
       <h3 class="aligncenter fadeIn">Often, the AI links their videos to content they don't associate with. But they have no way to know.</h3>
       <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
       <h3 class="aligncenter fadeIn"><b>YouChoose enables Content Creators to analyse what ads and recommendations are shown on their content</b></h3>
@@ -219,20 +219,20 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Problems solved for internet governance</b></h1> 
+    <h1 class="secondary fadeIn"><b>Problems solved for internet governance</b></h1>
     <br><br>
     <h4>Regulators are demanding more <b>algorithmic transparency and market competition.</b></h4>
-    <br></br>  
+    <br></br>
     <ul class="flexblock steps">
-      <li> 
-        <h5 class="aligncenter fadeIn">The failings of social media algorithms are becoming a mainstream concern, 
+      <li>
+        <h5 class="aligncenter fadeIn">The failings of social media algorithms are becoming a mainstream concern,
         but there is no data to scrutinize them, including to inform upcoming legislation</h5>
     <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h5 class="aligncenter secondary fadeIn"><b>YouChoose lets users donate anonymised recommedation records, 
+        <h5 class="aligncenter secondary fadeIn"><b>YouChoose lets users donate anonymised recommedation records,
         which will provide unparalleled data sets for researchers to audit the algorithm</b></h5>
       </li>
-      <li> 
-       <h5 class="aligncenter fadeIn">Current algorithmic monopolies prevent competition, 
+      <li>
+       <h5 class="aligncenter fadeIn">Current algorithmic monopolies prevent competition,
        as with native apps on smartphones before the emergence of app-stores</h5>
     <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
        <h5 class="aligncenter secondary fadeIn"><b>YouChoose is the first algorithmic platform, enabling third party to offer alternatives to the current algorithmic monopolies</b></h5>
@@ -249,10 +249,10 @@ extraCSS: "/css/slides.css"
         <div class="column">
             <h2>For users</h2>
             <ul class="flexblock features">
-                  <li> 
+                  <li>
                     <h3 class="aligncenter">Choose from different recommendation models one which is best for your own taste and interest.</h3>
                   </li>
-                  <li> 
+                  <li>
                    <h3 class="">Super light habit change, with a simple browser extension.</h3>
                   </li>
             </ul>
@@ -260,13 +260,13 @@ extraCSS: "/css/slides.css"
         <div class="column">
             <h2>For Content Creators</h2>
             <ul class="flexblock features">
-              <li> 
+              <li>
                <h3>Your content, your choice. Gain back control on what you promote.</h3>
               </li>
-              <li> 
+              <li>
                <h3>Gain unique insights about how the YouTube algorithm treats your content.</h3>
               </li>
-              <li> 
+              <li>
                <h3>A new way to bound and create synergies with other creators, and opportunities for smaller ones.</h3>
               </li>
             </ul>
@@ -274,16 +274,16 @@ extraCSS: "/css/slides.css"
         <div class="column">
             <h2>For Everyone</h2>
             <ul class="flexblock features">
-                  <li> 
+                  <li>
                     <h3>Reclaim algorithmic agency</h3>
                   </li>
-                  <li> 
-                    <h3>Liberate data for the public interest, and hold platforms accountable</h3> 
-                  </li> 
-                  <li>   
-                    <h3>Recommendations pointing all over the web, breaking sealed ecosytems.</h3> 
-                  </li> 
-                  <li> 
+                  <li>
+                    <h3>Liberate data for the public interest, and hold platforms accountable</h3>
+                  </li>
+                  <li>
+                    <h3>Recommendations pointing all over the web, breaking sealed ecosytems.</h3>
+                  </li>
+                  <li>
                     <h3>An open-source tool, built by a non-profit which promotes and defend digital rights.</h3>
                   </li>
             </ul>
@@ -296,10 +296,10 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn bold">Roadmap</h1> 
+    <h1 class="secondary fadeIn bold">Roadmap</h1>
     <br><br>
     <h4>To identify the best related content, rather than purely relying on AI,</br> <b>YouChoose leverages human expertise:</b> </h4>
-    <br></br> <br></br>   
+    <br></br> <br></br>
     <ul class="flexblock steps">
         <li>
           <h2 class="aligncenter secondary bold">01. Content creators </h2>
@@ -312,13 +312,13 @@ extraCSS: "/css/slides.css"
           <h3 class="aligncenter">(Tournesol.app)</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">03. Community curation </h2> 
-            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>        
+          <h2 class="aligncenter secondary bold">03. Community curation </h2>
+            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
           <h3 class="aligncenter">(BlockChain)</h3>
-        </li> 
+        </li>
         <li>
           <h2 class="aligncenter secondary bold">04. Existing online communities </h2>
-            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>        
+            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>
           <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
         </li>
       </ul>
@@ -359,7 +359,7 @@ extraCSS: "/css/slides.css"
 <!--
 </section><section>
 
-  We sould add a slide about Tuornesol because we mentioned them earlyer 
+  We sould add a slide about Tuornesol because we mentioned them earlyer
   maybe also 1 about the reddit feeds?
 
   We can also list some other feature we will implement:
@@ -375,54 +375,66 @@ extraCSS: "/css/slides.css"
  <div class="wrap aligncenter">
   <h1 class="aligncenter fadeIn bold">Competition</h1>
     <ul class="flexblock features">
-      <li> 
-        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as 
+      <li>
+        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as
           <a  href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
           <a href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
           <a  href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
         </h3>
       </li>
-      <li> 
-        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner 
+      <li>
+        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner
           <a href="https://tournesol.app/" target=_blank>Tournesol.app</a> </h3>
       </li>
-      <li> 
+      <li>
         <h3 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
           <a href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid"   target=_blank>customizability features</a> to their algorithm over the past year.</h3>
       </li>
-      <li> 
+      <li>
         <h3 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions. We are accounting for these scenarios in our design and strategy.</br></h3>
       </li>
     </ul>
  </div>
 
+
 </section><section>
 
-<span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-   <h1 class="aligncenter fadeIn bold">Value Chain Positioning</h1>
-   <h4 class="aligncenter bold"> YouTube: </h4> 
-    <ul class="flexblock features">
-      <li> 
-        <h3 class="aligncenter fadeIn"><a href="https://www.eff.org/deeplinks/2019/10/adversarial-interoperability" target=_blank>Adversarial Interoperability</a>: we plug ourselves onto YouTube, without their approval </h3>
-      </li>
-      <li> 
-        <h3 class="aligncenter fadeIn"> 
-          <a href="https://www.cnbc.com/2020/12/18/google-antitrust-cases-in-us-and-europe-overview.html" target=_blank>Context of antitrust scrutiny</a>: we bet on the favourable legal and public opinion context to limit YouTube's aggressiveness </h3>
-      </li>
-    </ul>
-   <h4 class="aligncenter fadeIn bold ">Content Creators: </h4>
-    <ul class="flexblock features">
-      <li> 
-        <h3 class="aligncenter fadeIn">Essential to our growth strategy so they promote YouChoose directly to their audience
-        </h3>
-      </li>
-      <li> 
-        <h3 class="aligncenter fadeIn"> Content creators are like our first customers, who pay us with free advertisement 
-        </h3>
-      </li>
-    </ul>
- </div>
+    <h1 class="secondary fadeIn"><b>Value Chain Positioning</b></h1>
+    <div class="grid">
+        <div class="column">
+            <h2>YouTube</h2>
+            <h3 class="aligncenter fadeIn"><a href="https://www.eff.org/deeplinks/2019/10/adversarial-interoperability"
+            target=_blank>Adversarial Interoperability</a>: we plug ourselves onto YouTube, without seeking approval.
+            Our technology does not rely on any API or service which YouTube could easily shut down to defeat us.
+            <br><br>
+            <a href="https://www.cnbc.com/2020/12/18/google-antitrust-cases-in-us-and-europe-overview.html"
+            target=_blank>Context of antitrust scrutiny</a>: The current regulatory and public opinion context is highly
+            in our favour and should deter YouTube from attacking us, which would also provide us with beneficial visibility.</h3>
+        </div>
+        <div class="column">
+            <h2>Content Creators</h2>
+                <h3 class="aligncenter fadeIn"><b>YouTubers are essential to our growth strategy.</b>
+                Since they benefit from having their viewers use YouChoose,
+                they are encouraged to promote it directly to their audience.
+                We bet on this organic growth to spread the tool.</h3>
+        </div>
+        <div class="column">
+            <h2>Society</h2>
+                <h3 class="aligncenter fadeIn"><b>We are digital rights advocates.</b>
+                As a non-profit, we can receive grants and donations, as well as contributions from volunteers.
+                <br><br>
+                By collecting unique data insights into YouTube's algorithm, we also provide a service to researchers
+                and regulators, from whom we can expect to be supported.
+                <br><br>
+                Being interoperable to external algorithm, we can also open a new market for third-party developers.
+                If we empower their development, they will be allies.
+                </h3>
+        </div>
+    </div>
+  </div>
+
 
 </section><section>
 
@@ -457,21 +469,29 @@ extraCSS: "/css/slides.css"
   <div class="wrap aligncenter">
     <h1 class="fadeIn bold">Business Model</h1>
       <br>
-  <div class="aligncenter column size-60">
-    <h5>In its initial phase, YouChoose leverages its non-profit profile to sustain its development.
-    It relies on:<br>
-    - Public grants<br>
-    - Private Foundations<br>
-    - User donations
-    </h5>
+  <div class="grid">
+    <div class="column">
+        <h5>In its initial phase, YouChoose leverages its non-profit profile to sustain its development.
+        It relies on:<br>
+        - Public grants<br>
+        - Private Foundations<br>
+        - User donations
+        </h5>
     <br>
-    <h5 class="fadeIn">This model covers our cost forecasts for the next year.</h5><br><br>
-    <h5 class="fadeIn">When the need comes and the market traction is sufficient, the model can <b class="secondary">shift to sponsored recommendations.</b></h5>
+    <h5 class="fadeIn">This model had us already secured enough funding to covers our costs expected costs for the next year.
+    These opportunities should increase as the tool gets traction.</h5><br><br>
+  </div>
+    <div class="column">
+      <figure class="zoomIn ">
+        <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/budget.png"></img>
+      </figure>
+      </div>
+    <h5 class="fadeIn">It the need comes, a more self-sustained business model can be developed with <b class="secondary">sponsored recommendations.</b></h5>
   </div>
   </div>
 
 
-</section><section>
+</section><section>≤
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
     <h2 class="secondary fadeIn bold">Sponsored Recommendations Model</h2>
