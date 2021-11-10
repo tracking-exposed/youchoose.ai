@@ -15,62 +15,53 @@ extraCSS: "/css/slides.css"
 ---
 
 <section>
-
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
    <figure class="">
-    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
+    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/header-logo-youchoose.svg" ></img>
    </figure >
-  <h2 class="aligncenter ">Gain Back Control over YouTube Recommendations</h2>
+  <h2 class="aligncenter subtitle">Gain Back Control over YouTube Recommendations</h2>
  </div>
+</section>
 
-</section><section >
-
-  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+<section >
+  <span class="background"></span>
   <div class="wrap">
-    <h1 class="secondary fadeIn bold">
-     The algorithm is the gatekeeper of YouTube.
+    <h1 class="bold">
+     The algorithm is the gatekeeper of YouTube
     </h1>
-    <div class="grid vertical-align">
-      <div class="column">
-        <h4 class=" aligncenter"><br>
+    <img style="width:13%; padding-top: 5rem;" class="aligncenter" src="/images/slides/recommender_icon3.svg">
+        <h4 class="aligncenter"><br>
           The recommendation algorithm selects most of the content which is watched on the platform.<br>
-        </h4>
-      <br>
-      </div>
-      <div class="column">
-        <img style="width:50%; padding-bottom: 1rem;" class=" aligncenter" src="/images/slides/recommender_icon3.svg">
-      </div>
-    </div>
-    <h4>Though, it is designed to maximize the interests of the company, not those of its users.</h4>
+          Though, it is designed to maximize the <b>interests of the company</b>, not those of its users.</h4>
   </div>
+</section>
 
-</section><section>
+<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary fadeIn bold">The Concept</h1>
     <br>
   <div class="grid vertical-align">
     <div class="column">
-      <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 2rem;" src="/images/slides/contentcreators.svg">
+      <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 1rem;" src="/images/slides/contentcreators.svg">
       <h2 class="aligncenter secondary bold">Content Creators</h2>
-      <h3 class="aligncenter">choose recommendations on their own videos</h3>
+      <h4 class="aligncenter">choose recommendations on their own videos</h4>
     </div>
     <div class="column">
-      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 2rem;" src="/images/slides/users.svg">
+      <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 1rem;" src="/images/slides/users.svg">
       <h2 class="aligncenter secondary bold">Users</h2>
-      <h3 class="aligncenter">choose among different recommendation models</h3>
+      <h4 class="aligncenter">choose among different recommendation models</h4>
     </div>
   </div>
   <br><br>
-  <h4><b>YouChoose gives you back control over recommendations, so they fit <em>your</em> best interest</b></h4>
+  <h2 class="grey" style="padding-top: 6rem;"><b>YouChoose gives you back control over recommendations, so they fit <em>your</em> best interest</b></h2>
 </div>
+</section>
 
-</section><section>
-
-  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+<section>
   <div class="wrap aligncenter">
-    <h1 class="secondary"><b>
+    <h1 class="secondary bold"><b>
      It only takes a browser extension <br>
     </b></h1>
     <div class="grid vertical-align">
@@ -90,12 +81,14 @@ extraCSS: "/css/slides.css"
         </figure>
       </div>
     </div>
-    <h4>Because of its colossal network effect, it is extremely hard to entice users to move from YouTube to another service.<br><br>
-        <b>YouChoose is a light habit change</b>, enhancing the user experience directly on YouTube.com</h4>
+    <h4 style="padding-top: 10rem;">
+      Because of its colossal network effect,<br> it is extremely hard to entice users to move from YouTube to another service.<br><br>
+      </h4><h2 class="grey"><b>YouChoose is a light habit change</b>, <br>enhancing the user experience directly on YouTube.com
+    </h2>
   </div>
+</section>
 
-</section><section>
-
+<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h4 class="secondary bold">YouChoose overview</h4><br>
@@ -103,11 +96,10 @@ extraCSS: "/css/slides.css"
     <img class="svg" style="width:55%"  src="/images/figma/user-UI-YT.png"></img>
   </figure>
   <br>
-  <h4>The familiar YouTube UI remains, and the pink YouChoose navbar now provides users with additional recommendation options in the different tabs.</h4>
+  <h4>The familiar YouTube UI remains, and the <b class="secondary"> Deep Cherise</b> YouChoose navbar now provides users with additional recommendation options in the different tabs.</h4>
  </div>
 
-</section><section>
-
+<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h4 class="secondary bold">YouChoose overview</h4><br>
@@ -115,12 +107,11 @@ extraCSS: "/css/slides.css"
     <img class="svg" style="width:55%"  src="/images/figma/user-UI-CC.png"></img>
   </figure>
   <br>
-  <h4 class="aligncenter ">The most important is the content creator tab, which displays the recommendations provided by the YouTuber themselves.
+  <h4 class="aligncenter ">The most important is the <b class="secondary">content creator tab</b>, which displays the recommendations provided by the YouTuber themselves.
   Who else could provide more relevant related content?</h4>
  </div>
 
-
-</section><section>
+<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h4 class="secondary bold">YouChoose overview</h4><br>
@@ -131,8 +122,7 @@ extraCSS: "/css/slides.css"
  </div>
 
 
-</section><section>
-
+<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
  <h4 class="secondary bold">YouChoose overview</h4><br>
@@ -144,44 +134,8 @@ extraCSS: "/css/slides.css"
  </div>
 
 
-</section><section>
-
-<!--
-</section><section>
-
-  US don't like the AI
-
-  TODO same here, will rework wording after survey input. We can reformat it also if not adapted.
-
-  Most relevant survey insights here seem:
-  - lack of control
-  - bad recommendations, clickbait
-  - They would enjoy recommendations different that YT videos
-
--->
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Problems solved for users</b></h1>
-    <br><br>
-    <h4>Users have their <b>attention monetized</b> by the YouTube algorithm.</h4>
-    <br></br>
-    <ul class="flexblock steps">
-      <li>
-        <h3 class="aligncenter fadeIn">Users are often promoted clickbaity, or attention-catching content tailored to their</h3>
-          <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h3 class="aligncenter fadeIn"><b>Users can stay focus, and get the best recommendations relevant to the topic they are exploring</b></h3>
-      </li>
-      <li>
-       <h3 class="aligncenter fadeIn">Users end-up locked into the YouTube ecosystem, no way to escape</h3>
-        <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-       <h3 class="aligncenter fadeIn"><b>YouChoose features content from all around the web, not just YouTube.com</b></h3>
-      </li>
-    </ul>
-  </div>
-
-</section><section>
-
-<!--
+<section>
+    <!--
   CC don't like the AI.
 
   Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
@@ -193,52 +147,83 @@ extraCSS: "/css/slides.css"
   'from an online survey of 380 participants'
 
 -->
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b> Problems solved for Content Creators</b> </h1>
+    <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
     <br><br>
-    <h4 class="aligncenter fadeIn"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b> which creates a growing frustration. </h4>
-    <br></br><br></br>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b><br> which creates a growing frustration. </h4>
     <ul class="flexblock steps">
-      <li>
-        <h3 class="aligncenter fadeIn">Content Creators have no way to control the recommendations promoted on their channel.</h3>
-        <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h3 class="aligncenter fadeIn"><b>YouChoose is a new way for Content Creators to connect with their audience, and to build referencing networks among them</b></h3>
+      <li> 
+        <h4 class="aligncenter">Content Creators have no way to control <br>the recommendations promoted on their channel</h4>
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter secondary"><b>YouChoose is a new way for Content Creators <br> to connect with their audience,<br> and to build referencing networks among them</b></h4>
       </li>
-      <li>
-      <h3 class="aligncenter fadeIn">Often, the AI links their videos to content they don't associate with. But they have no way to know.</h3>
-      <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-      <h3 class="aligncenter fadeIn"><b>YouChoose enables Content Creators to analyse what ads and recommendations are shown on their content</b></h3>
+      <li> 
+      <h4 class="aligncenter">Often, the AI links their videos to content <br> they don't associate with. They have no way to know</h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+      <h4 class="aligncenter secondary"><b>YouChoose enables Content Creators to analyse <br> what ads and recommendations <br> are shown on their content</b></h4>
       </li>
     </ul>
   </div>
+</section>
 
+    <!--
 
+  US don't like the AI
 
-</section><section>
+  TODO same here, will rework wording after survey input. We can reformat it also if not adapted.
 
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  Most relevant survey insights here seem:
+  - lack of control
+  - bad recommendations, clickbait
+  - They would enjoy recommendations different that YT videos
+
+-->
+<section>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn"><b>Problems solved for internet governance</b></h1>
+    <h1 class="secondary"><b> Problems solved for Users</b> </h1>
     <br><br>
-    <h4>Regulators are demanding more <b>algorithmic transparency and market competition.</b></h4>
-    <br></br>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> Users have their <b>attention monetized</b> by the YouTube algorithm. </h4>
     <ul class="flexblock steps">
-      <li>
-        <h5 class="aligncenter fadeIn">The failings of social media algorithms are becoming a mainstream concern,
-        but there is no data to scrutinize them, including to inform upcoming legislation</h5>
-    <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-        <h5 class="aligncenter secondary fadeIn"><b>YouChoose lets users donate anonymised recommedation records,
-        which will provide unparalleled data sets for researchers to audit the algorithm</b></h5>
+      <li> 
+        <h4 class="aligncenter">Users are often promoted clickbaity,<br> or attention-catching content tailored to their</h4>
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter secondary"><b>Users can stay focus, and get the best recommendations <br>relevant to the topic they are exploring</b></b></h4>
       </li>
-      <li>
-       <h5 class="aligncenter fadeIn">Current algorithmic monopolies prevent competition,
-       as with native apps on smartphones before the emergence of app-stores</h5>
-    <img class="svg" style="width:5%; "  src="/images/slides/arrow.svg" ></img>
-       <h5 class="aligncenter secondary fadeIn"><b>YouChoose is the first algorithmic platform, enabling third party to offer alternatives to the current algorithmic monopolies</b></h5>
+      <li> 
+      <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+      <h4 class="aligncenter secondary"><b>YouChoose features content from <br>all around the web, not just youtube.com</b></h4>
       </li>
     </ul>
   </div>
+</section>
+
+
+
+
+
+<section>
+  <div class="wrap aligncenter">
+    <h1 class="secondary"><b> Problems solved for Regulators</b> </h1>
+    <br><br>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> Regulators are demanding more <b>algorithmic transparency and market competition.</b></h4>
+    <ul class="flexblock steps">
+      <li> 
+        <h4 class="aligncenter">The failings of social media algorithms are becoming a mainstream concern,
+        but there is no data to scrutinize them, including to inform upcoming legislation</h4>
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter secondary"><b>YouChoose lets users donate anonymised recommedation records,
+        which will provide unparalleled data sets for researchers to audit the algorithm</b></h4>
+      </li>
+      <li> 
+      <h4 class="aligncenter">Current algorithmic monopolies prevent competition,<br> as with native apps before <br> the emergence of app-stores</h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+      <h4 class="aligncenter secondary"><b>YouChoose is the first algorithmic platform<br> enabling third party to offer <br>alternative recommendation systems</b></h4>
+      </li>
+    </ul>
+  </div>
+</section>
 
 </section><section>
 
@@ -360,6 +345,19 @@ extraCSS: "/css/slides.css"
   </div>
 
 
+<!--
+</section><section>
+
+  We sould add a slide about Tuornesol because we mentioned them earlyer 
+  maybe also 1 about the reddit feeds?
+
+  We can also list some other feature we will implement:
+  - homepage recommendations
+  - shadowban tester
+  - links from videos' description
+  - default recommendations for all the CC videos
+  - ...
+-->
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
@@ -473,21 +471,6 @@ extraCSS: "/css/slides.css"
       <h5>Contributions require staking. When the contribution is mostly downvoted, the stake is lost, and redistributed to contributors whose recommendations have been upvoted. </h5>
     </div>
   </div>
-
-
-<!--
-</section><section>
-
-  We sould add a slide about Tuornesol because we mentioned them earlyer
-  maybe also 1 about the reddit feeds?
-
-  We can also list some other feature we will implement:
-  - homepage recommendations
-  - shadowban tester
-  - links from videos' description
-  - default recommendations for all the CC videos
-  - ...
--->
 
 
 </section><section>
