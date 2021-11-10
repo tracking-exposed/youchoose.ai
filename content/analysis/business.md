@@ -327,6 +327,8 @@ extraCSS: "/css/slides.css"
                 Since they benefit from having their viewers use YouChoose,
                 they are encouraged to promote it directly to their audience.
                 We bet on this organic growth to spread the tool.</h3>
+                <img class=" aligncenter" style="width:20%; padding-bottom: 2rem;" src="/images/slides/handshake.svg">
+                <h2>Users</h2>
         </div>
         <div class="column">
             <h2>Society</h2>
@@ -427,6 +429,7 @@ extraCSS: "/css/slides.css"
           <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
         </li>
       </ul>
+      <h3 class="aligncenter">Homepage, Default Recos, Links from video description, shadow ban tests</h3>
   </div>
 
 
