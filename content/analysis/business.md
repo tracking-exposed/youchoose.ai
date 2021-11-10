@@ -147,7 +147,7 @@ extraCSS: "/css/slides.css"
         </figure>
       </div>
       <div class="column">
-        <h1 class="secondary aligncenter"><b>Survey and Inverviews</b></h1>
+        <h1 class="secondary aligncenter"><b>Opinion research</b></h1>
         <h4 class="aligncenter"><b>Surveys</b></h4>
         <div class="column">
           <al><h4>
@@ -171,13 +171,23 @@ extraCSS: "/css/slides.css"
     <ul class="flexblock steps">
       <li> 
         <h4 class="aligncenter">Users are often promoted clickbaity,<br> or attention-catching content tailored to their</h4>
-        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter secondary"><b>Users can stay focus, and get the best recommendations <br>relevant to the topic they are exploring</b></b></h4>
+          <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter"><b> Users report us they want LESS ... </b></h4>
+          <h4 class="aligncenter">
+         "Sensationnal content, which make me learn less things" <br>
+         "Video that will distract me without providing me with any knowledge from them"<br>
+         <!--"Video de mauvaise qualité informationnelle (esothérique, conspi) liées au thème qui m’intéresse"<br>-->
       </li>
       <li> 
       <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
-      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-      <h4 class="aligncenter secondary"><b>YouChoose features content from <br>all around the web, not just youtube.com</b></h4>
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+      <h4 class="aligncenter"><b>Users report us they want MORE ...</b></h4>
+        <h4 class="aligncenter">
+         51% "Articles links (news, scientific..)"<br>
+         31% "Social media post"<br>
+         9% "Videos from the same author"<br>
+         <!--A lot of them asked for books during the inteviews<br>-->
+        </h4>
       </li>
     </ul>
   </div>
@@ -191,40 +201,45 @@ extraCSS: "/css/slides.css"
     <ul class="flexblock steps">
       <li> 
         <h4 class="aligncenter">Users are often promoted clickbaity,<br> or attention-catching content tailored to their</h4>
-          <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter"> Users report us they want <b>less</b>... </h4>
-          <h4 class="aligncenter">
-         "Sensationnal content, which make me learn less things" <br>
-         "Video that will distract me without providing me with any knowledge from them"<br>
-         <!--"Video de mauvaise qualité informationnelle (esothérique, conspi) liées au thème qui m’intéresse"<br>-->
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter secondary"><b>Users can stay focus, and get the best recommendations <br>relevant to the topic they are exploring</b></b></h4>
       </li>
       <li> 
       <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
-        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-      <h4 class="aligncenter ">Users report us they want <b>more</b>...</h4>
-        <h4 class="aligncenter">
-         "Articles links (news, scientific..)" 51% <br>
-         "Social media post" 31%<br>
-         "Videos from the same author" 9%<br>
-         A lot of them asked for books during the inteviews<br>
-        </h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+      <h4 class="aligncenter secondary"><b>YouChoose features content from <br>all around the web, not just youtube.com</b></h4>
       </li>
     </ul>
   </div>
 </section>
 
-    <!--
 
-  US don't like the AI
-
-  TODO same here, will rework wording after survey input. We can reformat it also if not adapted.
-
-  Most relevant survey insights here seem:
-  - lack of control
-  - bad recommendations, clickbait
-  - They would enjoy recommendations different that YT videos
--->
-
+<section>
+  <div class="wrap aligncenter">
+    <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
+    <br><br>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b><br> which creates a growing frustration. </h4>
+    <ul class="flexblock steps">
+      <li>
+        <h4 class="aligncenter">Content Creators have no control or agency<br>over recommendations</h4>
+          <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter"><b> Users report us ...</b></h4>
+          <h4 class="aligncenter">
+            75% "To have rarely or never control on the algorithm" <br>
+            "78% "To have rarely or never thier contents promoted fairly by the algorithm" <br>
+          </h4>
+      </li>
+      <li>
+      <h4 class="aligncenter">Dont understand how it works because they have no data to investigate it</h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter"><b> Users report us ...</b></h4>
+          <h4 class="aligncenter">
+            51% "To understand rarely or never how the algorithms works" <br>
+          </h4>
+      </li>
+    </ul>
+  </div>
+</section>
 
 <section>
   <div class="wrap aligncenter">
@@ -246,17 +261,6 @@ extraCSS: "/css/slides.css"
   </div>
 </section>
 
-    <!--
-  CC don't like the AI.
-
-  Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
-
-  TODO The text here is not great, will rework it after we add the survey input
-
-  NOTE: we could add a brief slide which gives a brief overview of the survey (online, #participants...)
-  altertively, we put a * next to every mention to the survey, and write in small at the bottom of the slide:
-  'from an online survey of 380 participants'
--->
 <section>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b> Problems solved for Regulators</b> </h1>
