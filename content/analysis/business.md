@@ -586,46 +586,57 @@ extraCSS: "/css/slides.css"
   <h4 class="aligncenter"><b class="secondary">Part-time contributors</b></h4><br>
   <h5 class="aligncenter"><b class="secondary">YouTuber Outreach</b><b> - Silvia Semenzin </b> introduces the project to content creators.</h5>
   <h5 class="aligncenter"><b class="secondary">Legal</b><b> - Alessandro Polidoro</b> provides legal advice and drafts the privacy policies.</h5>
-</section><section>
+</section>
 
 
-<div>
-  <h1 class ="bold">Our Advisors</h1>
-</div>
-  <div class="grid">
-      <div class="column">
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/primavera.jpeg">
-          <h5><b>Primavera de Filippi</b> is a technologist and legal scholar, researcher at the CNRS and Harvard Berkman Center. She oversees the governance and peer community.</h5>
-      </div>
-      <div class="column">
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/niloufar.jpeg">
-          <h5><b>Niloufar Salehi</b>is an Assistant Professor at the School of Information at UC, Berkeley. She carries research in participatory design and human-centered AI.</h5>
-      </div>
-      <div class="column">
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/dyne.jpeg">
-          <h5><b>Dyne </b>is a non-profit free software foundry with almost 20 years of expertise. Dyne is helping us through Ledger to implement cutting-edge privacy standards.</h5>
-      </div>
-      <div class="column">
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/blumorpho.jpeg">
-          <h5><b>Bluemorpho</b> combines business, sectorial and technical expertise in deep tech. Bluemorpho advises us through Ledger to refine our market fit</h5>
-      </div>
-  </div>
+<section>
+    <div>
+        <h1 class ="bold">Our Advisors</h1>
+    </div>
+    <div class="grid">
+        <div class="column">
+            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/primavera.jpeg">
+            <h5><b>Primavera de Filippi</b> is a technologist and legal scholar, researcher at the CNRS and Harvard Berkman Center. She oversees the governance and peer community.</h5>
+        </div>
+        <div class="column">
+            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/niloufar.jpeg">
+            <h5><b>Niloufar Salehi</b>is an Assistant Professor at the School of Information at UC, Berkeley. She carries research in participatory design and human-centered AI.</h5>
+        </div>
+        <div class="column">
+            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/dyne.jpeg">
+            <h5><b>Dyne </b>is a non-profit free software foundry with almost 20 years of expertise. Dyne is helping us through Ledger to implement cutting-edge privacy standards.</h5>
+        </div>
+        <div class="column">
+            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/blumorpho.jpeg">
+            <h5><b>Bluemorpho</b> combines business, sectorial and technical expertise in deep tech. Bluemorpho advises us through Ledger to refine our market fit</h5>
+        </div>
+    </div>
     <br><br><br><br>
-    <h3 class="aligncenter"><b class="secondary">This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268</b><h5>
-  <div class="grid">
-      <div class="column">
-      </div>
-      <div class="column">
+    <h3 class="aligncenter"><b class="secondary">This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268</b></h3>
+    <div class="grid">
+        <div class="column">
+        </div>
+        <div class="column">
             <img src="/images/ledger-logo.png"  style="width:40%; padding-bottom: 1rem;" class="aligncenter">
-      </div>
-      <div class="column">
+        </div>
+        <div class="column">
             <img src="/images/eu-logo.jpeg"  style="width:30%; padding-bottom: 1rem;" class="aligncenter">
-      </div>
-      <div class="column">
-      </div>
-  </div>
-</div>
+        </div>
+        <div class="column">
+        </div>
+    </div>
+</section>
 
+<section>
+    <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+    <div class="wrap aligncenter">
+        <figure class="">
+            <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/header-logo-youchoose.svg" ></img>
+        </figure >
+        <br><br><br>
+        <h2 class="aligncenter subtitle">To learn more or support us, visit <b><u>YouChoose.ai</u></b></h2>
+    </div>
+</section>
 
 <script>
   removeHeaderFooter(1500)
