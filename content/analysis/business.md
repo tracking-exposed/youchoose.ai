@@ -243,6 +243,34 @@ extraCSS: "/css/slides.css"
 </section><section>
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <h1 class="aligncenter fadeIn bold">TODO: Competition</h1>
+    <ul class="flexblock features">
+      <li>
+        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as
+          <a  href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
+          <a href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
+          <a  href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner
+          <a href="https://tournesol.app/" target=_blank>Tournesol.app</a> </h3>
+      </li>
+      <li>
+        <h3 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
+          <a href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid"   target=_blank>customizability features</a> to their algorithm over the past year.</h3>
+      </li>
+      <li>
+        <h3 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions. We are accounting for these scenarios in our design and strategy.</br></h3>
+      </li>
+    </ul>
+ </div>
+
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary fadeIn"><b>Unique Value Propositions</b></h1>
     <div class="grid">
@@ -292,110 +320,6 @@ extraCSS: "/css/slides.css"
   </div>
 
 
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn bold">Roadmap</h1>
-    <br><br>
-    <h4>To identify the best related content, rather than purely relying on AI,</br> <b>YouChoose leverages human expertise:</b> </h4>
-    <br></br> <br></br>
-    <ul class="flexblock steps">
-        <li>
-          <h2 class="aligncenter secondary bold">01. Content creators </h2>
-            <img class="" style="width:25%;"  src="/images/slides/done.svg" ><img>
-          <h3 class="aligncenter">(main feature)</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">02. Third party algorithms</h2>
-            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
-          <h3 class="aligncenter">(Tournesol.app)</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">03. Community curation </h2>
-            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
-          <h3 class="aligncenter">(BlockChain)</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">04. Existing online communities </h2>
-            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>
-          <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
-        </li>
-      </ul>
-  </div>
-
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap  aligncenter">
-    <h1 class="secondary fadeIn"><b>Future Developments:</b></br> Becoming the first Marketplace for Algorithms</h1>
-  <br><br>
-    <h4>Platforms currently have a monopoly on the algorithms that run on their systems.</h4>
-    <h4>Similar to how app-stores broke the monopoly of native apps on smartphones, YouChoose is an early attempt to become the first algorithmic marketplace for third-party recommender systems.</h4>
- </div>
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap  aligncenter">
-    <h1 class="secondary">Future Developments:
-    <h2 class="secondary fadeIn bold"> Enable community curated recommendations</h3>
-  <div class="grid">
-    <div class="column">
-      <h5>In order to enable every user to suggest recommendations, there needs to be incentive mechanisms to reward quality contributions, and safeguards to prevent spamming.</h5>
-    </div>
-    <div class="column">
-      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/arrowsx.svg" ></img>
-      <h5><b>One approach is to use a cryptocurrency.</b></h5>
-      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/blockchain.svg" ></img>
-    </div>
-    <div class="column">
-      <h5>Contributions require staking. When the contribution is mostly downvoted, the stake is lost, and redistributed to contributors whose recommendations have been upvoted. </h5>
-    </div>
-  </div>
-
-
-<!--
-</section><section>
-
-  We sould add a slide about Tuornesol because we mentioned them earlyer
-  maybe also 1 about the reddit feeds?
-
-  We can also list some other feature we will implement:
-  - homepage recommendations
-  - shadowban tester
-  - links from videos' description
-  - default recommendations for all the CC videos
-  - ...
--->
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
- <div class="wrap aligncenter">
-  <h1 class="aligncenter fadeIn bold">Competition</h1>
-    <ul class="flexblock features">
-      <li>
-        <h3 class="aligncenter fadeIn">Most implement a targeted UX improvement, such as
-          <a  href="https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk" target=_blank>ad-blockers</a>,
-          <a href="https://chrome.google.com/webstore/detail/color-changer-for-youtube/nbgajjpkheaedahobdmhgkomjkpnnhfn" target=_blank>UI modifications</a>,
-          <a  href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target=_blank>additional player controlers</a>
-        </h3>
-      </li>
-      <li>
-        <h3 class="aligncenter fadeIn">The only other actor with a similar intention of replacing YouTube recommendations is our partner
-          <a href="https://tournesol.app/" target=_blank>Tournesol.app</a> </h3>
-      </li>
-      <li>
-        <h3 class="aligncenter fadeIn"><b>Our real competitor is YouTube itself.</b> </br> They added some
-          <a href="https://support.google.com/youtube/answer/6342839?hl=en&co=GENIE.Platform%3DAndroid"   target=_blank>customizability features</a> to their algorithm over the past year.</h3>
-      </li>
-      <li>
-        <h3 class="aligncenter fadeIn">Youtube might also attack us, by obfuscating their code to break our extension, removing it from the Google Store or through legal actions. We are accounting for these scenarios in our design and strategy.</br></h3>
-      </li>
-    </ul>
- </div>
-
 
 </section><section>
 
@@ -440,53 +364,151 @@ extraCSS: "/css/slides.css"
 
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
     <div class="wrap aligncenter">
-      <h1 class="fadeIn bold">Market Perspectives</h1>
-      <h4 class="fadeIn"> <a href="https://www.oberlo.com/blog/youtube-statistics?utm_source=pocket_mylist" target=_blank>2.3 billions</a>  of YouTube users worldwide <h4>
-      <br><br>
+      <h1 class="fadeIn bold">Market Segmentation</h1>
+        <br><br>
+      <h4 class="fadeIn"> <a href="https://www.oberlo.com/blog/youtube-statistics?utm_source=pocket_mylist" target=_blank>2.3 billions</a>  YouTube users worldwide <h4>
       <ul class="flexblock steps">
         <li>
-          <h2 class="aligncenter secondary bold">01. Digitally literate users </h2>
-          <h3 class="aligncenter">aware of the algorithm's power  and eager to customize it</h3>
+          <h2 class="aligncenter secondary bold">Digital Rights proponents</h2>
+          <h3 class="aligncenter">Users who care about privacy, user agency or algorithmic transparency</h3>
         </li>
          <li>
-          <h2 class="aligncenter secondary bold">02. Heavy YouTube users</h2>
-          <h3 class="aligncenter"> who like to dig and browse content whit their Content Creators</h3>
+          <h2 class="aligncenter secondary bold">Heavy Consumers</h2>
+          <h3 class="aligncenter">Power YouTube users who dig a lot of content</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">03. Users frustrated</h2>
-          <h3 class="aligncenter">by YouTube's discretionary power to curate content</h3>
+          <h2 class="aligncenter bold">Non-english users</h2>
+          <h3 class="aligncenter">Users for whom recommendations are less relevant and less moderated</h3>
+        </li>
+      </ul>
+          <br>
+      <h4 class="fadeIn"> <a href="https://www.tubics.com/blog/number-of-youtube-channels/" target=_blank>37 millions</a> YouTube channels<h4>
+      <ul class="flexblock steps">
+        <li>
+          <h2 class="aligncenter bold">Activists</h2>
+          <h3 class="aligncenter">Creators who see YouChoose as a political statement aligned with their positions</h3>
         </li>
         <li>
-          <h2 class="aligncenter secondary bold">04. Non-english users</h2>
-          <h3 class="aligncenter">Recommendations are less relevant and less moderated</h3>
+          <h2 class="aligncenter secondary bold">Science and Technology </h2>
+          <h3 class="aligncenter">Creators who can talk about the algorithm spontaneously</h3>
+        </li>
+         <li>
+          <h2 class="aligncenter secondary bold">Smaller YouTubers</h2>
+          <h3 class="aligncenter">Creators who do not benefit from YouTube's recommendations</h3>
         </li>
       </ul>
     </div>
 
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap  aligncenter">
+    <h1 class="secondary fadeIn bold">TODO: Development Roadmap</h1>
+    <br><br>
+    <h4>To identify the best related content, rather than purely relying on AI,</br> <b>YouChoose leverages human expertise:</b> </h4>
+    <br></br> <br></br>
+    <ul class="flexblock steps">
+        <li>
+          <h2 class="aligncenter secondary bold">01. Content creators </h2>
+            <img class="" style="width:25%;"  src="/images/slides/done.svg" ><img>
+          <h3 class="aligncenter">(main feature)</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">02. Third party algorithms</h2>
+            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
+          <h3 class="aligncenter">(Tournesol.app)</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">03. Community curation </h2>
+            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
+          <h3 class="aligncenter">(BlockChain)</h3>
+        </li>
+        <li>
+          <h2 class="aligncenter secondary bold">04. Existing online communities </h2>
+            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>
+          <h3 class="aligncenter">(Reddit / RSS feeds)</h3>
+        </li>
+      </ul>
+  </div>
+
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+ <div class="wrap aligncenter">
+  <figure class="zoomIn ">
+    <img class="svg" style="width:80%; padding-bottom: 5rem;"  src="/images/slides/timeline.png"></img>
+  </figure>
+  <h2 class="aligncenter ">Timeline for next few months</h2>
+ </div>
+
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap  aligncenter">
+    <h1 class="secondary fadeIn"><b>TODO: Future Developments:</b></br> Becoming the first Marketplace for Algorithms</h1>
+  <br><br>
+    <h4>Platforms currently have a monopoly on the algorithms that run on their systems.</h4>
+    <h4>Similar to how app-stores broke the monopoly of native apps on smartphones, YouChoose is an early attempt to become the first algorithmic marketplace for third-party recommender systems.</h4>
+ </div>
+
+</section><section>
+
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+  <div class="wrap  aligncenter">
+    <h1 class="secondary">Future Developments:
+    <h2 class="secondary fadeIn bold">TODO:  Enable community curated recommendations</h3>
+  <div class="grid">
+    <div class="column">
+      <h5>In order to enable every user to suggest recommendations, there needs to be incentive mechanisms to reward quality contributions, and safeguards to prevent spamming.</h5>
+    </div>
+    <div class="column">
+      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/arrowsx.svg" ></img>
+      <h5><b>One approach is to use a cryptocurrency.</b></h5>
+      <img class="svg aligncenter" style="width:25%; "  src="/images/slides/blockchain.svg" ></img>
+    </div>
+    <div class="column">
+      <h5>Contributions require staking. When the contribution is mostly downvoted, the stake is lost, and redistributed to contributors whose recommendations have been upvoted. </h5>
+    </div>
+  </div>
+
+
+<!--
+</section><section>
+
+  We sould add a slide about Tuornesol because we mentioned them earlyer
+  maybe also 1 about the reddit feeds?
+
+  We can also list some other feature we will implement:
+  - homepage recommendations
+  - shadowban tester
+  - links from videos' description
+  - default recommendations for all the CC videos
+  - ...
+-->
+
+
 </section><section>
 
 <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
-  <div class="wrap aligncenter">
-    <h1 class="fadeIn bold">Business Model</h1>
-      <br>
+    <div class="wrap aligncenter">
+        <h2 class="secondary fadeIn bold">Finances and Business Model</h2>
   <div class="grid">
-    <div class="column">
-        <h5>In its initial phase, YouChoose leverages its non-profit profile to sustain its development.
-        It relies on:<br>
-        - Public grants<br>
-        - Private Foundations<br>
-        - User donations
-        </h5>
-    <br>
-    <h5 class="fadeIn">This model had us already secured enough funding to covers our costs expected costs for the next year.
-    These opportunities should increase as the tool gets traction.</h5><br><br>
-  </div>
-    <div class="column">
+      <div class="column">
       <figure class="zoomIn ">
-        <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/budget.png"></img>
+        <img class="svg" style="width:70%; padding-bottom: 5rem;"  src="/images/slides/budget2.png"></img>
       </figure>
-      </div>
-    <h5 class="fadeIn">It the need comes, a more self-sustained business model can be developed with <b class="secondary">sponsored recommendations.</b></h5>
+    </div>
+    <div class="column">
+        <h4>YouChoose is developed and maintained by a <b class="secondary">non-profit sustained by grants and donations.</b></h4>
+        <br><br><br>
+        <h3>We already secured enough funding to maintain and develop YouChoose for the year ahead.
+            After it gets traction, new opportunities should enable us to scale up.</h3><br><br>
+      <br><br><br>
+    <h4 class="fadeIn">Additionally, a more self-sustained business model could be developed with
+        <b class="secondary">sponsored recommendations  →</b></h4>
   </div>
   </div>
 
@@ -494,20 +516,20 @@ extraCSS: "/css/slides.css"
 </section><section>≤
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap  aligncenter">
-    <h2 class="secondary fadeIn bold">Sponsored Recommendations Model</h2>
-
+      <h2 class="secondary fadeIn bold">Sponsored Recommendations</h2>
+      <br>
   <div class="grid">
     <div class="column">
-      <h4><b class="secondary">Selling Points</b></h4>
+      <h4><b>Selling Points</b></h4>
       <br>
-      <h5><b>-Funnel traffic from YouTube,<br></b>
+      <h5><b class="secondary">Funnel traffic from YouTube,<br></b>
           and keep users onto the client's website.<br><br>
-          <b>-Highly qualified audience,<br></b>
+          <b class="secondary">Highly qualified audience,<br></b>
           already interested in client's content<br><br>
-          <b>-<em>Native</em> ad format,<br></b>
+          <b class="secondary"><em>Native</em> ad format,<br></b>
           alike a standard YouTube recommendation<br></h5>
       <br>
-      <h5> <b>→</b> Increased willingness to pay VS standard ads</h5>
+        <h5> <b>→ Increased willingness to pay VS standard ads</b></h5>
     </div>
     <!--
     <div class="column">
@@ -515,11 +537,11 @@ extraCSS: "/css/slides.css"
     </div>
     -->
     <div class="column">
-      <h4><b class="secondary">Customer Profiles</b></h4>
-          <h5><b>YouTube Competitors</b> and video platforms</h5>
+      <h4><b>Customer Profiles</b></h4>
+          <h5><b class="secondary">YouTube Competitors</b> and video platforms</h5>
            <br><em>Netflix, TikTok, Reels, Dailymotion, Vimeo, Imago...</em></h5>
           <img style="width:15%" class="zoomIn aligncenter" src="/images/slides/custumer.svg">
-          <h5><b>Media Outlets</b> with strong YouTube presence</h5>
+          <h5><b class="secondary">Media Outlets</b> with strong YouTube presence</h5>
            <br><em>Arte.tv, BBC, RedBull TV...</em></h5>
     </div>
   </div>
@@ -560,7 +582,7 @@ extraCSS: "/css/slides.css"
           <h5><b>Andrea Ascari</b> is an experienced full-stack developer, leading the extension developement.</h5>
       </div>
       <div class="column">
-          <h4 class="aligncenter secondary bold">Product Manager</h4>
+          <h4 class="aligncenter secondary bold">PM & Dev</h4>
           <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/fmdj.jpeg">
           <h5><b>François-Marie de Jouvancel</b> is an experienced developer and product manager. He holds master degrees from Polytechnique and HEC.</h5>
       </div>
@@ -575,10 +597,10 @@ extraCSS: "/css/slides.css"
           <h5><b>Salvatore Romano</b></b> holds a master degree in social psychology from the university of Padova.</h5>
       </div>
       </div>
-  </div>
-  <h5><b>Part-time contributors:</b></h5>
-  <h5><b class="secondary">YouTuber Outreach</b><b> - Silvia </b> introduces the project to a community of YouTubers</h5>
-  <h5><b class="secondary">Legal</b><b> - Alessandro Polidoro</b> provides legal advice and drafts the privacy policies.</h5>
+  </div><br><br>
+  <h4 class="aligncenter"><b class="secondary">Part-time contributors</b></h4><br>
+  <h5 class="aligncenter"><b class="secondary">YouTuber Outreach</b><b> - Silvia Semenzin </b> introduces the project to content creators.</h5>
+  <h5 class="aligncenter"><b class="secondary">Legal</b><b> - Alessandro Polidoro</b> provides legal advice and drafts the privacy policies.</h5>
 </section><section>
 
 
@@ -604,82 +626,7 @@ extraCSS: "/css/slides.css"
       </div>
       </div>
   </div>
-</section><section>
 
-
-<div>
-  <h1 class ="bold">The Team:</h1>
-</div>
-
-<div class="card-columns">
-
-  {{< clickable-card
-      text="Design - Giulia Corona is a communication designer and data analyst."
-      picture="/images/giulia.jpeg" >}}
-
-
-  {{< clickable-card
-      text="Salvatore Romano is social psychologist, working on algorithmic analysis and user research."
-      href="https://github.com/SalvatoreRomano1/About_Me"
-      picture="/images/salvo.jpeg" >}}
-
-  {{< clickable-card
-      text="Primavera de Filippi is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
-      href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
-      picture="/images/primavera.jpeg" >}}
-
-  {{< clickable-card
-    text="Francois Marie de Jouvancel is a developer and product manager. He just joined the team and brings precious expertise!"
-    href="https://fmdj.fr/"
-    picture="/images/fmdj.jpeg" >}}
-
-  {{< clickable-card
-    text="Andrea Ascari is a full stack developer and activist. He develop YouChoose's tech ecosystem with Claudio."
-    href="http://marcfaddoul.com/"
-    picture="/images/andrea.jpg" >}}
-
-</div>
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
- <div class="wrap aligncenter">
-  <figure class="zoomIn ">
-    <img class="svg" style="width:80%; padding-bottom: 5rem;"  src="/images/slides/timeline.png"></img>
-  </figure>
-  <h2 class="aligncenter ">Timeline for next few months</h2>
- </div>
-
-
-</section><section>
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
- <div class="wrap aligncenter">
-  <figure class="zoomIn ">
-    <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/budget.png"></img>
-  </figure>
-  <h4 class="aligncenter ">We have about 6 month of cash to keep maintaining and growing the project at cruise speed.</h4>
-  <h4 class="aligncenter ">We have other grants in our radar to allow new major developements.</h4>
- </div>
-
-</section>
-
-<!--
-## Who we are
-YouChoose is a **not-for-profit project**, ran by a **transdisciplinary team** of experienced technologists:
-**Marc Faddoul - Strategy and Outreach** <br>
-Data Scientist and AI researcher | *UC Berkeley, ex-Facebook AI*
-**Claudio Agosti - CTO** <br>
-Privacy expert and open-source developer | *Founder of Tracking.Exposed*
-**Primavera - Legal & Community Development** <br>
-Legal Scholar and blockchain expert | *Harvard Berkman Center, CNRS*
-**Salvatore Romano - UX Research** <br>
-Social Psychologist | *University of Padova*
-**Giulia Corona - Communication and UI**<br>
-Communication Designer | *University of Milano*
-**Andrea Ascari - Full-stack developer**<br>
-Communication Designer | *University of Milano*
--->
 
 <script>
   removeHeaderFooter(1500)
