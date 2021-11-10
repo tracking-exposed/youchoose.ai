@@ -14,9 +14,8 @@
 }
 */
 
-
 h1 {
-    font-weight: bold !important;
+    font-weight: bold ;
     text-align: center;
 }
 h1 span {
@@ -85,6 +84,7 @@ h1 span {
   color: #e33180;
   font-size: 5rem;
 }
+
 
 .steps li:nth-child(1) {
   background-color: #5b5f6f20 !important;

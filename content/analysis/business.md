@@ -40,29 +40,29 @@ extraCSS: "/css/slides.css"
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
-    <h1 class="secondary fadeIn bold">The Concept</h1>
+    <h1 class="secondary"><b>The Concept</b></h1>
     <br>
   <div class="grid vertical-align">
     <div class="column">
       <img class="zoomIn aligncenter slow" style="width:20%; padding-bottom: 1rem;" src="/images/slides/contentcreators.svg">
       <h2 class="aligncenter secondary bold">Content Creators</h2>
-      <h4 class="aligncenter">choose recommendations on their own videos</h4>
+      <h4 class="aligncenter">choose recommendations <br> on their own videos</h4>
     </div>
     <div class="column">
       <img class="zoomIn aligncenter slow" style="width:30%; padding-bottom: 1rem;" src="/images/slides/users.svg">
       <h2 class="aligncenter secondary bold">Users</h2>
-      <h4 class="aligncenter">choose among different recommendation models</h4>
+      <h4 class="aligncenter">choose among different <br> recommendation models</h4>
     </div>
   </div>
   <br><br>
-  <h2 class="grey" style="padding-top: 6rem;"><b>YouChoose gives you back control over recommendations, so they fit <em>your</em> best interest</b></h2>
+  <h2 class="grey" style="padding-top: 2rem;"><b>YouChoose gives you back control over recommendations, so they fit <em>your</em> best interest</b></h2>
 </div>
 </section>
 
 <section>
   <div class="wrap aligncenter">
-    <h1 class="secondary bold"><b>
-     It only takes a browser extension <br>
+    <h1 class="secondary"><b>
+     It only takes a browser extension 
     </b></h1>
     <div class="grid vertical-align">
       <div class="column">
@@ -81,17 +81,16 @@ extraCSS: "/css/slides.css"
         </figure>
       </div>
     </div>
-    <h4 style="padding-top: 10rem;">
-      Because of its colossal network effect,<br> it is extremely hard to entice users to move from YouTube to another service.<br><br>
-      </h4><h2 class="grey"><b>YouChoose is a light habit change</b>, <br>enhancing the user experience directly on YouTube.com
-    </h2>
+    <h4 style="padding-top: 2rem;">
+      Because of its colossal network effect,<br> it is extremely hard to entice users to move from YouTube to another service.<br><br></h4>
+      <h2 class="grey"><b>YouChoose is a light habit change</b>, <br>enhancing the user experience directly on YouTube.com </h2>
   </div>
 </section>
 
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
- <h4 class="secondary bold">YouChoose overview</h4><br>
+ <h1 class="secondary bold">YouChoose overview</h1><br>
   <figure class="">
     <img class="svg" style="width:55%"  src="/images/figma/user-UI-YT.png"></img>
   </figure>
@@ -103,7 +102,7 @@ extraCSS: "/css/slides.css"
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
- <h4 class="secondary bold">YouChoose overview</h4><br>
+ <h1 class="secondary bold">YouChoose overview</h1><br>
   <figure class="">
     <img class="svg" style="width:55%"  src="/images/figma/user-UI-CC.png"></img>
   </figure>
@@ -116,7 +115,7 @@ extraCSS: "/css/slides.css"
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
- <h4 class="secondary bold">YouChoose overview</h4><br>
+ <h1 class="secondary bold">YouChoose overview</h1><br>
   <figure class="">
     <img class="svg" style="width:65%; padding-bottom: 5rem;"  src="/images/figma/reco-lab.png"></img>
   </figure>
@@ -128,7 +127,7 @@ extraCSS: "/css/slides.css"
 <section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
- <h4 class="secondary bold">YouChoose overview</h4><br>
+ <h1 class="secondary bold">YouChoose overview</h1><br>
   <figure class="">
     <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/figma/analytics.png"></img>
   </figure>
@@ -150,7 +149,7 @@ extraCSS: "/css/slides.css"
         <h1 class="secondary aligncenter"><b>Opinion research</b></h1>
         <h4 class="aligncenter"><b>Surveys</b></h4>
         <div class="column">
-          <al><h4>
+          <ul><h4>
             <li>60 Content Creators participated</li>
             <li>380 Users participated</li>
           </h4></al>
@@ -159,7 +158,7 @@ extraCSS: "/css/slides.css"
             <li>12 Content Creators avaible</li>
             <li>72 Users avaible</li>
           </h4></al>
-          <h4 style="padding-top: 15px">Theese Content Creators / Users avaible for the interview will be our "early adopters".</h4>
+          <h4 class="grey" style="padding-top: 30px">These Content Creators / Users available for the interview will be our <b>early adopters</br></h4>
         </div>
 </section>
 
@@ -176,7 +175,6 @@ extraCSS: "/css/slides.css"
           <h4 class="aligncenter">
          "Sensationnal content, which make me learn less things" <br>
          "Video that will distract me without providing me with any knowledge from them"<br>
-         <!--"Video de mauvaise qualité informationnelle (esothérique, conspi) liées au thème qui m’intéresse"<br>-->
       </li>
       <li> 
       <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
@@ -194,10 +192,11 @@ extraCSS: "/css/slides.css"
 </section>
 
 <section>
+ <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap aligncenter">
     <h1 class="secondary"><b> Problems solved for Users</b> </h1>
     <br><br>
-    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> Users have their <b>attention monetized</b> by the YouTube algorithm. </h4>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> Users have their <b>attention monetized</b> by the YouTube algorithm</h4>
     <ul class="flexblock steps">
       <li> 
         <h4 class="aligncenter">Users are often promoted clickbaity,<br> or attention-catching content tailored to their</h4>
@@ -205,9 +204,9 @@ extraCSS: "/css/slides.css"
         <h4 class="aligncenter secondary"><b>Users can stay focus, and get the best recommendations <br>relevant to the topic they are exploring</b></b></h4>
       </li>
       <li> 
-      <h4 class="aligncenter">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
-      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-      <h4 class="aligncenter secondary"><b>YouChoose features content from <br>all around the web, not just youtube.com</b></h4>
+        <h4 class="aligncenter ">Users end-up locked into the YouTube ecosystem,<br> no way to escape</h4>
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter secondary"><b>YouChoose features content from <br>all around the web, not just youtube.com</b></h4>
       </li>
     </ul>
   </div>
