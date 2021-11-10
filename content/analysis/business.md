@@ -138,38 +138,6 @@ extraCSS: "/css/slides.css"
 </section>
 
     <!--
-  CC don't like the AI.
-
-  Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
-
-  TODO The text here is not great, will rework it after we add the survey input
-
-  NOTE: we could add a brief slide which gives a brief overview of the survey (online, #participants...)
-  altertively, we put a * next to every mention to the survey, and write in small at the bottom of the slide:
-  'from an online survey of 380 participants'
-
--->
-<section>
-  <div class="wrap aligncenter">
-    <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
-    <br><br>
-    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b><br> which creates a growing frustration. </h4>
-    <ul class="flexblock steps">
-      <li> 
-        <h4 class="aligncenter">Content Creators have no way to control <br>the recommendations promoted on their channel</h4>
-        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-        <h4 class="aligncenter secondary"><b>YouChoose is a new way for Content Creators <br> to connect with their audience,<br> and to build referencing networks among them</b></h4>
-      </li>
-      <li> 
-      <h4 class="aligncenter">Often, the AI links their videos to content <br> they don't associate with. They have no way to know</h4>
-      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
-      <h4 class="aligncenter secondary"><b>YouChoose enables Content Creators to analyse <br> what ads and recommendations <br> are shown on their content</b></h4>
-      </li>
-    </ul>
-  </div>
-</section>
-
-    <!--
 
   US don't like the AI
 
@@ -201,8 +169,37 @@ extraCSS: "/css/slides.css"
   </div>
 </section>
 
+    <!--
+  CC don't like the AI.
 
+  Yep. I don't remember the strongest insight for CC which could be highlighted. Opaque? 'to be at the mercy'?
 
+  TODO The text here is not great, will rework it after we add the survey input
+
+  NOTE: we could add a brief slide which gives a brief overview of the survey (online, #participants...)
+  altertively, we put a * next to every mention to the survey, and write in small at the bottom of the slide:
+  'from an online survey of 380 participants'
+
+-->
+<section>
+  <div class="wrap aligncenter">
+    <h1 class="secondary"><b> Problems solved for Content Creators</b> </h1>
+    <br><br>
+    <h4 class="aligncenter grey" style="padding-bottom: 6rem;"> On YouTube, content creators are at the mercy of an <b>opaque AI,</b><br> which creates a growing frustration. </h4>
+    <ul class="flexblock steps">
+      <li>
+        <h4 class="aligncenter">Content Creators have no way to control <br>the recommendations promoted on their channel</h4>
+        <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+        <h4 class="aligncenter secondary"><b>YouChoose is a new way for Content Creators <br> to connect with their audience,<br> and to build referencing networks among them</b></h4>
+      </li>
+      <li>
+      <h4 class="aligncenter">Often, the AI links their videos to content <br> they don't associate with. They have no way to know</h4>
+      <img class="svg" style="width:5%; padding-top:2rem; padding-bottom:2rem;"  src="/images/slides/arrow.svg" ></img>
+      <h4 class="aligncenter secondary"><b>YouChoose enables Content Creators to analyse <br> what ads and recommendations <br> are shown on their content</b></h4>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
 <section>
