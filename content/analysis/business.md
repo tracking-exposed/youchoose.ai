@@ -215,29 +215,38 @@ extraCSS: "/css/slides.css"
 </section>
 
 <section>
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
- <div class="wrap aligncenter">
-    <div class="grid vertical-align">
-      <div class=column>
-        <figure class="">
-          <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/survey.svg"></img>
-        </figure>
-      </div>
-      <div class="column">
-        <h1 class="secondary aligncenter"><b>Opinion research</b></h1>
-        <h4 class="aligncenter"><b>Surveys</b></h4>
-        <div class="column">
-          <ul><h4>
-            <li>60 Content Creators participated</li>
-            <li>380 Users participated</li>
-          </h4></al>
-          <h4 class="aligncenter" style="padding-top: 15px" ><b>Interviews</b></h4>
-          <al><h4>
-            <li>12 Content Creators avaible</li>
-            <li>72 Users avaible</li>
-          </h4></al>
-          <h4 class="grey" style="padding-top: 30px">These Content Creators / Users available for the interview will be our <b>early adopters</br></h4>
-  </div>
+    <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+    <div class="wrap aligncenter">
+        <div class="grid vertical-align">
+            <div class=column>
+                <figure class="">
+                    <img class="svg" style="width:50%; padding-bottom: 5rem;"  src="/images/slides/survey.svg"></img>
+                </figure>
+            </div>
+            <div class="column">
+                <h1 class="secondary aligncenter"><b>User Research</b></h1>
+                <h4 class="aligncenter"><b>Survey</b></h4>
+                <div class="column">
+                    <h4 style="padding-top: 15px">
+                        Ran online from our website <u>YouChoose.ai</u><br>
+                        380 responses for YouTube Users<br>
+                        60 response from YouTube Content Creators<br>
+                    </h4>
+                    <h4 class="aligncenter" style="padding-top: 15px" ><b>Interviews</b></h4>
+                    <h4>
+                        Semi-structured for in-depth insights<br>
+                        5 YouTube users<br>
+                        7 YouTubers<br>
+                    </h4>
+                    <h4 class="aligncenter" style="padding-top: 15px" ><b>Volunteers for beta-testing:</b></h4>
+                    <h4>
+                        159 YouTube users<br>
+                        19 YouTubers<br>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section>
