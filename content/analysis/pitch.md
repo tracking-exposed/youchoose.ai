@@ -14,17 +14,17 @@ extraCSS: "/css/slides.css"
 
 ---
 
-<section>
 
+<section>
  <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
    <figure class="">
-    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
+    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/header-logo-youchoose.svg" ></img>
    </figure >
-  <h2 class="aligncenter  ">Recommendations optimized for you, not for YouTube</h2>
+  <h2 class="aligncenter subtitle">Gain Control Back over YouTube Recommendations</h2>
  </div>
 
-</section><section >
+</section><section>
 
   <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
   <div class="wrap">
@@ -152,7 +152,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter  ">Content Creators have a studio to edit their recommendations</h2>
   <br>
   <figure class="">
-    <img class="svg" style="width:50%"  src="/images/figma/reco-lab.png"></img>
+    <img class="svg" style="width:50%"  src="/images/figma/reco-lab-new.png"></img>
   </figure>
  </div>
 
@@ -163,7 +163,7 @@ extraCSS: "/css/slides.css"
   <h2 class="aligncenter  ">Get unique personal analytics about YouTube's AI</h2>
   <br>
   <figure class="">
-    <img class="svg" style="width:50%"  src="/images/figma/analytics.png"></img>
+    <img class="svg" style="width:50%"  src="/images/figma/analytics-new.png"></img>
   </figure>
  </div>
 
@@ -193,93 +193,85 @@ extraCSS: "/css/slides.css"
 </div>
 
 
+
+
 </section><section>
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
  <div class="wrap aligncenter">
- <h2 class="aligncenter secondary bold">The vision:</h2>
- <br>
-  <h2 class="aligncenter">A platform to end algorithmic monopolies</h2>
-    <ul class="flexblock steps">
-        <li>
-          <h2 class="aligncenter secondary bold">1. Content Creators </h2>
-            <img class="" style="width:25%;"  src="/images/slides/done.svg" ><img>
-          <h3 class="aligncenter">(main feature)</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">2. Default Recommendations</h2>
-            <img class="" style="width:25%;"  src="/images/slides/done.svg" ><img>
-          <h3 class="aligncenter">(YouTube's algorithm)</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">3. Third party algorithms</h2>
-            <img class="" style="width:25%;"  src="/images/slides/tobedone.svg" ><img>
-          <h3 class="aligncenter">(Tournesol.app, etc - 6 months)</h3>
-        </li>
-        <li>
-          <h2 class="aligncenter secondary bold">4. Community curation </h2>
-            <img class="" style="width:25%;"  src="/images/slides/thinking.svg" ><img>
-          <h3 class="aligncenter">(BlockChain - 1/2 years)</h3>
-        </li>
-      </ul>
-  <br><br>
+     <h2 class="aligncenter secondary bold">The vision:</h2>
+     <br>
+     <h2 class="aligncenter">A platform to end algorithmic monopolies</h2>
+     <br><br>
+     <figure>
+        <img class="svg" style="width:90%; padding-bottom: 5rem;"  src="/images/slides/roadmap-minimal.png"></img>
+     </figure>
  </div>
+
+
 </section><section>
-
-
 <div>
  <h2 class="aligncenter secondary bold">We are a non-profit</h2>
  <h4 class="aligncenter">We build free-software to empower users and defend digital sovereignty</h4>
 </div>
-<br><br>
-<div class="card-columns">
-
-  {{< clickable-card
-      text="Marc Faddoul is an AI researcher and algorithmic designer. He leads the product strategy and gathers partners around the project."
-      href="http://marcfaddoul.com/"
-      picture="/images/marc.jpeg" >}}
-
-  {{< clickable-card
-      text="Claudio Agosti is a developer and a privacy analyst, directs Tracking Exposed, designs and supervises the tech stack."
-      href="https://sociale.network/@vecna"
-      picture="/images/claudio.jpeg" >}}
-
-  {{< clickable-card
-      text="Giulia Corona is a communication designer and data analyst, working on the UX design and developing methodologies."
-      picture="/images/giulia.jpeg" >}}
-
-  {{< clickable-card
-      text="Salvatore Romano is social psychologist, working on algorithmic analysis and user research."
-      href="https://github.com/SalvatoreRomano1/About_Me"
-      picture="/images/salvo.jpeg" >}}
-
-  {{< clickable-card
-    text="Andrea Ascari is a full stack developer and activist. He develop YouChoose's tech ecosystem with Claudio."
-    href="http://marcfaddoul.com/"
-    picture="/images/andrea.jpg" >}}
-
-  {{< clickable-card
-    text="Francois Marie de Jouvancel is a developer and product manager. He just joined the team and brings precious expertise!"
-    href="https://fmdj.fr/"
-    picture="/images/fmdj.jpeg" >}}
-
-  {{< clickable-card
-      text="Primavera de Filippi is a blockchain expert, legal scholar and activist. She oversees the governance and peer community."
-      href="https://en.wikipedia.org/wiki/Primavera_De_Filippi"
-      picture="/images/primavera.jpeg" >}}
-
-</div>
-
-</section><section >
-
- <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
- <div class="wrap aligncenter">
-   <figure class="">
-    <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/header-logo-youchoose.svg" ></img>
-   </figure >
-  <h2 class="aligncenter">Visit us at  <a  href="https://youchoose.ai" target=_blank>www.youchoose.ai</a></h2>
- </div>
-
+<div class="grid">
+      <div class="column">
+          <h2 class="aligncenter secondary bold">CEO</h2>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/marc.jpeg">
+          <h3 class="aligncenter">Marc Faddoul</h3>
+      </div>
+      <div class="column">
+          <h2 class="aligncenter secondary bold">CTO</h2>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/claudio.jpeg">
+          <h3 class="aligncenter">Claudio Agosti</h3>
+      </div>
+      <div class="column">
+          <h4 class="aligncenter secondary bold">Lead Dev</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/andrea.jpg">
+          <h3 class="aligncenter">Andrea Ascari</h3>
+      </div>
+      <div class="column">
+          <h4 class="aligncenter secondary bold">PM & Dev</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/fmdj.jpeg">
+          <h3 class="aligncenter">François-Marie de Jouvancel</h3>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="column">
+          <h4 class="aligncenter secondary bold">Designer</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/giulia.jpeg">
+          <h3 class="aligncenter">Giulia Corona</h3>
+      </div>
+      <div class="column">
+          <h4 class="aligncenter secondary bold">User Research</h4>
+          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/salvo.jpeg">
+          <h3 class="aligncenter">Salvatore Romano</h3>
+      </div>
+        <div class="column">
+            <h4 class="aligncenter secondary bold">Advisor</h4>
+            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/primavera.jpeg">
+          <h3 class="aligncenter">Dr. Primavera de Filippi</h3>
+        </div>
+        <div class="column">
+            <h4 class="aligncenter secondary bold">Advisor</h4>
+            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/niloufar.jpeg">
+          <h3 class="aligncenter">Prof. Niloufar Salehi</h3>
+        </div>
+     </div>
+    <br>
 </section>
+
+
+<section>
+    <span class=background style="background-image:url('/images/slides/smoke.jpeg')"></span>
+    <div class="wrap aligncenter">
+        <figure class="">
+            <img class="svg" style="width:55%; padding-bottom: 5rem;"  src="/images/slides/header-logo-youchoose.svg" ></img>
+        </figure >
+        <br><br><br>
+        <h2 class="aligncenter subtitle">To learn more or support us, visit <a href="https://youchoose.ai"
+                                                                               target=_blank><b><u>YouChoose.ai</u></b></a></h2>
+    </div>
+</section>
+
 <!--
 ## Who we are
 YouChoose is a **not-for-profit project**, ran by a **transdisciplinary team** of experienced technologists:
