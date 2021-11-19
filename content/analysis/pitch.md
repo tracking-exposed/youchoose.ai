@@ -209,52 +209,53 @@ extraCSS: "/css/slides.css"
 
 </section><section>
 <div>
- <h2 class="aligncenter secondary bold">We are a non-profit</h2>
- <h4 class="aligncenter">We build free-software to empower users and defend digital sovereignty</h4>
+ <h4 class="aligncenter"><b class="secondary">We are a non-profit.</b> We build user empowering free-software and defending digital sovereignty</h4>
 </div>
 <div class="grid">
       <div class="column">
           <h2 class="aligncenter secondary bold">CEO</h2>
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/marc.jpeg">
+          <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/marc.jpeg">
           <h3 class="aligncenter">Marc Faddoul</h3>
       </div>
       <div class="column">
           <h2 class="aligncenter secondary bold">CTO</h2>
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/claudio.jpeg">
+          <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/claudio.jpeg">
           <h3 class="aligncenter">Claudio Agosti</h3>
       </div>
       <div class="column">
           <h4 class="aligncenter secondary bold">Lead Dev</h4>
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/andrea.jpg">
+          <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/andrea.jpg">
           <h3 class="aligncenter">Andrea Ascari</h3>
       </div>
       <div class="column">
           <h4 class="aligncenter secondary bold">PM & Dev</h4>
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/fmdj.jpeg">
+          <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/fmdj.jpeg">
           <h3 class="aligncenter">François-Marie de Jouvancel</h3>
       </div>
     </div>
     <div class="grid">
       <div class="column">
           <h4 class="aligncenter secondary bold">Designer</h4>
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/giulia.jpeg">
+          <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/giulia.jpeg">
           <h3 class="aligncenter">Giulia Corona</h3>
       </div>
       <div class="column">
           <h4 class="aligncenter secondary bold">UX Researcher</h4>
-          <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/salvo.jpeg">
+          <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/salvo.jpeg">
           <h3 class="aligncenter">Salvatore Romano</h3>
       </div>
         <div class="column">
             <h4 class="aligncenter secondary bold">Advisor</h4>
-            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/primavera.jpeg">
+            <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/primavera.jpeg">
           <h3 class="aligncenter">Dr. Primavera de Filippi</h3>
         </div>
         <div class="column">
             <h4 class="aligncenter secondary bold">Advisor</h4>
-            <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/niloufar.jpeg">
+            <img style="width:40%; padding-bottom: 0rem;" class="aligncenter" src="/images/niloufar.jpeg">
           <h3 class="aligncenter">Prof. Niloufar Salehi</h3>
         </div>
+    <h3 class="aligncenter"><b class="secondary">YouTuber Outreach</b> - Silvia Semenzin </h3>
+    <h3 class="aligncenter"><b class="secondary">Legal</b> - Alessandro Polidoro</h3>
      </div>
     <br>
 </section>
