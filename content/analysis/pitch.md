@@ -209,7 +209,7 @@ extraCSS: "/css/slides.css"
 
 </section><section>
 <div>
- <h4 class="aligncenter"><b class="secondary">We are a non-profit.</b> We build user empowering free-software and defending digital sovereignty</h4>
+ <h4 class="aligncenter"><b class="secondary">We are a non-profit.</b> We build user empowering free-software and defend digital sovereignty</h4>
 </div>
 <div class="grid">
       <div class="column">
