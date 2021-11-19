@@ -4,7 +4,7 @@ subtitle: "Project Pitch"
 draft: false
 type: "webslides"
 og_title: "YouChoose.AI project pitch"
-og_description: "The idea and some immages on how it works"
+og_description: "A 1 minute tour of YouChoose"
 og_type: "website"
 og_image: "http://youchoose.tracking.exposed/images/compare.jpg"
 og_url: "https://youchoose.tracking.exposed/analysis/pitch"
@@ -241,7 +241,7 @@ extraCSS: "/css/slides.css"
           <h3 class="aligncenter">Giulia Corona</h3>
       </div>
       <div class="column">
-          <h4 class="aligncenter secondary bold">User Research</h4>
+          <h4 class="aligncenter secondary bold">UX Researcher</h4>
           <img style="width:40%; padding-bottom: 1rem;" class="aligncenter" src="/images/salvo.jpeg">
           <h3 class="aligncenter">Salvatore Romano</h3>
       </div>
