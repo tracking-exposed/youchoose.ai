@@ -160,13 +160,14 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
 </div>
 </div>
 
+<script src="/js/global.js"></script>
 <script type="text/javascript">
 
   $("#special--click--management").click(function(evnt) {
     evnt.preventDefault();
     $("#mail--button").text("...");
 
-    fetch("/api/v3/registerEmail", {
+    fetch(buildApiUrl("registerEmail", null, 3), {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
