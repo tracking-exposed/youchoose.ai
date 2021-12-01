@@ -59,8 +59,8 @@ ourvision = false
  [[menu.footer]]
     name = "Umbrella project: Tracking Exposed"
     url = "https://tracking.exposed"
-    weight = 90
+    weight = 70
  [[menu.footer]]
-    name = "Connected project: Algorithms Exposed"
-    url = "https://algorithms.exposed"
+    name = "Fiscal Host: AI Forensics"
+    url = "https://aiforensics.org"
     weight = 80

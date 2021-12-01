@@ -153,10 +153,10 @@ YouChoose is a citizen-tech, democratically run project, which aims to empower Y
 <div class="row">
 <div class="col-sm-7 small"><pre style="font-size:1.15rem; color:#e33180; font-weight:bold; padding-top:0px;">This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.</pre></div>
 <div class="col-sm-3">
-<img src="/images/ledger-logo.png" class="img-fluid" alt="Responsive image">
+<a href="https://ledgerproject.eu/"><img src="/images/ledger-logo.png" class="img-fluid" alt="Responsive image"></a>
 </div>
 <div class="col-sm-2">
-<img src="/images/eu-logo.jpeg" class="img-fluid" alt="Responsive image" style="border-radius: 13px;">
+    <img src="/images/eu-logo.jpeg" class="img-fluid" alt="Responsive image" style="border-radius: 13px;">
 </div>
 </div>
 
