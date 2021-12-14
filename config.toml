@@ -25,6 +25,10 @@ ourvision = false
 
 [menu]
  [[menu.main]]
+    name = "Data donation"
+    url = "/data-donation/"
+    weight = 1
+ [[menu.main]]
     name = "Philosophy"
     url = "/philosophy/"
     weight = 10
