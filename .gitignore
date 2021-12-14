@@ -1,8 +1,0 @@
-themes/*
-resources/*
-public/*
-
-static/js/generated/*
-
-react-pieces/node_modules/*
-react-pieces/build/*
