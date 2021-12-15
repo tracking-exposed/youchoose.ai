@@ -462,6 +462,7 @@ canvas {
     height: auto;
     width: auto;
     max-width: none;
+    padding-bottom: 10;
 }
 @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
     .navbar-brand img {

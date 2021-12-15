@@ -1,6 +1,6 @@
 main_menu:
 
-  - text: "Home"
+  - text: "About"
     url: "/"
     menu_type: "megamenu"
     submenu:
@@ -113,7 +113,7 @@ main_menu:
       - text: "Coming Soon"
         url: "/coming_soon"
 
-  - text: "Features"
+  - text: "Philosophy"
     url: "/"
     menu_type: "dropdown"
     submenu:
@@ -155,7 +155,7 @@ main_menu:
       - text: "service 04"
         url: "/services/index-4"
 
-  - text: "Elements"
+  - text: "Users"
     url: "/"
     submenu:
 
@@ -187,7 +187,7 @@ main_menu:
       - text: "service 04"
         url: "/services/index-4"
 
-  - text: "Portfolio"
+  - text: "Youtubers"
     url: "/portfolios/"
     submenu:
       - text: "Portfolio 02"
@@ -208,7 +208,7 @@ main_menu:
       - text: "Portfolio 07"
         url: "/portfolios/index-7"
 
-  - text: "Blog"
+  - text: "Data donation"
     url: "/"
     submenu:
       - text: "Blog 01"

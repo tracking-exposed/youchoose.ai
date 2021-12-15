@@ -12,9 +12,9 @@ black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "/assets/images/logo-light.png"
 light_logo_2x: "/assets/images/logo-light@2x.png"
 
-address_01: 'Moonshine St. 14/05 <br /> Light City, London'
+address_01: 'via Montesanto 22'
 phone_number: "+00 (123) 456 78 90"
-copyright_text: "© 2021 Snowlake.  All rights reserved."
+copyright_text: "© 2021 YouChoose. Feel free."
 
 google_analytics:
   enable: false
