@@ -15,34 +15,10 @@ hero_area:
   sub_title: |
     See suggestions from content creators. <br/>  
     Made for You, not for YouTube.
-  button_text: "Download"
+  button_text: "Download the extension"
   button_url: "#"
-  header_image: "/assets/images/art/bg8.png"
-  header_bottom_image: "/assets/images/art/macbook@2x.png"
-
-slider_area:
-  enable: true
-  sliders:
-    - title: "See recommendations from content creators"
-      sub_title: "Get meaningful suggestions"
-      image: "/assets/images/concept/concept21.png"
-      bg_image: "/assets/images/concept/bg2.svg"
-      button_text: "Download" 
-      button_url: "#"
-
-    - title: "Choose what to show on your own videos"
-      sub_title: "Link your Youtube channel, surprise your audience!"
-      image: "/assets/images/concept/concept22.png"
-      bg_image: "/assets/images/concept/bg2.svg"
-      button_text: "Learn More" 
-      button_url: "#"
-
-    - title: "Learn how the YouTube algorithm treats you "
-      sub_title: "Is the algorithm shadowbanning you?"
-      image: "/assets/images/concept/concept21.png"
-      bg_image: "/assets/images/concept/bg1.svg"
-      button_text: "Learn More" 
-      button_url: "#"
+  header_image: "/assets/images/art/bg8.svg"
+  header_bottom_image: "/assets/images/art/macbook@2xx.png"
 
 services_area:
   enable: true
@@ -51,29 +27,54 @@ services_area:
   services:
 
     - title: "Content Creators"
-      image: "/assets/images/art/g2.jpg"
-      description: |
-        Are you a Youtuber?
+      image: "/assets/images/art/i1.png"
+      description: 
       button_text: "be an early adopter"
       button_url: "#"
       lists:
-      - "Choose what content gets recommended aside your own videos."
-      - "Add recommendations pointing to any website: a blog, an article or a patreon."
-      - "Get analytics about your algorithmic treatement, thanks to data donations."
+      - "Choose what gets recommended"
+      - "Can point to any website"
+      - "Get stats about algorithmic treatement"
 
     - title: "Users"
-      image: "/assets/images/art/g3.jpg"
-      description: |
-        or a Youtube addict? ;) 
+      image: "/assets/images/art/i2.png"
+      description: 
       button_text: "User guide"
       button_url: "#"
       lists:
-      - "Enhance your experience on YouTube.com with a simple plug-in."
-      - "Choose between different recommendation systems."
-      - "Get Recommendations provided by your favourite YouTubers."
+      - "Enhance YouTube.com experience"
+      - "Different recommendation systems"
+      - "Suggestions by their favourite YouTubers"
+
+
+slider_area:
+  enable: true
+  sliders:
+    - title: "Fast and easy way to upload content"
+      sub_title: "Link your Youtube channel <br/>and surprise your audience"
+      image: "/assets/images/concept/screen-lab.png"
+      bg_image: "/assets/images/concept/bgg4.svg"
+      button_text: "Learn More" 
+      button_url: "#"
+
+    - title: "Learn how the YouTube algorithm works"
+      sub_title: "Is the algorithm shadowbanning you?"
+      image: "/assets/images/concept/screen-analytics.png"
+      bg_image: "/assets/images/concept/bgg5.svg"
+      button_text: "Learn More" 
+      button_url: "#"
+    
+    - title: "Choose your recommender system"
+      sub_title: "Get meaningful suggestions by the people you follow"
+      image: "/assets/images/concept/screen-yt.png"
+      bg_image: "/assets/images/concept/bgg3.svg"
+      button_text: "Learn More" 
+      button_url: "#"
+
 
 video:
   title: "A quick tour"
+  sub_title: "How to install and use the tool"
   mp4_video: "/assets/media/movie.mp4"
   webm_video: "/assets/media/movie.webm"
 
@@ -162,7 +163,7 @@ testimonials:
 
 clients_carousel:
   enable: true
-  title: "Our magical Supporters"
+  title: "Our Supporters"
 
 faq_area:
   enable: true
@@ -284,6 +285,89 @@ faq_area:
                     <!-- /column -->
                 </div>
 
+                {% if page.services_area.enable %}
+                <div class="wrapper light-wrapper">
+                  <div class="container inner">
+                    {% if page.services_area.enable %}
+                    <div class="row">
+                      <div class="col-md-7 mx-auto">
+                        <h2 class="title-color color-gray text-center">{{page.services_area.title}}</h2>
+                        <h3 class="display-3 text-center">{{page.services_area.sub_title}}</h3>
+                        <div class="space40"></div>
+                      </div>
+                    </div>	
+                    {% endif %}
+                    {% if page.services_area.enable %}
+                    <div class="row gutter-60 text-center align-items-end">
+                      {% for service in  page.services_area.services  %}
+                      <div class="col-md-4 mx-auto">
+                        {% if service.image %}
+                        <div class="img-blob blob8 mb-30">
+                          <img src="{{service.image}}" style="width: 30rem" alt="{{service.title}}"/>
+                        </div>
+                        {% endif %}
+                        <h4>{{service.title}}</h4>
+                        <p class="mb-15 color-rose font-weight-600">{{service.description}}</p>
+                        <ul class="icon-list bullet-default bullet-pink text-left">
+                          {% for list in service.lists %}
+                           <li>
+                             <i class="icofont-verification-check"></i>
+                             {{list}}
+                          </li>
+                          {% endfor %}
+                         </ul>
+                        {% if service.button_text %}
+                         <div class="text-center"><a href="{{service.button_url}}" class="more color-rose">{{service.button_text}}</a></div>
+                        {% endif %}
+                      </div>
+                      {% endfor %}
+                    </div>
+                    <!--/.row -->
+                    {% endif %}
+                    {% if page.process_area.enable %}
+                    <div class="row">
+                      <div class="col-md-7 mx-auto">
+                        <div class="space160"></div>
+                        <h2 class="title-color color-gray text-center">{{page.process_area.title}}</h2>
+                        <h3 class="display-3 text-center">{{page.process_area.sub_title}}</h3>
+                        <div class="space40"></div>
+                      </div>
+                    </div>
+                    <div class="row align-items-center">
+                      {% if page.process_area.image %}
+                      <div class="col-lg-8">
+                        <figure>
+                          <img src="{{page.process_area.image}}" alt="{{page.process_area.title}}"/>
+                        </figure>
+                      </div>
+                      {% endif %}
+                      <div class="space20 d-md-none"></div>
+                      <div class="space50 d-none d-md-block d-lg-none"></div>
+                      <div class="col-lg-3 pl-50 pr-lg-0 pl-md-0">
+                        {% for list in page.process_area.lists %}
+                        <div class="d-flex flex-row justify-content-center">
+                          <div>
+                            <span class="icon icon-bg icon-bg-default color-default mr-25">
+                              <span class="number">{{forloop.index}}</span>
+                            </span>
+                          </div>
+                          <div>
+                            <h5>{{list.title}}</h5>
+                            <p class="mb-0">
+                              {{list.description}}
+                            </p>
+                          </div>
+                        </div>
+                        <div class="space20"></div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                <!-- /.wrapper -->
+                {% endif %}
+
 {% if page.slider_area.enable %}
 <div class="wrapper white-wrapper">
   <div class="rev_slider_wrapper fullwidth-container dark-spinner dark-nav">
@@ -298,7 +382,7 @@ faq_area:
              data-y="['bottom','bottom','bottom','bottom']" 
              data-hoffset="['0','0','0','0']" 
              data-voffset="['-2','-2','-2','-2']" 
-             data-frames='[{"delay":0,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
+             data-frames='[{"delay":0,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:0.2;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
              data-visibility="['on','on','on','on']" 
              data-width="none" 
              data-height="none" 
@@ -325,7 +409,7 @@ faq_area:
              data-responsive_offset="on" 
              data-basealign="grid" style="z-index: 5;"><img 
              data-lazyload="" src="{{slider.image}}" 
-             data-ww="400" 
+             data-ww="600" 
              data-hh="auto" alt="" />  
           </div>
 	      <!-- /.tp-caption -->
@@ -365,7 +449,7 @@ faq_area:
 	     <!-- /.tp-caption -->
 	     {% endif %}
 	     {% if slider.button_text %}
-          <a class="tp-caption btn btn-l btn-default" 
+          <a class="tp-caption btn btn-l btn-rose" 
              data-x="['left','left','left','left']" 
              data-y="middle" 
              data-hoffset="['50','70','30','30']" 
@@ -390,93 +474,14 @@ faq_area:
 <!-- /.wrapper -->
 {% endif %}
 
-{% if page.services_area.enable %}
-<div class="wrapper light-wrapper">
-  <div class="container inner">
-  	{% if page.services_area.enable %}
-    <div class="row">
-    	<div class="col-md-7 mx-auto">
-		    <h2 class="title-color color-gray text-center">{{page.services_area.title}}</h2>
-		    <h3 class="display-3 text-center">{{page.services_area.sub_title}}</h3>
-		    <div class="space40"></div>
-    	</div>
-    </div>	
-    {% endif %}
-    {% if page.services_area.enable %}
-    <div class="row gutter-60 text-center align-items-end">
-      {% for service in  page.services_area.services  %}
-      <div class="col-md-4 mx-auto">
-      	{% if service.image %}
-        <div class="img-blob blob8 mb-30">
-        	<img src="{{service.image}}" style="width: 30rem" alt="{{service.title}}"/>
-        </div>
-        {% endif %}
-        <h4>{{service.title}}</h4>
-        <p class="mb-15 color-rose font-weight-600">{{service.description}}</p>
-        <ul class="icon-list bullet-default bullet-pink text-center">
-          {% for list in service.lists %}
-           <li>
-             <i class="icofont-verification-check"></i>
-             {{list}}
-          </li>
-          {% endfor %}
-         </ul>
-        {% if service.button_text %}
-         <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-    <!--/.row -->
-    {% endif %}
-    {% if page.process_area.enable %}
-    <div class="row">
-    	<div class="col-md-7 mx-auto">
-		    <div class="space160"></div>
-		    <h2 class="title-color color-gray text-center">{{page.process_area.title}}</h2>
-		    <h3 class="display-3 text-center">{{page.process_area.sub_title}}</h3>
-		    <div class="space40"></div>
-    	</div>
-    </div>
-    <div class="row align-items-center">
-      {% if page.process_area.image %}
-      <div class="col-lg-8">
-        <figure>
-          <img src="{{page.process_area.image}}" alt="{{page.process_area.title}}"/>
-        </figure>
-      </div>
-      {% endif %}
-      <div class="space20 d-md-none"></div>
-      <div class="space50 d-none d-md-block d-lg-none"></div>
-      <div class="col-lg-3 pl-50 pr-lg-0 pl-md-0">
-      	{% for list in page.process_area.lists %}
-        <div class="d-flex flex-row justify-content-center">
-          <div>
-            <span class="icon icon-bg icon-bg-default color-default mr-25">
-            	<span class="number">{{forloop.index}}</span>
-            </span>
-          </div>
-          <div>
-            <h5>{{list.title}}</h5>
-            <p class="mb-0">
-            	{{list.description}}
-            </p>
-          </div>
-        </div>
-        <div class="space20"></div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-  </div>
-</div>
-<!-- /.wrapper -->
-{% endif %}
-
 <div class="container">
-    <div class="col-lg-8 mx-auto">
+  <div class="space100"></div>
+    <div class="col-lg-10 mx-auto">
      {% if page.video.title %}
       <h1 class="mb-20 text-center">{{page.video.title}}</h1>
+     {% endif %}
+     {% if page.video.sub_title %}
+     <p class="lead larger text-center">{{page.video.sub_title}}</p>
      {% endif %}
      <div class="space20"></div>
       <video poster="{{page.how_it_works.video_image}}" class="player" playsinline controls preload="none">
@@ -502,7 +507,7 @@ faq_area:
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                       <div class="countdown" data-date="{{page.page_content.date}}">
-                        <div class="row text-center">
+                        <div class="row text-center color-rose">
                           <div class="col-md-3">
                             <h3 data-days>0</h3>
                             <p class="mb-0">days</p>
@@ -581,7 +586,7 @@ faq_area:
                             <p>{{text_data.text}}</p>
                             {% endfor %} {% if page.two_column_one.button_text %}
                             <div class="space10"></div>
-                            <a href="{{page.two_column_one.button_url}}" class="btn btn-default">{{page.two_column_one.button_text}}</a>
+                            <a href="{{page.two_column_one.button_url}}" class="btn btn-default btn-rose">{{page.two_column_one.button_text}}</a>
                             {% endif %}
                         </div>
                         <!--/column -->
@@ -636,7 +641,7 @@ faq_area:
                             <p>{{text_data.text}}</p>
                             {% endfor %} {% if page.two_column_three.button_text %}
                             <div class="space10"></div>
-                            <a href="{{page.two_column_three.button_url}}" class="btn btn-default">{{page.two_column_three.button_text}}</a>
+                            <a href="{{page.two_column_three.button_url}}" class="btn btn-default color-rose">{{page.two_column_three.button_text}}</a>
                             {% endif %}
                         </div>
                     </div>
@@ -649,7 +654,7 @@ faq_area:
               <div class="space40"></div>
                     {% if page.clients_carousel.title %}
                     <div class="text-center">
-                        <h2 class="title-bg bg-default color-default">{{page.clients_carousel.title}}</h2>
+                        <h2 class="title-bg bg-rose color-rose">{{page.clients_carousel.title}}</h2>
                     </div>
                     {% endif %}
                     
@@ -711,7 +716,7 @@ faq_area:
                     <div class="space50 d-none d-md-block d-lg-none"></div>
                     <div class="space10 d-md-none"></div>
                     <div class="col-lg-6 pl-60 pl-md-15">
-                        <h2 class="title-bg bg-default color-default">{{page.faq_area.title}}</h2>
+                        <h2 class="title-bg bg-rose color-rose">{{page.faq_area.title}}</h2>
                         <div class="space10"></div>
                         <h3 class="display-3">{{page.faq_area.sub_title}}</h3>
                         <div class="space20"></div>
