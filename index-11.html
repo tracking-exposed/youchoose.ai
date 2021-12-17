@@ -57,7 +57,7 @@ slider_area:
       button_text: "Learn More" 
       button_url: "#"
 
-    - title: "Learn how the YouTube algorithm works"
+    - title: "Learn how YouTube's algorithm works"
       sub_title: "Is the algorithm shadowbanning you?"
       image: "/assets/images/concept/screen-analytics.png"
       bg_image: "/assets/images/concept/bgg5.svg"
@@ -89,25 +89,25 @@ progress_area:
   sub_title: "Working hard "
   lists:
     - title: "Development"
-      description: "Integer posuere erat a ante venenatis dapibus posuere velit."
+      description: "Our code is available on Github"
       numbers: 65
       bar_color: "green"
 
     - title: "Design"
-      description: "Integer posuere erat a ante venenatis dapibus posuere velit."
+      description: "Humans first and user friendly"
       numbers: 40
       bar_color: "orange"
     
-    - title: "Outreach"
-      description: "Integer posuere erat a ante venenatis dapibus posuere velit."
-      numbers: 10
-      bar_color: "red"
+    - title: "Strategy"
+      description: "We believe in word of mouth"
+      numbers: 20
+      bar_color: "yellow"
 
 
 two_column_one:
   enable: true
   title: "YouChoose is built by a non-profit. We promote an internet made for users, not for corporations!"
-  image: "/assets/images/art/ui1.png"
+  image: "/assets/images/art/noprofit.svg"
   button_text: "More About Us"
   button_url: "#"
   paragraphs:
@@ -169,7 +169,7 @@ faq_area:
   enable: true
   title: "FAQ"
   sub_title: "If you don't see an answer to your question, you can send us an email from our contact form."
-  image: "/assets/images/concept/concept4@2x.png"
+  image: "/assets/images/concept/faq.png"
   tabs:
     - question: "Can I cancel my subscription?"
       answer: |
@@ -572,7 +572,7 @@ faq_area:
                         {% if page.two_column_one.image %}
                         <div class="col-lg-6">
                             <figure>
-                                <img src="{{page.two_column_one.image}}" alt="{{page.two_column_one.title}}" />
+                                <img src="{{page.two_column_one.image}}" href='https://www.freepik.com/vectors/people' alt="{{page.two_column_one.title}}" />
                             </figure>
                         </div>
                         {% endif %}
@@ -726,7 +726,7 @@ faq_area:
                                 <div class="card-header" id="accordion-heading-2-1">
                                     <h5>
                                         <button class="collapsed" data-toggle="collapse" data-target="#accordion-collapse-2-{{forloop.index}}" aria-expanded="false" aria-controls="accordion-collapse-2-1">
-                                            {{tab.question}}
+                                              {{tab.question}}
                                         </button>
                                     </h5>
                                 </div>
