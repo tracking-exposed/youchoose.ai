@@ -85,7 +85,7 @@ external_links_03:
 
 footer_newsletter:
   title: "Our Newsletter"
-  sub_title: "Subscribe to our newsletter to get our news & deals delivered to your inbox!"
+  sub_title: "Subscribe to our newsletter to get our news"
   subscribe_button_text: "Join"
 
 
@@ -109,12 +109,12 @@ author_page_header:
 
 gallery:
   images:
-  - img: "/assets/images/art/z1.svg"
-  - img: "/assets/images/art/z2.svg"
-  - img: "/assets/images/art/z3.svg"
-  - img: "/assets/images/art/z4.png"
-  - img: "/assets/images/art/z6.png"
-  - img: "/assets/images/art/z7.svg"
-  - img: "/assets/images/art/z8.png"
-  - img: "/assets/images/art/z9.png"
-  - img: "/assets/images/art/z10.png"
+  - img: "/assets/images/art/z7bn.png" #trex
+  - img: "/assets/images/art/z9bn.png" #ledger
+  - img: "/assets/images/art/z11bn.png" #eucommission
+  - img: "/assets/images/art/z10bn.png" #hermes
+  - img: "/assets/images/art/z12bn.png" #berkley
+  - img: "/assets/images/art/z13bn.png" #ovh
+  - img: "/assets/images/art/z4bn.png" #blumorpho
+  - img: "/assets/images/art/z6bn.png" #ai forensics
+  - img: "/assets/images/art/z15bn.png" #dyne
