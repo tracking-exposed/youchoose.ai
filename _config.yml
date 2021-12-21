@@ -10,6 +10,15 @@ collections:
   authors:
     output: true
 
+# General Settings
+title: "Youchoose"
+email: "youchoose@tracking.exposed"
+email_2: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  Youchoose is an environment that allows you to experience a different recommendation system.
+  What you need to see new content is a browser extension, available for Chrome and Firefox.
+  Algorithms are opinionated too, especially when they try to boost ads revenues.
+  
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -84,3 +93,4 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+

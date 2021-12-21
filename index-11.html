@@ -86,9 +86,9 @@ two_column_one:
   button_url: "#"
   paragraphs:
     - text: |
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl.
+        We want to make third-party recommendation systems interoperable on YouTube, cause algorithms are opinionated too, especially when they try to boost ads revenues.      
     - text: |
-        Cras mattis consectetur purus sit amet. Duis mollis, est non.
+        We believe users should be in control of their informational diet, and have the agency to decide who to trust. They should also be able to participate to the content curation, and to share these contributions with their community.
 
 page_content:
   title: "Beta Testing Soon!"
@@ -123,9 +123,9 @@ two_column_two:
   button_url: "#"
   paragraphs:
     - text: |
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio.
+         
     - text: |
-        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed.
+        We believe users should be in control of their informational diet, and have the agency to decide who to trust. 
 
 
 two_column_three:
@@ -481,7 +481,7 @@ faq_area:
 {% endif %}
 
 <div class="container">
-  <div class="space100"></div>
+  <div class="space150"></div>
     <div class="col-lg-10 mx-auto">
      {% if page.video.title %}
       <h1 class="mb-20 text-center display-3">{{page.video.title}}</h1>
@@ -502,7 +502,7 @@ faq_area:
 </div>    
 
                 {% if page.two_column_one.enable %}
-                <div class="two-column-one">
+                <div class="two-column-one inner">
                     <div class="space130"></div>
                     <div class="row align-items-center">
                         {% if page.two_column_one.image %}
@@ -658,9 +658,9 @@ faq_area:
                 {% endif %}
             </div>
             {% if page.faq_area.enable %}
-            <div class="wrapper light-wrapper inner-bottom">
-                <div class="container">
-                    <div class="row">
+            <div class="wrapper light-wrapper">
+                <div class="container inner">
+                    <div class="row mb-40">
                         {% if page.faq_area.image %}
                         <div class="col-lg-6">
                             <figure>
@@ -668,7 +668,7 @@ faq_area:
                             </figure>
                         </div>
                         {% endif %}
-                        <div class="space50 d-none d-md-block d-lg-none"></div>
+                        <div class="space30 d-none d-md-block d-lg-none"></div>
                         <div class="space10 d-md-none"></div>
                         <div class="col-lg-6 pl-60 pl-md-15">
                             <h2 class="title-bg bg-rose color-rose">{{page.faq_area.title}}</h2>

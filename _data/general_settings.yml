@@ -1,39 +1,35 @@
 # General Settings
-title: "Snowlake premium jekyll template"
-email: "tortoizthemes@gmail.com"
-email_2: "support@tortoizthemes.com"
+title: "Youchoose"
+email: "youchoose@tracking.exposed"
+email_2: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Youchoose is an environment that allows you to experience a different recommendation system.
+  What you need to see new content is a browser extension, available for Chrome and Firefox.
+  Algorithms are opinionated too, especially when they try to boost ads revenues.
+
+# Write an awesome description for your new site here. You can edit this
+# line in _config.yml. It will appear in your document head meta (for
+# Google search results) and in your feed.xml site description.
 
 black_logo_1x: "/assets/images/logo.png"
 black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "/assets/images/logo-light.png"
 light_logo_2x: "/assets/images/logo-light@2x.png"
 
-address_01: 'via Montesanto 22'
-phone_number: "+00 (123) 456 78 90"
-copyright_text: "© 2021 YouChoose. Feel free."
+address_01: 
+phone_number: 
+copyright_text: "CC BY-NC 2.0 2021"
+cookies: "we don't use cookies"
 
 google_analytics:
   enable: false
   key: "UA-664136761-1"  # UA-664136761-1
 
 social_accounts:
-  title: "Follow Us"
+  title: "Social Media"
   links:
     - url: "#"
       icon: "jam jam-twitter"
-
-    - url: "#"
-      icon: "jam jam-facebook"
-
-    - url: "#"
-      icon: "jam jam-instagram"
-
-    - url: "#"
-      icon: "jam jam-vimeo"
       
     - url: "#"
       icon: "jam jam-youtube"
@@ -45,13 +41,9 @@ external_links:
     - url: "#"
       text: "About Us"
     - url: "#"
-      text: "Our Story"
-    - url: "#"
       text: "Projects"
     - url: "#"
-      text: "Pricing"
-    - url: "#"
-      text: "Features"
+      text: "TrackingExposed"
 
 
 external_links_02:
@@ -84,8 +76,8 @@ external_links_03:
       text: "Process"
 
 footer_newsletter:
-  title: "Our Newsletter"
-  sub_title: "Subscribe to our newsletter to get our news"
+  title: "Our Newsbites"
+  sub_title: "Subscribe to get sporadic news"
   subscribe_button_text: "Join"
 
 

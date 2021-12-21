@@ -616,7 +616,7 @@ acronym[title] {
     background: rgba(var(--rgb-white), 0.95) !important;
 }
 .banner--stick.navbar-fancy-dark {
-    background: #242930 !important;
+    background: #1A030E !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
 }
@@ -731,7 +731,7 @@ button.hamburger.animate.active:after {
     padding-left: 1.5rem;
     overflow-y: auto;
     visibility: hidden;
-    background: #1e2228;
+    background: #1A030E;
     -webkit-transition-timing-function: ease-in-out;
          -o-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
@@ -1389,11 +1389,11 @@ button.hamburger.animate.active:after {
     background-color: #f3f4f7 !important;
 }
 .dark-wrapper {
-    background-color: #242930 !important;
+    background-color: #1A030E !important;
 }
 footer.dark-wrapper,
 .footer-dark-wrapper {
-    background-color: #1e2228 !important;
+    background-color: #1A030E !important;
 }
 .pattern-wrapper {
     background: transparent repeat left top;
@@ -1412,10 +1412,10 @@ footer.dark-wrapper,
     fill: #f3f4f7;
 }
 .fill-dark-wrapper {
-    fill: #242930;
+    fill: #1A030E;
 }
 .fill-footer-dark-wrapper {
-    fill: #1e2228;
+    fill: #1A030E;
 }
 .overflow-top {
     margin-top: -10rem;
@@ -6178,7 +6178,7 @@ footer.inverse-text address {
 }
 .inverse-text .meta a:hover,
 .inverse-text .accordion-wrapper.simple .card-header button:hover {
-    color: var(--color-rose);
+    color: var(--color-);
 }
 .inverse-text .accordion-wrapper:not(.simple) .card-body,
 .inverse-text .bg-white p,
@@ -6545,7 +6545,7 @@ footer.inverse-text address {
                 box-shadow: var(--shadow);
     }
     .navbar.navbar-fancy.navbar-fancy-dark:not(.fixed) .container {
-        background: #242930;
+        background: #1A030E;
         -webkit-box-shadow: none;
                 box-shadow: none;
     }
@@ -6662,7 +6662,7 @@ footer.inverse-text address {
                 box-shadow: var(--shadow);
     }
     .navbar.navbar-fancy.navbar-fancy-dark:not(.fixed) {
-        background: #242930 !important;
+        background: #1A030E !important;
         -webkit-box-shadow: none !important;
                 box-shadow: none !important;
     }
