@@ -122,10 +122,13 @@
   <p>{{site.data.general_settings.description}}</p>
   <div class="space20"></div>
   <div class="widget">
-    <h5 class="widget-title">Contact Info</h5>
-    <address> {{site.data.general_settings.address_01}}<div class="space20"></div>
-      <a href="mailto:{{site.data.general_settings.email}}">{{site.general_settings.email}}</a><br /> {{site.data.general_settings.phone_number}} </address>
-  </div>
+    <h5 class="widget-title">Contacts</h5>
+    {% if site.data.general_settings.address_01 %}
+           <address>{{site.data.general_settings.address_01}}</address>
+          {% endif %}
+           <a href="mailto:{{site.data.general_settings.email}}">{{site.data.general_settings.email}}</a><br />
+          {{site.data.general_setting.phone_number}}  
+    </div>
   <!-- /.widget -->
   <div class="widget">
     {% if site.data.general_settings.external_links.title %}

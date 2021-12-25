@@ -1,7 +1,7 @@
 main_menu:
 
   - text: "About"
-    url: "/"
+    url: "/about"
     menu_type: "megamenu"
     submenu:
 
