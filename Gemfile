@@ -7,7 +7,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.7"
+gem "jekyll", "~> 3.9"
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -20,6 +21,10 @@ group :jekyll_plugins do
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
 end
+
+# See this issue: https://github.com/samesies/barber-jekyll/issues/45#issuecomment-804850540
+gem "webrick"
+gem "kramdown-parser-gfm"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
