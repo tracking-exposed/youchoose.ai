@@ -67,8 +67,8 @@ portfolios_area:
         - design
     - title: "Silvia Semenzin"
       sub_title: "post-doctoral researcher in Sociology and an activist. She is in charge of the community building of YouChoose."
-      sm_image: "/assets/images/art/team/silvia_team.jpg"
-      big_image: "/assets/images/art/team/silvia_team.jpg"
+      sm_image: "/assets/images/art/team/silvia_team.png"
+      big_image: "/assets/images/art/team/silvia_team.png"
       url: "https://www.silviasemenzin.it/"
       filters:
         - strategy
@@ -90,6 +90,37 @@ portfolios_area:
 clients_carousel:
     enable: true
     title: "Sponsors and mentors"
+
+contact_area:
+    enable: true
+    title: "Get in Touch"
+    sub_title: "Have any questions? Reach out to us from our contact form and we will get back to you shortly."
+    action_email: "youchoose@tracking.exposed"
+    lists:
+      - title: E-mail
+        info_01: "youchoose@tracking.exposed"
+        icon: "jam jam-envelope-open"
+      
+      - title: Slack
+        info_01: "trackingexposed.slack.com"
+        icon: "jam jam-gps"
+  
+    forms_data: 
+  
+      - field_type: "input"
+        field_name: "first_name"
+        placeholder: "Name" 
+        error_message: "Name Is required" 
+  
+      - field_type: "input"
+        field_name: "user_email"
+        placeholder: "Email"
+        error_message: "Email Is required"
+  
+      - field_type: "textarea"
+        field_name: "user_message"
+        placeholder: "Message"
+        error_message: "Message Is required"
       
 ---
 
@@ -132,7 +163,7 @@ clients_carousel:
       <!-- /.tiles -->
       {% if page.clients_carousel.enable %}
     <div class="cliensts-carousel-wrapper">
-        <div class="space30"></div>
+        <div class="space130"></div>
         {% if page.clients_carousel.title %}
         <div class="text-center">
             <h2 class="title-bg bg-rose color-rose">{{page.clients_carousel.title}}</h2>
@@ -146,4 +177,87 @@ clients_carousel:
     </div>
     <!-- /.grid -->
   </div>
+{% endif %}
+
+{% if page.contact_area.enable %}
+<section id="contact">
+  <div class="wrapper light-wrapper">
+    <div class="container inner">
+        <div class="row">
+          <div class="col-md-8">
+        {% if page.contact_area.title %}
+         <h2 class="section-title">{{page.contact_area.title}}</h2>
+        {% endif %}
+        {% if page.contact_area.sub_title %}
+         <p class="lead larger">{{page.contact_area.sub_title}}</p>
+        {% endif %}
+          </div>
+        </div>
+      <div class="space40"></div>
+      <div class="row">
+        <div class="col-lg-4">
+          {% for lists in page.contact_area.lists %}
+          <div class="d-flex flex-row">
+            <div>
+              <div class="icon color-default fs-34 mr-25"> <i class="{{lists.icon}}"></i> </div>
+            </div>
+            <div>
+              <h6 class="mb-5">{{lists.title}}</h6>
+              <address>{{lists.info_01}} 
+                {% if lists.info_02 %}
+                <br class="d-none d-md-block" />
+                {{lists.info_02}}
+               {% endif %}
+              </address>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <!--/column -->
+        <div class="col-lg-8">
+          <form id="contact-form" class="fields-white" method="post" action="https://formsubmit.io/send/{{page.contact_area.action_email}}">
+            <div class="messages"></div>
+            <div class="controls">
+              <div class="form-row">
+                {% for forms_data in page.contact_area.forms_data %}
+                {% if forms_data.field_type == "input" %}
+                <div class="col-lg-12 col-xl-6">
+                  <div class="form-group">
+                    <input id="{{forms_data.field_name}}" type="text" name="{{forms_data.field_name}}" class="form-control" placeholder="{{forms_data.placeholder}}  *" required="required" data-error="{{forms_data.error_message}}">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                {% else if forms_data.field_type == "textarea" %}
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea id="{{forms_data.field_name}}" name="{{forms_data.field_name}}" class="form-control" placeholder="{{forms_data.placeholder}} *" rows="4" required="required" data-error="{{forms_data.error_message}}"></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-send" value="Send message">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                </div>
+              </div>
+            </div>
+          </form>
+          <!-- /form -->
+        </div>
+        <!--/column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.wrapper -->
+</section>
+<!-- /section --> 
 {% endif %}

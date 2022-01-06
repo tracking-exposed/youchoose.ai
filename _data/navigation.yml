@@ -1,11 +1,11 @@
 main_menu:
 
   - text: "About"
-    url: "/about/"
+    url: "/about"
     has_submenu: "false"
 
   - text: "Philosophy"
-    url: "/"
+    url: "/philosophy"
     menu_type: "dropdown"
     submenu:
       - text: "About Page"

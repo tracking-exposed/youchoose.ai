@@ -1,0 +1,112 @@
+---
+layout: page
+title: "Our Philosophy"
+sub_title: "Creating liberating alternative tools to centralized recommender systems"
+header_image: "/assets/images/art/bg8.svg"
+white_menu: true
+
+features_area:
+  enable: true
+  title: "What We Think?"
+  sub_title: "Algorithms conceal the existence and use of assessments and judgments that impact the dissemination of ideas and culture."
+  features:
+    - title: "Recommendation algorithms are gatekeepers of online content"
+      icon: "/assets/images/icons/st-line-chart.png"
+      description: "Most of the content consumed online is recommended by an algorithm. In particular, on YouTube, <b>70%</b> of videos viewed are <b>selected by the platform’s algorithms.</b>"
+
+    - title: "Recommendation algorithms don’t have your best interest in mind"
+      icon: "/assets/images/icons/st-shield.png"
+      description: "Platforms design their algorithms to maximize their <b>financial interests: generate clicks and ad-revenue.</b> This leads the algorithm to amplify the most attention-catching, sensationalist content. <br> <br> While a lot of attention is focused on moderating the most harmful content, we tend to think less about the more constructive approach: <b>how can we promote better content?</b>"
+
+    - title: "We trust YouTubers over YouTube"
+      icon: "/assets/images/icons/st-handshake.png"
+      description: "There isn’t a single ‘right way’ to make recommendations from a given video. And <b>algorithms are opinionated too</b>, especially when they try to boost ads revenues.       
+      <br><br>We believe that content creators, who are the lifeblood of YouTube, should be given the opportunity to recommend content from their own videos. And users should be able to choose the kind of recommendations they want to see."
+
+    - title: "You should be empowered to design your own information diet"
+      icon: "/assets/images/icons/st-startup.png"
+      description: "YouTube offers to control to customize one’s recommendations. Even when platforms are in a nearly monopolistic position - such as YouTube - platforms don’t allow users to choose, or to even customize their recommendation systems.
+      <br><br>We believe that users should be empowered to choose how they want their content to be recommended. They should also be able to <b>participate to the content curation</b>, and to share these contributions with their community."
+
+two_columns_area_one:
+  enable: true
+  image: "/assets/images/art/ui1.svg"
+  title: "Become a data-activist, and participate to the first-ever Shadow Ban Tester!"
+  btn_url: "#"
+  btn_text: "Data Donation "
+  description: |
+    <p>Our browser extension allows you to opt-in for an <b>anonymized collection</b> of your YouTube recommendations, to support public-interest research.
+        Indeed, despite the huge influence of YouTube’s recommender system, it is totally opaque: <b>YouTube does not provide any data to describe how it works.</b>
+        <br><br>The only way we can investigate YouTube, and expose the behavior of its algorithms, is with <b>your help</b>. By sharing your data, you also allow us to detect when the content creators you are subscribed to are being shadow banned, so we can collect evidences on this hidden censorship.</p>
+
+full_width_image:
+  enable: false
+  image: "/assets/images/art/bg8.svg"
+
+---
+
+
+
+<div class="wrapper overflow-top">
+  <div class="container inner">
+          <div class="row">
+            <div class="space160"></div>
+              <div class="col-md-9">
+                  {% if page.features_area.title %}
+                   <h2 class="title-color color-gray">{{page.features_area.title}}</h2>
+                  {% endif %}
+                  {% if page.features_area.sub_title %}
+                   <h2 class="display-3">{{page.features_area.sub_title}}</h2>
+                  {% endif %}
+              </div>
+          </div>
+          <div class="space80"></div>
+          {% if page.features_area.enable %}
+          <div class="row gutter-60 gutter-md-30">
+            {% for features in page.features_area.features %}
+            <div class="col-md-6 col-lg-3">
+                {% if features.icon %}
+                <div>
+                  <div class="icon icon-svg mr-25 mb-40">
+                    <img src="{{features.icon}}" alt="{{features.title}}"/>
+                  </div>
+                </div>
+                {% endif %}
+              <h5>{{features.title}}</h5>
+              <p>{{features.description}}</p>
+            </div>
+            {% endfor %}
+          </div>
+          <!--/.row -->
+          {% endif %}
+    {% if page.two_columns_area_one.enable %}
+    <div class="space120"></div>
+    <div class="row align-items-center">
+      {% if page.two_columns_area_one.image %}
+      <div class="col-lg-6">
+        <figure><img src="{{page.two_columns_area_one.image}}" alt="{{page.two_columns_area_one.title}}"/></figure>
+      </div>
+      {% endif %}
+      <!--/column -->
+      <div class="space40 d-lg-none"></div>
+      <div class="col-lg-6 pl-60 pl-md-15">
+        <h3 class="display-3">{{page.two_columns_area_one.title}}</h3>
+        <div class="space20"></div>
+         {{page.two_columns_area_one.description}}
+        <div class="space10"></div>
+        {% if page.two_columns_area_one.btn_url %}
+         <a href="{{page.two_columns_area_one.btn_url}}" class="btn btn-rose">{{page.two_columns_area_one.btn_text}}</a>
+        {% endif %}
+      </div>
+      <!--/column -->
+    </div>
+    <!--/.row -->
+    {% endif %}
+  <!-- /.container -->
+  {% if page.full_width_image.enable %}
+   <figure class="cover">
+     <img src="{{page.full_width_image.image}}" alt="{{page.full_width_image.image}}"/>
+  </figure>
+  {% endif %}
+</div>
+

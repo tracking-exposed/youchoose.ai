@@ -28,22 +28,22 @@ google_analytics:
 social_accounts:
   title: "Social Media"
   links:
-    - url: "#"
+    - url: "https://twitter.com/YouChooseAI"
       icon: "jam jam-twitter"
       
-    - url: "#"
+    - url: "https://www.youtube.com/channel/UCZQ6RK_b9grwh1V9zdo3exA"
       icon: "jam jam-youtube"
 
 
 external_links:
   title: "Learn More"
   links:
-    - url: "#"
+    - url: "/about"
       text: "About Us"
-    - url: "#"
-      text: "Projects"
-    - url: "#"
+    - url: "https://tracking.exposed/"
       text: "TrackingExposed"
+    - url: "https://tracking.exposed/manifesto/"
+      text: "Manifesto"
 
 
 external_links_02:
