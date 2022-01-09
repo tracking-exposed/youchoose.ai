@@ -2,126 +2,20 @@ main_menu:
 
   - text: "About"
     url: "/about"
-    has_submenu: "false"
 
   - text: "Philosophy"
     url: "/philosophy"
     menu_type: "dropdown"
-    submenu:
-      - text: "About Page"
-        url: "/about"
 
-      - text: "Portfolio"
-        url: "/portfolios/"
-
-      - text: "Contact"
-        url: "/contact"
-    has_submenu: "true"
-    sub_menu_text: "services"
-    label_two:
-      - text: "service 01"
-        url: "/services/index"
-
-      - text: "service 02"
-        url: "/services/index-2"
-
-      - text: "service 03"
-        url: "/services/index-3"
-
-      - text: "service 04"
-        url: "/services/index-4"
-
-
-    submenu:
-
-      - text: "Portfolio "
-        url: "/portfolio"
-
-      - text: "Contact"
-        url: "/contact"
-
-      - text: "About"
-        url: "/about"
-
-      - text: "service 04"
-        url: "/services/index-4"
-
-  - text: "Users"
+  - text: "Guide"
     url: "/"
     submenu:
 
-      - text: "Portfolio "
-        url: "/portfolio/"
+      - text: "Browser Extension"
+        url: "/addon"
 
-      - text: "Contact"
-        url: "/contact"
+      - text: "Content Creator Studio"
+        url: "/studio"
 
-      - text: "About"
-        url: "/about"
-
-      - text: "service 04"
-        url: "/services/index-4"
-        
-    menu_type: "dropdown"
-    has_submenu: "true"
-    sub_menu_text: "Elements"
-    label_two:
-      - text: "service 01"
-        url: "/services/index"
-
-      - text: "service 02"
-        url: "/services/index-2"
-
-      - text: "service 03"
-        url: "/services/index-3"
-
-      - text: "service 04"
-        url: "/services/index-4"
-
-  - text: "Youtubers"
-    url: "/portfolios/"
-    submenu:
-      - text: "Portfolio 02"
-        url: "/portfolios/index-2"
-
-      - text: "Portfolio 03"
-        url: "/portfolios/index-3"
-
-      - text: "Portfolio 04"
-        url: "/portfolios/index-4"
-
-      - text: "Portfolio 05"
-        url: "/portfolios/index-5"
-
-      - text: "Portfolio 06"
-        url: "/portfolios/index-6"
-
-      - text: "Portfolio 07"
-        url: "/portfolios/index-7"
-
-  - text: "Data donation"
-    url: "/"
-    submenu:
-      - text: "Blog 01"
-        url: "/blogs/index"
-
-      - text: "Blog 02"
-        url: "/blogs/index-2"
-
-      - text: "blog-3"
-        url: "/blogs/index-3"
-
-      - text: "blog-4"
-        url: "/blogs/index-4"
-
-      - text: "blog-5"
-        url: "/blogs/index-5"
-
-      - text: "blog-6"
-        url: "/blogs/index-6"
-
-      - text: "blog-7"
-        url: "/blogs/index-7"
-
-      - text: "blog-8"
-        url: "/blogs/index-8"
+      - text: "Data Donation"
+        url: "/data_donation"
