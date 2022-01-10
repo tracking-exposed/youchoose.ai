@@ -13,7 +13,7 @@ hero_area:
   enable: true
   title: "Human Recommendations on YouTube"
   sub_title: |
-    See suggestions from content creators 
+    Get suggestions from content creators
   button_text: "Download the extension"
   button_url: "#"
   header_image: "/assets/images/art/bg8.svg"
@@ -31,7 +31,7 @@ services_area:
       button_text: "be an early adopter"
       button_url: "#"
       lists:
-      - "Choose recommendations on your videos"
+      - "Choose the recommendations on your videos"
       - "Recommend content outside of YouTube"
       - "Analyse your algorithmic treatment"
 
@@ -41,9 +41,9 @@ services_area:
       button_text: "User guide"
       button_url: "#"
       lists:
-      - "Enhanced experience on YouTube.com"
-      - "Control your recommendation feed"
-      - "Get suggestions by your favourite YouTubers"
+      - "Enhanced experience directly on YouTube.com"
+      - "Choose the best recommendation feed for you"
+      - "Get suggestions from your favourite YouTubers"
 
 
 slider_area:
@@ -305,10 +305,10 @@ faq_area:
                     {% if page.services_area.enable %}
                     <div class="row gutter-60 text-center align-items-end">
                       {% for service in  page.services_area.services  %}
-                      <div class="col-md-4 mx-auto">
+                      <div class="col-md-5 mx-auto">
                         {% if service.image %}
                         <div class="img-blob blob8 mb-30">
-                          <img src="{{service.image}}" style="width: 30rem" alt="{{service.title}}"/>
+                          <img src="{{service.image}}" style="width: 15rem" alt="{{service.title}}"/>
                         </div>
                         {% endif %}
                         <h4>{{service.title}}</h4>
@@ -408,7 +408,7 @@ faq_area:
              data-hoffset="['500','500','390','420']"
              data-voffset="20" 
              data-frames='[{"delay":0,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-             data-visibility="['on','on','on','on']"
+             data-visibility="['on','on','on','off']"
              data-width="none" 
              data-height="none" 
              data-type="image" 
