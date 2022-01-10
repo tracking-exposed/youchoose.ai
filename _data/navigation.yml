@@ -8,7 +8,7 @@ main_menu:
     menu_type: "dropdown"
 
   - text: "Guide"
-    url: "/"
+    url: "/guide"
     submenu:
 
       - text: "Browser Extension"

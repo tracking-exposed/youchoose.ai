@@ -1,0 +1,68 @@
+---
+layout: page
+title: "How it works"
+sub_title: "interoperability between three different technologies"
+black_menu: true
+
+three_columns_area:
+  enable: true
+  title: ""
+  columns_data:
+    - title: "Browser extension"
+      image: "/assets/images/art/addon.png"
+      read_more_text: "For Users"
+      read_more_url: "/addon"
+
+    - title: "Recommendation Studio"
+      image: "/assets/images/art/studio.png"
+      read_more_text: "For Content Creators"
+      read_more_url: "/studio"
+
+    - title: "Data Donation"
+      image: "/assets/images/art/data.png"
+      read_more_text: "For Data-     Activists"
+      read_more_url: "/data_donation"
+
+---
+
+    <div class="container inner pt-80">
+       {% if page.three_columns_area.enable %}
+       <div class="three-columns-wrapper">
+          <div class="row">
+            <div class="col-md-9 mx-auto">
+               {% if page.three_columns_area.title %}
+                <h3 class="display-3 text-center">{{page.three_columns_area.title}}</h3>
+               {% endif %}
+            </div>
+          </div>
+          <div class="space40"></div>
+          <div class="grid grid-view boxed">
+            <div class="tiles text-center">
+              <div class="row isotope">
+                {% for data in page.three_columns_area.columns_data %}
+                <div class="item grid-sizer col-md-4 corporate application">
+                  <div class="box bg-white shadow p-30">
+                    <figure class="main overlay overlay1 rounded mb-30">
+                      <a href="{{data.read_more_url}}"><img src="{{data.image}}" alt="{{data.title}}"/></a>
+                      <figcaption>
+                        <h5 class="from-top text-uppercase mb-0">{{data.read_more_text}}</h5>
+                      </figcaption>
+                    </figure>
+                    <div class="post-content">
+                      <h5 class="text-uppercase mb-0">{{data.title}}</h5>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.box -->
+                </div>
+                {% endfor %}
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.tiles -->
+          </div>
+          <!-- /.grid-view -->
+        </div>
+        <div class="space120"></div>
+        {% endif %}
+    </div>
