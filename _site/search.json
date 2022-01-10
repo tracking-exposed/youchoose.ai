@@ -1,12 +1,30 @@
 [
   
     {
-      "title"    : "Data Donation",
+      "title"    : "Browser extension for &lt;br&gt;Youtube viewers",
+      "category" : "",
+      "tags"     : "technology, tutorial",
+      "url"      : "/addon",
+      "date"     : "2022-01-03 16:37:13 +0100",
+      "desc"     : "Browser extension for <br>Youtube viewers"
+    } ,
+  
+    {
+      "title"    : "Data Donation for activists and researchers",
       "category" : "",
       "tags"     : "technology, education, activism",
       "url"      : "/data_donation",
       "date"     : "2021-12-31 16:37:13 +0100",
-      "desc"     : "Data Donation"
+      "desc"     : "Data Donation for activists and researchers"
+    } ,
+  
+    {
+      "title"    : "Recommendation Studio for Content Creators",
+      "category" : "",
+      "tags"     : "technology, tutorial, DIY",
+      "url"      : "/studio",
+      "date"     : "2021-01-04 05:28:13 +0100",
+      "desc"     : "Recommendation Studio for Content Creators"
     } ,
   
     {

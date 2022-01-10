@@ -18,7 +18,7 @@ layout: default
             <div class="post-content">
               {% if page.categories %}
               <div class="category text-center">
-                <a href="/category/{{page.categories[0] | slugify}}" class="badge badge-pill bg-hibiscus">{{page.categories[0]}}</a>
+                <a href="/category/{{page.categories[0] | slugify}}" class="badge badge-pill bg-rose">{{page.categories[0]}}</a>
               </div>
               {% endif %}
               <h2 class="post-title text-center">{{page.title}}</h2>
@@ -63,7 +63,7 @@ layout: default
                     {% capture tags %}
                       {% for tag in page.tags %}
                         <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
-                           <a class="btn btn-s" href="/tag/{{tag |slugify}}">{{ tag }}</a>
+                           <a class="btn btn-s btn-teal" href="/tag/{{tag |slugify}}">{{ tag }}</a>
                         </li>
                       {% endfor %}
                     {% endcapture %}
@@ -176,18 +176,15 @@ layout: default
   <!-- /.container -->
 </div>
 <!-- /.wrapper -->
-<div class="wrapper gray-wrapper">
+<!--<div class="wrapper gray-wrapper">
   <div class="container inner">
     <div class="row">
       <div class="col-lg-10 mx-auto">
         {% include disqus_comments.html %}
       </div>
-      <!-- /column -->
     </div>
-    <!-- /.row -->
   </div>
-  <!-- /.container -->
 </div>
-<!-- /.wrapper -->
+/.wrapper -->
 {% include footer_3.html light_logo="true" %}
 </div>
