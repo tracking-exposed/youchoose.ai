@@ -29,11 +29,9 @@ social_accounts:
   title: "Social Media"
   links:
     - url: "https://twitter.com/YouChooseAI"
-      icon: "jam jam-twitter"
-      
+      icon: "jam jam-twitter"      
     - url: "https://www.youtube.com/channel/UCZQ6RK_b9grwh1V9zdo3exA"
       icon: "jam jam-youtube"
-
 
 external_links:
   title: "Learn More"
@@ -97,16 +95,27 @@ one_page_nav_settings:
       url: "#contact"
 
 author_page_header:
-  header_background_image: "/assets/images/art/bg31.jpg"
+  header_background_image: "/assets/images/art/bg8.svg"
 
 gallery:
   images:
   - img: "/assets/images/art/z7bn.png" #trex
+    url: "https://tracking.exposed/"
   - img: "/assets/images/art/z9bn.png" #ledger
+    url: "https://ledgerproject.eu/"
   - img: "/assets/images/art/z11bn.png" #eucommission
+    url: "https://ec.europa.eu/info/index_en"
   - img: "/assets/images/art/z10bn.png" #hermes
+    url: "https://www.hermescenter.org/"
   - img: "/assets/images/art/z12bn.png" #berkley
+    url: "www.ischool.berkeley.edu"
   - img: "/assets/images/art/z13bn.png" #ovh
+    url: "https://www.ovhcloud.com"
   - img: "/assets/images/art/z4bn.png" #blumorpho
+    url: "https://blumorpho.org"
   - img: "/assets/images/art/z6bn.png" #ai forensics
+    url: "https://www.aiforensics.org/"
   - img: "/assets/images/art/z15bn.png" #dyne
+    url: "https://www.dyne.org/"
+  - img: "/assets/images/art/z16bn.png" #cdm
+    url: "https://competitivedigitalmarkets.eu/"

@@ -113,7 +113,7 @@ layout: default
             {% if author_data.social_accounts %}
             <ul class="social">
               {% for author_social in author_data.social_accounts %}
-               <li><a href="{{author_social.url}}"><i class="{{author_social.icon}}"></i></a></li>
+               <li><a href="{{author_social.url}}" target=blank><i class="{{author_social.icon}}"></i></a></li>
               {% endfor %}
             </ul>
             {% endif %}

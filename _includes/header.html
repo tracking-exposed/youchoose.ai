@@ -17,7 +17,7 @@
         </li>
         <ul class="social social-mute social-s ml-auto mr-25 d-none d-sm-block">
           {% for social_info in site.data.general_settings.social_accounts.links %}
-          <li><a href="{{social_info.url}}"><i class="{{social_info.icon}}"></i></a></li>
+          <li><a href="{{social_info.url}}" target=blank><i class="{{social_info.icon}}"></i></a></li>
           {% endfor %}
         </ul>
         <!-- <li class="dropdown search-dropdown position-static nav-item">
@@ -141,7 +141,7 @@
     {% endif %}
     <ul class="list-unstyled">
      {% for external_link in site.data.general_settings.external_links.links %}
-      <li><a href="{{external_link.url}}" class="nocolor">{{external_link.text}}</a></li>
+      <li><a href="{{external_link.url}}" target=blank class="nocolor">{{external_link.text}}</a></li>
      {% endfor %}
     </ul>
   </div>
@@ -152,7 +152,7 @@
     {% endif %}
     <ul class="social social-mute social-s ml-auto">
       {% for social_info in site.data.general_settings.social_accounts.links %}
-      <li><a href="{{social_info.url}}"><i class="{{social_info.icon}}"></i></a></li>
+      <li><a href="{{social_info.url}}" target=blank><i class="{{social_info.icon}}"></i></a></li>
       {% endfor %}
     </ul>
   </div>
