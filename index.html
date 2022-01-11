@@ -28,18 +28,18 @@ services_area:
     - title: "Content Creators"
       image: "/assets/images/art/i1.png"
       description: 
-      button_text: "be an early adopter"
+      button_text: "Choose your Recommendations"
       button_url: "/studio"
       lists:
-      - "Choose the recommendations on your videos"
-      - "Recommend content outside of YouTube"
-      - "Analyse your algorithmic treatment"
+      - "Pick the recommendations on your own videos"
+      - "Can link to other websites than YouTube"
+      - "Analyse how the algorithm treats your content"
 
     - title: "Users"
       image: "/assets/images/art/i2.png"
       description: 
-      button_text: "User guide"
-      button_url: "/guide"
+      button_text: "Discover the Extension"
+      button_url: "/addon"
       lists:
       - "Enhanced experience directly on YouTube.com"
       - "Choose the best recommendation feed for you"
@@ -49,26 +49,26 @@ services_area:
 slider_area:
   enable: true
   sliders:
-    - title: "Pick recommendations on your videos"
-      sub_title: "Please your audience with your best suggestions"
+    - title: "Pick Recommendations on Your Own Videos"
+      sub_title: "Engage your audience with your best suggestions"
       image: "/assets/images/concept/screen-lab.png"
       bg_image: "/assets/images/concept/bgg4.svg"
       button_text: "Learn More" 
-      button_url: "#"
+      button_url: "/studio"
 
-    - title: "Discover what is recommended to your audience"
-      sub_title: "Is the algorithm shadowbanning you?"
+    - title: "Analyse Your Algorithmic Treatment"
+      sub_title: "Discover which ads and videos get recommended on your content"
       image: "/assets/images/concept/screen-analytics.png"
       bg_image: "/assets/images/concept/bgg5.svg"
       button_text: "Learn More" 
-      button_url: "#"
+      button_url: "/studio"
     
-    - title: "Choose Your Recommender System"
-      sub_title: "Toggle between YouTube'AI and alternative recommender systems"
+    - title: "Choose Your Preferred Recommender System"
+      sub_title: "Toggle between recommendations from Content Creators or YouTube"
       image: "/assets/images/concept/screen-yt.png"
       bg_image: "/assets/images/concept/bgg3.svg"
       button_text: "Learn More" 
-      button_url: "#"
+      button_url: "/addon"
 
 
 video:
@@ -82,18 +82,25 @@ two_column_one:
   enable: true
   title: "YouChoose is built by a non-profit. We promote an internet made for users, not for corporations!"
   image: "/assets/images/art/nonprofit.svg"
-  button_text: "More About Us"
-  button_url: "#"
+  button_text: "Our Philosophy"
+  button_url: "/philosophy"
   paragraphs:
     - text: |
-        We want to make third-party recommendation systems interoperable on YouTube, cause algorithms are opinionated too, especially when they try to boost ads revenues.      
+        Recommendation algorithms are the gatekeepers of the internet.
+        Though, they are optimized to maximize profits, not your own interest.
+        Gaining access to recommendations from content creators is the just the first step towards algorithmic freedom.
     - text: |
-        We believe users should be in control of their informational diet, and have the agency to decide who to trust. They should also be able to participate to the content curation, and to share these contributions with their community.
+        A variety of alternative recommendation feeds will soon be available through YouChoose, such as Tournesol.app.
+        By making third-party systems interoperable with YouTube, YouChoose empowers a new ecosystem to thrive, where content curation can be decentralized and shared among users.
+    - text: |
+        Together, we can break free from algorithmic monopolies!
+
+
 
 page_content:
-  title: "Beta Testing Soon!"
-  sub_title: "Our tool is almost up for review. Estimated Time Remaining:"
-  date: "Feb 14 2022"
+  title: "We are currently beta testing!"
+  sub_title: "Reach out to help us review the tool. Estimated time before the public lauch:"
+  date: "Feb 8 2022"
 
 progress_area:
   enable: true
@@ -101,19 +108,82 @@ progress_area:
   sub_title: "Working hard "
   lists:
     - title: "Development"
-      description: "Our code is available on Github"
-      numbers: 65
+      description: "Robust free-software"
+      numbers: 80
       bar_color: "green"
 
     - title: "Design"
       description: "Humans first and user friendly"
-      numbers: 40
+      numbers: 55
       bar_color: "yellow"
     
-    - title: "Strategy"
-      description: "We believe in word of mouth"
+    - title: "Outreach"
+      description: "We rely on word of mouth"
       numbers: 20
       bar_color: "rose"
+
+clients_carousel:
+  enable: true
+  title: "Sponsors and mentors"
+
+
+faq_area:
+  enable: true
+  title: "FAQ"
+  sub_title: "Questions?"
+  image: "/assets/images/concept/faq.png"
+  tabs:
+    - question: "Can I use the tool for free?"
+      answer: |
+        Yes. YouChoose is freeware, which means all of its functionalities are free to be used for no cost.<br><br>
+        Though, if you believe in the project, you can make a donation which will be used to support its development.
+
+    - question: "If it's free, how do you financially sustain the project?"
+      answer: |
+        YouChoose is built by a non-profit organization, which is funded by grants and donation.<br><br>
+        The goal is not to make money, but to empower internet users to gain agency back from the huge tech platforms.
+        This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.
+
+    - question: "Do I need to create an account to use Youchoose?"
+      answer: |
+        No. If you are a user, you just need to download the extension, and you are ready to go.<br><br>
+        If you are a Content Creator, we will just need you to demonstrate that you effectively own your Youtube channel.
+        The process takes 2 minutes and consists in posting a unique code from your YouTube account. Then you can start customizing your recommendations!
+
+    - question: "Who can see my recommendations?"
+      answer: |
+        When you add custom recommendations, they will be visible directly on YouTube.com to any user who has the YouChoose extension enabled on their browser.
+
+    - question: "What is the Data Donation feature?"
+      answer: |
+        As part of our mission to defend internet users against corporations, we investigate the platform's algorithm. We share our results with content creators, regulators, and you.
+        Our efforts are made possible thanks to the YouChoose users who enable Data Donation on their extension, which shares the recommendation made by YouTube's AI with our server.<br><br>
+        Data donation is disabled by default, please enable it to help us watch on BigTech! [Learn more](https://youchoose.ai/data-donation).
+
+    - question: "If I enable Data Donation, will my records be safe?"
+      answer: |
+        Yes. If you enable data donation, your data will be sent over an encrypted channel, and fully anonymised.
+        We don't collect any of your personal data, only the recommendations send to you by YouTube. But we decided to go even further, so that they could never be linked back to you.<br><br>
+        The recommendations are stored in Zero-Knowledge database, which means that every recommendation record is signed with a unique cryptographic token, generated with your private key.
+        Because only you have this private key, only you can claim these records, aggregate them, or delete them. No one else can relink your contributions together.
+        Not even us, or any hypothetical attacker who would breach into the database. [Learn more](https://youchoose.ai/data-donation).
+
+    - question: "Why do we need different recommendations?"
+      answer: |
+        The vast majority of the content we watch on YouTube is recommended by one of YouTube's algorithm. Though, these systems are not neutral, and they are optimised for the platform's profit, not your best interest.<br><br>
+        In order to maximise engagement and ad revenues, the algorithm tends to amplify the most attention-catching and sensationalist content, which is typically not the highest quality content.<br><br>
+        Even when YouTube makes good recommendations, the underlying system remains opaque, unaccountable, and is not customizable. There are various good approaches to recommend content, and you should have options to choose which is best for you.
+
+    - question: "I love what you are doing! How can I help?"
+      answer: |
+        We appreciate your support, it can take many forms!<br><br>
+        A good start is to share YouChoose on social media and with your network. We don't have an advertising budget, so we rely on word of mouth to promote the tool.<br><br>
+        If you are a content creator, it is extremely helpful if you can introduce YouChoose in one of your videos. The more your audience downloads YouChoose, the more your recommendations will be seen, and the richer your analytics data will be.<br><br>
+        If you use YouChoose, please enable Data Donation. Your help is essential to scrutinize YouTube's algorithm.<br><br>
+        If you are a developer, you can have a look at our GitHub issues, or reach out by email to discuss how we can collaborate on the code.<br><br>
+        If you have any spare time or other skills to share, you surely can contribute. We would appreciate help in outreach efforts, UX research, design, fundraising... We are still a small and a bit understaffed team, so you can make a real impact!
+        Finally, please consider donating money or crypto to support the development of the project 🙏
+
 
 two_column_two:
   enable: false
@@ -123,10 +193,9 @@ two_column_two:
   button_url: "#"
   paragraphs:
     - text: |
-         
-    - text: |
-        We believe users should be in control of their informational diet, and have the agency to decide who to trust. 
 
+    - text: |
+        We believe users should be in control of their informational diet, and have the agency to decide who to trust.
 
 two_column_three:
   enable: false
@@ -149,53 +218,18 @@ testimonials:
         Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat.
       name: "Cornelia Gibson"
       designation: "Financial Analyst"
-  
+
     - quote: |
-        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus. 
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus.
       name: "Coriss Ambady"
       designation: "Marketing Specialist"
-  
+
     - quote: |
         Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget.
       name: "Barclay Widerski"
       designation: "Sales Manager"
 
-clients_carousel:
-  enable: true
-  title: "Sponsors and mentors"
 
-faq_area:
-  enable: true
-  title: "FAQ"
-  sub_title: "If you don't see an answer to your question, please send us an email, we will be happy to hear from you."
-  image: "/assets/images/concept/faq.png"
-  tabs:
-    - question: "Can I use the tool for free?"
-      answer: |
-        Yes, YouChoose is freeware, that means that is available for use at no monetary cost or for an optional fee.
-
-    - question: "Do I need to create an account to use Youchoose?"
-      answer: |
-        No, our innovative system allows you to demonstrate that you are in control of the Youtube channel. All you have to do is to publish a key we provide you in your channel description. When the linking process succeed you can simply remove it.
-
-    - question: "Who can see my recommendations?"
-      answer: |
-        Whoever has activated YouChoose in their browser can see your suggestions on your content. 
-
-    - question: "Are my data safe?"
-      answer: |
-        With YouChoose, you can choose to share anonymised data of what YouTube's AI serves you.<br><br>
-        Each data record is sent over an encrypted channel and signed with a unique, single-use token, generated with your private key.<br><br>
-        Because only you have this private key, only you can claim these records, aggregate them, or delete them. No one else can relink your contributions, not even us.
-
-    - question: "Why do we need different recommendations?"
-      answer: |
-        Recommendation algorithms don't have your best interest in mind.<br>
-        Platforms design their algorithms to maximize their financial interests: generate clicks and ad-revenue. This leads the algorithm to amplify the most attention-catching, sensationalist content. <br><br>You should be empowered to design your own information diet.
-    
-    - question: "How do you sustain the project?"
-      answer: |
-        Our organization is a not-for-profit, so the objective of this tool is not to maximize revenues. It is a strong political move in line with our activist views to promote a decentralization of the web outside of the huge platforms. <br><br>This project has received funding from the European Union’s Horizon 2020 research and innovation programme within the framework of the LEDGER Project funded under grant agreement No 825268.
 ---
 
 <link rel="stylesheet" type="text/css" href="/assets/css/color/cobalt.css" />
