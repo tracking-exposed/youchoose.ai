@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-12T16:00:58+01:00</updated><id>http://localhost:4000/index.xml</id><title type="html">Youchoose</title><subtitle>Youchoose is an environment that allows you to experience a different recommendation system. What you need to see new content is a browser extension, available for Chrome and Firefox. Algorithms are opinionated too, especially when they try to boost ads revenues.</subtitle><entry><title type="html">Browser extension for Youtube viewers</title><link href="http://localhost:4000/addon" rel="alternate" type="text/html" title="Browser extension for Youtube viewers" /><published>2022-01-03T16:37:13+01:00</published><updated>2022-01-03T16:37:13+01:00</updated><id>http://localhost:4000/addon</id><content type="html" xml:base="http://localhost:4000/addon">&lt;p&gt;A browser extension is a small software module for customizing a web browser. Browsers typically allow a variety of extensions, including user interface modifications, cookie management, ad blocking, and the custom scripting and styling of web pages.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-12T19:12:30+01:00</updated><id>http://localhost:4000/index.xml</id><title type="html">Youchoose</title><subtitle>Youchoose is an environment that allows you to experience a different recommendation system. What you need to see new content is a browser extension, available for Chrome and Firefox. Algorithms are opinionated too, especially when they try to boost ads revenues.</subtitle><entry><title type="html">Browser extension for Youtube viewers</title><link href="http://localhost:4000/addon" rel="alternate" type="text/html" title="Browser extension for Youtube viewers" /><published>2022-01-03T16:37:13+01:00</published><updated>2022-01-03T16:37:13+01:00</updated><id>http://localhost:4000/addon</id><content type="html" xml:base="http://localhost:4000/addon">&lt;p&gt;A browser extension is a small software module for customizing a web browser. Browsers typically allow a variety of extensions, including user interface modifications, cookie management, ad blocking, and the custom scripting and styling of web pages.&lt;/p&gt;
 
 &lt;p&gt;That’s why we decided to use this kind of technology to customize your YouTube appearence directly while you are youtubing. This is the technology that allows you to choose to see what youtubers recommend you, confront it with what the Youtube’s algorithm recommend, or hide all the &lt;del&gt;distractions&lt;/del&gt; recommendations. All you have to do is download it from your browser’s store.&lt;/p&gt;
 
@@ -42,13 +42,21 @@ Each content creator has a personnal YouChoose dashboard, which tells them the c
 &lt;img src=&quot;/assets/images/art/LAB.png&quot; style=&quot;max-width: 100%; height: auto;&quot; alt=&quot;screenshot from the webapp&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Screenshot from the YouChoose webapp&lt;/code&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;easily-recommended&quot;&gt;Easily Recommended&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+We tried to make the experience user friendly and any feedback is welcome and appreciated. Choosing a new recommendation to your videos is as simple as sharing a link with a friend:
+&lt;br /&gt;&lt;br /&gt;  &lt;br /&gt;
+&lt;img src=&quot;/assets/images/art/recommend_url.gif&quot; style=&quot;max-width: 85%; height: auto;&quot; alt=&quot;screenshot from the webapp&quot; /&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;recommend-easy&quot;&gt;Recommend easy&lt;/h1&gt;
+&lt;p&gt;Once your recommendation is added, you may want to edit the title and the description for various reasons. Some of you know the shocking truth: clickbaits titles work.
+On the other hand, headlines can convince someone to open the content you suggested. The connection you are going to create with your subscribers and Youchoose users is on a new level of awareness.&lt;/p&gt;
 
-&lt;p&gt;We tried to make the experience user friendly and any feedback is welcome and appreciated. As simple as sharing a link with a friend:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/art/recommend_url.gif&quot; style=&quot;max-width: 100%; height: auto;&quot; alt=&quot;screenshot from the webapp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/art/screen_edit.png&quot; style=&quot;max-width: 100%; height: auto;&quot; alt=&quot;screenshot from the webapp&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Remember to consider to &lt;a href=&quot;/data_donation&quot;&gt;donate&lt;/a&gt; what Youtube’s algorithm would like to show you.
 To see what you recommend directly on Youtube, download the &lt;a href=&quot;/addon&quot;&gt;Browser Extension&lt;/a&gt; for &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/youchoose-ai/&quot;&gt;Firefox&lt;/a&gt; or &lt;a href=&quot;https://chrome.google.com/webstore/detail/youchooseai/lgmednoogihobpaccmabclghbmjiidkh&quot;&gt;Chrome&lt;/a&gt;.&lt;/p&gt;
