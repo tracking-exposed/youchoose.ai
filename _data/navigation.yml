@@ -3,6 +3,7 @@ main_menu:
   - text: "About"
     url: "/about"
 
+
   - text: "Philosophy"
     url: "/philosophy"
     menu_type: "dropdown"
