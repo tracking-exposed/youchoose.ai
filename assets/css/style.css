@@ -122,34 +122,13 @@ button:focus {
 /*  02. GENERAL
 /*-----------------------------------------------------------------------------------*/
 
-@font-face {
-    font-family: 'Trex';
-    src: url('./font/Trex-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Trex';
-    src: url('./font/Trex-Medium.ttf');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Trex';
-    src: url('./font/Trex-Bold.ttf');
-    font-weight: 800;
-    font-style: normal;
-}
-
 html {
     font-size: 20px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Trex';
+    font-family: 'Jost', sans-serif;
     color: #606060;
     font-size: 0.8rem;
     background: #f9fafb;
