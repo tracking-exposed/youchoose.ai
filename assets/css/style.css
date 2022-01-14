@@ -121,13 +121,35 @@ button:focus {
 /*-----------------------------------------------------------------------------------*/
 /*  02. GENERAL
 /*-----------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Trex';
+    src: url('./font/Trex-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trex';
+    src: url('./font/Trex-Medium.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trex';
+    src: url('./font/Trex-Bold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
 html {
     font-size: 20px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Trex';
     color: #606060;
     font-size: 0.8rem;
     background: #f9fafb;
@@ -6914,10 +6936,10 @@ footer.inverse-text address {
     .inner {
         padding-top: 4rem;
         padding-bottom: 4rem;
-    }   
+    }
     .inner-top {
         padding-top: 4rem;
-    }    
+    }
     .inner-bottom {
         padding-bottom: 4rem;
     }
@@ -6926,10 +6948,10 @@ footer.inverse-text address {
     }
     footer .inner-top {
         padding-top: 4rem;
-    }      
+    }
     footer .inner-bottom {
         padding-bottom: 4rem;
-    }  
+    }
     .page-title-wrapper .inner {
         padding-top: 3rem;
     }
