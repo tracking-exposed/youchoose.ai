@@ -722,7 +722,9 @@
   <!-- /.container -->
 </footer>
 
-<script type="text/javascript">$("#special--click--management").click(function(evnt) {
+<script type="text/javascript">
+function init(){
+  $("#special--click--management").click(function(evnt) {
   evnt.preventDefault();
   $("#mail--button").text("...");    fetch(buildApiUrl("registerEmail", null, 3), {
 	method: 'POST',
@@ -745,7 +747,12 @@
 	else
 	  $("#mail--button").text("<error>");
   });
-});</script>
+});
+}
+document.addEventListener("DOMContentLoaded", function(event) { 
+  init()
+});
+</script>
 
   </div>
   <script src="/assets/js/jquery.min.js"></script>

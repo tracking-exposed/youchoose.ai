@@ -503,7 +503,7 @@ canvas {
     min-width: 170px;
     padding: 0;
     margin: 0;
-    background: #1e2228;
+    background: #1A030E;
     border: 0;
     border-radius: 0;
     border-bottom-left-radius: 0.2rem;
@@ -6735,7 +6735,7 @@ footer.inverse-text address {
         padding-bottom: 0.5rem;
         overflow-y: auto;
         visibility: hidden;
-        background: #1e2228;
+        background: #1A030E;
         -webkit-transition-timing-function: ease-in-out;
              -o-transition-timing-function: ease-in-out;
                 transition-timing-function: ease-in-out;
