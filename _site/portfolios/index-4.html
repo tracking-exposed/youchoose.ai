@@ -461,11 +461,19 @@
           
           <div class="space10"></div>
           <div class="newsletter-wrapper">
-            <form action="https://formsubmit.io/send/youchoose@tracking.exposed" target="_blank">
+            <!--<form action="https://formsubmit.io/send/youchoose@tracking.exposed" target="_blank">
               <div id="mc_embed_signup_scroll" class="input-group">
                 <input type="email"  name="user_email" class="email form-control mb-0 mr-2 mb-sm-0"  placeholder="Email Address" required>
                 <button type="submit" class="btn btn-rounded btn-rose mr-0 mb-0 pull-right">
                 Join
+               </button>
+              </div>
+            </form>-->
+            <form>
+              <div id="mc_embed_signup_scroll" class="input-group">
+              <input type="email" id="email--address" class="email form-control mb-0 mr-2 mb-sm-0"  placeholder="Email Address" required>
+              <button id="special--click--management" class="btn btn-rounded btn-rose mr-0 mb-0 pull-right">
+              <span id="mail--button">site.data.general_settings.footer_newsletter.subscribe_button_text</span> 
                </button>
               </div>
             </form>
@@ -481,6 +489,30 @@
   <!-- /.container -->
 </footer>
 
+<script type="text/javascript">$("#special--click--management").click(function(evnt) {
+  evnt.preventDefault();
+  $("#mail--button").text("...");    fetch(buildApiUrl("registerEmail", null, 3), {
+	method: 'POST',
+	headers: {
+	  'Content-Type': 'application/json'
+	},
+	body: JSON.stringify({
+	  'email': $('#email--address').val(),
+	  'reason': 'update--on--YCAI--release',
+	})
+  })
+  .then(function(result) {
+	console.log(result.status);
+	if(result.status === 403)
+	  $("#mail--button").text(":boom:");
+	else if(result.status === 200)
+	  $("#mail--button").text(":+1:");
+	else if(result.status === 201)
+	  $("#mail--button").text(":raising_hand:");
+	else
+	  $("#mail--button").text("<error>");
+  });
+});</script>
 
   </div>
   <script src="/assets/js/jquery.min.js"></script>
