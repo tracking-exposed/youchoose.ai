@@ -122,34 +122,13 @@ button:focus {
 /*  02. GENERAL
 /*-----------------------------------------------------------------------------------*/
 
-@font-face {
-    font-family: 'Trex';
-    src: url('./font/Trex-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Trex';
-    src: url('./font/Trex-Medium.ttf');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Trex';
-    src: url('./font/Trex-Bold.ttf');
-    font-weight: 800;
-    font-style: normal;
-}
-
 html {
     font-size: 20px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Trex';
+    font-family: 'Jost', sans-serif;
     color: #606060;
     font-size: 0.8rem;
     background: #f9fafb;
@@ -524,7 +503,7 @@ canvas {
     min-width: 170px;
     padding: 0;
     margin: 0;
-    background: #1e2228;
+    background: #1A030E;
     border: 0;
     border-radius: 0;
     border-bottom-left-radius: 0.2rem;
@@ -6756,7 +6735,7 @@ footer.inverse-text address {
         padding-bottom: 0.5rem;
         overflow-y: auto;
         visibility: hidden;
-        background: #1e2228;
+        background: #1A030E;
         -webkit-transition-timing-function: ease-in-out;
              -o-transition-timing-function: ease-in-out;
                 transition-timing-function: ease-in-out;

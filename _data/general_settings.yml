@@ -36,12 +36,11 @@ social_accounts:
       icon: "jam jam-github"
 
 external_links:
-  title: "Learn More"
+  title: "Developed by"
   links:
-    - url: "/about"
-      text: "About Us"
     - url: "https://tracking.exposed/"
-      text: "TrackingExposed"
+      text: ""
+      logo: "/assets/images/art/z7w.png"
     - url: "https://tracking.exposed/manifesto/"
       text: "Manifesto"
 
