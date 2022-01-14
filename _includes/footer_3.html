@@ -47,7 +47,7 @@
           {% endif %}
           <ul class="list-unstyled mb-0">
             {% for links in external_links.links %}
-            <li><a href="{{libks.url}}">{{links.text}}</a></li>
+            <li><a href="{{links.url}}" target=blank><img src="{{links.logo}}" class="mt-10 mb-10" />{{links.text}}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -84,3 +84,4 @@
   </div>
   <!-- /.container -->
 </footer>
+

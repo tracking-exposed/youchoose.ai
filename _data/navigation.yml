@@ -9,8 +9,8 @@ main_menu:
     url: "/philosophy"
     menu_type: "dropdown"
 
-  - text: "Guide"
-    url: "/guide"
+  - text: "Overview"
+    url: "/overview"
     submenu:
 
       - text: "Browser Extension"
