@@ -32,6 +32,8 @@ social_accounts:
       icon: "jam jam-twitter"      
     - url: "https://www.youtube.com/channel/UCZQ6RK_b9grwh1V9zdo3exA"
       icon: "jam jam-youtube"
+    - url: "https://github.com/tracking-exposed/yttrex"
+      icon: "jam jam-github"
 
 external_links:
   title: "Learn More"
@@ -99,8 +101,8 @@ author_page_header:
 
 gallery:
   images:
-  - img: "/assets/images/art/z7bn.png" #trex
-    url: "https://tracking.exposed/"
+#  - img: "/assets/images/art/z7bn.png" trex
+#    url: "https://tracking.exposed/"
   - img: "/assets/images/art/z9bn.png" #ledger
     url: "https://ledgerproject.eu/"
   - img: "/assets/images/art/z11bn.png" #eucommission
