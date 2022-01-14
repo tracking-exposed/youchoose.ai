@@ -98,7 +98,7 @@ function init() {
   $("#special--click--management").click(function(evnt) {
   evnt.preventDefault();
   $("#mail--button").text("...");    
-  const url = "/api/v3/registerEmail";
+  const url = "https://youchoose.ai/api/v3/registerEmail";
   const emailAddress = $('#email--address').val();
   console.log(url, emailAddress);
   fetch(url, {
@@ -114,11 +114,11 @@ function init() {
   .then(function(result) {
 	console.log(result.status);
 	if(result.status === 403) // error emoji
-	  $("#mail--button").text(":boom:");
+	  $("#mail--button").text("💥");
 	else if(result.status === 200) // thanks you subscribe
-	  $("#mail--button").text(":+1:");
+	  $("#mail--button").text("👍");
 	else if(result.status === 201) // we saw you again
-	  $("#mail--button").text(":raising_hand:");
+	  $("#mail--button").text("🙋");
 	else
 	  $("#mail--button").text("<error>");
     });

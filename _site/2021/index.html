@@ -322,34 +322,39 @@
 </footer>
 
 <script type="text/javascript">
-function init(){
+function init() {
   $("#special--click--management").click(function(evnt) {
   evnt.preventDefault();
-  $("#mail--button").text("...");    fetch(buildApiUrl("registerEmail", null, 3), {
+  $("#mail--button").text("...");    
+  const url = "https://youchoose.ai/api/v3/registerEmail";
+  const emailAddress = $('#email--address').val();
+  console.log(url, emailAddress);
+  fetch(url, {
 	method: 'POST',
 	headers: {
 	  'Content-Type': 'application/json'
 	},
 	body: JSON.stringify({
-	  'email': $('#email--address').val(),
+	  'email': emailAddress,
 	  'reason': 'update--on--YCAI--release',
 	})
   })
   .then(function(result) {
 	console.log(result.status);
-	if(result.status === 403)
-	  $("#mail--button").text(":boom:");
-	else if(result.status === 200)
-	  $("#mail--button").text(":+1:");
-	else if(result.status === 201)
-	  $("#mail--button").text(":raising_hand:");
+	if(result.status === 403) // error emoji
+	  $("#mail--button").text("💥");
+	else if(result.status === 200) // thanks you subscribe
+	  $("#mail--button").text("👍");
+	else if(result.status === 201) // we saw you again
+	  $("#mail--button").text("🙋");
 	else
 	  $("#mail--button").text("<error>");
+    });
   });
-});
 }
+
 document.addEventListener("DOMContentLoaded", function(event) { 
-  init()
+  init();
 });
 </script>
 
