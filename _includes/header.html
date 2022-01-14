@@ -20,20 +20,6 @@
           <li><a href="{{social_info.url}}" target=blank><i class="{{social_info.icon}}"></i></a></li>
           {% endfor %}
         </ul>
-        <!-- <li class="dropdown search-dropdown position-static nav-item">
-          <a href="#" role="button" class="collapse-toggle" data-toggle="collapse" data-target=".search-dropdown-menu" aria-haspopup="true" aria-expanded="false"><i class="jam jam-search"></i></a>
-          <div class="dropdown-menu search-dropdown-menu w-100 collapse">
-            <div class="form-wrapper">
-              <form class="inverse-text">
-                <input type="text" id="search-input" class="form-control" placeholder="Search blog posts.."/>
-                <i class="dropdown-close jam jam-close"></i>
-              </form>
-               /.search-form 
-            </div>
-            /.form-wrapper 
-           <ul id="results-container" class="position-static"></ul>
-          </div>
-        </li> -->
         <li class="nav-item"><button class="plain d-none d-sm-block" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button></li>
       </ul>
       <!-- /.navbar-nav -->
@@ -49,65 +35,26 @@
       	{% for menu in site.data.navigation.main_menu %}
       	{% assign check_menu = menu.menu_type %}
       	{% case check_menu %}
-        {% when "megamenu" %} 
-        <li class="nav-item">
-        <a class="nav-link" href="{{menu.url}}">{{menu.text}}</a>
-          <ul class="dropdown-menu mega-menu boxed list-view text-left">
-            <li class="mega-menu-content">
-              <div class="row">
-                {% for column in menu.submenu cols: 4 %}
-                <div class="col-lg-3">
-                  <ul class="list-unstyled">
-                    <li><a class="dropdown-item" href="{{column.url}}">{{column.text}}</a></li>
-                  </ul>
-                </div>
-                <!--/column -->
-                {% endfor %}
-              </div>
-              <!--/.row -->
-            </li>
-            <!--/.mega-menu-content-->
-          </ul>
-          <!--/.dropdown-menu -->
-        </li>
         {% when "dropdown" %}
         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="{{menu.url}}">{{menu.text}}</a>
-          <ul class="dropdown-menu">
-          	{% if menu.label_two %}
-    			 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">{{menu.sub_menu_text}}</a>
-    			   <ul class="dropdown-menu">
-    			   	 {% for label_two in menu.label_two %}
-    			      <li class="nav-item"><a class="dropdown-item" href="{{label_two.url}}">{{label_two.text}}</a></li>
-    			   	 {% endfor %}
-    			   </ul>
-    			 </li>
-			   {% endif %}
-			 {% if menu.submenu %}
-			  {% for label_one in menu.submenu %}
-              <li><a class="dropdown-item" href="{{label_one.url}}">{{label_one.text}}</a></li>
-              {% endfor %}
-              {% endif %}
-          </ul>
+            {% if menu.submenu %}
+              <ul class="dropdown-menu">
+                  {% for label_one in menu.submenu %}
+                    <li><a class="dropdown-item" href="{{label_one.url}}">{{label_one.text}}</a></li>
+                  {% endfor %}
+              </ul>
+            {% endif %}
         </li>
         {% else %}
-        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="{{menu.url}}">{{menu.text}}</a>
-          <ul class="dropdown-menu">
-          	{% if menu.label_two %}
-			 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">{{menu.sub_menu_text}}</a>
-			   <ul class="dropdown-menu">
-			   	 {% for label_two in menu.label_two %}
-			      <li class="nav-item"><a class="dropdown-item" href="{{label_two.url}}">{{label_two.text}}</a></li>
-			   	 {% endfor %}
-			   </ul>
-			 </li>
-			 {% endif %}
-			 {% if menu.submenu %}
-			  {% for label_one in menu.submenu %}
-              <li><a class="dropdown-item" href="{{label_one.url}}">{{label_one.text}}</a></li>
-        {% endfor %}
-        {% endif %}
-          </ul>
-        </li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="{{menu.url}}">{{menu.text}}</a>
+            {% if menu.submenu %}
+                  <ul class="dropdown-menu">
+                    {% for label_one in menu.submenu %}
+                          <li><a class="dropdown-item" href="{{label_one.url}}">{{label_one.text}}</a></li>
+                    {% endfor %}
+                  </ul>
+              {% endif %}
+          </li>
         {% endcase %}
       	{% endfor %}
       </ul>
@@ -132,7 +79,7 @@
            <address>{{site.data.general_settings.address_01}}</address>
           {% endif %}
            <a href="mailto:{{site.data.general_settings.email}}">{{site.data.general_settings.email}}</a><br />
-          {{site.data.general_setting.phone_number}}  
+          {{site.data.general_setting.phone_number}}
     </div>
   <!-- /.widget -->
   <div class="widget">
