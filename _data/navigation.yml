@@ -16,7 +16,7 @@ main_menu:
       - text: "Browser Extension"
         url: "/addon"
 
-      - text: "Content Creator Studio"
+      - text: "Recommendation Studio"
         url: "/studio"
 
       - text: "Data Donation"

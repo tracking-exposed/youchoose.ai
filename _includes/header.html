@@ -88,7 +88,7 @@
     {% endif %}
     <ul class="list-unstyled">
      {% for external_link in site.data.general_settings.external_links.links %}
-      <li><a href="{{external_link.url}}" target=blank class="nocolor"><img src="{{external_link.logo}}" class="mt-5 mb-15" />{{external_link.text}}</a></li>
+      <li><a href="{{external_link.url}}" target=blank class="nocolor"><img src="{{external_link.logo}}" class="mb-15" style="max-width: 120px; height: auto;" />{{external_link.text}}</a></li>
      {% endfor %}
     </ul>
   </div>

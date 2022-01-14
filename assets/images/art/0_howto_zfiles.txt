@@ -1,0 +1,9 @@
+To create grey logos:
+
+Put them in a square proportioned 280:200 with transparent background
+Convert the logo to grayscale
+Add a #5B5F6F layer at 60% opacity and Multiply it
+
+If the logo is total black the layer to 70%
+
+export .png

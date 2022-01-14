@@ -40,9 +40,8 @@ external_links:
   links:
     - url: "https://tracking.exposed/"
       text: ""
-      logo: "/assets/images/art/z7w.png"
-    - url: "https://tracking.exposed/manifesto/"
-      text: "Manifesto"
+      logo: "/assets/images/art/z7w.svg"
+
 
 
 external_links_02:

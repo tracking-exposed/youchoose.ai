@@ -47,7 +47,7 @@
           {% endif %}
           <ul class="list-unstyled mb-0">
             {% for links in external_links.links %}
-            <li><a href="{{links.url}}" target=blank><img src="{{links.logo}}" class="mt-10 mb-10" />{{links.text}}</a></li>
+            <li><a href="{{links.url}}" target=blank><img src="{{links.logo}}" class="mt-5" style="max-width: 120px; height: auto;" />{{links.text}}</a></li>
             {% endfor %}
           </ul>
         </div>

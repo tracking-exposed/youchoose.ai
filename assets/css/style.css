@@ -224,7 +224,7 @@ h4,
 h5,
 h6 {
     margin-top: 0;
-    color: #404040;
+    color: #1A030E;
     font-weight: 500;
     letter-spacing: normal;
     margin-bottom: 0.8rem;
@@ -906,7 +906,7 @@ button.hamburger.animate.active:after {
             box-shadow: var(--btn-hover-default);
 }
 .btn.btn-white {
-    color: #404040;
+    color: #1A030E;
 }
 .text-center .btn {
     margin-left: 0.25rem;
@@ -1712,7 +1712,7 @@ hr.double {
     padding: 0;
     margin: 0.6rem 0.5rem 0 0;
     text-transform: uppercase;
-    color: #404040;
+    color: #1A030E;
 }
 .dropcap.circle {
     font-size: 1.1rem;
@@ -1744,7 +1744,7 @@ hr.double {
     color: var(--color-white);
 }
 .badge.bg-white {
-    color: #404040;
+    color: #1A030E;
 }
 .category .badge {
     margin-bottom: 1rem;
@@ -2490,7 +2490,7 @@ figure.overlay img {
 }
 .overlay2.light:before,
 .overlay2.light:after {
-    background-color: #404040;
+    background-color: #1A030E;
 }
 .overlay2:before {
     width: 30px;
@@ -2751,7 +2751,7 @@ figure.overlay img {
     border-radius: 50%;
     margin: 0 0.6rem 0 0.6rem;
     vertical-align: 3px;
-    background: rgba(48, 48, 48, 0.35);
+    background: #1A030E;
 }
 .meta span i {
     font-size: 0.75rem;
@@ -2859,7 +2859,7 @@ footer.inverse-text .meta a:hover {
     border-radius: 10rem;
 }
 .pagination ul>li>a {
-    color: #404040;
+    color: #1A030E;
 }
 .pagination ul>li>a:hover {
     color: var(--color-default);
@@ -3182,7 +3182,7 @@ ul.dial li:first-child .dial-item-info {
     line-height: 1.25rem;
     letter-spacing: 0;
     font-weight: 500;
-    color: #404040;
+    color: #1A030E;
     margin-right: 1.5rem;
     border: 0;
     border-radius: 0;
@@ -3221,7 +3221,7 @@ ul.dial li:first-child .dial-item-info {
 .nav-tabs.nav-tabs-bg .nav-link:hover,
 .nav-tabs.nav-tabs-bg .nav-link.active {
     border-radius: 0.2rem;
-    color: #404040;
+    color: #1A030E;
     -webkit-box-shadow: var(--shadow) !important;
             box-shadow: var(--shadow) !important;
     background: var(--color-white);
@@ -3230,7 +3230,7 @@ ul.dial li:first-child .dial-item-info {
     margin-bottom: 1rem;
 }
 .nav-tabs.nav-pills .nav-link {
-    color: #404040;
+    color: #1A030E;
     cursor: pointer;
     -webkit-transition: all 150ms ease-in-out;
     -o-transition: all 150ms ease-in-out;
@@ -3340,7 +3340,7 @@ ul.dial li:first-child .dial-item-info {
     color: var(--color-rose);
 }
 .accordion-wrapper .card-header button.collapsed {
-    color: #404040;
+    color: #1A030E;
 }
 .accordion-wrapper .card-header button:hover {
     color: var(--color-rose);
@@ -3733,7 +3733,7 @@ th {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     opacity: 0;
-    color: #404040;
+    color: #1A030E;
     background: var(--color-white);
     -webkit-box-shadow: var(--shadow);
             box-shadow: var(--shadow);
@@ -3760,7 +3760,7 @@ th {
 .item-detailed .hover-icon-second:before,
 .item-detailed .hover-icon-second:after {
     content: attr(data-tip);
-    color: #404040;
+    color: #1A030E;
     background-color: var(--color-white);
     font-size: 0.7rem;
     line-height: 1;
@@ -3908,7 +3908,7 @@ th {
 }
 .popover-header {
     background-color: var(--color-white);
-    color: #404040;
+    color: #1A030E;
     padding: 1rem 1.25rem 0.25rem;
     border: 0;
     border-top-left-radius: calc(4px - 1px);
@@ -4101,7 +4101,7 @@ th {
     color: rgba(var(--rgb-white), 0.75) !important
 }
 a.btn-play-wrapper {
-    color: #404040 !important;
+    color: #1A030E !important;
     -webkit-transition: color 150ms ease-in-out !important;
     -o-transition: color 150ms ease-in-out !important;
     transition: color 150ms ease-in-out !important;
@@ -4266,7 +4266,7 @@ a.btn-play-wrapper .btn-play:hover {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     opacity: 0;
-    color: #404040;
+    color: #1A030E;
     background: var(--color-white);
     -webkit-box-shadow: var(--shadow);
             box-shadow: var(--shadow);
@@ -4312,7 +4312,7 @@ a.btn-play-wrapper .btn-play:hover {
     margin: 0 0.5rem;
 }
 .isotope-filter ul li a {
-    color: #404040;
+    color: #1A030E;
     cursor: pointer;
     -webkit-transition: all 150ms ease-in-out;
     -o-transition: all 150ms ease-in-out;
@@ -4367,7 +4367,7 @@ video.player {
     background: var(--color-white);
     -webkit-box-shadow: var(--shadow);
             box-shadow: var(--shadow);
-    color: #404040;
+    color: #1A030E;
 }
 .plyr__control--overlaid:focus,
 .plyr__control--overlaid:hover {
@@ -4437,7 +4437,7 @@ video.player {
     transition: all 200ms ease-in-out;
 }
 .social-mute a i {
-    color: #404040 !important;
+    color: #1A030E !important;
 }
 .inverse-text .social-mute a i {
     color: var(--color-white) !important;
@@ -4786,7 +4786,7 @@ select {
 }
 label:not(.custom-control-label) {
     font-weight: 500;
-    color: #404040;
+    color: #1A030E;
 }
 label input,
 label textarea {
@@ -4998,7 +4998,7 @@ textarea.error {
     font-family: 'Jam';
     content: "\e9ba";
     display: block;
-    color: #404040;
+    color: #1A030E;
     font-size: 0.9rem;
     pointer-events: none;
 }
@@ -5320,7 +5320,7 @@ pre {
 .glyphs li i:before {
     margin: 0;
     padding: 0;
-    color: #404040;
+    color: #1A030E;
     font-size: 1.6rem;
 }
 .glyphs li span {
@@ -6197,7 +6197,7 @@ footer.inverse-text address {
 .inverse-text .nav-tabs.nav-tabs-bg .nav-item.show .nav-link span,
 .inverse-text .nav-tabs.nav-tabs-bg .nav-item .nav-link:hover span,
 .inverse-text .nav-tabs.nav-tabs-bg .nav-item .nav-link.active span {
-    color: #404040;
+    color: #1A030E;
 }
 .inverse-text .bg-white .nav-tabs .nav-item.show .nav-link,
 .inverse-text .bg-white .nav-tabs .nav-item .nav-link:hover,
@@ -6245,7 +6245,7 @@ footer.inverse-text address {
 .inverse-text .bg-transparent-white h4:not([class*="color-"]),
 .inverse-text .bg-transparent-white h5:not([class*="color-"]),
 .inverse-text .bg-transparent-white h6:not([class*="color-"]) {
-    color: #404040;
+    color: #1A030E;
 }
 .page-title-wrapper.inverse-text .meta,
 .page-title-wrapper.inverse-text .meta a,
@@ -6455,7 +6455,7 @@ footer.inverse-text address {
     .navbar-hover-opacity.transparent.fixed .navbar-nav .nav-link.highlighted,
     .navbar-hover-opacity.transparent.fixed .navbar-other .nav-item a:not(.btn):hover,
     .navbar-hover-opacity.transparent.fixed .navbar-other .nav-item button:hover {
-        color: rgba(48, 48, 48, 0.7);
+        color: #1A030E;
     }
     .inverse-text.navbar-hover-opacity:not(.fixed) .navbar-nav .nav-link:hover,
     .inverse-text.navbar-hover-opacity:not(.fixed) .navbar-nav .nav-link.active,
