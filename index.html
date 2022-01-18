@@ -42,7 +42,7 @@ services_area:
 
 
 slider_area:
-  enable: true
+  enable: false
   sliders:
     - title: "Pick Recommendations on Your Own Videos"
       sub_title: "Engage your audience with your best suggestions"
@@ -95,7 +95,7 @@ two_column_one:
 page_content:
   title: "We are currently beta testing!"
   sub_title: "Reach out to help us review the tool. Estimated time before the public lauch:"
-  date: "Feb 8 2022"
+  date: "Feb 28 2022"
 
 progress_area:
   enable: true
@@ -114,7 +114,7 @@ progress_area:
     
     - title: "Outreach"
       description: "We rely on word of mouth"
-      numbers: 20
+      numbers: 30
       bar_color: "rose"
 
 clients_carousel:
@@ -239,7 +239,7 @@ testimonials:
                     <li data-transition="fade" data-thumb="">
                         <img src="{{page.hero_area.header_image}}" alt="{{page.hero_area.title}}" />
                         <div
-                            class="tp-caption font-weight-600 color-white text-center"
+                            class="tp-caption font-weight-600 color-white text-center tp-caption-title"
                             data-x="center"
                             data-y="middle"
                             data-voffset="['-165','-165','-165','-145']"
@@ -513,7 +513,7 @@ testimonials:
   <div class="space150"></div>
     <div class="col-lg-10 mx-auto">
      {% if page.video.title %}
-      <h1 class="mb-20 text-center display-3">{{page.video.title}}</h1>
+      <h3 class="mb-20 text-center display-3">{{page.video.title}}</h3>
      {% endif %}
      {% if page.video.sub_title %}
      <p class="lead larger text-center">{{page.video.sub_title}}</p>

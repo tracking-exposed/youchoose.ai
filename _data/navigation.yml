@@ -1,15 +1,15 @@
 main_menu:
 
-  - text: "About"
-    url: "/about"
+  - text: "TEAM"
+    url: "/team"
     has-submenu: "false"
     dropdown: "false"
 
-  - text: "Philosophy"
+  - text: "PHILOSOPHY"
     url: "/philosophy"
     menu_type: "dropdown"
 
-  - text: "Overview"
+  - text: "OVERVIEW"
     url: "/overview"
     submenu:
 

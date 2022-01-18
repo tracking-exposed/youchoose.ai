@@ -122,6 +122,29 @@ button:focus {
 /*  02. GENERAL
 /*-----------------------------------------------------------------------------------*/
 
+
+@font-face {
+    font-family: 'Trex';
+    src: url('./font/Trex-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Trex';
+    src: url('./font/Trex-Medium.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Trex';
+    src: url('./font/Trex-Bold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
 html {
     font-size: 20px;
 }
@@ -223,9 +246,10 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Trex', normal;
     margin-top: 0;
     color: #1A030E;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: normal;
     margin-bottom: 0.8rem;
 }
@@ -486,13 +510,14 @@ canvas {
     text-align: center;
 }
 .navbar-nav .nav-link {
-    color: #303030;
+    font-family: 'Trex', normal;
+    color: #1A030E;
 }
 .navbar-nav .nav-link,
 .dropdown-item,
 .mega-menu-content a {
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.65rem;
+    font-weight: 600;
 }
 .nav-uppercase .navbar-nav .nav-link {
     font-size: 0.7rem;
@@ -4062,6 +4087,10 @@ th {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+}
+.tp-caption-title{
+    font-family: 'Trex', normal;
+    font-weight: 600;
 }
 .tp-caption.btn,
 .tp-caption.btn-play {
