@@ -14,6 +14,32 @@ hero_area:
   header_image: "/assets/images/art/bg8.svg"
   header_bottom_image: "/assets/images/art/macbook@2xx.png"
 
+
+two_column_one:
+  enable: true
+  title: "YouChoose is built by a non-profit. We promote an internet made for users, not for corporations!"
+  image: "/assets/images/art/nonprofit.svg"
+  button_text: "Our Philosophy"
+  button_url: "/philosophy"
+  paragraphs:
+    - text: |
+        Recommendation algorithms are the gatekeepers of the internet.
+        Though, they are optimized to maximize profits, not your own interest.
+        <b>Gaining access to recommendations from content creators is the just the first step towards algorithmic freedom.</b>
+    - text: |
+        A variety of alternative recommendation feeds will soon be available through YouChoose, such as Tournesol.app.
+        By making third-party systems interoperable with YouTube, YouChoose empowers a new ecosystem to thrive, where <b>content curation can be decentralized</b> and shared among users.
+    - text: |
+        Together, we can break free from algorithmic monopolies!
+
+video:
+  title: "A quick tour"
+  sub_title: "How to install and use the tool"
+  video_image: "/assets/media/demo.png"
+  mp4_video: "/assets/media/demo.mp4"
+  webm_video: "/assets/media/demo.webm"
+
+
 services_area:
   enable: true
   title: "OUR SERVICE"
@@ -66,36 +92,11 @@ slider_area:
       button_url: "/addon"
 
 
-video:
-  title: "A quick tour"
-  sub_title: "How to install and use the tool"
-  video_image: "/assets/media/demo.png"
-  mp4_video: "/assets/media/demo.mp4"
-  webm_video: "/assets/media/demo.webm"
-
-two_column_one:
-  enable: true
-  title: "YouChoose is built by a non-profit. We promote an internet made for users, not for corporations!"
-  image: "/assets/images/art/nonprofit.svg"
-  button_text: "Our Philosophy"
-  button_url: "/philosophy"
-  paragraphs:
-    - text: |
-        Recommendation algorithms are the gatekeepers of the internet.
-        Though, they are optimized to maximize profits, not your own interest.
-        Gaining access to recommendations from content creators is the just the first step towards algorithmic freedom.
-    - text: |
-        A variety of alternative recommendation feeds will soon be available through YouChoose, such as Tournesol.app.
-        By making third-party systems interoperable with YouTube, YouChoose empowers a new ecosystem to thrive, where content curation can be decentralized and shared among users.
-    - text: |
-        Together, we can break free from algorithmic monopolies!
-
-
-
 page_content:
   title: "We are currently beta testing!"
   sub_title: "Reach out to help us review the tool. Estimated time before the public lauch:"
   date: "Feb 28 2022"
+
 
 progress_area:
   enable: true
@@ -116,6 +117,7 @@ progress_area:
       description: "We rely on word of mouth"
       numbers: 30
       bar_color: "rose"
+
 
 clients_carousel:
   enable: true
@@ -319,7 +321,60 @@ testimonials:
                     <!-- /column -->
                 </div>
 
+                {% if page.two_column_one.enable %}
+                <div class="two-column-one inner">
+                    <div class="space30"></div>
+                    <div class="row align-items-center">
+                        {% if page.two_column_one.image %}
+                        <div class="col-lg-6">
+                            <figure>
+                                <img src="{{page.two_column_one.image}}" href='https://www.freepik.com/vectors/people' alt="{{page.two_column_one.title}}" />
+                            </figure>
+                        </div>
+                        {% endif %}
+                        <div class="space40 d-lg-none"></div>
+                        <div class="col-lg-6 pl-60 pl-md-15">
+                            {% if page.two_column_one.title %}
+                            <h3 class="display-3">{{page.two_column_one.title}}</h3>
+                            {% endif %}
+                            <div class="space20"></div>
+                            {% for text_data in page.two_column_one.paragraphs %}
+                            <p>{{text_data.text}}</p>
+                            {% endfor %} {% if page.two_column_one.button_text %}
+                            <div class="space10"></div>
+                            <a href="{{page.two_column_one.button_url}}" class="btn btn-default btn-rose">{{page.two_column_one.button_text}}</a>
+                            {% endif %}
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                {% endif %} 
+
+                <div class="container">
+                  <div class="space120"></div>
+                    <div class="col-lg-10 mx-auto">
+                     {% if page.video.title %}
+                      <h3 class="mb-20 text-center display-3">{{page.video.title}}</h3>
+                     {% endif %}
+                     {% if page.video.sub_title %}
+                     <p class="lead larger text-center">{{page.video.sub_title}}</p>
+                     {% endif %}
+                     <div class="space20"></div>
+                      <video poster="{{page.video.video_image}}" class="player" playsinline controls preload="none">
+                          {% if page.video.mp4_video %}
+                          <source src="{{page.video.mp4_video}}" type="video/mp4" />
+                          {% endif %} 
+                          {% if page.video.webm_video %}
+                          <source src="{{page.video.webm_video}}" type="video/webm" />
+                          {% endif %}
+                      </video>
+                    </div>
+                </div>    
+                
+
                 {% if page.services_area.enable %}
+                <div class="space120"></div>
                 <div class="wrapper light-wrapper">
                   <div class="container inner">
                     {% if page.services_area.enable %}
@@ -509,59 +564,8 @@ testimonials:
 <!-- /.wrapper -->
 {% endif %}
 
-<div class="container">
-  <div class="space150"></div>
-    <div class="col-lg-10 mx-auto">
-     {% if page.video.title %}
-      <h3 class="mb-20 text-center display-3">{{page.video.title}}</h3>
-     {% endif %}
-     {% if page.video.sub_title %}
-     <p class="lead larger text-center">{{page.video.sub_title}}</p>
-     {% endif %}
-     <div class="space20"></div>
-      <video poster="{{page.video.video_image}}" class="player" playsinline controls preload="none">
-          {% if page.video.mp4_video %}
-          <source src="{{page.video.mp4_video}}" type="video/mp4" />
-          {% endif %} 
-          {% if page.video.webm_video %}
-          <source src="{{page.video.webm_video}}" type="video/webm" />
-          {% endif %}
-      </video>
-    </div>
-</div>    
-
-                {% if page.two_column_one.enable %}
-                <div class="two-column-one inner">
-                    <div class="space130"></div>
-                    <div class="row align-items-center">
-                        {% if page.two_column_one.image %}
-                        <div class="col-lg-6">
-                            <figure>
-                                <img src="{{page.two_column_one.image}}" href='https://www.freepik.com/vectors/people' alt="{{page.two_column_one.title}}" />
-                            </figure>
-                        </div>
-                        {% endif %}
-                        <div class="space40 d-lg-none"></div>
-                        <div class="col-lg-6 pl-60 pl-md-15">
-                            {% if page.two_column_one.title %}
-                            <h3 class="display-3">{{page.two_column_one.title}}</h3>
-                            {% endif %}
-                            <div class="space20"></div>
-                            {% for text_data in page.two_column_one.paragraphs %}
-                            <p>{{text_data.text}}</p>
-                            {% endfor %} {% if page.two_column_one.button_text %}
-                            <div class="space10"></div>
-                            <a href="{{page.two_column_one.button_url}}" class="btn btn-default btn-rose">{{page.two_column_one.button_text}}</a>
-                            {% endif %}
-                        </div>
-                        <!--/column -->
-                    </div>
-                    <!--/.row -->
-                </div>
-                {% endif %} 
-
                 <div class="container">
-                  <div class="space100"></div>
+                  <div class="space120"></div>
                     {% if page.page_content.title %}
                      <h1 class="mb-20 display-3 text-center">{{page.page_content.title}}</h1>
                     {% endif %}
@@ -633,7 +637,7 @@ testimonials:
 
                 {% if page.two_column_two.enable %}
                 <div class="two-column-two">
-                    <div class="space140"></div>
+                    <div class="space120"></div>
                     <div class="row align-items-center">
                         {% if page.two_column_two.image %}
                         <div class="col-lg-6 order-lg-2">
@@ -733,7 +737,7 @@ testimonials:
 
             {% if page.clients_carousel.enable %}
             <div class="cliensts-carousel-wrapper">
-              <div class="space30"></div>
+              <div class="space20"></div>
                     {% if page.clients_carousel.title %}
                     <div class="text-center">
                         <h2 class="title-bg bg-rose color-rose">{{page.clients_carousel.title}}</h2>
