@@ -1,14 +1,5 @@
 main_menu:
 
-  - text: "TEAM"
-    url: "/team"
-    has-submenu: "false"
-    dropdown: "false"
-
-  - text: "PHILOSOPHY"
-    url: "/philosophy"
-    menu_type: "dropdown"
-
   - text: "OVERVIEW"
     url: "/overview"
     submenu:
@@ -21,3 +12,14 @@ main_menu:
 
       - text: "Data Donation"
         url: "/data_donation"
+
+  - text: "PHILOSOPHY"
+    url: "/philosophy"
+    menu_type: "dropdown"
+
+  - text: "TEAM"
+    url: "/team"
+    has-submenu: "false"
+    dropdown: "false"
+
+
