@@ -11,7 +11,7 @@ main_menu:
         url: "/studio"
 
       - text: "Data Donation"
-        url: "/data_donation"
+        url: "/data-donation"
 
   - text: "PHILOSOPHY"
     url: "/philosophy"
