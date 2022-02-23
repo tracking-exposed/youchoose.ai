@@ -17,26 +17,26 @@ hero_area:
 
 two_column_one:
   enable: true
-  title: "Take Back Control on your Algorithm"
-  title2: "Human Experts > Profit-driven AI"
-  title3: "A non-profit project empowering digital freedom"
+  title: "Users can now choose <br> alternative recommender systems <br> that are best for them"
   image: "/assets/images/art/GEMS.svg"
-  button_text: "Discover YouChoose"
-  button_url: "/overview"
-  button2_text: "Our Philosophy"
-  button2_url: "/philosophy"
+  button_text: "go to studio"
+  button_url: "https://studio.youchoose.ai/"
   paragraphs:
     - text1: |
-        The algorithm is the gatekeeper of YouTube, but it is optimized for profit, and we have no control over it.
-        With YouChoose, users can choose alternative recommender systems, that are best for them.
-        Content Creators can choose the recommendations that are shown on their own content.
-    - text2: |
-        Content Creators are the essence on YouTube.
-        On YouChoose, you can see their <b>gems</b>: their suggestions of the best related content, <b>from all around the internet</b>.
-        Yes, humans experts can still provide better advice than algorithms.
-    - text3: |
-        YouChoose is a <b>free software</b> project, whose mission is to empower users and content creators over big internet corporation.
-        We build the first <b>the first ecosystem of alternative recommender systems</b> for YouTube, where curation can be decentralized to the community.
+        Content Creators are the essence on YouTube, they should have the possibility to recommend after their videos as well. Youtube algorithm is a gatekeeper optimized for profit and you can't control it.
+        Change it and <b>spread gems</b> from all over the internet.
+
+
+two_column_mirror:
+  enable: true
+  title: "A non-profit project <br> for digital freedom"
+  image: "/assets/images/art/GEMS2.svg"
+  button_text: "Philosophy"
+  button_url: "/philosophy"
+  paragraphs:
+    - text: |
+        YouChoose is a <b>free software</b> project, whose mission is to empower users and content creators over big internet corporations.
+        We build <b>the first ecosystem of alternative recommender systems</b> for YouTube, where curation can be decentralized to the community.
         Together, we can <b>break free from algorithmic monopolies!</b>
 
 
@@ -369,6 +369,50 @@ testimonials:
                             <a href="{{page.two_column_one.button2_url}}" class="btn btn-violet mt-20">{{page.two_column_one.button2_text}}</a>
                             {% endif %}
                         </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                {% endif %} 
+
+                {% if page.two_column_mirror.enable %}
+                <div class="two-column-one inner">
+                    <div class="space60"></div>
+                    <div class="row align-items-center">
+                        <div class="space40 d-lg-none"></div>
+                        <div class="col-lg-6 pl-60 pl-md-30">
+                            {% if page.two_column_mirror.title %}
+                            <h2 class="display-3">{{page.two_column_mirror.title}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_mirror.paragraphs %}
+                            <p>{{text_data.text}}</p>
+                            {% endfor %} 
+                            {% if page.two_column_mirror.title2 %}
+                            <h2 class="display-3" style="padding-top: 20px;">{{page.two_column_mirror.title2}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_mirror.paragraphs %}
+                            <p>{{text_data.text2}}</p>
+                            {% endfor %}
+                            {% if page.two_column_mirror.title3 %}
+                            <h2 class="display-3" style="padding-top: 20px;">{{page.two_column_mirror.title3}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_mirror.paragraphs %}
+                            <p>{{text_data.text3}}</p>
+                            {% endfor %}
+                            {% if page.two_column_mirror.button_text %}
+                            <a href="{{page.two_column_mirror.button_url}}" class="btn btn-default btn-rose mt-20">{{page.two_column_mirror.button_text}}</a>
+                            {% endif %}
+                            {% if page.two_column_mirror.button2_text %}
+                            <a href="{{page.two_column_mirror.button2_url}}" class="btn btn-violet mt-20">{{page.two_column_mirror.button2_text}}</a>
+                            {% endif %}
+                        </div>
+                        {% if page.two_column_mirror.image %}
+                        <div class="col-lg-6">
+                            <figure>
+                                <img src="{{page.two_column_mirror.image}}" href='https://www.freepik.com/vectors/people' alt="{{page.two_column_mirror.title}}" />
+                            </figure>
+                        </div>
+                        {% endif %}
                         <!--/column -->
                     </div>
                     <!--/.row -->
