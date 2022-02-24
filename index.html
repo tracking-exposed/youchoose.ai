@@ -1,38 +1,46 @@
 ---
 layout: default
 title: YouChoose
-sub_title: "Human Recommendations on Youtube"
-description: "Youchoose your recommendations"
+sub_title: "YouChoose AI"
+description: "YouChoose your recommendation system"
 
 hero_area:
   enable: true
-  title: "Choose your Youtube Recommendations"
+  title: "Choose Your Recommender System"
   sub_title: |
-    Try Suggestions from Content Creators
+    Get Gem Suggestions from YouTubers
   button_text: "Download the extension"
   button_url: "/addon"
-  header_image: "/assets/images/art/bg8.svg"
+  header_image: "/assets/images/art/backgroundgems.svg"
   header_bottom_image: "/assets/images/art/extension.gif"
 
 
 two_column_one:
   enable: true
-  title: "YouChoose is built by a non-profit. We promote an internet made for users, not for corporations!"
-  image: "/assets/images/art/nonprofit.svg"
+  title: "An alternative recommender system made for you"
+  image: "/assets/images/art/GEMS.svg"
+  button_text: "Share Your Gems"
+  button_url: "https://studio.youchoose.ai/"
+  paragraphs:
+    - text1: |
+        Content Creators are the lifeblood of YouTube. With YouChoose they can choose recommendations on their own content, and <b>spread gems</b> from all over the internet.
+
+
+two_column_mirror:
+  enable: true
+  title: "A non-profit project <br> for digital freedom"
+  image: "/assets/images/art/GEMS2.svg"
   button_text: "Our Philosophy"
   button_url: "/philosophy"
   paragraphs:
     - text: |
-        Recommendation algorithms are the gatekeepers of the internet.
-        Though, they are optimized to maximize profits, not your own interest.
-        <b>Gaining access to recommendations from content creators is the just the first step towards algorithmic freedom.</b>
-    - text: |
-        A variety of alternative recommendation feeds will soon be available through YouChoose, such as Tournesol.app.
-        By making third-party systems interoperable with YouTube, YouChoose empowers a new ecosystem to thrive, where <b>content curation can be decentralized</b> and shared among users.
-    - text: |
-        Together, we can break free from algorithmic monopolies!
+        YouChoose is a <b>free software</b> project, whose mission is to empower users and content creators over big internet corporations.
+        We build <b>the first ecosystem of alternative recommender systems</b> for YouTube, where curation can be decentralized to the community.
+        Together, we can <b>break free from algorithmic monopolies!</b>
+
 
 video:
+  enable: false
   title: "A quick tour"
   sub_title: "How to install and use the tool"
   video_image: "/assets/media/demo.png"
@@ -41,7 +49,7 @@ video:
 
 
 services_area:
-  enable: true
+  enable: false
   title: "OUR SERVICE"
   sub_title: "Empowering both sides of the tube"
   services:
@@ -68,7 +76,7 @@ services_area:
 
 
 slider_area:
-  enable: true
+  enable: false
   sliders:
     - title: "Pick Recommendations on Your Own Videos"
       sub_title: "Engage your audience with your best suggestions"
@@ -93,20 +101,21 @@ slider_area:
 
 
 page_content:
+  enable: false
   title: "We are currently beta testing!"
   sub_title: "Reach out to help us review the tool. Estimated time before the public launch:"
-  date: "Feb 28 2022"
+  date: "Mar 7 2022"
 
 
 progress_area:
   enable: true
   title: "Project Overall Progress"
-  sub_title: "Working hard "
+  sub_title: "Beta Testing"
   lists:
     - title: "Development"
       description: "Robust free-software"
       numbers: 80
-      bar_color: "green"
+      bar_color: "violet"
 
     - title: "Design"
       description: "Humans first and user friendly"
@@ -128,7 +137,7 @@ faq_area:
   enable: true
   title: "FAQ"
   sub_title: "Questions?"
-  image: "/assets/images/concept/faq.png"
+  image: "/assets/images/art/faq.svg"
   tabs:
     - question: "Can I use the tool for free?"
       answer: |
@@ -197,7 +206,7 @@ two_column_two:
 two_column_three:
   enable: false
   title: "Just sit back and relax while we take care of your business needs"
-  image: "/assets/images/art/ui4.png"
+  image: "/assets/images/art/GEMS.svg"
   button_text: "More Details"
   button_url: "#"
   paragraphs:
@@ -323,7 +332,7 @@ testimonials:
 
                 {% if page.two_column_one.enable %}
                 <div class="two-column-one inner">
-                    <div class="space30"></div>
+                    <div class="space60"></div>
                     <div class="row align-items-center">
                         {% if page.two_column_one.image %}
                         <div class="col-lg-6">
@@ -333,16 +342,30 @@ testimonials:
                         </div>
                         {% endif %}
                         <div class="space40 d-lg-none"></div>
-                        <div class="col-lg-6 pl-60 pl-md-15">
+                        <div class="col-lg-6 pl-60 pl-md-30">
                             {% if page.two_column_one.title %}
-                            <h3 class="display-3">{{page.two_column_one.title}}</h3>
+                            <h2 class="display-3">{{page.two_column_one.title}}</h2>
                             {% endif %}
-                            <div class="space20"></div>
                             {% for text_data in page.two_column_one.paragraphs %}
-                            <p>{{text_data.text}}</p>
-                            {% endfor %} {% if page.two_column_one.button_text %}
-                            <div class="space10"></div>
-                            <a href="{{page.two_column_one.button_url}}" class="btn btn-default btn-rose">{{page.two_column_one.button_text}}</a>
+                            <p>{{text_data.text1}}</p>
+                            {% endfor %} 
+                            {% if page.two_column_one.title2 %}
+                            <h2 class="display-3" style="padding-top: 20px;">{{page.two_column_one.title2}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_one.paragraphs %}
+                            <p>{{text_data.text2}}</p>
+                            {% endfor %}
+                            {% if page.two_column_one.title3 %}
+                            <h2 class="display-3" style="padding-top: 20px;">{{page.two_column_one.title3}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_one.paragraphs %}
+                            <p>{{text_data.text3}}</p>
+                            {% endfor %}
+                            {% if page.two_column_one.button_text %}
+                            <a href="{{page.two_column_one.button_url}}" class="btn btn-default btn-rose mt-20">{{page.two_column_one.button_text}}</a>
+                            {% endif %}
+                            {% if page.two_column_one.button2_text %}
+                            <a href="{{page.two_column_one.button2_url}}" class="btn btn-violet mt-20">{{page.two_column_one.button2_text}}</a>
                             {% endif %}
                         </div>
                         <!--/column -->
@@ -351,6 +374,51 @@ testimonials:
                 </div>
                 {% endif %} 
 
+                {% if page.two_column_mirror.enable %}
+                <div class="two-column-one inner">
+                    <div class="space60"></div>
+                    <div class="row align-items-center">
+                        <div class="space40 d-lg-none"></div>
+                        <div class="col-lg-6 pl-60 pl-md-30">
+                            {% if page.two_column_mirror.title %}
+                            <h2 class="display-3">{{page.two_column_mirror.title}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_mirror.paragraphs %}
+                            <p>{{text_data.text}}</p>
+                            {% endfor %} 
+                            {% if page.two_column_mirror.title2 %}
+                            <h2 class="display-3" style="padding-top: 20px;">{{page.two_column_mirror.title2}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_mirror.paragraphs %}
+                            <p>{{text_data.text2}}</p>
+                            {% endfor %}
+                            {% if page.two_column_mirror.title3 %}
+                            <h2 class="display-3" style="padding-top: 20px;">{{page.two_column_mirror.title3}}</h2>
+                            {% endif %}
+                            {% for text_data in page.two_column_mirror.paragraphs %}
+                            <p>{{text_data.text3}}</p>
+                            {% endfor %}
+                            {% if page.two_column_mirror.button_text %}
+                            <a href="{{page.two_column_mirror.button_url}}" class="btn btn-default btn-rose mt-20">{{page.two_column_mirror.button_text}}</a>
+                            {% endif %}
+                            {% if page.two_column_mirror.button2_text %}
+                            <a href="{{page.two_column_mirror.button2_url}}" class="btn btn-violet mt-20">{{page.two_column_mirror.button2_text}}</a>
+                            {% endif %}
+                        </div>
+                        {% if page.two_column_mirror.image %}
+                        <div class="col-lg-6">
+                            <figure>
+                                <img src="{{page.two_column_mirror.image}}" href='https://www.freepik.com/vectors/people' alt="{{page.two_column_mirror.title}}" />
+                            </figure>
+                        </div>
+                        {% endif %}
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                {% endif %} 
+                
+                {% if page.video.enable %}
                 <div class="container">
                   <div class="space120"></div>
                     <div class="col-lg-10 mx-auto">
@@ -371,10 +439,10 @@ testimonials:
                       </video>
                     </div>
                 </div>    
-                
+                {% endif %} 
 
                 {% if page.services_area.enable %}
-                <div class="space120"></div>
+                <div class="space30"></div>
                 <div class="wrapper light-wrapper">
                   <div class="container inner">
                     {% if page.services_area.enable %}
@@ -563,7 +631,7 @@ testimonials:
 </div>
 <!-- /.wrapper -->
 {% endif %}
-
+                {% if page.page_content.enable %}
                 <div class="container">
                   <div class="space120"></div>
                     {% if page.page_content.title %}
@@ -607,6 +675,8 @@ testimonials:
                   <!-- /.row -->
                 </div><!-- /.wrapper --> 
                 {% endif %}
+                {% endif %}
+
                 {% if page.progress_area.enable %}
                 <div class="wrapper light-wrapper">
                   <div class="container inner">
@@ -633,6 +703,20 @@ testimonials:
                   </div>
                 </div>
                 <!-- /.wrapper -->
+                {% endif %}
+                
+                {% if page.clients_carousel.enable %}
+                <div class="cliensts-carousel-wrapper">
+                  <div class="space10"></div>
+                        {% if page.clients_carousel.title %}
+                        <div class="text-center">
+                            <h2 class="title-bg bg-rose color-rose">{{page.clients_carousel.title}}</h2>
+                        </div>
+                        {% endif %}
+                        <div class="space30"></div>
+                        {% include clients_carousel.html %}
+                    </div>
+                </div>
                 {% endif %}
 
                 {% if page.two_column_two.enable %}
@@ -734,20 +818,6 @@ testimonials:
                 </div>
             </div>
             {% endif %} 
-
-            {% if page.clients_carousel.enable %}
-            <div class="cliensts-carousel-wrapper">
-              <div class="space20"></div>
-                    {% if page.clients_carousel.title %}
-                    <div class="text-center">
-                        <h2 class="title-bg bg-rose color-rose">{{page.clients_carousel.title}}</h2>
-                    </div>
-                    {% endif %}
-                    <div class="space30"></div>
-                    {% include clients_carousel.html %}
-                </div>
-            </div>
-            {% endif %}
 
         {% if page.testimonials.enable %}
         <div class="wrapper bg-opacity-default">
