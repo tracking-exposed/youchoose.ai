@@ -4469,7 +4469,7 @@ video.player {
     color: #1A030E !important;
 }
 .inverse-text .social-mute a i {
-    color: var(--color-white) !important;
+    color: #fff !important;
 }
 .social .jam[class*="500px"],
 .color-s-500px,
