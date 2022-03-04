@@ -3,7 +3,6 @@ layout: informativepost
 title: "Data Donation for activists and researchers"
 date: 2021-12-31 21:37:13 +0600
 tags: technology education activism
-categories: [algorithm analysis]
 author: "Tracking Exposed"
 post_image: "/assets/images/art/data.jpg"
 post_format: "general"
