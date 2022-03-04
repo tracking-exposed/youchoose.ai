@@ -9,8 +9,10 @@ hero_area:
   title: "Choose Your Recommender System"
   sub_title: |
     Get Gem Suggestions from YouTubers
-  button_text: "Download the extension"
-  button_url: "/addon"
+  button_text: "Firefox"
+  button2_text: "Chrome"
+  button_url: "https://addons.mozilla.org/en-US/firefox/addon/youchoose-ai/"
+  button2_url: "https://chrome.google.com/webstore/detail/youchooseai/lgmednoogihobpaccmabclghbmjiidkh"
   header_image: "/assets/images/art/backgroundgems.svg"
   header_bottom_image: "/assets/images/art/extension.gif"
 
@@ -285,10 +287,12 @@ testimonials:
                             {{page.hero_area.sub_title}}
                         </div>
                         <!-- /.tp-caption -->
+                        <div class="row">
                         <a
-                            class="tp-caption btn btn-l btn-white btn-strong-hover scroll"
+                            class="tp-caption btn btn-s btn-white btn-strong-hover scroll"
                             data-x="center"
                             data-y="middle"
+                            data-hoffset="['-60']"
                             data-voffset="['15','15','15','40']"
                             data-width="['auto','auto','auto','auto']"
                             data-textAlign="['center','center','center','center']"
@@ -297,9 +301,28 @@ testimonials:
                             data-responsive_offset="on"
                             style="z-index: 9;"
                             href="{{page.hero_area.button_url}}"
+                            target="blank"
                         >
                             {{page.hero_area.button_text}}
                         </a>
+                        <a
+                            class="tp-caption btn btn-s btn-white btn-strong-hover scroll"
+                            data-x="center"
+                            data-y="middle"
+                            data-voffset="['15','15','15','40']"
+                            data-hoffset="['60']"
+                            data-width="['auto','auto','auto','auto']"
+                            data-textAlign="['center','center','center','center']"
+                            data-frames='[{"delay":2000,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-responsive="on"
+                            data-responsive_offset="on"
+                            style="z-index: 9;"
+                            href="{{page.hero_area.button2_url}}"
+                            target="blank"
+                        >
+                            {{page.hero_area.button2_text}}
+                    </a>
+                  </div>
                         <!-- /.tp-caption -->
                     </li>
                 </ul>
@@ -342,7 +365,7 @@ testimonials:
                         </div>
                         {% endif %}
                         <div class="space40 d-lg-none"></div>
-                        <div class="col-lg-6 pl-60 pl-md-30">
+                        <div class="col-lg-6 pl-30 pl-md-30">
                             {% if page.two_column_one.title %}
                             <h2 class="display-3">{{page.two_column_one.title}}</h2>
                             {% endif %}
@@ -375,11 +398,10 @@ testimonials:
                 {% endif %} 
 
                 {% if page.two_column_mirror.enable %}
-                <div class="two-column-one inner">
-                    <div class="space60"></div>
+                <div class="two-column-one">
                     <div class="row align-items-center">
                         <div class="space40 d-lg-none"></div>
-                        <div class="col-lg-6 pl-60 pl-md-30">
+                        <div class="col-lg-6 pl-30 pl-md-30">
                             {% if page.two_column_mirror.title %}
                             <h2 class="display-3">{{page.two_column_mirror.title}}</h2>
                             {% endif %}

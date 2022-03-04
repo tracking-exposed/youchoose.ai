@@ -26,7 +26,7 @@ google_analytics:
   key: "UA-664136761-1"  # UA-664136761-1
 
 social_accounts:
-  title: "Social Media"
+  title: ""
   links:
     - url: "https://twitter.com/YouChooseAI"
       icon: "jam jam-twitter"      
