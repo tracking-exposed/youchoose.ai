@@ -12,7 +12,7 @@ collections:
 
 # General Settings
 title: "Youchoose"
-email: "youchoose@tracking.exposed"
+email: "youchoose[@]tracking[.]exposed"
 email_2: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Youchoose is an environment that allows you to experience a different recommendation system.
