@@ -1,6 +1,6 @@
 # General Settings
 title: "Youchoose"
-email: "youchoose@tracking.exposed"
+email: "youchoose[@]tracking[.]exposed"
 email_2: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Youchoose is an environment that allows you to experience a different recommendation system.
@@ -95,7 +95,7 @@ one_page_nav_settings:
       url: "#contact"
 
 author_page_header:
-  header_background_image: "/assets/images/art/bg8.svg"
+  header_background_image: "/assets/images/art/background.png"
 
 gallery:
   images:
