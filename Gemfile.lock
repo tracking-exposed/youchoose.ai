@@ -86,6 +86,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.12)
   jekyll-paginate-v2
+  jekyll-seo-tag
   jekyll-tagging
   kramdown-parser-gfm
   minima (~> 2.5)

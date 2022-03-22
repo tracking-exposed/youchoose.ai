@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
+  gem 'jekyll-seo-tag'
 end
 
 # See this issue: https://github.com/samesies/barber-jekyll/issues/45#issuecomment-804850540

@@ -7,6 +7,7 @@ author: "Tracking Exposed"
 post_image: "/assets/images/art/data.jpg"
 post_format: "general"
 trending: true
+image: "/assets/images/art/data.jpg"
 ---
 
 #### When you enable Data Donation feature you agree to share with us the recommendations that YouTube shows to you, as well as the advertisements.

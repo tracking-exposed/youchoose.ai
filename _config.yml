@@ -5,7 +5,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-
+  - jekyll-seo-tag
 collections:
   authors:
     output: true
