@@ -1042,5 +1042,22 @@ $(document).ready(function() {
 		});
 	});
 
+	const dataTableContainer = document.createElement('div');
+
+	dataTableContainer.id="table"
+
+	document.body.appendChild(dataTableContainer)
+
+	DataTable({
+		node: document.getElementById('table'),
+		query: 'ccRelatedUsers',
+		baseURL: 'https://youchoose.ai/api/',
+		style: {
+			width: '100%',
+			height: 600,
+			padding: 40
+		}
+	})
+
 
 });
