@@ -16,23 +16,6 @@ page_content:
   enable: true
   title: "Discontinuation reasoning"
   sub_title: "Lesson learned in empowering people by controlling their algorithm in adversarial way"
-  paragraphs:
-    - text: The core concept behind YouChoose was to provide the backbone infrastructure for an algorithmic marketplace. This was an ambitious plan, especially considering that there currently isn\'t an offer for alternative recommender systems. A notable exception is [tournesol.app](http://tournesol.app), which curates recommendations based on collaborative ratings_.
-    - text: Therefore, we envisioned as a first feature to enable content creators to select recommended videos on their own YouTube content. The goal was to empower content creators, who are the lifeblood of YouTube, but also are the most impacted by the recommender system's arbitrary influence. 
-    - text: With this approach, we were also hoping that content creators would advertise the tool organically, and provide a first alternative stream of recommendation which could be trusted by their audience. 
-    - text: The project development was eventually sunset, for several reasons
-    - text: The tool needed to reach a critical mass of adopters before becoming useful. [AI Forensics](https://aiforensics.org) (previously known as [Tracking Exposed](https://tracking.exposed)) was lacking the ressources to launch and promote a user facing tool at scale, considering the various other projects the organization had in parallel.
-    - text: The ability to rely on content creators to promote the tool and curate content had been overassessed, for multiple reasons
-    - text: Content Creators are very solicited, and busy. Although they liked the idea to control the recommendations on their own content, having to go through the curation process involved some work.
-    - text: Content Creators were often scarred that YouTube could retaliate against them if they used an adversarially interoperable tool like YouChoose, which YouTube would probably not see from a good eye. This fear, which was expressed in multiple interviews we had with content creators, is what we call the 'mafia effect' of monopolistic platforms.
-    - text: We thus had to make the difficult decision to sunset the project as a user-facing tool, to focus on the organization\'s main expertise and priority, **algorithmic auditing**. 
-    - text: As such, the extension was repurposed as a tool for researchers, enabling to conduct experiments on YouTube recommender system with real users. One such project is ongoing with researchers from MIT and UC Berkeley. {link other project page}
-    - text: Still, we believe that YouChoose was an important proof of concept, which allowed to illustrate the case for algorithmic interoperability, and lay some grounds for future initiatives. The project has been used as an exemple during DSA negotiations, was presented at conferences like RightsCons and MozFest, and the approach was praised by thought leaders like Cory Doctorow at the EFF. 
-    - text: We remain fully aligned with [the philosophy](https://youchoose.ai/philosophy) and vision that YouChoose was promoting
-    - text: _Algorithmic Sovereignty and Control_
-    - text: _Recommender System Alignement with user interests_
-    - text: _Interoperable Protocols_
-    - text: We are happy to see tha
 
 two_column_one:
   enable: true
@@ -365,6 +348,54 @@ testimonials:
                     <!-- /column -->
                 </div>
 
+
+                    {% if page.page_content.enable %}
+                <div class="container">
+                  <div class="space120"></div>
+                     <h1 class="mb-20 display-3 text-center">{{page.page_content.title}}</h1>
+                    <p class="lead larger text-center">{{page.page_content.sub_title}}</p>
+                    <div class="space20"></div>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                      <div class="countdown" data-date="{{page.page_content.date}}">
+                        <div class="row text-center color-rose">
+
+<p dir="auto">The core concept behind YouChoose was to provide the backbone infrastructure for an algorithmic marketplace. This was an ambitious plan, especially considering that there currently isn't an offer for alternative recommender systems. (with the notable exception of [<a href="http://tournesol.app/" rel="nofollow">tournesol.app</a>](<a href="http://tournesol.app" rel="nofollow">http://tournesol.app</a>), which curates recommendations based on collaborative ratings)</p>
+<p dir="auto">Therefor, we envisioned as a first feature to enable content creators to select recommended videos on their own YouTube content. The goal was to empower content creators, who are the lifeblood of YouTube, but also are the most impacted by the recommender system's arbitrary influence.</p>
+<p dir="auto">With this approach, we were also hoping that content creators would advertise the tool organically, and provide a first alternative stream of recommendation which could be trusted by their audience.</p>
+<p dir="auto">The project development was eventually sunset, for several reasons:</p>
+<ul dir="auto">
+<li>The tool needed to reach a critical mass of adopters before becoming useful. AI Forensics (previously known as Tracking Exposed) was lacking the ressources to launch and promote a user facing tool at scale, considering the various other projects the organization had in parallel.</li>
+<li>The ability to rely on content creators to promote the tool and curate content had been overassessed, for multiple reasons:
+<ul dir="auto">
+<li>Content Creators are very solicited, and busy. Although they liked the idea to control the recommendations on their own content, having to go through the curation process involved some work.</li>
+<li>Content Creators were often scarred that YouTube could retaliate against them if they used an adversarially interoperable tool like YouChoose, which YouTube would probably not see from a good eye. This fear, which was expressed in multiple interviews we had with content creators, is what we call the 'mafia effect’ of monopolistic platforms.</li>
+</ul>
+</li>
+</ul>
+<p dir="auto">We thus had to make the difficult decision to sunset the project as a user-facing tool, to focus on the organization's main expertise and priority: algorithmic auditing.</p>
+<p dir="auto">As such, the extension was repurposed as a tool for researchers, enabling to conduct experiments on YouTube recommender system with real users. One such project is ongoing with researchers from MIT and UC Berkeley. {link other project page}</p>
+<p dir="auto">Still, we believe that YouChoose was an important proof of concept, which allowed to illustrate the case for algorithmic interoperability, and lay some grounds for future initiatives. The project has been used as an exemple during DSA negotiations, was presented at conferences like RightsCons and MozFest, and the approach was praised by thought leaders like Cory Doctorow at the EFF.</p>
+<p dir="auto">We remain fully aligned with [<a href="https://youchoose.ai/philosophy" rel="nofollow">the philosophy</a>](<a href="https://youchoose.ai/philosophy" rel="nofollow">https://youchoose.ai/philosophy</a>) and vision that YouChoose was promoting:</p>
+<ul dir="auto">
+<li>Algorithmic Sovereignty and Control</li>
+<li>Recommender System Alignement with user interests</li>
+<li>Interoperable Protocols</li>
+</ul>
+<p dir="auto">We are happy to see that the concept of interoperable algorithmic marketplace for social media platforms has since been gaining more traction, with projects like the [<a href="https://atproto.com/" rel="nofollow">AT Protocol</a>](<a href="https://atproto.com/" rel="nofollow">https://atproto.com/</a>). We are hoping to see them thrive!</p>
+
+                          <!--/column -->
+                        </div>
+                        <!-- /.row -->
+                      </div>
+                      <!--/.countdown -->
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div><!-- /.wrapper --> 
+                {% endif %}
+
                 {% if page.two_column_one.enable %}
                 <div class="two-column-one inner">
                     <div class="space60"></div>
@@ -665,50 +696,7 @@ testimonials:
 </div>
 <!-- /.wrapper -->
 {% endif %}
-                {% if page.page_content.enable %}
-                <div class="container">
-                  <div class="space120"></div>
-                    {% if page.page_content.title %}
-                     <h1 class="mb-20 display-3 text-center">{{page.page_content.title}}</h1>
-                    {% endif %}
-                    {% if page.page_content.sub_title %}
-                    <p class="lead larger text-center">{{page.page_content.sub_title}}</p>
-                    {% endif %}
-                    <div class="space20"></div>
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                      <div class="countdown" data-date="{{page.page_content.date}}">
-                        <div class="row text-center color-rose">
-                          <div class="col-md-3">
-                            <h3 data-days>0</h3>
-                            <p class="mb-0">days</p>
-                          </div>
-                          <!--/column -->
-                          <div class="col-md-3">
-                            <h3 data-hours>0</h3>
-                            <p class="mb-0">hours</p>
-                          </div>
-                          <!--/column -->
-                          <div class="col-md-3">
-                            <h3 data-minutes>0</h3>
-                            <p class="mb-0">minutes</p>
-                          </div>
-                          <!--/column -->
-                          <div class="col-md-3">
-                            <h3 data-seconds>0</h3>
-                            <p class="mb-0">seconds</p>
-                          </div>
-                          <!--/column -->
-                        </div>
-                        <!-- /.row -->
-                      </div>
-                      <!--/.countdown -->
-                    </div>
-                    <!-- /column -->
-                  </div>
-                  <!-- /.row -->
-                </div><!-- /.wrapper --> 
-                {% endif %}
+            
                 {% endif %}
 
                 {% if page.progress_area.enable %}
