@@ -17,24 +17,22 @@ page_content:
   title: "Discontinuation reasoning"
   sub_title: "Lesson learned in empowering people by controlling their algorithm in adversarial way"
   paragraphs:
-    - text: |
-    	The core concept behind YouChoose was to provide the backbone infrastructure for an algorithmic marketplace. This was an ambitious plan, especially considering that there currently isn't an offer for alternative recommender systems. (with the notable exception of [tournesol.app](http://tournesol.app), which curates recommendations based on collaborative ratings)
-	Therefor, we envisioned as a first feature to enable content creators to select recommended videos on their own YouTube content. The goal was to empower content creators, who are the lifeblood of YouTube, but also are the most impacted by the recommender system's arbitrary influence. 
-	With this approach, we were also hoping that content creators would advertise the tool organically, and provide a first alternative stream of recommendation which could be trusted by their audience. 
-	The project development was eventually sunset, for several reasons:
-		* The tool needed to reach a critical mass of adopters before becoming useful. [AI Forensics](https://aiforensics.org) (previously known as [Tracking Exposed](https://tracking.exposed)) was lacking the ressources to launch and promote a user facing tool at scale, considering the various other projects the organization had in parallel.
-		* The ability to rely on content creators to promote the tool and curate content had been overassessed, for multiple reasons:
-		* Content Creators are very solicited, and busy. Although they liked the idea to control the recommendations on their own content, having to go through the curation process involved some work.
-		* Content Creators were often scarred that YouTube could retaliate against them if they used an adversarially interoperable tool like YouChoose, which YouTube would probably not see from a good eye. This fear, which was expressed in multiple interviews we had with content creators, is what we call the 'mafia effect’ of monopolistic platforms.
-	We thus had to make the difficult decision to sunset the project as a user-facing tool, to focus on the organization's main expertise and priority: algorithmic auditing. 
-	As such, the extension was repurposed as a tool for researchers, enabling to conduct experiments on YouTube recommender system with real users. One such project is ongoing with researchers from MIT and UC Berkeley. {link other project page}
-	Still, we believe that YouChoose was an important proof of concept, which allowed to illustrate the case for algorithmic interoperability, and lay some grounds for future initiatives. The project has been used as an exemple during DSA negotiations, was presented at conferences like RightsCons and MozFest, and the approach was praised by thought leaders like Cory Doctorow at the EFF. 
-	We remain fully aligned with [the philosophy](https://youchoose.ai/philosophy) and vision that YouChoose was promoting: 
-		* Algorithmic Sovereignty and Control
-		* Recommender System Alignement with user interests
-		* Interoperable Protocols
-	We are happy to see that the concept of interoperable algorithmic marketplace for social media platforms has since been gaining more traction, with projects like the [AT Protocol](https://atproto.com/). We are hoping to see them thrive!
-
+    - text: The core concept behind YouChoose was to provide the backbone infrastructure for an algorithmic marketplace. This was an ambitious plan, especially considering that there currently isn\'t an offer for alternative recommender systems. A notable exception is [tournesol.app](http://tournesol.app), which curates recommendations based on collaborative ratings_.
+    - text: Therefore, we envisioned as a first feature to enable content creators to select recommended videos on their own YouTube content. The goal was to empower content creators, who are the lifeblood of YouTube, but also are the most impacted by the recommender system's arbitrary influence. 
+    - text: With this approach, we were also hoping that content creators would advertise the tool organically, and provide a first alternative stream of recommendation which could be trusted by their audience. 
+    - text: The project development was eventually sunset, for several reasons
+    - text: The tool needed to reach a critical mass of adopters before becoming useful. [AI Forensics](https://aiforensics.org) (previously known as [Tracking Exposed](https://tracking.exposed)) was lacking the ressources to launch and promote a user facing tool at scale, considering the various other projects the organization had in parallel.
+    - text: The ability to rely on content creators to promote the tool and curate content had been overassessed, for multiple reasons
+    - text: Content Creators are very solicited, and busy. Although they liked the idea to control the recommendations on their own content, having to go through the curation process involved some work.
+    - text: Content Creators were often scarred that YouTube could retaliate against them if they used an adversarially interoperable tool like YouChoose, which YouTube would probably not see from a good eye. This fear, which was expressed in multiple interviews we had with content creators, is what we call the 'mafia effect' of monopolistic platforms.
+    - text: We thus had to make the difficult decision to sunset the project as a user-facing tool, to focus on the organization\'s main expertise and priority, **algorithmic auditing**. 
+    - text: As such, the extension was repurposed as a tool for researchers, enabling to conduct experiments on YouTube recommender system with real users. One such project is ongoing with researchers from MIT and UC Berkeley. {link other project page}
+    - text: Still, we believe that YouChoose was an important proof of concept, which allowed to illustrate the case for algorithmic interoperability, and lay some grounds for future initiatives. The project has been used as an exemple during DSA negotiations, was presented at conferences like RightsCons and MozFest, and the approach was praised by thought leaders like Cory Doctorow at the EFF. 
+    - text: We remain fully aligned with [the philosophy](https://youchoose.ai/philosophy) and vision that YouChoose was promoting
+    - text: _Algorithmic Sovereignty and Control_
+    - text: _Recommender System Alignement with user interests_
+    - text: _Interoperable Protocols_
+    - text: We are happy to see tha
 
 two_column_one:
   enable: true
@@ -124,7 +122,7 @@ slider_area:
 
 
 progress_area:
-  enable: true
+  enable: false
   title: "Project Overall Progress"
   sub_title: "Beta Testing"
   lists:
@@ -488,7 +486,7 @@ testimonials:
                         <h3 class="display-3 text-center">{{page.services_area.sub_title}}</h3>
                         <div class="space40"></div>
                       </div>
-                    </div>	
+                    </div>  
                     {% endif %}
                     {% if page.services_area.enable %}
                     <div class="row gutter-60 text-center align-items-end">
@@ -567,7 +565,7 @@ testimonials:
   <div class="rev_slider_wrapper fullwidth-container dark-spinner dark-nav">
     <div id="slider16" class="rev_slider fullwidthbanner" data-version="5.4.7">
       <ul>
-      	{% for slider in page.slider_area.sliders %}
+        {% for slider in page.slider_area.sliders %}
         <li data-transition="fade" data-thumb="">
           <img src="/assets/images/dummy.png" data-bgcolor="#fff" alt="slider"/>
           {% if slider.bg_image %}
@@ -587,9 +585,9 @@ testimonials:
              <img data-lazyload="" src="{{slider.bg_image}}" data-ww="['100%','100%','100%','100%']"
              data-hh="['auto','auto','auto','auto']" alt="{{slider.title}}" />  
         </div>
-	      <!-- /.tp-caption -->
-	      {% endif %}
-	      {% if slider.image %}
+        <!-- /.tp-caption -->
+        {% endif %}
+        {% if slider.image %}
           <div class="tp-caption" 
              data-x="left" 
              data-y="middle" 
@@ -606,9 +604,9 @@ testimonials:
              data-ww="780"
              data-hh="auto" alt="" />  
           </div>
-	      <!-- /.tp-caption -->
-	      {% endif %}
-	      {% if slider.title %}
+        <!-- /.tp-caption -->
+        {% endif %}
+        {% if slider.title %}
           <div class="tp-caption font-weight-600 color-dark" 
              data-x="['left','left','left','left']" 
              data-y="middle" 
@@ -623,9 +621,9 @@ testimonials:
              data-responsive="on" 
              data-responsive_offset="on" style="z-index: 9;"> {{slider.title}}
         </div>
-	     <!-- /.tp-caption -->
-	     {% endif %}
-	     {% if slider.sub_title %}
+       <!-- /.tp-caption -->
+       {% endif %}
+       {% if slider.sub_title %}
           <div class="tp-caption font-weight-400 color-dark" 
              data-x="['left','left','left','left']" 
              data-y="middle" 
@@ -640,9 +638,9 @@ testimonials:
              data-responsive="on" 
              data-responsive_offset="on" style="z-index: 9;"> {{slider.sub_title}} 
         </div>
-	     <!-- /.tp-caption -->
-	     {% endif %}
-	     {% if slider.button_text %}
+       <!-- /.tp-caption -->
+       {% endif %}
+       {% if slider.button_text %}
           <a class="tp-caption btn btn-l btn-rose" 
              data-x="['left','left','left','left']" 
              data-y="middle" 
@@ -654,8 +652,8 @@ testimonials:
              data-responsive="on" 
              data-responsive_offset="on" style="z-index: 9;" href="{{slider.button_url}}"> {{slider.button_text}}
         </a>
-	    <!-- /.tp-caption -->
-	    {% endif %}
+      <!-- /.tp-caption -->
+      {% endif %}
         </li>
         {% endfor %}
       </ul>
