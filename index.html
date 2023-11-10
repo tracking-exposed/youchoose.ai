@@ -6,15 +6,34 @@ description: "Change your recommender system, get real GEMS from YouTube Content
 image: "/assets/images/art/og_img.png"
 hero_area:
   enable: true
-  title: "Choose Your Recommender System"
+  title: "YouChoose tool is DISCONTINUED"
   sub_title: |
-    Get Gem Suggestions from YouTubers
-  button_text: "Firefox"
-  button2_text: "Chrome"
-  button_url: "https://addons.mozilla.org/en-US/firefox/addon/youchoose-ai/"
-  button2_url: "https://chrome.google.com/webstore/detail/youchooseai/lgmednoogihobpaccmabclghbmjiidkh"
+     after 18 months of development and experiment, we call the experiment over
   header_image: "/assets/images/art/background.png"
   header_bottom_image: "/assets/images/art/extension.gif"
+
+page_content:
+  enable: true
+  title: "Discontinuation reasoning"
+  sub_title: "Lesson learned in empowering people by controlling their algorithm in adversarial way"
+  paragraphs:
+    - text: |
+    	The core concept behind YouChoose was to provide the backbone infrastructure for an algorithmic marketplace. This was an ambitious plan, especially considering that there currently isn't an offer for alternative recommender systems. (with the notable exception of [tournesol.app](http://tournesol.app), which curates recommendations based on collaborative ratings)
+	Therefor, we envisioned as a first feature to enable content creators to select recommended videos on their own YouTube content. The goal was to empower content creators, who are the lifeblood of YouTube, but also are the most impacted by the recommender system's arbitrary influence. 
+	With this approach, we were also hoping that content creators would advertise the tool organically, and provide a first alternative stream of recommendation which could be trusted by their audience. 
+	The project development was eventually sunset, for several reasons:
+		* The tool needed to reach a critical mass of adopters before becoming useful. [AI Forensics](https://aiforensics.org) (previously known as [Tracking Exposed](https://tracking.exposed)) was lacking the ressources to launch and promote a user facing tool at scale, considering the various other projects the organization had in parallel.
+		* The ability to rely on content creators to promote the tool and curate content had been overassessed, for multiple reasons:
+		* Content Creators are very solicited, and busy. Although they liked the idea to control the recommendations on their own content, having to go through the curation process involved some work.
+		* Content Creators were often scarred that YouTube could retaliate against them if they used an adversarially interoperable tool like YouChoose, which YouTube would probably not see from a good eye. This fear, which was expressed in multiple interviews we had with content creators, is what we call the 'mafia effect’ of monopolistic platforms.
+	We thus had to make the difficult decision to sunset the project as a user-facing tool, to focus on the organization's main expertise and priority: algorithmic auditing. 
+	As such, the extension was repurposed as a tool for researchers, enabling to conduct experiments on YouTube recommender system with real users. One such project is ongoing with researchers from MIT and UC Berkeley. {link other project page}
+	Still, we believe that YouChoose was an important proof of concept, which allowed to illustrate the case for algorithmic interoperability, and lay some grounds for future initiatives. The project has been used as an exemple during DSA negotiations, was presented at conferences like RightsCons and MozFest, and the approach was praised by thought leaders like Cory Doctorow at the EFF. 
+	We remain fully aligned with [the philosophy](https://youchoose.ai/philosophy) and vision that YouChoose was promoting: 
+		* Algorithmic Sovereignty and Control
+		* Recommender System Alignement with user interests
+		* Interoperable Protocols
+	We are happy to see that the concept of interoperable algorithmic marketplace for social media platforms has since been gaining more traction, with projects like the [AT Protocol](https://atproto.com/). We are hoping to see them thrive!
 
 
 two_column_one:
@@ -102,11 +121,6 @@ slider_area:
       button_url: "/addon"
 
 
-page_content:
-  enable: false
-  title: "We are currently beta testing!"
-  sub_title: "Reach out to help us review the tool. Estimated time before the public launch:"
-  date: "Mar 7 2022"
 
 
 progress_area:
